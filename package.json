@@ -8,7 +8,8 @@
     "preview": "astro preview",
     "test:data": "node scripts/validate-data.mjs",
     "test:search": "node scripts/test-search.mjs",
-    "test:e2e": "node scripts/test-static.mjs"
+    "test:e2e": "node scripts/test-static.mjs",
+    "test:today": "node scripts/test-today.mjs"
   },
   "devDependencies": { "astro": "^5.0.0" }
 }

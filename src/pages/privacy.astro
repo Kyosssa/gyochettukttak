@@ -1,4 +1,4 @@
 ---
 import Base from '../layouts/Base.astro';
 ---
-<Base title="개인정보 안내 | 교체뚝딱" noindex><h1>개인정보 안내</h1><p>내 관리 기능은 회원가입 없이 브라우저 localStorage에만 정보를 저장합니다. 이 구현은 서버로 개인 정보를 전송하지 않습니다.</p></Base>
+<Base title="개인정보 안내 | 교체뚝딱" noindex><h1>개인정보 안내</h1><section><h2>내 관리</h2><p>내 관리 기능은 회원가입 없이 이 브라우저의 localStorage에만 정보를 저장하며 서버로 전송하지 않습니다.</p></section><section><h2>TODAY 참고 수치</h2><p>TODAY는 고유 사용자 수가 아닌, 한국 날짜 기준의 익명 브라우저 탭 세션 참고 수치입니다. 같은 탭에서는 sessionStorage에 오늘 집계 완료 여부만 저장해 하루 한 번만 증가하도록 하며, 새 탭은 별도 세션으로 집계될 수 있습니다.</p><p>D1에는 한국 날짜, 누적 횟수, 마지막 갱신 시각만 저장합니다. IP 주소, User-Agent, 쿠키, fingerprint, 계정 ID는 수집하거나 저장하지 않습니다. 검색어, 페이지 URL, 모델명, 차종, My Home 내용도 TODAY API로 전송하지 않습니다.</p><p>브라우저 저장소나 API를 사용할 수 없으면 TODAY는 <strong>TODAY —</strong>로 표시될 수 있습니다.</p></section></Base>
