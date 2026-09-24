@@ -1,4 +1,4 @@
 ---
 import Base from '../layouts/Base.astro';
 ---
-<Base title="내 관리 | 교체뚝딱" noindex><h1>내 관리</h1><p>저장 정보는 이 브라우저에만 보관됩니다.</p><ul id="home-list"></ul><button id="delete-all">전체 데이터 삭제</button><script is:inline src="/app.js"></script></Base>
+<Base title="내 관리 | 교체뚝딱" noindex><section class="page-intro"><p class="eyebrow">MY HOME</p><h1>내 교체일 관리</h1><p>회원가입 없이 현재 브라우저에만 저장됩니다.</p></section><section class="home-board"><h2>저장한 품목</h2><ul id="home-list"></ul></section><section class="danger-zone"><p class="eyebrow">LOCAL DATA</p><h2>이 브라우저의 기록 삭제</h2><p>저장한 교체일·관리일·모델·사용량만 삭제합니다.</p><button id="delete-all">전체 데이터 삭제</button></section><script is:inline src="/app.js"></script></Base>
