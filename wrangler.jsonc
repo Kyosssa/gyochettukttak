@@ -1,0 +1,7 @@
+{
+  "name": "gyochettukttak",
+  "compatibility_date": "2026-09-24",
+  "pages_build_output_dir": "./dist",
+  "d1_databases": [{ "binding": "DB", "database_name": "gyochettukttak-visitors-prod", "database_id": "5f797c22-a34c-42ee-a0b2-419ff2cfeb11", "migrations_dir": "migrations" }],
+  "env": { "preview": { "d1_databases": [{ "binding": "DB", "database_name": "gyochettukttak-visitors-preview", "database_id": "138bb09d-d1d9-4a8f-bbcf-65d1be985598", "migrations_dir": "migrations" }] } }
+}
