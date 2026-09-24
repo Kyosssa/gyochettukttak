@@ -1,0 +1,4179 @@
+{
+  "project": "교체뚝딱",
+  "version": "seed-v1.9",
+  "date": "2026-09-24",
+  "item_count": 48,
+  "launch_candidate_count": 15,
+  "principles": {
+    "primary_acquisition": "Google/Naver organic search",
+    "primary_keyword_pattern": "[품목] 교체주기",
+    "secondary_keyword_patterns": [
+      "[품목] 교체시기",
+      "[품목] 수명",
+      "[품목] 언제 교체"
+    ],
+    "monetization": [
+      "Google AdSense",
+      "Coupang Partners"
+    ],
+    "publication_rule": "verification_status == verified only",
+    "core_promise": "근거 있는 교체시기만 안내합니다."
+  },
+  "items": [
+    {
+      "id": "item-001",
+      "slug": "toothbrush",
+      "name": "칫솔",
+      "aliases": [
+        "일반 칫솔"
+      ],
+      "category": "위생",
+      "replacement_modes": [
+        "calendar",
+        "condition"
+      ],
+      "launch_candidate": true,
+      "seo_priority": "A",
+      "affiliate_priority": "A",
+      "search_intent": "informational_commercial",
+      "seo": {
+        "primary_keyword": "칫솔 교체주기",
+        "secondary_keywords": [
+          "칫솔 교체시기",
+          "칫솔 수명",
+          "칫솔 언제 교체"
+        ],
+        "brand_model_expansion": false
+      },
+      "cycle": {
+        "type": "range",
+        "min": 3,
+        "max": 4,
+        "unit": "month",
+        "use_as": "check_interval"
+      },
+      "check_signs": [
+        "칫솔모가 눈에 띄게 벌어짐",
+        "칫솔모가 눕거나 마모됨"
+      ],
+      "replacement_reason": "칫솔모가 마모될수록 세정 성능이 떨어질 수 있어 기간과 칫솔모 상태를 함께 확인합니다.",
+      "calculator": {
+        "enabled": true,
+        "type": "dynamic_by_mode"
+      },
+      "model_specific": false,
+      "safety_sensitive": false,
+      "verification_status": "verified",
+      "source_level": null,
+      "sources": [
+        {
+          "source_id": "ada_toothbrush"
+        }
+      ],
+      "affiliate": {
+        "enabled": true,
+        "keyword": "칫솔",
+        "query_mode": "server_allowlist_by_item_id",
+        "strategy": "direct_generic"
+      },
+      "beorim": {
+        "link_candidate": true,
+        "item_name": "칫솔",
+        "slug": null,
+        "mapping_status": "needs_mapping"
+      },
+      "notes": [],
+      "answer_type": "range_plus_condition",
+      "my_home": {
+        "enabled": true,
+        "mode": "countdown",
+        "one_tap_replace": true
+      },
+      "quick_date_input": {
+        "enabled": true,
+        "allow_approximate": true
+      },
+      "evidence": {
+        "status": "verified",
+        "level": "A_DIRECT",
+        "public_badge": "전문기관 기준",
+        "claim_scope": "일반 칫솔",
+        "source_ids": [
+          "ada_toothbrush"
+        ]
+      },
+      "adjustment_factors": [
+        "칫솔모 마모 속도",
+        "사용 강도"
+      ],
+      "purchase_guard": {
+        "model_check_required": false,
+        "part_code_check_required": false,
+        "show_price_as_live": false
+      },
+      "cycle_text": "약 3~4개월마다 상태를 확인하세요.",
+      "answer_summary": "약 3~4개월을 기준으로 보되, 칫솔모가 닳거나 벌어졌다면 더 일찍 교체하는 편이 좋습니다.",
+      "verified_at": "2026-09-24",
+      "next_review_at": "2026-12-24",
+      "category_slug": "hygiene-bathroom",
+      "care_actions": [
+        "inspect",
+        "replace"
+      ],
+      "index_state": "indexable",
+      "ui_category_label": "위생·욕실"
+    },
+    {
+      "id": "item-002",
+      "slug": "interdental-brush",
+      "name": "치간칫솔",
+      "aliases": [],
+      "category": "위생",
+      "replacement_modes": [
+        "usage",
+        "condition"
+      ],
+      "launch_candidate": false,
+      "seo_priority": "B",
+      "affiliate_priority": "B",
+      "search_intent": "informational_commercial",
+      "seo": {
+        "primary_keyword": "치간칫솔 교체주기",
+        "secondary_keywords": [
+          "치간칫솔 교체시기",
+          "치간칫솔 수명",
+          "치간칫솔 언제 교체"
+        ],
+        "brand_model_expansion": false
+      },
+      "cycle": null,
+      "check_signs": [],
+      "replacement_reason": null,
+      "calculator": {
+        "enabled": false,
+        "type": "dynamic_by_mode"
+      },
+      "model_specific": false,
+      "safety_sensitive": false,
+      "verification_status": "needs_research",
+      "source_level": null,
+      "sources": [],
+      "affiliate": {
+        "enabled": true,
+        "keyword": null,
+        "query_mode": "server_allowlist_by_item_id"
+      },
+      "beorim": {
+        "link_candidate": true,
+        "item_name": "치간칫솔",
+        "slug": null,
+        "mapping_status": "needs_mapping"
+      },
+      "notes": [],
+      "answer_type": "usage_first",
+      "my_home": {
+        "enabled": true,
+        "mode": "usage_counter",
+        "one_tap_replace": true
+      },
+      "quick_date_input": {
+        "enabled": false,
+        "allow_approximate": true
+      },
+      "evidence": {
+        "status": "needs_research",
+        "level": null,
+        "public_badge": "확인 중",
+        "claim_scope": null,
+        "source_count": 0
+      },
+      "adjustment_factors": [],
+      "purchase_guard": {
+        "model_check_required": false,
+        "part_code_check_required": false,
+        "show_price_as_live": false
+      },
+      "category_slug": "hygiene-bathroom",
+      "care_actions": [
+        "inspect",
+        "replace"
+      ],
+      "index_state": "hold",
+      "ui_category_label": "위생·욕실"
+    },
+    {
+      "id": "item-003",
+      "slug": "razor-blade",
+      "name": "면도날",
+      "aliases": [
+        "면도기 날",
+        "면도기날",
+        "면도칼날"
+      ],
+      "category": "위생",
+      "replacement_modes": [
+        "usage",
+        "condition"
+      ],
+      "launch_candidate": true,
+      "seo_priority": "A",
+      "affiliate_priority": "A",
+      "search_intent": "informational_commercial",
+      "seo": {
+        "primary_keyword": "면도날 교체주기",
+        "secondary_keywords": [
+          "면도날 교체시기",
+          "면도날 수명",
+          "면도날 언제 교체"
+        ],
+        "brand_model_expansion": false
+      },
+      "cycle": {
+        "type": "usage_range",
+        "min": 5,
+        "max": 7,
+        "unit": "shave",
+        "use_as": "replace_after_usage"
+      },
+      "check_signs": [
+        "면도날이 당기는 느낌",
+        "날이 무뎌졌다고 느껴짐",
+        "피부 자극이 평소보다 커짐"
+      ],
+      "replacement_reason": "날이 무뎌지면 면도 시 피부 자극이 커질 수 있어 사용 횟수와 날 상태를 함께 확인합니다.",
+      "calculator": {
+        "enabled": false,
+        "type": "dynamic_by_mode"
+      },
+      "model_specific": false,
+      "safety_sensitive": false,
+      "verification_status": "verified",
+      "source_level": null,
+      "sources": [
+        {
+          "source_id": "aad_razor"
+        }
+      ],
+      "affiliate": {
+        "enabled": true,
+        "keyword": "면도날",
+        "query_mode": "server_allowlist_by_item_id",
+        "strategy": "direct_generic"
+      },
+      "beorim": {
+        "link_candidate": true,
+        "item_name": "면도날",
+        "slug": null,
+        "mapping_status": "needs_mapping"
+      },
+      "notes": [],
+      "answer_type": "usage_first",
+      "my_home": {
+        "enabled": true,
+        "mode": "usage_counter",
+        "one_tap_replace": true
+      },
+      "quick_date_input": {
+        "enabled": false,
+        "allow_approximate": true
+      },
+      "evidence": {
+        "status": "verified",
+        "level": "A_DIRECT",
+        "public_badge": "전문기관 기준",
+        "claim_scope": "단일날/일회용 면도날",
+        "source_ids": [
+          "aad_razor"
+        ]
+      },
+      "adjustment_factors": [
+        "수염 굵기",
+        "면도 빈도",
+        "날 종류"
+      ],
+      "purchase_guard": {
+        "model_check_required": false,
+        "part_code_check_required": false,
+        "show_price_as_live": false
+      },
+      "cycle_text": "단일날 기준 약 5~7회 사용 후 교체를 확인하세요.",
+      "answer_summary": "기간보다 사용 횟수가 더 유용합니다. 단일날·일회용 면도날은 약 5~7회 사용 후 교체가 권장되며, 다른 면도날은 제품 설명을 우선하세요.",
+      "verified_at": "2026-09-24",
+      "next_review_at": "2026-12-24",
+      "category_slug": "hygiene-bathroom",
+      "care_actions": [
+        "inspect",
+        "replace",
+        "usage_update"
+      ],
+      "index_state": "indexable",
+      "ui_category_label": "위생·욕실"
+    },
+    {
+      "id": "item-004",
+      "slug": "shower-filter",
+      "name": "샤워기 필터",
+      "aliases": [
+        "샤워필터",
+        "샤워기필터"
+      ],
+      "category": "위생",
+      "replacement_modes": [
+        "model",
+        "calendar"
+      ],
+      "launch_candidate": true,
+      "seo_priority": "A",
+      "affiliate_priority": "A",
+      "search_intent": "informational_commercial",
+      "seo": {
+        "primary_keyword": "샤워기 필터 교체주기",
+        "secondary_keywords": [
+          "샤워기 필터 교체시기",
+          "샤워기 필터 수명",
+          "샤워기 필터 언제 교체"
+        ],
+        "brand_model_expansion": true
+      },
+      "cycle": null,
+      "check_signs": [
+        "제조사 권장 사용량/기간 도달",
+        "수압이 눈에 띄게 약해짐",
+        "제품 설명에서 정한 교체 신호"
+      ],
+      "replacement_reason": "같은 샤워기 필터라도 구조와 여과재, 물 사용량과 수질에 따라 사용기간 차이가 큽니다.",
+      "calculator": {
+        "enabled": true,
+        "type": "dynamic_by_mode"
+      },
+      "model_specific": true,
+      "safety_sensitive": false,
+      "verification_status": "verified",
+      "source_level": null,
+      "sources": [
+        {
+          "source_id": "atomy_shower_filter"
+        },
+        {
+          "source_id": "bodyluv_shower_filter"
+        }
+      ],
+      "affiliate": {
+        "enabled": false,
+        "keyword": null,
+        "query_mode": "server_allowlist_by_item_id",
+        "strategy": "product_required",
+        "blocked_reason": "호환성 확인 전 generic TOP3 노출 금지"
+      },
+      "beorim": {
+        "link_candidate": true,
+        "item_name": "샤워기 필터",
+        "slug": null,
+        "mapping_status": "needs_mapping"
+      },
+      "notes": [],
+      "answer_type": "model_required",
+      "my_home": {
+        "enabled": true,
+        "mode": "model_required",
+        "one_tap_replace": true
+      },
+      "quick_date_input": {
+        "enabled": true,
+        "allow_approximate": true
+      },
+      "evidence": {
+        "status": "verified",
+        "level": "A_DIRECT+B_GENERAL",
+        "public_badge": "제품별 확인 필요",
+        "claim_scope": "샤워기 필터 일반 방향 + 제조사별 필터 예시",
+        "source_ids": [
+          "atomy_shower_filter",
+          "bodyluv_shower_filter"
+        ]
+      },
+      "adjustment_factors": [
+        "필터 종류",
+        "가구원 수",
+        "샤워 시간·횟수",
+        "수질/이물질"
+      ],
+      "purchase_guard": {
+        "model_check_required": true,
+        "part_code_check_required": true,
+        "show_price_as_live": false
+      },
+      "cycle_text": "필터 종류·제품·수질에 따라 달라집니다.",
+      "answer_summary": "샤워기 필터는 하나의 공통 교체주기로 보기 어렵습니다. 필터 종류와 제조사 기준을 우선하고, 수압 저하와 실제 사용환경을 함께 확인하세요.",
+      "verified_at": "2026-09-24",
+      "next_review_at": "2026-10-24",
+      "category_slug": "hygiene-bathroom",
+      "care_actions": [
+        "inspect",
+        "replace"
+      ],
+      "index_state": "indexable",
+      "ui_category_label": "위생·욕실"
+    },
+    {
+      "id": "item-005",
+      "slug": "shower-towel",
+      "name": "샤워타월",
+      "aliases": [],
+      "category": "위생",
+      "replacement_modes": [
+        "condition"
+      ],
+      "launch_candidate": false,
+      "seo_priority": "B",
+      "affiliate_priority": "B",
+      "search_intent": "informational_commercial",
+      "seo": {
+        "primary_keyword": "샤워타월 교체주기",
+        "secondary_keywords": [
+          "샤워타월 교체시기",
+          "샤워타월 수명",
+          "샤워타월 언제 교체"
+        ],
+        "brand_model_expansion": false
+      },
+      "cycle": null,
+      "check_signs": [],
+      "replacement_reason": null,
+      "calculator": {
+        "enabled": false,
+        "type": "dynamic_by_mode"
+      },
+      "model_specific": false,
+      "safety_sensitive": false,
+      "verification_status": "needs_research",
+      "source_level": null,
+      "sources": [],
+      "affiliate": {
+        "enabled": true,
+        "keyword": null,
+        "query_mode": "server_allowlist_by_item_id"
+      },
+      "beorim": {
+        "link_candidate": true,
+        "item_name": "샤워타월",
+        "slug": null,
+        "mapping_status": "needs_mapping"
+      },
+      "notes": [],
+      "answer_type": "condition_first",
+      "my_home": {
+        "enabled": true,
+        "mode": "condition_only",
+        "one_tap_replace": true
+      },
+      "quick_date_input": {
+        "enabled": false,
+        "allow_approximate": true
+      },
+      "evidence": {
+        "status": "needs_research",
+        "level": null,
+        "public_badge": "확인 중",
+        "claim_scope": null,
+        "source_count": 0
+      },
+      "adjustment_factors": [],
+      "purchase_guard": {
+        "model_check_required": false,
+        "part_code_check_required": false,
+        "show_price_as_live": false
+      },
+      "category_slug": "hygiene-bathroom",
+      "care_actions": [
+        "inspect",
+        "replace"
+      ],
+      "index_state": "hold",
+      "ui_category_label": "위생·욕실"
+    },
+    {
+      "id": "item-006",
+      "slug": "kitchen-sponge",
+      "name": "수세미",
+      "aliases": [
+        "주방 수세미",
+        "주방수세미"
+      ],
+      "category": "위생",
+      "replacement_modes": [
+        "usage",
+        "condition"
+      ],
+      "launch_candidate": true,
+      "seo_priority": "A",
+      "affiliate_priority": "A",
+      "search_intent": "informational_commercial",
+      "seo": {
+        "primary_keyword": "수세미 교체주기",
+        "secondary_keywords": [
+          "수세미 교체시기",
+          "수세미 수명",
+          "수세미 언제 교체"
+        ],
+        "brand_model_expansion": false
+      },
+      "cycle": null,
+      "check_signs": [
+        "불쾌한 냄새가 남",
+        "심하게 오염됨",
+        "찢어지거나 형태가 무너짐"
+      ],
+      "replacement_reason": "젖은 스펀지에는 음식물 잔여물과 수분이 남기 쉬워 오래된 제품을 계속 쓰기보다 상태를 자주 확인하는 편이 좋습니다.",
+      "calculator": {
+        "enabled": false,
+        "type": "dynamic_by_mode"
+      },
+      "model_specific": false,
+      "safety_sensitive": false,
+      "verification_status": "verified",
+      "source_level": null,
+      "sources": [
+        {
+          "source_id": "mayo_sponge"
+        }
+      ],
+      "affiliate": {
+        "enabled": true,
+        "keyword": "주방 수세미",
+        "query_mode": "server_allowlist_by_item_id",
+        "strategy": "direct_generic"
+      },
+      "beorim": {
+        "link_candidate": true,
+        "item_name": "수세미",
+        "slug": null,
+        "mapping_status": "needs_mapping"
+      },
+      "notes": [],
+      "answer_type": "usage_first",
+      "my_home": {
+        "enabled": true,
+        "mode": "usage_counter",
+        "one_tap_replace": true
+      },
+      "quick_date_input": {
+        "enabled": false,
+        "allow_approximate": true
+      },
+      "evidence": {
+        "status": "verified",
+        "level": "B_GENERAL",
+        "public_badge": "상태 기준",
+        "claim_scope": "주방 스펀지 일반",
+        "source_ids": [
+          "mayo_sponge"
+        ]
+      },
+      "adjustment_factors": [
+        "사용 빈도",
+        "건조 상태",
+        "음식물 오염 정도"
+      ],
+      "purchase_guard": {
+        "model_check_required": false,
+        "part_code_check_required": false,
+        "show_price_as_live": false
+      },
+      "cycle_text": "고정된 기간보다 냄새와 오염 상태를 확인하세요.",
+      "answer_summary": "보편적으로 확정된 교체주기보다 상태 확인이 중요합니다. 냄새가 나거나 위생 상태가 의심되면 새 수세미로 교체하세요.",
+      "verified_at": "2026-09-24",
+      "next_review_at": "2026-12-24",
+      "category_slug": "kitchen-food",
+      "care_actions": [
+        "inspect",
+        "replace"
+      ],
+      "index_state": "indexable",
+      "ui_category_label": "주방·식생활"
+    },
+    {
+      "id": "item-007",
+      "slug": "bathroom-slippers",
+      "name": "욕실 슬리퍼",
+      "aliases": [],
+      "category": "위생",
+      "replacement_modes": [
+        "condition"
+      ],
+      "launch_candidate": false,
+      "seo_priority": "B",
+      "affiliate_priority": "B",
+      "search_intent": "informational_commercial",
+      "seo": {
+        "primary_keyword": "욕실 슬리퍼 교체주기",
+        "secondary_keywords": [
+          "욕실 슬리퍼 교체시기",
+          "욕실 슬리퍼 수명",
+          "욕실 슬리퍼 언제 교체"
+        ],
+        "brand_model_expansion": false
+      },
+      "cycle": null,
+      "check_signs": [],
+      "replacement_reason": null,
+      "calculator": {
+        "enabled": false,
+        "type": "dynamic_by_mode"
+      },
+      "model_specific": false,
+      "safety_sensitive": false,
+      "verification_status": "needs_research",
+      "source_level": null,
+      "sources": [],
+      "affiliate": {
+        "enabled": true,
+        "keyword": null,
+        "query_mode": "server_allowlist_by_item_id"
+      },
+      "beorim": {
+        "link_candidate": true,
+        "item_name": "욕실 슬리퍼",
+        "slug": null,
+        "mapping_status": "needs_mapping"
+      },
+      "notes": [],
+      "answer_type": "condition_first",
+      "my_home": {
+        "enabled": true,
+        "mode": "condition_only",
+        "one_tap_replace": true
+      },
+      "quick_date_input": {
+        "enabled": false,
+        "allow_approximate": true
+      },
+      "evidence": {
+        "status": "needs_research",
+        "level": null,
+        "public_badge": "확인 중",
+        "claim_scope": null,
+        "source_count": 0
+      },
+      "adjustment_factors": [],
+      "purchase_guard": {
+        "model_check_required": false,
+        "part_code_check_required": false,
+        "show_price_as_live": false
+      },
+      "category_slug": "hygiene-bathroom",
+      "care_actions": [
+        "inspect",
+        "replace"
+      ],
+      "index_state": "hold",
+      "ui_category_label": "위생·욕실"
+    },
+    {
+      "id": "item-008",
+      "slug": "toothpaste",
+      "name": "치약",
+      "aliases": [],
+      "category": "위생",
+      "replacement_modes": [
+        "label"
+      ],
+      "launch_candidate": false,
+      "seo_priority": "C",
+      "affiliate_priority": "C",
+      "search_intent": "informational_commercial",
+      "seo": {
+        "primary_keyword": "치약 사용기한",
+        "secondary_keywords": [
+          "치약 개봉후 사용기간",
+          "치약 유통기한",
+          "치약 언제 버려야"
+        ],
+        "brand_model_expansion": false
+      },
+      "cycle": null,
+      "check_signs": [],
+      "replacement_reason": null,
+      "calculator": {
+        "enabled": false,
+        "type": "dynamic_by_mode"
+      },
+      "model_specific": false,
+      "safety_sensitive": false,
+      "verification_status": "needs_research",
+      "source_level": null,
+      "sources": [],
+      "affiliate": {
+        "enabled": false,
+        "keyword": null,
+        "query_mode": "server_allowlist_by_item_id"
+      },
+      "beorim": {
+        "link_candidate": true,
+        "item_name": "치약",
+        "slug": null,
+        "mapping_status": "needs_mapping"
+      },
+      "notes": [],
+      "answer_type": "label_required",
+      "my_home": {
+        "enabled": true,
+        "mode": "countdown",
+        "one_tap_replace": true
+      },
+      "quick_date_input": {
+        "enabled": false,
+        "allow_approximate": true
+      },
+      "evidence": {
+        "status": "needs_research",
+        "level": null,
+        "public_badge": "확인 중",
+        "claim_scope": null,
+        "source_count": 0
+      },
+      "adjustment_factors": [],
+      "purchase_guard": {
+        "model_check_required": false,
+        "part_code_check_required": false,
+        "show_price_as_live": false
+      },
+      "category_slug": "hygiene-bathroom",
+      "care_actions": [
+        "inspect",
+        "replace"
+      ],
+      "index_state": "hold",
+      "ui_category_label": "위생·욕실"
+    },
+    {
+      "id": "item-009",
+      "slug": "frying-pan",
+      "name": "후라이팬",
+      "aliases": [
+        "프라이팬",
+        "후라이펜",
+        "프라이펜"
+      ],
+      "category": "주방",
+      "replacement_modes": [
+        "condition"
+      ],
+      "launch_candidate": true,
+      "seo_priority": "A",
+      "affiliate_priority": "A",
+      "search_intent": "informational_commercial",
+      "seo": {
+        "primary_keyword": "후라이팬 교체주기",
+        "secondary_keywords": [
+          "후라이팬 교체시기",
+          "후라이팬 수명",
+          "후라이팬 언제 교체"
+        ],
+        "brand_model_expansion": false
+      },
+      "cycle": null,
+      "check_signs": [
+        "코팅이 벗겨짐",
+        "조리면이 손상됨",
+        "바닥 소재가 드러날 정도의 마모"
+      ],
+      "replacement_reason": "식약처는 코팅이 벗겨지거나 손상된 프라이팬을 새것으로 교체하도록 안내합니다.",
+      "calculator": {
+        "enabled": false,
+        "type": "dynamic_by_mode"
+      },
+      "model_specific": false,
+      "safety_sensitive": false,
+      "verification_status": "verified",
+      "source_level": null,
+      "sources": [
+        {
+          "source_id": "mfds_pan_2025"
+        }
+      ],
+      "affiliate": {
+        "enabled": true,
+        "keyword": "코팅 후라이팬",
+        "query_mode": "server_allowlist_by_item_id",
+        "strategy": "direct_generic"
+      },
+      "beorim": {
+        "link_candidate": true,
+        "item_name": "후라이팬",
+        "slug": null,
+        "mapping_status": "needs_mapping"
+      },
+      "notes": [],
+      "answer_type": "condition_first",
+      "my_home": {
+        "enabled": true,
+        "mode": "condition_only",
+        "one_tap_replace": true
+      },
+      "quick_date_input": {
+        "enabled": false,
+        "allow_approximate": true
+      },
+      "evidence": {
+        "status": "verified",
+        "level": "A_DIRECT",
+        "public_badge": "공식 상태 기준",
+        "claim_scope": "코팅 프라이팬",
+        "source_ids": [
+          "mfds_pan_2025"
+        ]
+      },
+      "adjustment_factors": [
+        "조리도구 사용 방식",
+        "가열 습관",
+        "코팅 손상 정도"
+      ],
+      "purchase_guard": {
+        "model_check_required": false,
+        "part_code_check_required": false,
+        "show_price_as_live": false
+      },
+      "cycle_text": "정해진 연수보다 코팅 상태를 확인하세요.",
+      "answer_summary": "코팅 프라이팬은 '1년마다'처럼 기간으로 단정하기보다 코팅이 벗겨지거나 손상됐는지 확인해 교체 여부를 판단하세요.",
+      "verified_at": "2026-09-24",
+      "next_review_at": "2026-12-24",
+      "category_slug": "kitchen-food",
+      "care_actions": [
+        "inspect",
+        "replace"
+      ],
+      "index_state": "indexable",
+      "ui_category_label": "주방·식생활"
+    },
+    {
+      "id": "item-010",
+      "slug": "cutting-board",
+      "name": "도마",
+      "aliases": [
+        "주방 도마"
+      ],
+      "category": "주방",
+      "replacement_modes": [
+        "condition"
+      ],
+      "launch_candidate": true,
+      "seo_priority": "A",
+      "affiliate_priority": "A",
+      "search_intent": "informational_commercial",
+      "seo": {
+        "primary_keyword": "도마 교체주기",
+        "secondary_keywords": [
+          "도마 교체시기",
+          "도마 수명",
+          "도마 언제 교체"
+        ],
+        "brand_model_expansion": false
+      },
+      "cycle": null,
+      "check_signs": [
+        "깊고 세척하기 어려운 칼집",
+        "과도한 마모",
+        "갈라짐 또는 변형"
+      ],
+      "replacement_reason": "깊은 홈과 과도한 마모는 세척을 어렵게 만들 수 있어 상태가 심하면 교체 대상입니다.",
+      "calculator": {
+        "enabled": false,
+        "type": "dynamic_by_mode"
+      },
+      "model_specific": false,
+      "safety_sensitive": false,
+      "verification_status": "verified",
+      "source_level": null,
+      "sources": [
+        {
+          "source_id": "usda_cutting_board"
+        }
+      ],
+      "affiliate": {
+        "enabled": true,
+        "keyword": "도마",
+        "query_mode": "server_allowlist_by_item_id",
+        "strategy": "direct_generic"
+      },
+      "beorim": {
+        "link_candidate": true,
+        "item_name": "도마",
+        "slug": null,
+        "mapping_status": "needs_mapping"
+      },
+      "notes": [],
+      "answer_type": "condition_first",
+      "my_home": {
+        "enabled": true,
+        "mode": "condition_only",
+        "one_tap_replace": true
+      },
+      "quick_date_input": {
+        "enabled": false,
+        "allow_approximate": true
+      },
+      "evidence": {
+        "status": "verified",
+        "level": "A_DIRECT",
+        "public_badge": "공식 상태 기준",
+        "claim_scope": "나무·플라스틱 도마",
+        "source_ids": [
+          "usda_cutting_board"
+        ]
+      },
+      "adjustment_factors": [
+        "재질",
+        "사용 빈도",
+        "칼집/마모 정도"
+      ],
+      "purchase_guard": {
+        "model_check_required": false,
+        "part_code_check_required": false,
+        "show_price_as_live": false
+      },
+      "cycle_text": "기간보다 깊은 칼집과 마모 상태를 확인하세요.",
+      "answer_summary": "도마는 1년처럼 고정된 기간보다 지나치게 마모됐거나 세척하기 어려운 홈이 생겼는지를 기준으로 보는 편이 정확합니다.",
+      "verified_at": "2026-09-24",
+      "next_review_at": "2026-12-24",
+      "category_slug": "kitchen-food",
+      "care_actions": [
+        "inspect",
+        "replace"
+      ],
+      "index_state": "indexable",
+      "ui_category_label": "주방·식생활"
+    },
+    {
+      "id": "item-011",
+      "slug": "plastic-food-container",
+      "name": "플라스틱 밀폐용기",
+      "aliases": [],
+      "category": "주방",
+      "replacement_modes": [
+        "condition"
+      ],
+      "launch_candidate": false,
+      "seo_priority": "B",
+      "affiliate_priority": "B",
+      "search_intent": "informational_commercial",
+      "seo": {
+        "primary_keyword": "플라스틱 밀폐용기 교체주기",
+        "secondary_keywords": [
+          "플라스틱 밀폐용기 교체시기",
+          "플라스틱 밀폐용기 수명",
+          "플라스틱 밀폐용기 언제 교체"
+        ],
+        "brand_model_expansion": false
+      },
+      "cycle": null,
+      "check_signs": [],
+      "replacement_reason": null,
+      "calculator": {
+        "enabled": false,
+        "type": "dynamic_by_mode"
+      },
+      "model_specific": false,
+      "safety_sensitive": false,
+      "verification_status": "needs_research",
+      "source_level": null,
+      "sources": [],
+      "affiliate": {
+        "enabled": true,
+        "keyword": null,
+        "query_mode": "server_allowlist_by_item_id"
+      },
+      "beorim": {
+        "link_candidate": true,
+        "item_name": "플라스틱 밀폐용기",
+        "slug": null,
+        "mapping_status": "needs_mapping"
+      },
+      "notes": [],
+      "answer_type": "condition_first",
+      "my_home": {
+        "enabled": true,
+        "mode": "condition_only",
+        "one_tap_replace": true
+      },
+      "quick_date_input": {
+        "enabled": false,
+        "allow_approximate": true
+      },
+      "evidence": {
+        "status": "needs_research",
+        "level": null,
+        "public_badge": "확인 중",
+        "claim_scope": null,
+        "source_count": 0
+      },
+      "adjustment_factors": [],
+      "purchase_guard": {
+        "model_check_required": false,
+        "part_code_check_required": false,
+        "show_price_as_live": false
+      },
+      "category_slug": "kitchen-food",
+      "care_actions": [
+        "inspect",
+        "replace"
+      ],
+      "index_state": "hold",
+      "ui_category_label": "주방·식생활"
+    },
+    {
+      "id": "item-012",
+      "slug": "dishcloth",
+      "name": "행주",
+      "aliases": [],
+      "category": "주방",
+      "replacement_modes": [
+        "usage",
+        "condition"
+      ],
+      "launch_candidate": false,
+      "seo_priority": "B",
+      "affiliate_priority": "B",
+      "search_intent": "informational_commercial",
+      "seo": {
+        "primary_keyword": "행주 교체주기",
+        "secondary_keywords": [
+          "행주 교체시기",
+          "행주 수명",
+          "행주 언제 교체"
+        ],
+        "brand_model_expansion": false
+      },
+      "cycle": null,
+      "check_signs": [],
+      "replacement_reason": null,
+      "calculator": {
+        "enabled": false,
+        "type": "dynamic_by_mode"
+      },
+      "model_specific": false,
+      "safety_sensitive": false,
+      "verification_status": "needs_research",
+      "source_level": null,
+      "sources": [],
+      "affiliate": {
+        "enabled": true,
+        "keyword": null,
+        "query_mode": "server_allowlist_by_item_id"
+      },
+      "beorim": {
+        "link_candidate": true,
+        "item_name": "행주",
+        "slug": null,
+        "mapping_status": "needs_mapping"
+      },
+      "notes": [],
+      "answer_type": "usage_first",
+      "my_home": {
+        "enabled": true,
+        "mode": "usage_counter",
+        "one_tap_replace": true
+      },
+      "quick_date_input": {
+        "enabled": false,
+        "allow_approximate": true
+      },
+      "evidence": {
+        "status": "needs_research",
+        "level": null,
+        "public_badge": "확인 중",
+        "claim_scope": null,
+        "source_count": 0
+      },
+      "adjustment_factors": [],
+      "purchase_guard": {
+        "model_check_required": false,
+        "part_code_check_required": false,
+        "show_price_as_live": false
+      },
+      "category_slug": "kitchen-food",
+      "care_actions": [
+        "inspect",
+        "replace"
+      ],
+      "index_state": "hold",
+      "ui_category_label": "주방·식생활"
+    },
+    {
+      "id": "item-013",
+      "slug": "water-purifier-filter",
+      "name": "정수기 필터",
+      "aliases": [
+        "정수기필터"
+      ],
+      "category": "주방",
+      "replacement_modes": [
+        "model"
+      ],
+      "launch_candidate": true,
+      "seo_priority": "A",
+      "affiliate_priority": "A",
+      "search_intent": "informational_commercial",
+      "seo": {
+        "primary_keyword": "정수기 필터 교체주기",
+        "secondary_keywords": [
+          "정수기 필터 교체시기",
+          "정수기 필터 수명",
+          "정수기 필터 언제 교체"
+        ],
+        "brand_model_expansion": true
+      },
+      "cycle": null,
+      "check_signs": [
+        "제품의 필터 교체 알림",
+        "제조사 권장 사용량 도달",
+        "해당 모델 매뉴얼의 교체 조건 도달"
+      ],
+      "replacement_reason": "정수기 필터는 정해진 달력 주기만이 아니라 실제 사용량과 모델별 인증 유효정수량 등을 기준으로 관리될 수 있습니다.",
+      "calculator": {
+        "enabled": false,
+        "type": "dynamic_by_mode"
+      },
+      "model_specific": true,
+      "safety_sensitive": false,
+      "verification_status": "verified",
+      "source_level": null,
+      "sources": [
+        {
+          "source_id": "samsung_water_filter"
+        }
+      ],
+      "affiliate": {
+        "enabled": false,
+        "keyword": null,
+        "query_mode": "server_allowlist_by_item_id",
+        "strategy": "model_required",
+        "blocked_reason": "호환성 확인 전 generic TOP3 노출 금지"
+      },
+      "beorim": {
+        "link_candidate": true,
+        "item_name": "정수기 필터",
+        "slug": null,
+        "mapping_status": "needs_mapping"
+      },
+      "notes": [],
+      "answer_type": "model_required",
+      "my_home": {
+        "enabled": true,
+        "mode": "model_required",
+        "one_tap_replace": true
+      },
+      "quick_date_input": {
+        "enabled": true,
+        "allow_approximate": true
+      },
+      "evidence": {
+        "status": "verified",
+        "level": "A_DIRECT",
+        "public_badge": "제품별 확인 필요",
+        "claim_scope": "제조사·모델별",
+        "source_ids": [
+          "samsung_water_filter"
+        ]
+      },
+      "adjustment_factors": [
+        "모델",
+        "필터 종류",
+        "실제 물 사용량"
+      ],
+      "purchase_guard": {
+        "model_check_required": true,
+        "part_code_check_required": true,
+        "show_price_as_live": false
+      },
+      "cycle_text": "정수기 모델과 실제 사용량 기준을 우선하세요.",
+      "answer_summary": "정수기 필터는 브랜드·모델·필터 단계와 물 사용량에 따라 다릅니다. 제품의 필터 알림 또는 공식 매뉴얼을 우선 확인하세요.",
+      "verified_at": "2026-09-24",
+      "next_review_at": "2026-10-24",
+      "category_slug": "air-water-filters",
+      "care_actions": [
+        "inspect",
+        "replace",
+        "model_memory"
+      ],
+      "index_state": "indexable",
+      "ui_category_label": "공기·물·필터"
+    },
+    {
+      "id": "item-014",
+      "slug": "gas-stove-ignition-battery",
+      "name": "가스레인지 점화건전지",
+      "aliases": [],
+      "category": "주방",
+      "replacement_modes": [
+        "condition"
+      ],
+      "launch_candidate": false,
+      "seo_priority": "A",
+      "affiliate_priority": "B",
+      "search_intent": "informational_commercial",
+      "seo": {
+        "primary_keyword": "가스레인지 점화건전지 교체주기",
+        "secondary_keywords": [
+          "가스레인지 점화건전지 교체시기",
+          "가스레인지 점화건전지 수명",
+          "가스레인지 점화건전지 언제 교체"
+        ],
+        "brand_model_expansion": false
+      },
+      "cycle": null,
+      "check_signs": [],
+      "replacement_reason": null,
+      "calculator": {
+        "enabled": false,
+        "type": "dynamic_by_mode"
+      },
+      "model_specific": false,
+      "safety_sensitive": false,
+      "verification_status": "needs_research",
+      "source_level": null,
+      "sources": [],
+      "affiliate": {
+        "enabled": true,
+        "keyword": null,
+        "query_mode": "server_allowlist_by_item_id"
+      },
+      "beorim": {
+        "link_candidate": true,
+        "item_name": "가스레인지 점화건전지",
+        "slug": null,
+        "mapping_status": "needs_mapping"
+      },
+      "notes": [
+        "경쟁/검색의도 검토 후 v1 첫 런칭에서 제외, Seed에는 유지"
+      ],
+      "answer_type": "condition_first",
+      "my_home": {
+        "enabled": true,
+        "mode": "condition_only",
+        "one_tap_replace": true
+      },
+      "quick_date_input": {
+        "enabled": false,
+        "allow_approximate": true
+      },
+      "evidence": {
+        "status": "needs_research",
+        "level": null,
+        "public_badge": "확인 중",
+        "claim_scope": null,
+        "source_count": 0
+      },
+      "adjustment_factors": [],
+      "purchase_guard": {
+        "model_check_required": false,
+        "part_code_check_required": false,
+        "show_price_as_live": false
+      },
+      "category_slug": "kitchen-food",
+      "care_actions": [
+        "inspect",
+        "replace"
+      ],
+      "index_state": "hold",
+      "ui_category_label": "주방·식생활"
+    },
+    {
+      "id": "item-015",
+      "slug": "silicone-spatula",
+      "name": "실리콘 주걱",
+      "aliases": [],
+      "category": "주방",
+      "replacement_modes": [
+        "condition"
+      ],
+      "launch_candidate": false,
+      "seo_priority": "B",
+      "affiliate_priority": "B",
+      "search_intent": "informational_commercial",
+      "seo": {
+        "primary_keyword": "실리콘 주걱 교체주기",
+        "secondary_keywords": [
+          "실리콘 주걱 교체시기",
+          "실리콘 주걱 수명",
+          "실리콘 주걱 언제 교체"
+        ],
+        "brand_model_expansion": false
+      },
+      "cycle": null,
+      "check_signs": [],
+      "replacement_reason": null,
+      "calculator": {
+        "enabled": false,
+        "type": "dynamic_by_mode"
+      },
+      "model_specific": false,
+      "safety_sensitive": false,
+      "verification_status": "needs_research",
+      "source_level": null,
+      "sources": [],
+      "affiliate": {
+        "enabled": true,
+        "keyword": null,
+        "query_mode": "server_allowlist_by_item_id"
+      },
+      "beorim": {
+        "link_candidate": true,
+        "item_name": "실리콘 주걱",
+        "slug": null,
+        "mapping_status": "needs_mapping"
+      },
+      "notes": [],
+      "answer_type": "condition_first",
+      "my_home": {
+        "enabled": true,
+        "mode": "condition_only",
+        "one_tap_replace": true
+      },
+      "quick_date_input": {
+        "enabled": false,
+        "allow_approximate": true
+      },
+      "evidence": {
+        "status": "needs_research",
+        "level": null,
+        "public_badge": "확인 중",
+        "claim_scope": null,
+        "source_count": 0
+      },
+      "adjustment_factors": [],
+      "purchase_guard": {
+        "model_check_required": false,
+        "part_code_check_required": false,
+        "show_price_as_live": false
+      },
+      "category_slug": "kitchen-food",
+      "care_actions": [
+        "inspect",
+        "replace"
+      ],
+      "index_state": "hold",
+      "ui_category_label": "주방·식생활"
+    },
+    {
+      "id": "item-016",
+      "slug": "tumbler-gasket",
+      "name": "텀블러 고무패킹",
+      "aliases": [
+        "텀블러 패킹",
+        "텀블러 고무링"
+      ],
+      "category": "주방",
+      "replacement_modes": [
+        "condition"
+      ],
+      "launch_candidate": false,
+      "seo_priority": "A",
+      "affiliate_priority": "A",
+      "search_intent": "informational_commercial",
+      "seo": {
+        "primary_keyword": "텀블러 고무패킹 교체주기",
+        "secondary_keywords": [
+          "텀블러 고무패킹 교체시기",
+          "텀블러 고무패킹 수명",
+          "텀블러 고무패킹 언제 교체"
+        ],
+        "brand_model_expansion": false
+      },
+      "cycle": null,
+      "check_signs": [],
+      "replacement_reason": null,
+      "calculator": {
+        "enabled": false,
+        "type": "dynamic_by_mode"
+      },
+      "model_specific": false,
+      "safety_sensitive": false,
+      "verification_status": "needs_research",
+      "source_level": null,
+      "sources": [],
+      "affiliate": {
+        "enabled": true,
+        "keyword": null,
+        "query_mode": "server_allowlist_by_item_id"
+      },
+      "beorim": {
+        "link_candidate": true,
+        "item_name": "텀블러 고무패킹",
+        "slug": null,
+        "mapping_status": "needs_mapping"
+      },
+      "notes": [
+        "경쟁/검색의도 검토 후 v1 첫 런칭에서 제외, Seed에는 유지"
+      ],
+      "answer_type": "condition_first",
+      "my_home": {
+        "enabled": true,
+        "mode": "condition_only",
+        "one_tap_replace": true
+      },
+      "quick_date_input": {
+        "enabled": false,
+        "allow_approximate": true
+      },
+      "evidence": {
+        "status": "needs_research",
+        "level": null,
+        "public_badge": "확인 중",
+        "claim_scope": null,
+        "source_count": 0
+      },
+      "adjustment_factors": [],
+      "purchase_guard": {
+        "model_check_required": false,
+        "part_code_check_required": false,
+        "show_price_as_live": false
+      },
+      "category_slug": "kitchen-food",
+      "care_actions": [
+        "inspect",
+        "replace"
+      ],
+      "index_state": "hold",
+      "ui_category_label": "주방·식생활"
+    },
+    {
+      "id": "item-017",
+      "slug": "pillow",
+      "name": "베개",
+      "aliases": [],
+      "category": "침구",
+      "replacement_modes": [
+        "condition"
+      ],
+      "launch_candidate": false,
+      "seo_priority": "B",
+      "affiliate_priority": "A",
+      "search_intent": "informational_commercial",
+      "seo": {
+        "primary_keyword": "베개 교체주기",
+        "secondary_keywords": [
+          "베개 교체시기",
+          "베개 수명",
+          "베개 언제 교체"
+        ],
+        "brand_model_expansion": false
+      },
+      "cycle": null,
+      "check_signs": [],
+      "replacement_reason": null,
+      "calculator": {
+        "enabled": false,
+        "type": "dynamic_by_mode"
+      },
+      "model_specific": false,
+      "safety_sensitive": false,
+      "verification_status": "needs_research",
+      "source_level": null,
+      "sources": [],
+      "affiliate": {
+        "enabled": true,
+        "keyword": null,
+        "query_mode": "server_allowlist_by_item_id"
+      },
+      "beorim": {
+        "link_candidate": true,
+        "item_name": "베개",
+        "slug": null,
+        "mapping_status": "needs_mapping"
+      },
+      "notes": [],
+      "answer_type": "condition_first",
+      "my_home": {
+        "enabled": true,
+        "mode": "condition_only",
+        "one_tap_replace": true
+      },
+      "quick_date_input": {
+        "enabled": false,
+        "allow_approximate": true
+      },
+      "evidence": {
+        "status": "needs_research",
+        "level": null,
+        "public_badge": "확인 중",
+        "claim_scope": null,
+        "source_count": 0
+      },
+      "adjustment_factors": [],
+      "purchase_guard": {
+        "model_check_required": false,
+        "part_code_check_required": false,
+        "show_price_as_live": false
+      },
+      "category_slug": "bedding-living",
+      "care_actions": [
+        "inspect",
+        "replace"
+      ],
+      "index_state": "hold",
+      "ui_category_label": "침구·생활"
+    },
+    {
+      "id": "item-018",
+      "slug": "pillow-filling",
+      "name": "베개솜",
+      "aliases": [],
+      "category": "침구",
+      "replacement_modes": [
+        "condition"
+      ],
+      "launch_candidate": false,
+      "seo_priority": "B",
+      "affiliate_priority": "B",
+      "search_intent": "informational_commercial",
+      "seo": {
+        "primary_keyword": "베개솜 교체주기",
+        "secondary_keywords": [
+          "베개솜 교체시기",
+          "베개솜 수명",
+          "베개솜 언제 교체"
+        ],
+        "brand_model_expansion": false
+      },
+      "cycle": null,
+      "check_signs": [],
+      "replacement_reason": null,
+      "calculator": {
+        "enabled": false,
+        "type": "dynamic_by_mode"
+      },
+      "model_specific": false,
+      "safety_sensitive": false,
+      "verification_status": "needs_research",
+      "source_level": null,
+      "sources": [],
+      "affiliate": {
+        "enabled": true,
+        "keyword": null,
+        "query_mode": "server_allowlist_by_item_id"
+      },
+      "beorim": {
+        "link_candidate": true,
+        "item_name": "베개솜",
+        "slug": null,
+        "mapping_status": "needs_mapping"
+      },
+      "notes": [],
+      "answer_type": "condition_first",
+      "my_home": {
+        "enabled": true,
+        "mode": "condition_only",
+        "one_tap_replace": true
+      },
+      "quick_date_input": {
+        "enabled": false,
+        "allow_approximate": true
+      },
+      "evidence": {
+        "status": "needs_research",
+        "level": null,
+        "public_badge": "확인 중",
+        "claim_scope": null,
+        "source_count": 0
+      },
+      "adjustment_factors": [],
+      "purchase_guard": {
+        "model_check_required": false,
+        "part_code_check_required": false,
+        "show_price_as_live": false
+      },
+      "category_slug": "bedding-living",
+      "care_actions": [
+        "inspect",
+        "replace"
+      ],
+      "index_state": "hold",
+      "ui_category_label": "침구·생활"
+    },
+    {
+      "id": "item-019",
+      "slug": "blanket",
+      "name": "이불",
+      "aliases": [],
+      "category": "침구",
+      "replacement_modes": [
+        "condition"
+      ],
+      "launch_candidate": false,
+      "seo_priority": "B",
+      "affiliate_priority": "A",
+      "search_intent": "informational_commercial",
+      "seo": {
+        "primary_keyword": "이불 교체주기",
+        "secondary_keywords": [
+          "이불 교체시기",
+          "이불 수명",
+          "이불 언제 교체"
+        ],
+        "brand_model_expansion": false
+      },
+      "cycle": null,
+      "check_signs": [],
+      "replacement_reason": null,
+      "calculator": {
+        "enabled": false,
+        "type": "dynamic_by_mode"
+      },
+      "model_specific": false,
+      "safety_sensitive": false,
+      "verification_status": "needs_research",
+      "source_level": null,
+      "sources": [],
+      "affiliate": {
+        "enabled": true,
+        "keyword": null,
+        "query_mode": "server_allowlist_by_item_id"
+      },
+      "beorim": {
+        "link_candidate": true,
+        "item_name": "이불",
+        "slug": null,
+        "mapping_status": "needs_mapping"
+      },
+      "notes": [],
+      "answer_type": "condition_first",
+      "my_home": {
+        "enabled": true,
+        "mode": "condition_only",
+        "one_tap_replace": true
+      },
+      "quick_date_input": {
+        "enabled": false,
+        "allow_approximate": true
+      },
+      "evidence": {
+        "status": "needs_research",
+        "level": null,
+        "public_badge": "확인 중",
+        "claim_scope": null,
+        "source_count": 0
+      },
+      "adjustment_factors": [],
+      "purchase_guard": {
+        "model_check_required": false,
+        "part_code_check_required": false,
+        "show_price_as_live": false
+      },
+      "category_slug": "bedding-living",
+      "care_actions": [
+        "inspect",
+        "replace"
+      ],
+      "index_state": "hold",
+      "ui_category_label": "침구·생활"
+    },
+    {
+      "id": "item-020",
+      "slug": "towel",
+      "name": "수건",
+      "aliases": [],
+      "category": "침구",
+      "replacement_modes": [
+        "condition"
+      ],
+      "launch_candidate": false,
+      "seo_priority": "B",
+      "affiliate_priority": "A",
+      "search_intent": "informational_commercial",
+      "seo": {
+        "primary_keyword": "수건 교체주기",
+        "secondary_keywords": [
+          "수건 교체시기",
+          "수건 수명",
+          "수건 언제 교체"
+        ],
+        "brand_model_expansion": false
+      },
+      "cycle": null,
+      "check_signs": [],
+      "replacement_reason": null,
+      "calculator": {
+        "enabled": false,
+        "type": "dynamic_by_mode"
+      },
+      "model_specific": false,
+      "safety_sensitive": false,
+      "verification_status": "needs_research",
+      "source_level": null,
+      "sources": [],
+      "affiliate": {
+        "enabled": true,
+        "keyword": null,
+        "query_mode": "server_allowlist_by_item_id"
+      },
+      "beorim": {
+        "link_candidate": true,
+        "item_name": "수건",
+        "slug": null,
+        "mapping_status": "needs_mapping"
+      },
+      "notes": [],
+      "answer_type": "condition_first",
+      "my_home": {
+        "enabled": true,
+        "mode": "condition_only",
+        "one_tap_replace": true
+      },
+      "quick_date_input": {
+        "enabled": false,
+        "allow_approximate": true
+      },
+      "evidence": {
+        "status": "needs_research",
+        "level": null,
+        "public_badge": "확인 중",
+        "claim_scope": null,
+        "source_count": 0
+      },
+      "adjustment_factors": [],
+      "purchase_guard": {
+        "model_check_required": false,
+        "part_code_check_required": false,
+        "show_price_as_live": false
+      },
+      "category_slug": "bedding-living",
+      "care_actions": [
+        "inspect",
+        "replace"
+      ],
+      "index_state": "hold",
+      "ui_category_label": "침구·생활"
+    },
+    {
+      "id": "item-021",
+      "slug": "mattress",
+      "name": "매트리스",
+      "aliases": [
+        "메트리스",
+        "침대 매트리스"
+      ],
+      "category": "침구",
+      "replacement_modes": [
+        "condition",
+        "manufacturer"
+      ],
+      "launch_candidate": true,
+      "seo_priority": "A",
+      "affiliate_priority": "A",
+      "search_intent": "informational_commercial",
+      "seo": {
+        "primary_keyword": "매트리스 교체주기",
+        "secondary_keywords": [
+          "매트리스 교체시기",
+          "매트리스 수명",
+          "매트리스 언제 교체"
+        ],
+        "brand_model_expansion": false
+      },
+      "cycle": {
+        "type": "range",
+        "min": 6,
+        "max": 8,
+        "unit": "year",
+        "use_as": "general_check_range"
+      },
+      "check_signs": [
+        "눈에 띄는 처짐이나 손상",
+        "지지력이 떨어졌다고 느껴짐",
+        "수면 중 불편이 이전보다 커짐"
+      ],
+      "replacement_reason": "연수만으로 교체를 강제하기보다 구조적 마모와 수면 편안함을 함께 보는 것이 적절합니다.",
+      "calculator": {
+        "enabled": false,
+        "type": "dynamic_by_mode"
+      },
+      "model_specific": true,
+      "safety_sensitive": false,
+      "verification_status": "verified",
+      "source_level": null,
+      "sources": [
+        {
+          "source_id": "sleepfoundation_mattress"
+        }
+      ],
+      "affiliate": {
+        "enabled": true,
+        "keyword": "매트리스",
+        "query_mode": "server_allowlist_by_item_id",
+        "strategy": "direct_generic"
+      },
+      "beorim": {
+        "link_candidate": true,
+        "item_name": "매트리스",
+        "slug": null,
+        "mapping_status": "needs_mapping"
+      },
+      "notes": [],
+      "answer_type": "model_required",
+      "my_home": {
+        "enabled": true,
+        "mode": "model_required",
+        "one_tap_replace": true
+      },
+      "quick_date_input": {
+        "enabled": true,
+        "allow_approximate": true
+      },
+      "evidence": {
+        "status": "verified",
+        "level": "B_GENERAL",
+        "public_badge": "일반 기준",
+        "claim_scope": "매트리스 일반",
+        "source_ids": [
+          "sleepfoundation_mattress"
+        ]
+      },
+      "adjustment_factors": [
+        "매트리스 소재",
+        "제품 품질",
+        "사용자 체중/인원",
+        "관리 방식"
+      ],
+      "purchase_guard": {
+        "model_check_required": true,
+        "part_code_check_required": true,
+        "show_price_as_live": false
+      },
+      "cycle_text": "일반적으로 6~8년이 하나의 참고 범위지만 상태가 더 중요합니다.",
+      "answer_summary": "매트리스는 일반적으로 6~8년이 참고 범위로 제시되지만, 소재·품질·사용환경에 따라 달라집니다. 처짐과 지지력 저하를 함께 확인하세요.",
+      "verified_at": "2026-09-24",
+      "next_review_at": "2026-10-24",
+      "category_slug": "bedding-living",
+      "care_actions": [
+        "inspect",
+        "replace"
+      ],
+      "index_state": "indexable",
+      "ui_category_label": "침구·생활"
+    },
+    {
+      "id": "item-022",
+      "slug": "underwear",
+      "name": "속옷",
+      "aliases": [],
+      "category": "의류",
+      "replacement_modes": [
+        "condition"
+      ],
+      "launch_candidate": false,
+      "seo_priority": "B",
+      "affiliate_priority": "A",
+      "search_intent": "informational_commercial",
+      "seo": {
+        "primary_keyword": "속옷 교체주기",
+        "secondary_keywords": [
+          "속옷 교체시기",
+          "속옷 수명",
+          "속옷 언제 교체"
+        ],
+        "brand_model_expansion": false
+      },
+      "cycle": null,
+      "check_signs": [],
+      "replacement_reason": null,
+      "calculator": {
+        "enabled": false,
+        "type": "dynamic_by_mode"
+      },
+      "model_specific": false,
+      "safety_sensitive": false,
+      "verification_status": "needs_research",
+      "source_level": null,
+      "sources": [],
+      "affiliate": {
+        "enabled": true,
+        "keyword": null,
+        "query_mode": "server_allowlist_by_item_id"
+      },
+      "beorim": {
+        "link_candidate": true,
+        "item_name": "속옷",
+        "slug": null,
+        "mapping_status": "needs_mapping"
+      },
+      "notes": [],
+      "answer_type": "condition_first",
+      "my_home": {
+        "enabled": true,
+        "mode": "condition_only",
+        "one_tap_replace": true
+      },
+      "quick_date_input": {
+        "enabled": false,
+        "allow_approximate": true
+      },
+      "evidence": {
+        "status": "needs_research",
+        "level": null,
+        "public_badge": "확인 중",
+        "claim_scope": null,
+        "source_count": 0
+      },
+      "adjustment_factors": [],
+      "purchase_guard": {
+        "model_check_required": false,
+        "part_code_check_required": false,
+        "show_price_as_live": false
+      },
+      "category_slug": "clothing-footwear",
+      "care_actions": [
+        "inspect",
+        "replace"
+      ],
+      "index_state": "hold",
+      "ui_category_label": "의류·신발"
+    },
+    {
+      "id": "item-023",
+      "slug": "socks",
+      "name": "양말",
+      "aliases": [],
+      "category": "의류",
+      "replacement_modes": [
+        "condition"
+      ],
+      "launch_candidate": false,
+      "seo_priority": "B",
+      "affiliate_priority": "A",
+      "search_intent": "informational_commercial",
+      "seo": {
+        "primary_keyword": "양말 교체주기",
+        "secondary_keywords": [
+          "양말 교체시기",
+          "양말 수명",
+          "양말 언제 교체"
+        ],
+        "brand_model_expansion": false
+      },
+      "cycle": null,
+      "check_signs": [],
+      "replacement_reason": null,
+      "calculator": {
+        "enabled": false,
+        "type": "dynamic_by_mode"
+      },
+      "model_specific": false,
+      "safety_sensitive": false,
+      "verification_status": "needs_research",
+      "source_level": null,
+      "sources": [],
+      "affiliate": {
+        "enabled": true,
+        "keyword": null,
+        "query_mode": "server_allowlist_by_item_id"
+      },
+      "beorim": {
+        "link_candidate": true,
+        "item_name": "양말",
+        "slug": null,
+        "mapping_status": "needs_mapping"
+      },
+      "notes": [],
+      "answer_type": "condition_first",
+      "my_home": {
+        "enabled": true,
+        "mode": "condition_only",
+        "one_tap_replace": true
+      },
+      "quick_date_input": {
+        "enabled": false,
+        "allow_approximate": true
+      },
+      "evidence": {
+        "status": "needs_research",
+        "level": null,
+        "public_badge": "확인 중",
+        "claim_scope": null,
+        "source_count": 0
+      },
+      "adjustment_factors": [],
+      "purchase_guard": {
+        "model_check_required": false,
+        "part_code_check_required": false,
+        "show_price_as_live": false
+      },
+      "category_slug": "clothing-footwear",
+      "care_actions": [
+        "inspect",
+        "replace"
+      ],
+      "index_state": "hold",
+      "ui_category_label": "의류·신발"
+    },
+    {
+      "id": "item-024",
+      "slug": "sneakers",
+      "name": "운동화",
+      "aliases": [],
+      "category": "의류",
+      "replacement_modes": [
+        "usage",
+        "condition"
+      ],
+      "launch_candidate": false,
+      "seo_priority": "B",
+      "affiliate_priority": "A",
+      "search_intent": "informational_commercial",
+      "seo": {
+        "primary_keyword": "운동화 교체주기",
+        "secondary_keywords": [
+          "운동화 교체시기",
+          "운동화 수명",
+          "운동화 언제 교체"
+        ],
+        "brand_model_expansion": false
+      },
+      "cycle": null,
+      "check_signs": [],
+      "replacement_reason": null,
+      "calculator": {
+        "enabled": false,
+        "type": "dynamic_by_mode"
+      },
+      "model_specific": false,
+      "safety_sensitive": false,
+      "verification_status": "needs_research",
+      "source_level": null,
+      "sources": [],
+      "affiliate": {
+        "enabled": true,
+        "keyword": null,
+        "query_mode": "server_allowlist_by_item_id"
+      },
+      "beorim": {
+        "link_candidate": true,
+        "item_name": "운동화",
+        "slug": null,
+        "mapping_status": "needs_mapping"
+      },
+      "notes": [],
+      "answer_type": "usage_first",
+      "my_home": {
+        "enabled": true,
+        "mode": "usage_counter",
+        "one_tap_replace": true
+      },
+      "quick_date_input": {
+        "enabled": false,
+        "allow_approximate": true
+      },
+      "evidence": {
+        "status": "needs_research",
+        "level": null,
+        "public_badge": "확인 중",
+        "claim_scope": null,
+        "source_count": 0
+      },
+      "adjustment_factors": [],
+      "purchase_guard": {
+        "model_check_required": false,
+        "part_code_check_required": false,
+        "show_price_as_live": false
+      },
+      "category_slug": "clothing-footwear",
+      "care_actions": [
+        "inspect",
+        "replace"
+      ],
+      "index_state": "hold",
+      "ui_category_label": "의류·신발"
+    },
+    {
+      "id": "item-025",
+      "slug": "bra",
+      "name": "브라",
+      "aliases": [],
+      "category": "의류",
+      "replacement_modes": [
+        "condition"
+      ],
+      "launch_candidate": false,
+      "seo_priority": "B",
+      "affiliate_priority": "A",
+      "search_intent": "informational_commercial",
+      "seo": {
+        "primary_keyword": "브라 교체주기",
+        "secondary_keywords": [
+          "브라 교체시기",
+          "브라 수명",
+          "브라 언제 교체"
+        ],
+        "brand_model_expansion": false
+      },
+      "cycle": null,
+      "check_signs": [],
+      "replacement_reason": null,
+      "calculator": {
+        "enabled": false,
+        "type": "dynamic_by_mode"
+      },
+      "model_specific": false,
+      "safety_sensitive": false,
+      "verification_status": "needs_research",
+      "source_level": null,
+      "sources": [],
+      "affiliate": {
+        "enabled": true,
+        "keyword": null,
+        "query_mode": "server_allowlist_by_item_id"
+      },
+      "beorim": {
+        "link_candidate": true,
+        "item_name": "브라",
+        "slug": null,
+        "mapping_status": "needs_mapping"
+      },
+      "notes": [],
+      "answer_type": "condition_first",
+      "my_home": {
+        "enabled": true,
+        "mode": "condition_only",
+        "one_tap_replace": true
+      },
+      "quick_date_input": {
+        "enabled": false,
+        "allow_approximate": true
+      },
+      "evidence": {
+        "status": "needs_research",
+        "level": null,
+        "public_badge": "확인 중",
+        "claim_scope": null,
+        "source_count": 0
+      },
+      "adjustment_factors": [],
+      "purchase_guard": {
+        "model_check_required": false,
+        "part_code_check_required": false,
+        "show_price_as_live": false
+      },
+      "category_slug": "clothing-footwear",
+      "care_actions": [
+        "inspect",
+        "replace"
+      ],
+      "index_state": "hold",
+      "ui_category_label": "의류·신발"
+    },
+    {
+      "id": "item-026",
+      "slug": "toothbrush-sterilizer-filter",
+      "name": "칫솔 살균기 필터",
+      "aliases": [],
+      "category": "가전",
+      "replacement_modes": [
+        "model"
+      ],
+      "launch_candidate": false,
+      "seo_priority": "B",
+      "affiliate_priority": "B",
+      "search_intent": "informational_commercial",
+      "seo": {
+        "primary_keyword": "칫솔 살균기 필터 교체주기",
+        "secondary_keywords": [
+          "칫솔 살균기 필터 교체시기",
+          "칫솔 살균기 필터 수명",
+          "칫솔 살균기 필터 언제 교체"
+        ],
+        "brand_model_expansion": true
+      },
+      "cycle": null,
+      "check_signs": [],
+      "replacement_reason": null,
+      "calculator": {
+        "enabled": false,
+        "type": "dynamic_by_mode"
+      },
+      "model_specific": true,
+      "safety_sensitive": false,
+      "verification_status": "needs_research",
+      "source_level": null,
+      "sources": [],
+      "affiliate": {
+        "enabled": true,
+        "keyword": null,
+        "query_mode": "server_allowlist_by_item_id"
+      },
+      "beorim": {
+        "link_candidate": true,
+        "item_name": "칫솔 살균기 필터",
+        "slug": null,
+        "mapping_status": "needs_mapping"
+      },
+      "notes": [],
+      "answer_type": "model_required",
+      "my_home": {
+        "enabled": true,
+        "mode": "model_required",
+        "one_tap_replace": true
+      },
+      "quick_date_input": {
+        "enabled": true,
+        "allow_approximate": true
+      },
+      "evidence": {
+        "status": "needs_research",
+        "level": null,
+        "public_badge": "확인 중",
+        "claim_scope": null,
+        "source_count": 0
+      },
+      "adjustment_factors": [],
+      "purchase_guard": {
+        "model_check_required": true,
+        "part_code_check_required": true,
+        "show_price_as_live": false
+      },
+      "category_slug": "hygiene-bathroom",
+      "care_actions": [
+        "inspect",
+        "replace"
+      ],
+      "index_state": "hold",
+      "ui_category_label": "위생·욕실"
+    },
+    {
+      "id": "item-027",
+      "slug": "air-conditioner-filter",
+      "name": "에어컨 필터",
+      "aliases": [
+        "가정용 에어컨 필터",
+        "에어컨 필터 가정용"
+      ],
+      "category": "가전",
+      "replacement_modes": [
+        "model",
+        "maintenance"
+      ],
+      "launch_candidate": true,
+      "seo_priority": "A",
+      "affiliate_priority": "A",
+      "search_intent": "informational_commercial",
+      "seo": {
+        "primary_keyword": "에어컨 필터 교체주기",
+        "secondary_keywords": [
+          "에어컨 필터 교체시기",
+          "에어컨 필터 수명",
+          "에어컨 필터 언제 교체"
+        ],
+        "brand_model_expansion": true
+      },
+      "cycle": null,
+      "check_signs": [
+        "제품의 필터교체 알림",
+        "교체형 필터의 제조사 권장기간 도달",
+        "오염·냄새·공기 순환 저하"
+      ],
+      "replacement_reason": "같은 에어컨 안에서도 극세필터는 세척형이고 특수필터는 교체형일 수 있어 필터 종류 확인이 먼저입니다.",
+      "calculator": {
+        "enabled": false,
+        "type": "dynamic_by_mode"
+      },
+      "model_specific": true,
+      "safety_sensitive": false,
+      "verification_status": "verified",
+      "source_level": null,
+      "sources": [
+        {
+          "source_id": "samsung_aircon_filter"
+        },
+        {
+          "source_id": "lg_aircon_filter"
+        }
+      ],
+      "affiliate": {
+        "enabled": false,
+        "keyword": null,
+        "query_mode": "server_allowlist_by_item_id",
+        "strategy": "model_required",
+        "blocked_reason": "호환성 확인 전 generic TOP3 노출 금지"
+      },
+      "beorim": {
+        "link_candidate": true,
+        "item_name": "에어컨",
+        "slug": null,
+        "mapping_status": "needs_mapping"
+      },
+      "notes": [],
+      "answer_type": "model_required",
+      "my_home": {
+        "enabled": true,
+        "mode": "model_required",
+        "one_tap_replace": true
+      },
+      "quick_date_input": {
+        "enabled": true,
+        "allow_approximate": true
+      },
+      "evidence": {
+        "status": "verified",
+        "level": "A_DIRECT",
+        "public_badge": "제품별 확인 필요",
+        "claim_scope": "가정용 에어컨 필터 일반, 삼성/LG 예시",
+        "source_ids": [
+          "samsung_aircon_filter",
+          "lg_aircon_filter"
+        ]
+      },
+      "adjustment_factors": [
+        "모델",
+        "필터 종류",
+        "사용시간",
+        "실내 오염도"
+      ],
+      "purchase_guard": {
+        "model_check_required": true,
+        "part_code_check_required": true,
+        "show_price_as_live": false
+      },
+      "cycle_text": "세척형인지 교체형인지, 모델이 무엇인지 먼저 확인하세요.",
+      "answer_summary": "에어컨 필터는 세척형과 교체형이 섞여 있고 모델·사용환경에 따라 기준이 다릅니다. 교체형은 제조사 권장주기를 따르고 세척형은 청소 지침을 따르세요.",
+      "verified_at": "2026-09-24",
+      "next_review_at": "2026-10-24",
+      "category_slug": "air-water-filters",
+      "care_actions": [
+        "inspect",
+        "maintain",
+        "replace",
+        "model_memory"
+      ],
+      "index_state": "indexable",
+      "ui_category_label": "공기·물·필터"
+    },
+    {
+      "id": "item-028",
+      "slug": "air-purifier-filter",
+      "name": "공기청정기 필터",
+      "aliases": [
+        "공청기 필터",
+        "공기청정기필터"
+      ],
+      "category": "가전",
+      "replacement_modes": [
+        "model"
+      ],
+      "launch_candidate": true,
+      "seo_priority": "A",
+      "affiliate_priority": "A",
+      "search_intent": "informational_commercial",
+      "seo": {
+        "primary_keyword": "공기청정기 필터 교체주기",
+        "secondary_keywords": [
+          "공기청정기 필터 교체시기",
+          "공기청정기 필터 수명",
+          "공기청정기 필터 언제 교체"
+        ],
+        "brand_model_expansion": true
+      },
+      "cycle": null,
+      "check_signs": [
+        "필터 교체 알림",
+        "필터에서 냄새가 남",
+        "해당 모델 공식 교체주기 도달"
+      ],
+      "replacement_reason": "필터 구조와 모델에 따라 6개월·12개월 등 기준이 달라질 수 있으므로 generic 숫자로 통일하면 정확하지 않습니다.",
+      "calculator": {
+        "enabled": false,
+        "type": "dynamic_by_mode"
+      },
+      "model_specific": true,
+      "safety_sensitive": false,
+      "verification_status": "verified",
+      "source_level": null,
+      "sources": [
+        {
+          "source_id": "lg_air_purifier"
+        }
+      ],
+      "affiliate": {
+        "enabled": false,
+        "keyword": null,
+        "query_mode": "server_allowlist_by_item_id",
+        "strategy": "model_required",
+        "blocked_reason": "호환성 확인 전 generic TOP3 노출 금지"
+      },
+      "beorim": {
+        "link_candidate": true,
+        "item_name": "공기청정기 필터",
+        "slug": null,
+        "mapping_status": "needs_mapping"
+      },
+      "notes": [],
+      "answer_type": "model_required",
+      "my_home": {
+        "enabled": true,
+        "mode": "model_required",
+        "one_tap_replace": true
+      },
+      "quick_date_input": {
+        "enabled": true,
+        "allow_approximate": true
+      },
+      "evidence": {
+        "status": "verified",
+        "level": "A_DIRECT",
+        "public_badge": "제품별 확인 필요",
+        "claim_scope": "공기청정기 필터 일반, LG 제품 예시",
+        "source_ids": [
+          "lg_air_purifier"
+        ]
+      },
+      "adjustment_factors": [
+        "제품 모델",
+        "필터 종류",
+        "실내 오염도",
+        "사용시간"
+      ],
+      "purchase_guard": {
+        "model_check_required": true,
+        "part_code_check_required": true,
+        "show_price_as_live": false
+      },
+      "cycle_text": "제품별 교체주기와 필터 알림을 확인하세요.",
+      "answer_summary": "공기청정기 필터는 제품별로 교체주기가 다릅니다. 모델을 확인한 뒤 공식 필터 주기와 교체 알림, 냄새·오염 상태를 함께 보세요.",
+      "verified_at": "2026-09-24",
+      "next_review_at": "2026-10-24",
+      "category_slug": "air-water-filters",
+      "care_actions": [
+        "inspect",
+        "replace",
+        "model_memory"
+      ],
+      "index_state": "indexable",
+      "ui_category_label": "공기·물·필터"
+    },
+    {
+      "id": "item-029",
+      "slug": "refrigerator-deodorizer",
+      "name": "냉장고 탈취제",
+      "aliases": [],
+      "category": "가전",
+      "replacement_modes": [
+        "model",
+        "calendar"
+      ],
+      "launch_candidate": false,
+      "seo_priority": "A",
+      "affiliate_priority": "A",
+      "search_intent": "informational_commercial",
+      "seo": {
+        "primary_keyword": "냉장고 탈취제 교체주기",
+        "secondary_keywords": [
+          "냉장고 탈취제 교체시기",
+          "냉장고 탈취제 수명",
+          "냉장고 탈취제 언제 교체"
+        ],
+        "brand_model_expansion": true
+      },
+      "cycle": null,
+      "check_signs": [],
+      "replacement_reason": null,
+      "calculator": {
+        "enabled": true,
+        "type": "dynamic_by_mode"
+      },
+      "model_specific": true,
+      "safety_sensitive": false,
+      "verification_status": "needs_research",
+      "source_level": null,
+      "sources": [],
+      "affiliate": {
+        "enabled": true,
+        "keyword": null,
+        "query_mode": "server_allowlist_by_item_id"
+      },
+      "beorim": {
+        "link_candidate": true,
+        "item_name": "냉장고 탈취제",
+        "slug": null,
+        "mapping_status": "needs_mapping"
+      },
+      "notes": [
+        "경쟁/검색의도 검토 후 v1 첫 런칭에서 제외, Seed에는 유지"
+      ],
+      "answer_type": "model_required",
+      "my_home": {
+        "enabled": true,
+        "mode": "model_required",
+        "one_tap_replace": true
+      },
+      "quick_date_input": {
+        "enabled": true,
+        "allow_approximate": true
+      },
+      "evidence": {
+        "status": "needs_research",
+        "level": null,
+        "public_badge": "확인 중",
+        "claim_scope": null,
+        "source_count": 0
+      },
+      "adjustment_factors": [],
+      "purchase_guard": {
+        "model_check_required": true,
+        "part_code_check_required": true,
+        "show_price_as_live": false
+      },
+      "category_slug": "kitchen-food",
+      "care_actions": [
+        "inspect",
+        "replace"
+      ],
+      "index_state": "hold",
+      "ui_category_label": "주방·식생활"
+    },
+    {
+      "id": "item-030",
+      "slug": "humidifier-filter",
+      "name": "가습기 필터",
+      "aliases": [],
+      "category": "가전",
+      "replacement_modes": [
+        "model"
+      ],
+      "launch_candidate": true,
+      "seo_priority": "A",
+      "affiliate_priority": "A",
+      "search_intent": "informational_commercial",
+      "seo": {
+        "primary_keyword": "가습기 필터 교체주기",
+        "secondary_keywords": [
+          "가습기 필터 교체시기",
+          "가습기 필터 수명",
+          "가습기 필터 언제 교체"
+        ],
+        "brand_model_expansion": true
+      },
+      "cycle": null,
+      "check_signs": [
+        "필터 교체 알림",
+        "청소 후에도 성능 저하 지속",
+        "해당 모델 공식 교체기간 도달"
+      ],
+      "replacement_reason": "같은 제조사의 가습기에서도 필터 종류에 따라 3~5개월, 1년 등 기준이 달라질 수 있습니다.",
+      "calculator": {
+        "enabled": false,
+        "type": "dynamic_by_mode"
+      },
+      "model_specific": true,
+      "safety_sensitive": false,
+      "verification_status": "verified",
+      "source_level": null,
+      "sources": [
+        {
+          "source_id": "lg_humidifier"
+        }
+      ],
+      "affiliate": {
+        "enabled": false,
+        "keyword": null,
+        "query_mode": "server_allowlist_by_item_id",
+        "strategy": "model_required",
+        "blocked_reason": "호환성 확인 전 generic TOP3 노출 금지"
+      },
+      "beorim": {
+        "link_candidate": true,
+        "item_name": "가습기 필터",
+        "slug": null,
+        "mapping_status": "needs_mapping"
+      },
+      "notes": [],
+      "answer_type": "model_required",
+      "my_home": {
+        "enabled": true,
+        "mode": "model_required",
+        "one_tap_replace": true
+      },
+      "quick_date_input": {
+        "enabled": true,
+        "allow_approximate": true
+      },
+      "evidence": {
+        "status": "verified",
+        "level": "A_DIRECT",
+        "public_badge": "제품별 확인 필요",
+        "claim_scope": "가습기 필터 일반, LG 제품 예시",
+        "source_ids": [
+          "lg_humidifier"
+        ]
+      },
+      "adjustment_factors": [
+        "모델",
+        "필터 종류",
+        "가습 사용시간",
+        "수질"
+      ],
+      "purchase_guard": {
+        "model_check_required": true,
+        "part_code_check_required": true,
+        "show_price_as_live": false
+      },
+      "cycle_text": "가습기 모델과 필터 종류에 따라 크게 달라집니다.",
+      "answer_summary": "가습기에는 정수필터·가습필터·공기청정필터 등 여러 종류가 있어 한 가지 주기로 묶기 어렵습니다. 제품 매뉴얼과 필터 알림을 우선 확인하세요.",
+      "verified_at": "2026-09-24",
+      "next_review_at": "2026-10-24",
+      "category_slug": "air-water-filters",
+      "care_actions": [
+        "inspect",
+        "maintain",
+        "replace",
+        "model_memory"
+      ],
+      "index_state": "indexable",
+      "ui_category_label": "공기·물·필터"
+    },
+    {
+      "id": "item-031",
+      "slug": "vacuum-filter",
+      "name": "청소기 필터",
+      "aliases": [],
+      "category": "가전",
+      "replacement_modes": [
+        "model"
+      ],
+      "launch_candidate": true,
+      "seo_priority": "A",
+      "affiliate_priority": "A",
+      "search_intent": "informational_commercial",
+      "seo": {
+        "primary_keyword": "청소기 필터 교체주기",
+        "secondary_keywords": [
+          "청소기 필터 교체시기",
+          "청소기 필터 수명",
+          "청소기 필터 언제 교체"
+        ],
+        "brand_model_expansion": true
+      },
+      "cycle": null,
+      "check_signs": [
+        "필터 청소 알림",
+        "세척 후에도 흡입 성능 문제가 지속",
+        "필터가 손상됨"
+      ],
+      "replacement_reason": "세척 가능한 필터를 일정 기간마다 무조건 교체하는 식의 안내는 모델에 따라 맞지 않을 수 있습니다.",
+      "calculator": {
+        "enabled": false,
+        "type": "dynamic_by_mode"
+      },
+      "model_specific": true,
+      "safety_sensitive": false,
+      "verification_status": "verified",
+      "source_level": null,
+      "sources": [
+        {
+          "source_id": "dyson_vacuum"
+        }
+      ],
+      "affiliate": {
+        "enabled": false,
+        "keyword": null,
+        "query_mode": "server_allowlist_by_item_id",
+        "strategy": "model_required",
+        "blocked_reason": "호환성 확인 전 generic TOP3 노출 금지"
+      },
+      "beorim": {
+        "link_candidate": true,
+        "item_name": "청소기 필터",
+        "slug": null,
+        "mapping_status": "needs_mapping"
+      },
+      "notes": [],
+      "answer_type": "model_required",
+      "my_home": {
+        "enabled": true,
+        "mode": "model_required",
+        "one_tap_replace": true
+      },
+      "quick_date_input": {
+        "enabled": true,
+        "allow_approximate": true
+      },
+      "evidence": {
+        "status": "verified",
+        "level": "A_DIRECT",
+        "public_badge": "제품별 확인 필요",
+        "claim_scope": "청소기 필터 일반, Dyson 예시",
+        "source_ids": [
+          "dyson_vacuum"
+        ]
+      },
+      "adjustment_factors": [
+        "모델",
+        "필터 세척 가능 여부",
+        "미세먼지 사용환경",
+        "사용량"
+      ],
+      "purchase_guard": {
+        "model_check_required": true,
+        "part_code_check_required": true,
+        "show_price_as_live": false
+      },
+      "cycle_text": "교체 전에 세척형인지부터 확인하세요.",
+      "answer_summary": "청소기 필터는 모델마다 세척형·교체형 관리가 다릅니다. 예를 들어 다이슨 일부 무선청소기는 월 1회 세척을 권장하므로, 고정 교체주기보다 제품 지침을 우선하세요.",
+      "verified_at": "2026-09-24",
+      "next_review_at": "2026-10-24",
+      "category_slug": "cleaning-appliances",
+      "care_actions": [
+        "inspect",
+        "maintain",
+        "replace",
+        "model_memory"
+      ],
+      "index_state": "indexable",
+      "ui_category_label": "청소·세탁가전"
+    },
+    {
+      "id": "item-032",
+      "slug": "light-bulb",
+      "name": "형광등/LED 전구",
+      "aliases": [],
+      "category": "가전",
+      "replacement_modes": [
+        "condition",
+        "manufacturer"
+      ],
+      "launch_candidate": false,
+      "seo_priority": "B",
+      "affiliate_priority": "B",
+      "search_intent": "informational_commercial",
+      "seo": {
+        "primary_keyword": "형광등/LED 전구 교체주기",
+        "secondary_keywords": [
+          "형광등/LED 전구 교체시기",
+          "형광등/LED 전구 수명",
+          "형광등/LED 전구 언제 교체"
+        ],
+        "brand_model_expansion": false
+      },
+      "cycle": null,
+      "check_signs": [],
+      "replacement_reason": null,
+      "calculator": {
+        "enabled": false,
+        "type": "dynamic_by_mode"
+      },
+      "model_specific": true,
+      "safety_sensitive": false,
+      "verification_status": "needs_research",
+      "source_level": null,
+      "sources": [],
+      "affiliate": {
+        "enabled": true,
+        "keyword": null,
+        "query_mode": "server_allowlist_by_item_id"
+      },
+      "beorim": {
+        "link_candidate": true,
+        "item_name": "형광등/LED 전구",
+        "slug": null,
+        "mapping_status": "needs_mapping"
+      },
+      "notes": [],
+      "answer_type": "model_required",
+      "my_home": {
+        "enabled": true,
+        "mode": "model_required",
+        "one_tap_replace": true
+      },
+      "quick_date_input": {
+        "enabled": true,
+        "allow_approximate": true
+      },
+      "evidence": {
+        "status": "needs_research",
+        "level": null,
+        "public_badge": "확인 중",
+        "claim_scope": null,
+        "source_count": 0
+      },
+      "adjustment_factors": [],
+      "purchase_guard": {
+        "model_check_required": true,
+        "part_code_check_required": true,
+        "show_price_as_live": false
+      },
+      "category_slug": "home-maintenance-safety",
+      "care_actions": [
+        "inspect",
+        "replace"
+      ],
+      "index_state": "hold",
+      "ui_category_label": "집관리·안전"
+    },
+    {
+      "id": "item-033",
+      "slug": "power-strip",
+      "name": "멀티탭",
+      "aliases": [
+        "멀티 콘센트",
+        "전원 멀티탭"
+      ],
+      "category": "가전",
+      "replacement_modes": [
+        "condition"
+      ],
+      "launch_candidate": true,
+      "seo_priority": "A",
+      "affiliate_priority": "A",
+      "search_intent": "informational_commercial",
+      "seo": {
+        "primary_keyword": "멀티탭 교체주기",
+        "secondary_keywords": [
+          "멀티탭 교체시기",
+          "멀티탭 수명",
+          "멀티탭 언제 교체"
+        ],
+        "brand_model_expansion": false
+      },
+      "cycle": null,
+      "check_signs": [
+        "플러그/콘센트가 헐거움",
+        "변색·그을림·과열 흔적",
+        "전선 피복 손상",
+        "정격용량을 초과해 사용 중"
+      ],
+      "replacement_reason": "멀티탭은 기간 자체보다 과부하와 손상·열화 상태가 안전에 더 직접적으로 중요합니다.",
+      "calculator": {
+        "enabled": false,
+        "type": "dynamic_by_mode"
+      },
+      "model_specific": false,
+      "safety_sensitive": true,
+      "verification_status": "verified",
+      "source_level": null,
+      "sources": [
+        {
+          "source_id": "gov_power_strip"
+        },
+        {
+          "source_id": "yonhap_power_strip_cycle"
+        }
+      ],
+      "affiliate": {
+        "enabled": true,
+        "keyword": "안전 멀티탭",
+        "query_mode": "server_allowlist_by_item_id",
+        "strategy": "direct_generic"
+      },
+      "beorim": {
+        "link_candidate": true,
+        "item_name": "멀티탭",
+        "slug": null,
+        "mapping_status": "needs_mapping"
+      },
+      "notes": [],
+      "answer_type": "condition_first",
+      "my_home": {
+        "enabled": true,
+        "mode": "condition_only",
+        "one_tap_replace": true
+      },
+      "quick_date_input": {
+        "enabled": false,
+        "allow_approximate": true
+      },
+      "evidence": {
+        "status": "verified",
+        "level": "A_DIRECT+B_GENERAL",
+        "public_badge": "안전 상태 기준",
+        "claim_scope": "가정용 멀티탭 일반",
+        "source_ids": [
+          "gov_power_strip",
+          "yonhap_power_strip_cycle"
+        ]
+      },
+      "adjustment_factors": [
+        "연결 기기 소비전력",
+        "사용환경의 먼지·습기",
+        "물리적 손상",
+        "사용빈도"
+      ],
+      "purchase_guard": {
+        "model_check_required": false,
+        "part_code_check_required": false,
+        "show_price_as_live": false
+      },
+      "cycle_text": "고정 연수보다 정격용량과 손상 상태를 먼저 확인하세요.",
+      "answer_summary": "멀티탭은 '무조건 2년' 같은 법정 교체주기가 있는 제품으로 보기 어렵습니다. 정격용량 초과, 과열, 변색, 헐거움 등 안전 상태를 확인하고 이상이 있으면 사용을 중단하세요.",
+      "verified_at": "2026-09-24",
+      "next_review_at": "2026-12-24",
+      "category_slug": "home-maintenance-safety",
+      "care_actions": [
+        "inspect",
+        "replace"
+      ],
+      "index_state": "indexable",
+      "ui_category_label": "집관리·안전"
+    },
+    {
+      "id": "item-034",
+      "slug": "mascara",
+      "name": "마스카라",
+      "aliases": [],
+      "category": "뷰티",
+      "replacement_modes": [
+        "label"
+      ],
+      "launch_candidate": false,
+      "seo_priority": "B",
+      "affiliate_priority": "A",
+      "search_intent": "informational_commercial",
+      "seo": {
+        "primary_keyword": "마스카라 사용기한",
+        "secondary_keywords": [
+          "마스카라 개봉후 사용기간",
+          "마스카라 유통기한",
+          "마스카라 언제 버려야"
+        ],
+        "brand_model_expansion": false
+      },
+      "cycle": null,
+      "check_signs": [],
+      "replacement_reason": null,
+      "calculator": {
+        "enabled": false,
+        "type": "dynamic_by_mode"
+      },
+      "model_specific": false,
+      "safety_sensitive": false,
+      "verification_status": "needs_research",
+      "source_level": null,
+      "sources": [],
+      "affiliate": {
+        "enabled": true,
+        "keyword": null,
+        "query_mode": "server_allowlist_by_item_id"
+      },
+      "beorim": {
+        "link_candidate": true,
+        "item_name": "마스카라",
+        "slug": null,
+        "mapping_status": "needs_mapping"
+      },
+      "notes": [],
+      "answer_type": "label_required",
+      "my_home": {
+        "enabled": true,
+        "mode": "countdown",
+        "one_tap_replace": true
+      },
+      "quick_date_input": {
+        "enabled": false,
+        "allow_approximate": true
+      },
+      "evidence": {
+        "status": "needs_research",
+        "level": null,
+        "public_badge": "확인 중",
+        "claim_scope": null,
+        "source_count": 0
+      },
+      "adjustment_factors": [],
+      "purchase_guard": {
+        "model_check_required": false,
+        "part_code_check_required": false,
+        "show_price_as_live": false
+      },
+      "category_slug": "beauty-personal",
+      "care_actions": [
+        "inspect",
+        "replace"
+      ],
+      "index_state": "hold",
+      "ui_category_label": "뷰티·퍼스널케어"
+    },
+    {
+      "id": "item-035",
+      "slug": "eyeliner",
+      "name": "아이라이너",
+      "aliases": [],
+      "category": "뷰티",
+      "replacement_modes": [
+        "label"
+      ],
+      "launch_candidate": false,
+      "seo_priority": "B",
+      "affiliate_priority": "A",
+      "search_intent": "informational_commercial",
+      "seo": {
+        "primary_keyword": "아이라이너 사용기한",
+        "secondary_keywords": [
+          "아이라이너 개봉후 사용기간",
+          "아이라이너 유통기한",
+          "아이라이너 언제 버려야"
+        ],
+        "brand_model_expansion": false
+      },
+      "cycle": null,
+      "check_signs": [],
+      "replacement_reason": null,
+      "calculator": {
+        "enabled": false,
+        "type": "dynamic_by_mode"
+      },
+      "model_specific": false,
+      "safety_sensitive": false,
+      "verification_status": "needs_research",
+      "source_level": null,
+      "sources": [],
+      "affiliate": {
+        "enabled": true,
+        "keyword": null,
+        "query_mode": "server_allowlist_by_item_id"
+      },
+      "beorim": {
+        "link_candidate": true,
+        "item_name": "아이라이너",
+        "slug": null,
+        "mapping_status": "needs_mapping"
+      },
+      "notes": [],
+      "answer_type": "label_required",
+      "my_home": {
+        "enabled": true,
+        "mode": "countdown",
+        "one_tap_replace": true
+      },
+      "quick_date_input": {
+        "enabled": false,
+        "allow_approximate": true
+      },
+      "evidence": {
+        "status": "needs_research",
+        "level": null,
+        "public_badge": "확인 중",
+        "claim_scope": null,
+        "source_count": 0
+      },
+      "adjustment_factors": [],
+      "purchase_guard": {
+        "model_check_required": false,
+        "part_code_check_required": false,
+        "show_price_as_live": false
+      },
+      "category_slug": "beauty-personal",
+      "care_actions": [
+        "inspect",
+        "replace"
+      ],
+      "index_state": "hold",
+      "ui_category_label": "뷰티·퍼스널케어"
+    },
+    {
+      "id": "item-036",
+      "slug": "makeup-sponge",
+      "name": "메이크업 스펀지",
+      "aliases": [],
+      "category": "뷰티",
+      "replacement_modes": [
+        "usage",
+        "condition"
+      ],
+      "launch_candidate": false,
+      "seo_priority": "B",
+      "affiliate_priority": "A",
+      "search_intent": "informational_commercial",
+      "seo": {
+        "primary_keyword": "메이크업 스펀지 교체주기",
+        "secondary_keywords": [
+          "메이크업 스펀지 교체시기",
+          "메이크업 스펀지 수명",
+          "메이크업 스펀지 언제 교체"
+        ],
+        "brand_model_expansion": false
+      },
+      "cycle": null,
+      "check_signs": [],
+      "replacement_reason": null,
+      "calculator": {
+        "enabled": false,
+        "type": "dynamic_by_mode"
+      },
+      "model_specific": false,
+      "safety_sensitive": false,
+      "verification_status": "needs_research",
+      "source_level": null,
+      "sources": [],
+      "affiliate": {
+        "enabled": true,
+        "keyword": null,
+        "query_mode": "server_allowlist_by_item_id"
+      },
+      "beorim": {
+        "link_candidate": true,
+        "item_name": "메이크업 스펀지",
+        "slug": null,
+        "mapping_status": "needs_mapping"
+      },
+      "notes": [],
+      "answer_type": "usage_first",
+      "my_home": {
+        "enabled": true,
+        "mode": "usage_counter",
+        "one_tap_replace": true
+      },
+      "quick_date_input": {
+        "enabled": false,
+        "allow_approximate": true
+      },
+      "evidence": {
+        "status": "needs_research",
+        "level": null,
+        "public_badge": "확인 중",
+        "claim_scope": null,
+        "source_count": 0
+      },
+      "adjustment_factors": [],
+      "purchase_guard": {
+        "model_check_required": false,
+        "part_code_check_required": false,
+        "show_price_as_live": false
+      },
+      "category_slug": "beauty-personal",
+      "care_actions": [
+        "inspect",
+        "replace"
+      ],
+      "index_state": "hold",
+      "ui_category_label": "뷰티·퍼스널케어"
+    },
+    {
+      "id": "item-037",
+      "slug": "contact-lens",
+      "name": "콘택트렌즈",
+      "aliases": [],
+      "category": "뷰티",
+      "replacement_modes": [
+        "prescription"
+      ],
+      "launch_candidate": false,
+      "seo_priority": "C",
+      "affiliate_priority": "C",
+      "search_intent": "informational_commercial",
+      "seo": {
+        "primary_keyword": "콘택트렌즈 교체주기",
+        "secondary_keywords": [
+          "콘택트렌즈 사용기간",
+          "콘택트렌즈 교체시기"
+        ],
+        "brand_model_expansion": false
+      },
+      "cycle": null,
+      "check_signs": [],
+      "replacement_reason": null,
+      "calculator": {
+        "enabled": false,
+        "type": "dynamic_by_mode"
+      },
+      "model_specific": false,
+      "safety_sensitive": true,
+      "verification_status": "needs_research",
+      "source_level": null,
+      "sources": [],
+      "affiliate": {
+        "enabled": false,
+        "keyword": null,
+        "query_mode": "server_allowlist_by_item_id"
+      },
+      "beorim": {
+        "link_candidate": true,
+        "item_name": "콘택트렌즈",
+        "slug": null,
+        "mapping_status": "needs_mapping"
+      },
+      "notes": [],
+      "answer_type": "prescription_required",
+      "my_home": {
+        "enabled": false,
+        "mode": "countdown",
+        "one_tap_replace": false
+      },
+      "quick_date_input": {
+        "enabled": false,
+        "allow_approximate": true
+      },
+      "evidence": {
+        "status": "needs_research",
+        "level": null,
+        "public_badge": "확인 중",
+        "claim_scope": null,
+        "source_count": 0
+      },
+      "adjustment_factors": [],
+      "purchase_guard": {
+        "model_check_required": false,
+        "part_code_check_required": false,
+        "show_price_as_live": false
+      },
+      "category_slug": "beauty-personal",
+      "care_actions": [
+        "inspect",
+        "replace"
+      ],
+      "index_state": "hold",
+      "ui_category_label": "뷰티·퍼스널케어"
+    },
+    {
+      "id": "item-038",
+      "slug": "contact-lens-solution",
+      "name": "렌즈 세척액",
+      "aliases": [],
+      "category": "뷰티",
+      "replacement_modes": [
+        "label"
+      ],
+      "launch_candidate": false,
+      "seo_priority": "C",
+      "affiliate_priority": "C",
+      "search_intent": "informational_commercial",
+      "seo": {
+        "primary_keyword": "렌즈 세척액 사용기한",
+        "secondary_keywords": [
+          "렌즈 세척액 개봉후 사용기간",
+          "렌즈 세척액 유통기한",
+          "렌즈 세척액 언제 버려야"
+        ],
+        "brand_model_expansion": false
+      },
+      "cycle": null,
+      "check_signs": [],
+      "replacement_reason": null,
+      "calculator": {
+        "enabled": false,
+        "type": "dynamic_by_mode"
+      },
+      "model_specific": false,
+      "safety_sensitive": true,
+      "verification_status": "needs_research",
+      "source_level": null,
+      "sources": [],
+      "affiliate": {
+        "enabled": false,
+        "keyword": null,
+        "query_mode": "server_allowlist_by_item_id"
+      },
+      "beorim": {
+        "link_candidate": true,
+        "item_name": "렌즈 세척액",
+        "slug": null,
+        "mapping_status": "needs_mapping"
+      },
+      "notes": [],
+      "answer_type": "label_required",
+      "my_home": {
+        "enabled": true,
+        "mode": "countdown",
+        "one_tap_replace": true
+      },
+      "quick_date_input": {
+        "enabled": false,
+        "allow_approximate": true
+      },
+      "evidence": {
+        "status": "needs_research",
+        "level": null,
+        "public_badge": "확인 중",
+        "claim_scope": null,
+        "source_count": 0
+      },
+      "adjustment_factors": [],
+      "purchase_guard": {
+        "model_check_required": false,
+        "part_code_check_required": false,
+        "show_price_as_live": false
+      },
+      "category_slug": "beauty-personal",
+      "care_actions": [
+        "inspect",
+        "replace"
+      ],
+      "index_state": "hold",
+      "ui_category_label": "뷰티·퍼스널케어"
+    },
+    {
+      "id": "item-039",
+      "slug": "lipstick",
+      "name": "립스틱",
+      "aliases": [],
+      "category": "뷰티",
+      "replacement_modes": [
+        "label"
+      ],
+      "launch_candidate": false,
+      "seo_priority": "B",
+      "affiliate_priority": "A",
+      "search_intent": "informational_commercial",
+      "seo": {
+        "primary_keyword": "립스틱 사용기한",
+        "secondary_keywords": [
+          "립스틱 개봉후 사용기간",
+          "립스틱 유통기한",
+          "립스틱 언제 버려야"
+        ],
+        "brand_model_expansion": false
+      },
+      "cycle": null,
+      "check_signs": [],
+      "replacement_reason": null,
+      "calculator": {
+        "enabled": false,
+        "type": "dynamic_by_mode"
+      },
+      "model_specific": false,
+      "safety_sensitive": false,
+      "verification_status": "needs_research",
+      "source_level": null,
+      "sources": [],
+      "affiliate": {
+        "enabled": true,
+        "keyword": null,
+        "query_mode": "server_allowlist_by_item_id"
+      },
+      "beorim": {
+        "link_candidate": true,
+        "item_name": "립스틱",
+        "slug": null,
+        "mapping_status": "needs_mapping"
+      },
+      "notes": [],
+      "answer_type": "label_required",
+      "my_home": {
+        "enabled": true,
+        "mode": "countdown",
+        "one_tap_replace": true
+      },
+      "quick_date_input": {
+        "enabled": false,
+        "allow_approximate": true
+      },
+      "evidence": {
+        "status": "needs_research",
+        "level": null,
+        "public_badge": "확인 중",
+        "claim_scope": null,
+        "source_count": 0
+      },
+      "adjustment_factors": [],
+      "purchase_guard": {
+        "model_check_required": false,
+        "part_code_check_required": false,
+        "show_price_as_live": false
+      },
+      "category_slug": "beauty-personal",
+      "care_actions": [
+        "inspect",
+        "replace"
+      ],
+      "index_state": "hold",
+      "ui_category_label": "뷰티·퍼스널케어"
+    },
+    {
+      "id": "item-040",
+      "slug": "sunscreen",
+      "name": "선크림",
+      "aliases": [],
+      "category": "뷰티",
+      "replacement_modes": [
+        "label"
+      ],
+      "launch_candidate": false,
+      "seo_priority": "B",
+      "affiliate_priority": "A",
+      "search_intent": "informational_commercial",
+      "seo": {
+        "primary_keyword": "선크림 사용기한",
+        "secondary_keywords": [
+          "선크림 개봉후 사용기간",
+          "선크림 유통기한",
+          "선크림 언제 버려야"
+        ],
+        "brand_model_expansion": false
+      },
+      "cycle": null,
+      "check_signs": [],
+      "replacement_reason": null,
+      "calculator": {
+        "enabled": false,
+        "type": "dynamic_by_mode"
+      },
+      "model_specific": false,
+      "safety_sensitive": false,
+      "verification_status": "needs_research",
+      "source_level": null,
+      "sources": [],
+      "affiliate": {
+        "enabled": true,
+        "keyword": null,
+        "query_mode": "server_allowlist_by_item_id"
+      },
+      "beorim": {
+        "link_candidate": true,
+        "item_name": "선크림",
+        "slug": null,
+        "mapping_status": "needs_mapping"
+      },
+      "notes": [],
+      "answer_type": "label_required",
+      "my_home": {
+        "enabled": true,
+        "mode": "countdown",
+        "one_tap_replace": true
+      },
+      "quick_date_input": {
+        "enabled": false,
+        "allow_approximate": true
+      },
+      "evidence": {
+        "status": "needs_research",
+        "level": null,
+        "public_badge": "확인 중",
+        "claim_scope": null,
+        "source_count": 0
+      },
+      "adjustment_factors": [],
+      "purchase_guard": {
+        "model_check_required": false,
+        "part_code_check_required": false,
+        "show_price_as_live": false
+      },
+      "category_slug": "beauty-personal",
+      "care_actions": [
+        "inspect",
+        "replace"
+      ],
+      "index_state": "hold",
+      "ui_category_label": "뷰티·퍼스널케어"
+    },
+    {
+      "id": "item-041",
+      "slug": "baby-bottle",
+      "name": "아기 젖병",
+      "aliases": [],
+      "category": "육아",
+      "replacement_modes": [
+        "manufacturer",
+        "condition"
+      ],
+      "launch_candidate": false,
+      "seo_priority": "C",
+      "affiliate_priority": "A",
+      "search_intent": "informational_commercial",
+      "seo": {
+        "primary_keyword": "아기 젖병 교체주기",
+        "secondary_keywords": [
+          "아기 젖병 교체시기",
+          "아기 젖병 수명",
+          "아기 젖병 언제 교체"
+        ],
+        "brand_model_expansion": false
+      },
+      "cycle": null,
+      "check_signs": [],
+      "replacement_reason": null,
+      "calculator": {
+        "enabled": false,
+        "type": "dynamic_by_mode"
+      },
+      "model_specific": true,
+      "safety_sensitive": true,
+      "verification_status": "needs_research",
+      "source_level": null,
+      "sources": [],
+      "affiliate": {
+        "enabled": true,
+        "keyword": null,
+        "query_mode": "server_allowlist_by_item_id"
+      },
+      "beorim": {
+        "link_candidate": true,
+        "item_name": "아기 젖병",
+        "slug": null,
+        "mapping_status": "needs_mapping"
+      },
+      "notes": [],
+      "answer_type": "model_required",
+      "my_home": {
+        "enabled": true,
+        "mode": "model_required",
+        "one_tap_replace": true
+      },
+      "quick_date_input": {
+        "enabled": true,
+        "allow_approximate": true
+      },
+      "evidence": {
+        "status": "needs_research",
+        "level": null,
+        "public_badge": "확인 중",
+        "claim_scope": null,
+        "source_count": 0
+      },
+      "adjustment_factors": [],
+      "purchase_guard": {
+        "model_check_required": true,
+        "part_code_check_required": true,
+        "show_price_as_live": false
+      },
+      "category_slug": "baby-family",
+      "care_actions": [
+        "inspect",
+        "replace"
+      ],
+      "index_state": "hold",
+      "ui_category_label": "육아"
+    },
+    {
+      "id": "item-042",
+      "slug": "baby-bottle-nipple",
+      "name": "아기 젖꼭지",
+      "aliases": [],
+      "category": "육아",
+      "replacement_modes": [
+        "manufacturer",
+        "condition"
+      ],
+      "launch_candidate": false,
+      "seo_priority": "C",
+      "affiliate_priority": "A",
+      "search_intent": "informational_commercial",
+      "seo": {
+        "primary_keyword": "아기 젖꼭지 교체주기",
+        "secondary_keywords": [
+          "아기 젖꼭지 교체시기",
+          "아기 젖꼭지 수명",
+          "아기 젖꼭지 언제 교체"
+        ],
+        "brand_model_expansion": false
+      },
+      "cycle": null,
+      "check_signs": [],
+      "replacement_reason": null,
+      "calculator": {
+        "enabled": false,
+        "type": "dynamic_by_mode"
+      },
+      "model_specific": true,
+      "safety_sensitive": true,
+      "verification_status": "needs_research",
+      "source_level": null,
+      "sources": [],
+      "affiliate": {
+        "enabled": true,
+        "keyword": null,
+        "query_mode": "server_allowlist_by_item_id"
+      },
+      "beorim": {
+        "link_candidate": true,
+        "item_name": "아기 젖꼭지",
+        "slug": null,
+        "mapping_status": "needs_mapping"
+      },
+      "notes": [],
+      "answer_type": "model_required",
+      "my_home": {
+        "enabled": false,
+        "mode": "model_required",
+        "one_tap_replace": true
+      },
+      "quick_date_input": {
+        "enabled": true,
+        "allow_approximate": true
+      },
+      "evidence": {
+        "status": "needs_research",
+        "level": null,
+        "public_badge": "확인 중",
+        "claim_scope": null,
+        "source_count": 0
+      },
+      "adjustment_factors": [],
+      "purchase_guard": {
+        "model_check_required": true,
+        "part_code_check_required": true,
+        "show_price_as_live": false
+      },
+      "category_slug": "baby-family",
+      "care_actions": [
+        "inspect",
+        "replace"
+      ],
+      "index_state": "hold",
+      "ui_category_label": "육아"
+    },
+    {
+      "id": "item-043",
+      "slug": "baby-toothbrush",
+      "name": "아기 칫솔",
+      "aliases": [],
+      "category": "육아",
+      "replacement_modes": [
+        "calendar",
+        "condition"
+      ],
+      "launch_candidate": false,
+      "seo_priority": "B",
+      "affiliate_priority": "A",
+      "search_intent": "informational_commercial",
+      "seo": {
+        "primary_keyword": "아기 칫솔 교체주기",
+        "secondary_keywords": [
+          "아기 칫솔 교체시기",
+          "아기 칫솔 수명",
+          "아기 칫솔 언제 교체"
+        ],
+        "brand_model_expansion": false
+      },
+      "cycle": null,
+      "check_signs": [],
+      "replacement_reason": null,
+      "calculator": {
+        "enabled": true,
+        "type": "dynamic_by_mode"
+      },
+      "model_specific": false,
+      "safety_sensitive": false,
+      "verification_status": "needs_research",
+      "source_level": null,
+      "sources": [],
+      "affiliate": {
+        "enabled": true,
+        "keyword": null,
+        "query_mode": "server_allowlist_by_item_id"
+      },
+      "beorim": {
+        "link_candidate": true,
+        "item_name": "아기 칫솔",
+        "slug": null,
+        "mapping_status": "needs_mapping"
+      },
+      "notes": [],
+      "answer_type": "range_plus_condition",
+      "my_home": {
+        "enabled": true,
+        "mode": "countdown",
+        "one_tap_replace": true
+      },
+      "quick_date_input": {
+        "enabled": true,
+        "allow_approximate": true
+      },
+      "evidence": {
+        "status": "needs_research",
+        "level": null,
+        "public_badge": "확인 중",
+        "claim_scope": null,
+        "source_count": 0
+      },
+      "adjustment_factors": [],
+      "purchase_guard": {
+        "model_check_required": false,
+        "part_code_check_required": false,
+        "show_price_as_live": false
+      },
+      "category_slug": "baby-family",
+      "care_actions": [
+        "inspect",
+        "replace"
+      ],
+      "index_state": "hold",
+      "ui_category_label": "육아"
+    },
+    {
+      "id": "item-044",
+      "slug": "wiper-blade",
+      "name": "와이퍼",
+      "aliases": [
+        "와이퍼 블레이드",
+        "자동차 와이퍼",
+        "자동차와이퍼"
+      ],
+      "category": "자동차",
+      "replacement_modes": [
+        "calendar",
+        "condition"
+      ],
+      "launch_candidate": true,
+      "seo_priority": "A",
+      "affiliate_priority": "A",
+      "search_intent": "informational_commercial",
+      "seo": {
+        "primary_keyword": "와이퍼 교체주기",
+        "secondary_keywords": [
+          "와이퍼 교체시기",
+          "와이퍼 수명",
+          "와이퍼 언제 교체"
+        ],
+        "brand_model_expansion": false
+      },
+      "cycle": null,
+      "check_signs": [
+        "유리에 선이 남음",
+        "소음 또는 떨림",
+        "물이 고르게 닦이지 않음",
+        "블레이드가 변형됨"
+      ],
+      "replacement_reason": "와이퍼 성능은 고무 상태와 유리 오염 등 환경 영향을 크게 받아 실제 닦임 상태 확인이 중요합니다.",
+      "calculator": {
+        "enabled": true,
+        "type": "dynamic_by_mode"
+      },
+      "model_specific": false,
+      "safety_sensitive": false,
+      "verification_status": "verified",
+      "source_level": null,
+      "sources": [
+        {
+          "source_id": "hyundai_wiper"
+        }
+      ],
+      "affiliate": {
+        "enabled": false,
+        "keyword": null,
+        "query_mode": "server_allowlist_by_item_id",
+        "strategy": "vehicle_required",
+        "blocked_reason": "호환성 확인 전 generic TOP3 노출 금지"
+      },
+      "beorim": {
+        "link_candidate": true,
+        "item_name": "와이퍼",
+        "slug": null,
+        "mapping_status": "needs_mapping"
+      },
+      "notes": [],
+      "answer_type": "range_plus_condition",
+      "my_home": {
+        "enabled": true,
+        "mode": "countdown",
+        "one_tap_replace": true
+      },
+      "quick_date_input": {
+        "enabled": true,
+        "allow_approximate": true
+      },
+      "evidence": {
+        "status": "verified",
+        "level": "A_DIRECT",
+        "public_badge": "공식 상태 기준",
+        "claim_scope": "자동차 와이퍼 일반, 현대차 매뉴얼 예시",
+        "source_ids": [
+          "hyundai_wiper"
+        ]
+      },
+      "adjustment_factors": [
+        "주차환경/자외선",
+        "사용빈도",
+        "겨울철 결빙",
+        "유리 오염"
+      ],
+      "purchase_guard": {
+        "model_check_required": false,
+        "part_code_check_required": false,
+        "show_price_as_live": false
+      },
+      "cycle_text": "몇 개월보다 닦임 상태를 확인하세요.",
+      "answer_summary": "와이퍼는 기간 하나보다 실제 닦임 성능을 보는 편이 정확합니다. 선이 남거나 소음·떨림, 잔물, 블레이드 변형이 있다면 교체를 확인하세요.",
+      "verified_at": "2026-09-24",
+      "next_review_at": "2026-12-24",
+      "category_slug": "automotive",
+      "care_actions": [
+        "inspect",
+        "replace",
+        "vehicle_memory"
+      ],
+      "index_state": "indexable",
+      "ui_category_label": "자동차"
+    },
+    {
+      "id": "item-045",
+      "slug": "cabin-air-filter",
+      "name": "자동차 에어컨 필터",
+      "aliases": [
+        "캐빈필터",
+        "자동차 캐빈필터"
+      ],
+      "category": "자동차",
+      "replacement_modes": [
+        "model",
+        "mileage",
+        "calendar"
+      ],
+      "launch_candidate": true,
+      "seo_priority": "A",
+      "affiliate_priority": "A",
+      "search_intent": "informational_commercial",
+      "seo": {
+        "primary_keyword": "자동차 에어컨 필터 교체주기",
+        "secondary_keywords": [
+          "자동차 에어컨 필터 교체시기",
+          "자동차 에어컨 필터 수명",
+          "자동차 에어컨 필터 언제 교체"
+        ],
+        "brand_model_expansion": true
+      },
+      "cycle": null,
+      "check_signs": [
+        "차종 매뉴얼의 교체거리/기간 도달",
+        "풍량 저하",
+        "필터 오염",
+        "먼지가 많은 환경에서 장기간 주행"
+      ],
+      "replacement_reason": "차량과 주행환경에 따라 기준이 달라 generic 6개월 하나로 통일하는 것은 부정확합니다.",
+      "calculator": {
+        "enabled": true,
+        "type": "dynamic_by_mode"
+      },
+      "model_specific": true,
+      "safety_sensitive": false,
+      "verification_status": "verified",
+      "source_level": null,
+      "sources": [
+        {
+          "source_id": "hyundai_cabin_filter"
+        }
+      ],
+      "affiliate": {
+        "enabled": false,
+        "keyword": null,
+        "query_mode": "server_allowlist_by_item_id",
+        "strategy": "vehicle_required",
+        "blocked_reason": "호환성 확인 전 generic TOP3 노출 금지"
+      },
+      "beorim": {
+        "link_candidate": true,
+        "item_name": "자동차 에어컨 필터",
+        "slug": null,
+        "mapping_status": "needs_mapping"
+      },
+      "notes": [],
+      "answer_type": "model_required",
+      "my_home": {
+        "enabled": true,
+        "mode": "model_required",
+        "one_tap_replace": true
+      },
+      "quick_date_input": {
+        "enabled": true,
+        "allow_approximate": true
+      },
+      "evidence": {
+        "status": "verified",
+        "level": "A_DIRECT",
+        "public_badge": "차종별 확인 필요",
+        "claim_scope": "자동차 캐빈필터 일반, 현대차 모델 예시",
+        "source_ids": [
+          "hyundai_cabin_filter"
+        ]
+      },
+      "adjustment_factors": [
+        "차종",
+        "주행거리",
+        "도시/비포장/먼지 환경",
+        "운행 빈도"
+      ],
+      "purchase_guard": {
+        "model_check_required": true,
+        "part_code_check_required": true,
+        "show_price_as_live": false
+      },
+      "cycle_text": "차종 매뉴얼의 기간·주행거리 기준을 우선하세요.",
+      "answer_summary": "자동차 에어컨 필터는 차종별 매뉴얼을 우선해야 합니다. 현대차 일부 매뉴얼은 15,000km 교체를 안내하며 먼지·오염이 심한 환경에서는 더 자주 점검하도록 합니다.",
+      "verified_at": "2026-09-24",
+      "next_review_at": "2026-10-24",
+      "category_slug": "automotive",
+      "care_actions": [
+        "inspect",
+        "replace",
+        "mileage_update",
+        "vehicle_memory"
+      ],
+      "index_state": "indexable",
+      "ui_category_label": "자동차"
+    },
+    {
+      "id": "item-046",
+      "slug": "engine-oil",
+      "name": "엔진오일",
+      "aliases": [],
+      "category": "자동차",
+      "replacement_modes": [
+        "model",
+        "mileage",
+        "calendar"
+      ],
+      "launch_candidate": false,
+      "seo_priority": "A",
+      "affiliate_priority": "A",
+      "search_intent": "informational_commercial",
+      "seo": {
+        "primary_keyword": "엔진오일 교체주기",
+        "secondary_keywords": [
+          "엔진오일 교체시기",
+          "엔진오일 수명",
+          "엔진오일 언제 교체"
+        ],
+        "brand_model_expansion": true
+      },
+      "cycle": null,
+      "check_signs": [],
+      "replacement_reason": null,
+      "calculator": {
+        "enabled": true,
+        "type": "dynamic_by_mode"
+      },
+      "model_specific": true,
+      "safety_sensitive": true,
+      "verification_status": "needs_research",
+      "source_level": null,
+      "sources": [],
+      "affiliate": {
+        "enabled": true,
+        "keyword": null,
+        "query_mode": "server_allowlist_by_item_id"
+      },
+      "beorim": {
+        "link_candidate": true,
+        "item_name": "엔진오일",
+        "slug": null,
+        "mapping_status": "needs_mapping"
+      },
+      "notes": [],
+      "answer_type": "model_required",
+      "my_home": {
+        "enabled": true,
+        "mode": "model_required",
+        "one_tap_replace": true
+      },
+      "quick_date_input": {
+        "enabled": true,
+        "allow_approximate": true
+      },
+      "evidence": {
+        "status": "needs_research",
+        "level": null,
+        "public_badge": "확인 중",
+        "claim_scope": null,
+        "source_count": 0
+      },
+      "adjustment_factors": [],
+      "purchase_guard": {
+        "model_check_required": true,
+        "part_code_check_required": true,
+        "show_price_as_live": false
+      },
+      "category_slug": "automotive",
+      "care_actions": [
+        "inspect",
+        "replace"
+      ],
+      "index_state": "hold",
+      "ui_category_label": "자동차"
+    },
+    {
+      "id": "item-047",
+      "slug": "tire",
+      "name": "타이어",
+      "aliases": [],
+      "category": "자동차",
+      "replacement_modes": [
+        "condition",
+        "age",
+        "manufacturer"
+      ],
+      "launch_candidate": false,
+      "seo_priority": "A",
+      "affiliate_priority": "A",
+      "search_intent": "informational_commercial",
+      "seo": {
+        "primary_keyword": "타이어 교체주기",
+        "secondary_keywords": [
+          "타이어 교체시기",
+          "타이어 수명",
+          "타이어 언제 교체"
+        ],
+        "brand_model_expansion": false
+      },
+      "cycle": null,
+      "check_signs": [],
+      "replacement_reason": null,
+      "calculator": {
+        "enabled": false,
+        "type": "dynamic_by_mode"
+      },
+      "model_specific": true,
+      "safety_sensitive": true,
+      "verification_status": "needs_research",
+      "source_level": null,
+      "sources": [],
+      "affiliate": {
+        "enabled": true,
+        "keyword": null,
+        "query_mode": "server_allowlist_by_item_id"
+      },
+      "beorim": {
+        "link_candidate": true,
+        "item_name": "타이어",
+        "slug": null,
+        "mapping_status": "needs_mapping"
+      },
+      "notes": [],
+      "answer_type": "model_required",
+      "my_home": {
+        "enabled": true,
+        "mode": "model_required",
+        "one_tap_replace": true
+      },
+      "quick_date_input": {
+        "enabled": true,
+        "allow_approximate": true
+      },
+      "evidence": {
+        "status": "needs_research",
+        "level": null,
+        "public_badge": "확인 중",
+        "claim_scope": null,
+        "source_count": 0
+      },
+      "adjustment_factors": [],
+      "purchase_guard": {
+        "model_check_required": true,
+        "part_code_check_required": true,
+        "show_price_as_live": false
+      },
+      "category_slug": "automotive",
+      "care_actions": [
+        "inspect",
+        "replace"
+      ],
+      "index_state": "hold",
+      "ui_category_label": "자동차"
+    },
+    {
+      "id": "item-048",
+      "slug": "brake-pad",
+      "name": "브레이크 패드",
+      "aliases": [],
+      "category": "자동차",
+      "replacement_modes": [
+        "model",
+        "mileage",
+        "condition"
+      ],
+      "launch_candidate": false,
+      "seo_priority": "C",
+      "affiliate_priority": "A",
+      "search_intent": "informational_commercial",
+      "seo": {
+        "primary_keyword": "브레이크 패드 교체주기",
+        "secondary_keywords": [
+          "브레이크 패드 교체시기",
+          "브레이크 패드 수명",
+          "브레이크 패드 언제 교체"
+        ],
+        "brand_model_expansion": true
+      },
+      "cycle": null,
+      "check_signs": [],
+      "replacement_reason": null,
+      "calculator": {
+        "enabled": true,
+        "type": "dynamic_by_mode"
+      },
+      "model_specific": true,
+      "safety_sensitive": true,
+      "verification_status": "needs_research",
+      "source_level": null,
+      "sources": [],
+      "affiliate": {
+        "enabled": true,
+        "keyword": null,
+        "query_mode": "server_allowlist_by_item_id"
+      },
+      "beorim": {
+        "link_candidate": true,
+        "item_name": "브레이크 패드",
+        "slug": null,
+        "mapping_status": "needs_mapping"
+      },
+      "notes": [],
+      "answer_type": "model_required",
+      "my_home": {
+        "enabled": false,
+        "mode": "model_required",
+        "one_tap_replace": false
+      },
+      "quick_date_input": {
+        "enabled": true,
+        "allow_approximate": true
+      },
+      "evidence": {
+        "status": "needs_research",
+        "level": null,
+        "public_badge": "확인 중",
+        "claim_scope": null,
+        "source_count": 0
+      },
+      "adjustment_factors": [],
+      "purchase_guard": {
+        "model_check_required": true,
+        "part_code_check_required": true,
+        "show_price_as_live": false
+      },
+      "category_slug": "automotive",
+      "care_actions": [
+        "inspect",
+        "replace"
+      ],
+      "index_state": "hold",
+      "ui_category_label": "자동차"
+    }
+  ],
+  "competitive_review": {
+    "completed": true,
+    "launch_changes": {
+      "promoted": [
+        "면도날",
+        "매트리스",
+        "멀티탭"
+      ],
+      "deferred": [
+        "가스레인지 점화건전지",
+        "텀블러 고무패킹",
+        "냉장고 탈취제"
+      ]
+    },
+    "reason": "대표 검색의도, 구매 연결성, 교체 판단 UX 검증 범위를 기준으로 첫 런칭 후보 재조정"
+  },
+  "verification_policy": {
+    "verified": "페이지 핵심 답의 범위와 예외를 신뢰 가능한 출처로 확인함. 고정 숫자가 있다는 뜻이 아님.",
+    "evidence_levels": {
+      "A_DIRECT": "정부·전문협회·제조사 매뉴얼 등이 해당 claim을 직접 뒷받침",
+      "B_GENERAL": "신뢰 가능한 전문 자료의 일반 가이드. 특정 모델 보증이 아님"
+    }
+  },
+  "verified_count": 15,
+  "launch_verified_count": 15,
+  "search_ambiguities": {
+    "에어컨필터": {
+      "reason": "띄어쓰기 없는 검색은 가정용 에어컨 필터와 자동차 캐빈필터 의도가 모두 가능",
+      "options": [
+        "air-conditioner-filter",
+        "cabin-air-filter"
+      ]
+    },
+    "에어컨 필터": {
+      "canonical_first": "air-conditioner-filter",
+      "also_suggest": [
+        "cabin-air-filter"
+      ],
+      "reason": "canonical 명칭은 가정용이지만 차량 검색 의도도 함께 노출"
+    }
+  },
+  "category_taxonomy_version": "v1.8",
+  "category_count": 15
+}

@@ -1,0 +1,5 @@
+---
+import Base from '../layouts/Base.astro'; import seed from '../../02-items.seed.json'; import copy from '../../26-site-copy.seed.json';
+const launch = seed.items.filter((x) => x.launch_candidate && x.index_state === 'indexable');
+---
+<Base title="교체뚝딱 | 이거, 언제 바꿔야 하지?" description={copy.home.sub}><section class="hero"><p class="eyebrow">{copy.home.eyebrow}</p><h1>{copy.home.h1}</h1><p>{copy.home.sub}</p><form action="/search/"><label for="home-q">품목 검색</label><input id="home-q" name="q" placeholder={copy.home.search_placeholder} /><button>찾기</button></form></section><section><h2>{copy.home.trust_title}</h2><p>{copy.home.trust_body}</p></section><section><h2>지금 확인할 수 있는 품목</h2><ul class="cards">{launch.map((item) => <li><a href={`/item/${item.slug}/`}><strong>{item.name}</strong><span>{item.cycle_text}</span></a></li>)}</ul></section><section><h2>{copy.home.myhome_title}</h2><p>{copy.home.myhome_body}</p><a class="button" href="/my-home/">내 관리 열기</a></section></Base>

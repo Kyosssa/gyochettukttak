@@ -1,0 +1,153 @@
+{
+  "version": "v1.9",
+  "scope": "launch 15가 실제 사용하는 출처",
+  "source_count": 18,
+  "blocking_failures": [],
+  "sources": [
+    {
+      "source_id": "ada_toothbrush",
+      "authority": "American Dental Association",
+      "url": "https://www.ada.org/resources/ada-library/oral-health-topics/toothbrushes",
+      "health_status": "healthy",
+      "claim_check": "현재 페이지 접근 및 3~4개월/마모 시 조기교체 문구 확인",
+      "checked_at": "2026-09-24"
+    },
+    {
+      "source_id": "aad_razor",
+      "authority": "American Academy of Dermatology",
+      "url": "https://www.aad.org/public/everyday-care/skin-care-basics/hair/razor-bump-remedies",
+      "health_status": "healthy",
+      "claim_check": "현재 페이지 접근 및 단일날 5~7회 사용 후 교체 문구 확인",
+      "checked_at": "2026-09-24"
+    },
+    {
+      "source_id": "atomy_shower_filter",
+      "authority": "애터미 공식 채널",
+      "url": "https://ch.atomy.com/kr/4213?categoryId=207",
+      "health_status": "healthy",
+      "claim_check": "제조사 공식 채널에서 서로 다른 필터 종류에 3~4개월/1~2개월 기준 확인",
+      "checked_at": "2026-09-24"
+    },
+    {
+      "source_id": "bodyluv_shower_filter",
+      "authority": "Bodyluv",
+      "url": "https://bodyluv.kr/article/%EC%83%81%ED%92%88%EB%A6%AC%EB%B7%B0/4/843746/",
+      "health_status": "secondary_only",
+      "claim_check": "제조사 고객지원 댓글로 사용환경 차이를 보조. 단독 핵심근거로 사용하지 않음",
+      "checked_at": "2026-09-24"
+    },
+    {
+      "source_id": "mayo_sponge",
+      "authority": "Mayo Clinic",
+      "url": "https://newsnetwork.mayoclinic.org/discussion/mayo-clinic-minute-why-the-dirtiest-thing-in-your-kitchen-might-be-the-sponge/",
+      "health_status": "healthy",
+      "claim_check": "검색 인덱스에서 수명 고정값을 제시하지 않고 냄새 시 폐기 권고 확인",
+      "checked_at": "2026-09-24"
+    },
+    {
+      "source_id": "mfds_pan_2025",
+      "authority": "식품의약품안전처 / 식품안전나라",
+      "url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs109&menu_grp=MENU_NEW05&menu_no=2873&ntctxt_no=1108505",
+      "health_status": "healthy",
+      "claim_check": "식품안전나라 접근 및 코팅 손상 시 새것으로 교체 문구 확인",
+      "checked_at": "2026-09-24"
+    },
+    {
+      "source_id": "usda_cutting_board",
+      "authority": "USDA Food Safety and Inspection Service",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/cutting-boards",
+      "health_status": "healthy_with_fallback",
+      "claim_check": "직접 open은 일시 오류가 있었으나 USDA 검색 결과/지식문서에서 과도한 마모·세척 어려운 홈 시 교체 문구 확인",
+      "checked_at": "2026-09-24"
+    },
+    {
+      "source_id": "samsung_water_filter",
+      "authority": "Samsung Electronics",
+      "url": "https://www.samsung.com/sec/home-appliances/faq-water-purifier/",
+      "health_status": "healthy",
+      "claim_check": "삼성 공식 FAQ 검색 결과에서 모델별 권장주기 120% 또는 1,500L 조건과 제품별 상이 문구 확인",
+      "checked_at": "2026-09-24"
+    },
+    {
+      "source_id": "sleepfoundation_mattress",
+      "authority": "Sleep Foundation",
+      "url": "https://www.sleepfoundation.org/mattress-information/when-should-you-replace-your-mattress",
+      "health_status": "healthy_b_general",
+      "claim_check": "6~8년 일반 가이드 확인. 제조사 공식 규정이 아닌 B_GENERAL로 유지",
+      "checked_at": "2026-09-24"
+    },
+    {
+      "source_id": "samsung_aircon_filter",
+      "authority": "Samsung Electronics",
+      "url": "https://www.samsung.com/sec/home-appliances/faq-air-conditioners/",
+      "health_status": "healthy",
+      "claim_check": "삼성 공식 FAQ 접근 및 세척형/교체형 구분, 교체형 3~6개월, 모델 설명서 우선 문구 확인",
+      "checked_at": "2026-09-24"
+    },
+    {
+      "source_id": "lg_aircon_filter",
+      "authority": "LG Electronics",
+      "url": "https://www.lge.co.kr/support/solutions-20152667046780",
+      "health_status": "healthy",
+      "claim_check": "LG 공식 고객지원 접근 및 모델별 필터, 세척 가능 여부, 일부 필터 주기적 교체 문구 확인",
+      "checked_at": "2026-09-24"
+    },
+    {
+      "source_id": "lg_air_purifier",
+      "authority": "LG Electronics",
+      "url": "https://www.lge.co.kr/support/solutions-20150135551274",
+      "health_status": "healthy",
+      "claim_check": "LG 공식 고객지원 접근 및 제품별 주기, 6개월/12개월 제품 예시 확인",
+      "checked_at": "2026-09-24"
+    },
+    {
+      "source_id": "lg_humidifier",
+      "authority": "LG Electronics",
+      "url": "https://www.lge.co.kr/support/solutions-20154871046245",
+      "health_status": "healthy",
+      "claim_check": "LG 공식 고객지원 접근 및 3~5개월/1년 등 필터별 상이 기준 확인",
+      "checked_at": "2026-09-24"
+    },
+    {
+      "source_id": "dyson_vacuum",
+      "authority": "Dyson",
+      "url": "https://www.dyson.com/support/vacuum-cleaners/cordless/filter-care",
+      "health_status": "healthy",
+      "claim_check": "Dyson 공식 지원 접근 및 월 1회 이상 세척 권고 확인",
+      "checked_at": "2026-09-24"
+    },
+    {
+      "source_id": "gov_power_strip",
+      "authority": "국가기술표준원·국립소방연구원·한국소비자원",
+      "url": "https://www.motir.go.kr/kor/article/ATCL8764a1224/155118958/view",
+      "health_status": "healthy",
+      "claim_check": "산업통상부/국가기술표준원/소비자원 안전주의보 접근 확인",
+      "checked_at": "2026-09-24"
+    },
+    {
+      "source_id": "yonhap_power_strip_cycle",
+      "authority": "연합뉴스",
+      "url": "https://www.yna.co.kr/view/AKR20250807008000518",
+      "health_status": "healthy_b_general",
+      "claim_check": "멀티탭 2년이 법적 기준이 아니라는 팩트체크 보조근거 접근 확인",
+      "checked_at": "2026-09-24"
+    },
+    {
+      "source_id": "hyundai_wiper",
+      "authority": "Hyundai Motor",
+      "url": "https://ownersmanual.hyundai.com/full_webhelp/QZ/2026/ko_KR/id3f4ee691458.html",
+      "health_status": "healthy",
+      "claim_check": "현대차 매뉴얼 접근 및 선 잔류·소음·떨림·변형 상태 확인 문구 확인",
+      "checked_at": "2026-09-24"
+    },
+    {
+      "source_id": "hyundai_cabin_filter",
+      "authority": "Hyundai Motor",
+      "url": "https://ownersmanual.hyundai.com/full_webhelp/ne1n/2025/ko_kr/id24275127be8.html",
+      "health_status": "healthy",
+      "claim_check": "현대차 매뉴얼 접근 및 해당 모델 15,000km/먼지 많은 환경 조기교체 문구 확인",
+      "checked_at": "2026-09-24"
+    }
+  ],
+  "rule": "healthy_with_fallback/secondary_only/B_GENERAL은 UI에서 근거 성격을 숨기지 않으며, 단독으로 과도한 일반화를 하지 않는다."
+}

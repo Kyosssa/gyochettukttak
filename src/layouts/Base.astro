@@ -1,0 +1,6 @@
+---
+const { title = '교체뚝딱', description = '근거를 확인한 생활용품 교체 안내', noindex = false } = Astro.props;
+const canonical = new URL(Astro.url.pathname, 'https://gyochettukttak.com').href;
+const jsonLd = JSON.stringify({ '@context': 'https://schema.org', '@type': Astro.url.pathname === '/' ? 'WebSite' : 'WebPage', name: title, description, url: canonical, publisher: { '@type': 'Organization', name: '교체뚝딱' } });
+---
+<!doctype html><html lang="ko"><head><meta charset="utf-8" /><meta name="viewport" content="width=device-width,initial-scale=1" /><title>{title}</title><meta name="description" content={description} /><link rel="canonical" href={canonical} />{noindex && <meta name="robots" content="noindex,follow" />}<meta property="og:title" content={title} /><meta property="og:description" content={description} /><script type="application/ld+json" set:html={jsonLd}></script><link rel="stylesheet" href="/styles.css" /></head><body><header><a class="brand" href="/">교체뚝딱</a><nav aria-label="주요 메뉴"><a href="/search/">검색</a><a href="/my-home/">내 관리</a><a href="/source-policy/">출처 원칙</a></nav></header><main><slot /></main><footer><a href="/about/">소개</a> · <a href="/source-policy/">출처 원칙</a> · <a href="/privacy/">개인정보</a> · <a href="/affiliate-disclosure/">제휴 고지</a></footer></body></html>

@@ -1,0 +1,1019 @@
+{
+  "version": "v1.4",
+  "items": [
+    {
+      "slug": "toothbrush",
+      "name": "칫솔",
+      "h1": "칫솔 교체주기",
+      "title": "칫솔 교체주기 | 언제 바꿔야 할까? - 교체뚝딱",
+      "meta_description": "칫솔 교체주기는 약 3~4개월이 기준이지만 칫솔모 상태가 더 중요합니다. 교체 신호와 확인일을 함께 확인하세요.",
+      "primary_keyword": "칫솔 교체주기",
+      "secondary_keywords": [
+        "칫솔 교체시기",
+        "칫솔 수명",
+        "칫솔 언제 교체"
+      ],
+      "evidence_badge": "전문기관 기준",
+      "answer_card": {
+        "headline": "약 3~4개월마다 상태를 확인하세요.",
+        "summary": "약 3~4개월을 기준으로 보되, 칫솔모가 닳거나 벌어졌다면 더 일찍 교체하는 편이 좋습니다."
+      },
+      "tool_type": "calendar_condition",
+      "check_signs": [
+        "칫솔모가 눈에 띄게 벌어짐",
+        "칫솔모가 눕거나 마모됨"
+      ],
+      "adjustment_factors": [
+        "칫솔모 마모 속도",
+        "사용 강도"
+      ],
+      "replacement_reason": "칫솔모가 마모될수록 세정 성능이 떨어질 수 있어 기간과 칫솔모 상태를 함께 확인합니다.",
+      "source_ids": [
+        "ada_toothbrush"
+      ],
+      "related_slugs": [
+        "razor-blade",
+        "shower-filter"
+      ],
+      "commerce": {
+        "strategy": "direct_generic",
+        "generic_cards_allowed": true,
+        "keyword": "칫솔",
+        "pre_purchase_guard": null
+      },
+      "beorim": {
+        "status": "verified",
+        "url": "https://beorimttukttak.com/item/toothbrush/",
+        "cta": "교체한 기존 제품은 어떻게 버릴까요?"
+      },
+      "page_modules": [
+        "answer_card",
+        "tool",
+        "ad_top",
+        "check_signs",
+        "adjustment_factors",
+        "replacement_reason",
+        "sources",
+        "commerce",
+        "ad_bottom",
+        "beorim",
+        "related_items"
+      ],
+      "seo_validation": {
+        "title_chars": 27,
+        "description_chars": 62,
+        "title_target_max": 40,
+        "description_target_max": 100
+      }
+    },
+    {
+      "slug": "razor-blade",
+      "name": "면도날",
+      "h1": "면도날 교체주기",
+      "title": "면도날 교체주기 | 몇 번 쓰면 바꿀까? - 교체뚝딱",
+      "meta_description": "면도날 교체주기를 기간보다 사용 횟수와 날 상태로 확인하세요. 단일날 기준과 교체 신호를 근거와 함께 안내합니다.",
+      "primary_keyword": "면도날 교체주기",
+      "secondary_keywords": [
+        "면도날 교체시기",
+        "면도날 수명",
+        "면도날 언제 교체"
+      ],
+      "evidence_badge": "전문기관 기준",
+      "answer_card": {
+        "headline": "단일날 기준 약 5~7회 사용 후 교체를 확인하세요.",
+        "summary": "기간보다 사용 횟수가 더 유용합니다. 단일날·일회용 면도날은 약 5~7회 사용 후 교체가 권장되며, 다른 면도날은 제품 설명을 우선하세요."
+      },
+      "tool_type": "usage_counter",
+      "check_signs": [
+        "면도날이 당기는 느낌",
+        "날이 무뎌졌다고 느껴짐",
+        "피부 자극이 평소보다 커짐"
+      ],
+      "adjustment_factors": [
+        "수염 굵기",
+        "면도 빈도",
+        "날 종류"
+      ],
+      "replacement_reason": "날이 무뎌지면 면도 시 피부 자극이 커질 수 있어 사용 횟수와 날 상태를 함께 확인합니다.",
+      "source_ids": [
+        "aad_razor"
+      ],
+      "related_slugs": [
+        "toothbrush",
+        "shower-filter"
+      ],
+      "commerce": {
+        "strategy": "direct_generic",
+        "generic_cards_allowed": true,
+        "keyword": "면도날",
+        "pre_purchase_guard": null
+      },
+      "beorim": {
+        "status": "not_available",
+        "url": null,
+        "cta": "교체한 기존 제품은 어떻게 버릴까요?"
+      },
+      "page_modules": [
+        "answer_card",
+        "tool",
+        "ad_top",
+        "check_signs",
+        "adjustment_factors",
+        "replacement_reason",
+        "sources",
+        "commerce",
+        "ad_bottom",
+        "beorim",
+        "related_items"
+      ],
+      "seo_validation": {
+        "title_chars": 29,
+        "description_chars": 63,
+        "title_target_max": 40,
+        "description_target_max": 100
+      }
+    },
+    {
+      "slug": "shower-filter",
+      "name": "샤워기 필터",
+      "h1": "샤워기 필터 교체주기",
+      "title": "샤워기 필터 교체주기 | 제품별 확인법 - 교체뚝딱",
+      "meta_description": "샤워기 필터 교체주기는 제품·필터 종류·수질에 따라 다릅니다. 내 제품에서 먼저 확인할 기준을 정리합니다.",
+      "primary_keyword": "샤워기 필터 교체주기",
+      "secondary_keywords": [
+        "샤워기 필터 교체시기",
+        "샤워기 필터 수명",
+        "샤워기 필터 언제 교체"
+      ],
+      "evidence_badge": "제품별 확인 필요",
+      "answer_card": {
+        "headline": "필터 종류·제품·수질에 따라 달라집니다.",
+        "summary": "샤워기 필터는 하나의 공통 교체주기로 보기 어렵습니다. 필터 종류와 제조사 기준을 우선하고, 수압 저하와 실제 사용환경을 함께 확인하세요."
+      },
+      "tool_type": "model_condition",
+      "check_signs": [
+        "제조사 권장 사용량/기간 도달",
+        "수압이 눈에 띄게 약해짐",
+        "제품 설명에서 정한 교체 신호"
+      ],
+      "adjustment_factors": [
+        "필터 종류",
+        "가구원 수",
+        "샤워 시간·횟수",
+        "수질/이물질"
+      ],
+      "replacement_reason": "같은 샤워기 필터라도 구조와 여과재, 물 사용량과 수질에 따라 사용기간 차이가 큽니다.",
+    "source_ids": [
+      "atomy_shower_filter",
+      "bodyluv_shower_filter"
+    ],
+      "related_slugs": [
+        "toothbrush",
+        "air-conditioner-filter"
+      ],
+      "commerce": {
+        "strategy": "product_required",
+        "generic_cards_allowed": false,
+        "keyword": null,
+        "pre_purchase_guard": "제품 모델명·부품코드 또는 차종/연식을 먼저 확인하세요."
+      },
+      "beorim": {
+        "status": "not_available",
+        "url": null,
+        "cta": "교체한 기존 제품은 어떻게 버릴까요?"
+      },
+      "page_modules": [
+        "answer_card",
+        "tool",
+        "ad_top",
+        "check_signs",
+        "adjustment_factors",
+        "replacement_reason",
+        "sources",
+        "commerce",
+        "ad_bottom",
+        "beorim",
+        "related_items"
+      ],
+      "seo_validation": {
+        "title_chars": 28,
+        "description_chars": 59,
+        "title_target_max": 40,
+        "description_target_max": 100
+      }
+    },
+    {
+      "slug": "kitchen-sponge",
+      "name": "수세미",
+      "h1": "수세미 교체주기",
+      "title": "수세미 교체주기 | 바꿀 때 확인할 신호 - 교체뚝딱",
+      "meta_description": "수세미 교체주기를 고정 숫자로 단정하지 않고 냄새·오염·손상 상태를 기준으로 확인하는 방법을 안내합니다.",
+      "primary_keyword": "수세미 교체주기",
+      "secondary_keywords": [
+        "수세미 교체시기",
+        "수세미 수명",
+        "수세미 언제 교체"
+      ],
+      "evidence_badge": "상태 기준",
+      "answer_card": {
+        "headline": "고정된 기간보다 냄새와 오염 상태를 확인하세요.",
+        "summary": "보편적으로 확정된 교체주기보다 상태 확인이 중요합니다. 냄새가 나거나 위생 상태가 의심되면 새 수세미로 교체하세요."
+      },
+      "tool_type": "condition",
+      "check_signs": [
+        "불쾌한 냄새가 남",
+        "심하게 오염됨",
+        "찢어지거나 형태가 무너짐"
+      ],
+      "adjustment_factors": [
+        "사용 빈도",
+        "건조 상태",
+        "음식물 오염 정도"
+      ],
+      "replacement_reason": "젖은 스펀지에는 음식물 잔여물과 수분이 남기 쉬워 오래된 제품을 계속 쓰기보다 상태를 자주 확인하는 편이 좋습니다.",
+      "source_ids": [
+        "mayo_sponge"
+      ],
+      "related_slugs": [
+        "cutting-board",
+        "frying-pan"
+      ],
+      "commerce": {
+        "strategy": "direct_generic",
+        "generic_cards_allowed": true,
+        "keyword": "주방 수세미",
+        "pre_purchase_guard": null
+      },
+      "beorim": {
+        "status": "not_available",
+        "url": null,
+        "cta": "교체한 기존 제품은 어떻게 버릴까요?"
+      },
+      "page_modules": [
+        "answer_card",
+        "tool",
+        "ad_top",
+        "check_signs",
+        "adjustment_factors",
+        "replacement_reason",
+        "sources",
+        "commerce",
+        "ad_bottom",
+        "beorim",
+        "related_items"
+      ],
+      "seo_validation": {
+        "title_chars": 29,
+        "description_chars": 58,
+        "title_target_max": 40,
+        "description_target_max": 100
+      }
+    },
+    {
+      "slug": "frying-pan",
+      "name": "후라이팬",
+      "h1": "후라이팬 교체주기",
+      "title": "후라이팬 교체주기 | 바꿀 때 확인할 신호 - 교체뚝딱",
+      "meta_description": "후라이팬 교체주기는 연수보다 코팅 손상 상태가 중요합니다. 식약처 기준과 교체 신호를 확인하세요.",
+      "primary_keyword": "후라이팬 교체주기",
+      "secondary_keywords": [
+        "후라이팬 교체시기",
+        "후라이팬 수명",
+        "후라이팬 언제 교체"
+      ],
+      "evidence_badge": "공식 상태 기준",
+      "answer_card": {
+        "headline": "정해진 연수보다 코팅 상태를 확인하세요.",
+        "summary": "코팅 프라이팬은 '1년마다'처럼 기간으로 단정하기보다 코팅이 벗겨지거나 손상됐는지 확인해 교체 여부를 판단하세요."
+      },
+      "tool_type": "condition",
+      "check_signs": [
+        "코팅이 벗겨짐",
+        "조리면이 손상됨",
+        "바닥 소재가 드러날 정도의 마모"
+      ],
+      "adjustment_factors": [
+        "조리도구 사용 방식",
+        "가열 습관",
+        "코팅 손상 정도"
+      ],
+      "replacement_reason": "식약처는 코팅이 벗겨지거나 손상된 프라이팬을 새것으로 교체하도록 안내합니다.",
+      "source_ids": [
+        "mfds_pan_2025"
+      ],
+      "related_slugs": [
+        "cutting-board",
+        "kitchen-sponge"
+      ],
+      "commerce": {
+        "strategy": "direct_generic",
+        "generic_cards_allowed": true,
+        "keyword": "코팅 후라이팬",
+        "pre_purchase_guard": null
+      },
+      "beorim": {
+        "status": "verified",
+        "url": "https://beorimttukttak.com/item/frying-pan/",
+        "cta": "교체한 기존 제품은 어떻게 버릴까요?"
+      },
+      "page_modules": [
+        "answer_card",
+        "tool",
+        "ad_top",
+        "check_signs",
+        "adjustment_factors",
+        "replacement_reason",
+        "sources",
+        "commerce",
+        "ad_bottom",
+        "beorim",
+        "related_items"
+      ],
+      "seo_validation": {
+        "title_chars": 30,
+        "description_chars": 54,
+        "title_target_max": 40,
+        "description_target_max": 100
+      }
+    },
+    {
+      "slug": "cutting-board",
+      "name": "도마",
+      "h1": "도마 교체주기",
+      "title": "도마 교체주기 | 바꿀 때 확인할 신호 - 교체뚝딱",
+      "meta_description": "도마 교체주기는 기간보다 깊은 칼집과 마모 상태가 중요합니다. 교체 신호와 관리 기준을 확인하세요.",
+      "primary_keyword": "도마 교체주기",
+      "secondary_keywords": [
+        "도마 교체시기",
+        "도마 수명",
+        "도마 언제 교체"
+      ],
+      "evidence_badge": "공식 상태 기준",
+      "answer_card": {
+        "headline": "기간보다 깊은 칼집과 마모 상태를 확인하세요.",
+        "summary": "도마는 1년처럼 고정된 기간보다 지나치게 마모됐거나 세척하기 어려운 홈이 생겼는지를 기준으로 보는 편이 정확합니다."
+      },
+      "tool_type": "condition",
+      "check_signs": [
+        "깊고 세척하기 어려운 칼집",
+        "과도한 마모",
+        "갈라짐 또는 변형"
+      ],
+      "adjustment_factors": [
+        "재질",
+        "사용 빈도",
+        "칼집/마모 정도"
+      ],
+      "replacement_reason": "깊은 홈과 과도한 마모는 세척을 어렵게 만들 수 있어 상태가 심하면 교체 대상입니다.",
+      "source_ids": [
+        "usda_cutting_board"
+      ],
+      "related_slugs": [
+        "frying-pan",
+        "kitchen-sponge"
+      ],
+      "commerce": {
+        "strategy": "direct_generic",
+        "generic_cards_allowed": true,
+        "keyword": "도마",
+        "pre_purchase_guard": null
+      },
+      "beorim": {
+        "status": "verified",
+        "url": "https://beorimttukttak.com/item/cutting-board/",
+        "cta": "교체한 기존 제품은 어떻게 버릴까요?"
+      },
+      "page_modules": [
+        "answer_card",
+        "tool",
+        "ad_top",
+        "check_signs",
+        "adjustment_factors",
+        "replacement_reason",
+        "sources",
+        "commerce",
+        "ad_bottom",
+        "beorim",
+        "related_items"
+      ],
+      "seo_validation": {
+        "title_chars": 28,
+        "description_chars": 55,
+        "title_target_max": 40,
+        "description_target_max": 100
+      }
+    },
+    {
+      "slug": "water-purifier-filter",
+      "name": "정수기 필터",
+      "h1": "정수기 필터 교체주기",
+      "title": "정수기 필터 교체주기 | 제품별 확인법 - 교체뚝딱",
+      "meta_description": "정수기 필터 교체주기는 모델·필터 단계·사용량에 따라 다릅니다. 제품별 확인 기준과 구매 전 주의점을 안내합니다.",
+      "primary_keyword": "정수기 필터 교체주기",
+      "secondary_keywords": [
+        "정수기 필터 교체시기",
+        "정수기 필터 수명",
+        "정수기 필터 언제 교체"
+      ],
+      "evidence_badge": "제품별 확인 필요",
+      "answer_card": {
+        "headline": "정수기 모델과 실제 사용량 기준을 우선하세요.",
+        "summary": "정수기 필터는 브랜드·모델·필터 단계와 물 사용량에 따라 다릅니다. 제품의 필터 알림 또는 공식 매뉴얼을 우선 확인하세요."
+      },
+      "tool_type": "model_usage",
+      "check_signs": [
+        "제품의 필터 교체 알림",
+        "제조사 권장 사용량 도달",
+        "해당 모델 매뉴얼의 교체 조건 도달"
+      ],
+      "adjustment_factors": [
+        "모델",
+        "필터 종류",
+        "실제 물 사용량"
+      ],
+      "replacement_reason": "정수기 필터는 정해진 달력 주기만이 아니라 실제 사용량과 모델별 인증 유효정수량 등을 기준으로 관리될 수 있습니다.",
+      "source_ids": [
+        "samsung_water_filter"
+      ],
+      "related_slugs": [
+        "air-purifier-filter",
+        "humidifier-filter"
+      ],
+      "commerce": {
+        "strategy": "model_required",
+        "generic_cards_allowed": false,
+        "keyword": null,
+        "pre_purchase_guard": "제품 모델명·부품코드 또는 차종/연식을 먼저 확인하세요."
+      },
+      "beorim": {
+        "status": "not_available",
+        "url": null,
+        "cta": "교체한 기존 제품은 어떻게 버릴까요?"
+      },
+      "page_modules": [
+        "answer_card",
+        "tool",
+        "ad_top",
+        "check_signs",
+        "adjustment_factors",
+        "replacement_reason",
+        "sources",
+        "commerce",
+        "ad_bottom",
+        "beorim",
+        "related_items"
+      ],
+      "seo_validation": {
+        "title_chars": 28,
+        "description_chars": 63,
+        "title_target_max": 40,
+        "description_target_max": 100
+      }
+    },
+    {
+      "slug": "mattress",
+      "name": "매트리스",
+      "h1": "매트리스 교체주기",
+      "title": "매트리스 교체주기 | 언제 바꿔야 할까? - 교체뚝딱",
+      "meta_description": "매트리스 교체주기는 6~8년이 참고 범위지만 상태가 더 중요합니다. 처짐·지지력 등 교체 신호를 확인하세요.",
+      "primary_keyword": "매트리스 교체주기",
+      "secondary_keywords": [
+        "매트리스 교체시기",
+        "매트리스 수명",
+        "매트리스 언제 교체"
+      ],
+      "evidence_badge": "일반 기준",
+      "answer_card": {
+        "headline": "일반적으로 6~8년이 하나의 참고 범위지만 상태가 더 중요합니다.",
+        "summary": "매트리스는 일반적으로 6~8년이 참고 범위로 제시되지만, 소재·품질·사용환경에 따라 달라집니다. 처짐과 지지력 저하를 함께 확인하세요."
+      },
+      "tool_type": "calendar_condition",
+      "check_signs": [
+        "눈에 띄는 처짐이나 손상",
+        "지지력이 떨어졌다고 느껴짐",
+        "수면 중 불편이 이전보다 커짐"
+      ],
+      "adjustment_factors": [
+        "매트리스 소재",
+        "제품 품질",
+        "사용자 체중/인원",
+        "관리 방식"
+      ],
+      "replacement_reason": "연수만으로 교체를 강제하기보다 구조적 마모와 수면 편안함을 함께 보는 것이 적절합니다.",
+      "source_ids": [
+        "sleepfoundation_mattress"
+      ],
+      "related_slugs": [
+        "toothbrush"
+      ],
+      "commerce": {
+        "strategy": "direct_generic",
+        "generic_cards_allowed": true,
+        "keyword": "매트리스",
+        "pre_purchase_guard": null
+      },
+      "beorim": {
+        "status": "verified",
+        "url": "https://beorimttukttak.com/item/mattress/",
+        "cta": "교체한 기존 제품은 어떻게 버릴까요?"
+      },
+      "page_modules": [
+        "answer_card",
+        "tool",
+        "ad_top",
+        "check_signs",
+        "adjustment_factors",
+        "replacement_reason",
+        "sources",
+        "commerce",
+        "ad_bottom",
+        "beorim",
+        "related_items"
+      ],
+      "seo_validation": {
+        "title_chars": 29,
+        "description_chars": 60,
+        "title_target_max": 40,
+        "description_target_max": 100
+      }
+    },
+    {
+      "slug": "air-conditioner-filter",
+      "name": "에어컨 필터",
+      "h1": "에어컨 필터 교체주기",
+      "title": "에어컨 필터 교체주기 | 제품별 확인법 - 교체뚝딱",
+      "meta_description": "가정용 에어컨 필터는 세척형과 교체형이 다릅니다. 모델별 교체주기와 먼저 확인할 필터 종류를 안내합니다.",
+      "primary_keyword": "에어컨 필터 교체주기",
+      "secondary_keywords": [
+        "에어컨 필터 교체시기",
+        "에어컨 필터 수명",
+        "에어컨 필터 언제 교체"
+      ],
+      "evidence_badge": "제품별 확인 필요",
+      "answer_card": {
+        "headline": "세척형인지 교체형인지, 모델이 무엇인지 먼저 확인하세요.",
+        "summary": "에어컨 필터는 세척형과 교체형이 섞여 있고 모델·사용환경에 따라 기준이 다릅니다. 교체형은 제조사 권장주기를 따르고 세척형은 청소 지침을 따르세요."
+      },
+      "tool_type": "model_maintenance",
+      "check_signs": [
+        "제품의 필터교체 알림",
+        "교체형 필터의 제조사 권장기간 도달",
+        "오염·냄새·공기 순환 저하"
+      ],
+      "adjustment_factors": [
+        "모델",
+        "필터 종류",
+        "사용시간",
+        "실내 오염도"
+      ],
+      "replacement_reason": "같은 에어컨 안에서도 극세필터는 세척형이고 특수필터는 교체형일 수 있어 필터 종류 확인이 먼저입니다.",
+      "source_ids": [
+        "samsung_aircon_filter",
+        "lg_aircon_filter"
+      ],
+      "related_slugs": [
+        "air-purifier-filter",
+        "vacuum-filter"
+      ],
+      "commerce": {
+        "strategy": "model_required",
+        "generic_cards_allowed": false,
+        "keyword": null,
+        "pre_purchase_guard": "제품 모델명·부품코드 또는 차종/연식을 먼저 확인하세요."
+      },
+      "beorim": {
+        "status": "not_available",
+        "url": null,
+        "cta": "교체한 기존 제품은 어떻게 버릴까요?"
+      },
+      "page_modules": [
+        "answer_card",
+        "tool",
+        "ad_top",
+        "check_signs",
+        "adjustment_factors",
+        "replacement_reason",
+        "sources",
+        "commerce",
+        "ad_bottom",
+        "beorim",
+        "related_items"
+      ],
+      "seo_validation": {
+        "title_chars": 28,
+        "description_chars": 58,
+        "title_target_max": 40,
+        "description_target_max": 100
+      }
+    },
+    {
+      "slug": "air-purifier-filter",
+      "name": "공기청정기 필터",
+      "h1": "공기청정기 필터 교체주기",
+      "title": "공기청정기 필터 교체주기 | 제품별 확인법 - 교체뚝딱",
+      "meta_description": "공기청정기 필터 교체주기는 제품마다 다릅니다. 모델 확인, 교체 알림, 공식 필터 기준을 함께 확인하세요.",
+      "primary_keyword": "공기청정기 필터 교체주기",
+      "secondary_keywords": [
+        "공기청정기 필터 교체시기",
+        "공기청정기 필터 수명",
+        "공기청정기 필터 언제 교체"
+      ],
+      "evidence_badge": "제품별 확인 필요",
+      "answer_card": {
+        "headline": "제품별 교체주기와 필터 알림을 확인하세요.",
+        "summary": "공기청정기 필터는 제품별로 교체주기가 다릅니다. 모델을 확인한 뒤 공식 필터 주기와 교체 알림, 냄새·오염 상태를 함께 보세요."
+      },
+      "tool_type": "model_condition",
+      "check_signs": [
+        "필터 교체 알림",
+        "필터에서 냄새가 남",
+        "해당 모델 공식 교체주기 도달"
+      ],
+      "adjustment_factors": [
+        "제품 모델",
+        "필터 종류",
+        "실내 오염도",
+        "사용시간"
+      ],
+      "replacement_reason": "필터 구조와 모델에 따라 6개월·12개월 등 기준이 달라질 수 있으므로 generic 숫자로 통일하면 정확하지 않습니다.",
+      "source_ids": [
+        "lg_air_purifier"
+      ],
+      "related_slugs": [
+        "air-conditioner-filter",
+        "vacuum-filter"
+      ],
+      "commerce": {
+        "strategy": "model_required",
+        "generic_cards_allowed": false,
+        "keyword": null,
+        "pre_purchase_guard": "제품 모델명·부품코드 또는 차종/연식을 먼저 확인하세요."
+      },
+      "beorim": {
+        "status": "not_available",
+        "url": null,
+        "cta": "교체한 기존 제품은 어떻게 버릴까요?"
+      },
+      "page_modules": [
+        "answer_card",
+        "tool",
+        "ad_top",
+        "check_signs",
+        "adjustment_factors",
+        "replacement_reason",
+        "sources",
+        "commerce",
+        "ad_bottom",
+        "beorim",
+        "related_items"
+      ],
+      "seo_validation": {
+        "title_chars": 30,
+        "description_chars": 59,
+        "title_target_max": 40,
+        "description_target_max": 100
+      }
+    },
+    {
+      "slug": "humidifier-filter",
+      "name": "가습기 필터",
+      "h1": "가습기 필터 교체주기",
+      "title": "가습기 필터 교체주기 | 제품별 확인법 - 교체뚝딱",
+      "meta_description": "가습기 필터 교체주기는 가습 방식과 필터 종류에 따라 크게 다릅니다. 제품별 확인 순서를 안내합니다.",
+      "primary_keyword": "가습기 필터 교체주기",
+      "secondary_keywords": [
+        "가습기 필터 교체시기",
+        "가습기 필터 수명",
+        "가습기 필터 언제 교체"
+      ],
+      "evidence_badge": "제품별 확인 필요",
+      "answer_card": {
+        "headline": "가습기 모델과 필터 종류에 따라 크게 달라집니다.",
+        "summary": "가습기에는 정수필터·가습필터·공기청정필터 등 여러 종류가 있어 한 가지 주기로 묶기 어렵습니다. 제품 매뉴얼과 필터 알림을 우선 확인하세요."
+      },
+      "tool_type": "model_condition",
+      "check_signs": [
+        "필터 교체 알림",
+        "청소 후에도 성능 저하 지속",
+        "해당 모델 공식 교체기간 도달"
+      ],
+      "adjustment_factors": [
+        "모델",
+        "필터 종류",
+        "가습 사용시간",
+        "수질"
+      ],
+      "replacement_reason": "같은 제조사의 가습기에서도 필터 종류에 따라 3~5개월, 1년 등 기준이 달라질 수 있습니다.",
+      "source_ids": [
+        "lg_humidifier"
+      ],
+      "related_slugs": [
+        "air-purifier-filter",
+        "water-purifier-filter"
+      ],
+      "commerce": {
+        "strategy": "model_required",
+        "generic_cards_allowed": false,
+        "keyword": null,
+        "pre_purchase_guard": "제품 모델명·부품코드 또는 차종/연식을 먼저 확인하세요."
+      },
+      "beorim": {
+        "status": "not_available",
+        "url": null,
+        "cta": "교체한 기존 제품은 어떻게 버릴까요?"
+      },
+      "page_modules": [
+        "answer_card",
+        "tool",
+        "ad_top",
+        "check_signs",
+        "adjustment_factors",
+        "replacement_reason",
+        "sources",
+        "commerce",
+        "ad_bottom",
+        "beorim",
+        "related_items"
+      ],
+      "seo_validation": {
+        "title_chars": 28,
+        "description_chars": 56,
+        "title_target_max": 40,
+        "description_target_max": 100
+      }
+    },
+    {
+      "slug": "vacuum-filter",
+      "name": "청소기 필터",
+      "h1": "청소기 필터 교체주기",
+      "title": "청소기 필터 교체주기 | 제품별 확인법 - 교체뚝딱",
+      "meta_description": "청소기 필터는 교체 전에 세척형인지 확인해야 합니다. 모델별 관리 방식과 교체 신호를 함께 안내합니다.",
+      "primary_keyword": "청소기 필터 교체주기",
+      "secondary_keywords": [
+        "청소기 필터 교체시기",
+        "청소기 필터 수명",
+        "청소기 필터 언제 교체"
+      ],
+      "evidence_badge": "제품별 확인 필요",
+      "answer_card": {
+        "headline": "교체 전에 세척형인지부터 확인하세요.",
+        "summary": "청소기 필터는 모델마다 세척형·교체형 관리가 다릅니다. 예를 들어 다이슨 일부 무선청소기는 월 1회 세척을 권장하므로, 고정 교체주기보다 제품 지침을 우선하세요."
+      },
+      "tool_type": "model_maintenance",
+      "check_signs": [
+        "필터 청소 알림",
+        "세척 후에도 흡입 성능 문제가 지속",
+        "필터가 손상됨"
+      ],
+      "adjustment_factors": [
+        "모델",
+        "필터 세척 가능 여부",
+        "미세먼지 사용환경",
+        "사용량"
+      ],
+      "replacement_reason": "세척 가능한 필터를 일정 기간마다 무조건 교체하는 식의 안내는 모델에 따라 맞지 않을 수 있습니다.",
+      "source_ids": [
+        "dyson_vacuum"
+      ],
+      "related_slugs": [
+        "air-purifier-filter",
+        "air-conditioner-filter"
+      ],
+      "commerce": {
+        "strategy": "model_required",
+        "generic_cards_allowed": false,
+        "keyword": null,
+        "pre_purchase_guard": "제품 모델명·부품코드 또는 차종/연식을 먼저 확인하세요."
+      },
+      "beorim": {
+        "status": "not_available",
+        "url": null,
+        "cta": "교체한 기존 제품은 어떻게 버릴까요?"
+      },
+      "page_modules": [
+        "answer_card",
+        "tool",
+        "ad_top",
+        "check_signs",
+        "adjustment_factors",
+        "replacement_reason",
+        "sources",
+        "commerce",
+        "ad_bottom",
+        "beorim",
+        "related_items"
+      ],
+      "seo_validation": {
+        "title_chars": 28,
+        "description_chars": 57,
+        "title_target_max": 40,
+        "description_target_max": 100
+      }
+    },
+    {
+      "slug": "power-strip",
+      "name": "멀티탭",
+      "h1": "멀티탭 교체주기",
+      "title": "멀티탭 교체주기 | 바꿀 때 확인할 신호 - 교체뚝딱",
+      "meta_description": "멀티탭 교체주기는 고정 연수보다 정격용량과 손상 상태가 중요합니다. 발열·변색·헐거움 등 안전 신호를 확인하세요.",
+      "primary_keyword": "멀티탭 교체주기",
+      "secondary_keywords": [
+        "멀티탭 교체시기",
+        "멀티탭 수명",
+        "멀티탭 언제 교체"
+      ],
+      "evidence_badge": "안전 상태 기준",
+      "answer_card": {
+        "headline": "고정 연수보다 정격용량과 손상 상태를 먼저 확인하세요.",
+        "summary": "멀티탭은 '무조건 2년' 같은 법정 교체주기가 있는 제품으로 보기 어렵습니다. 정격용량 초과, 과열, 변색, 헐거움 등 안전 상태를 확인하고 이상이 있으면 사용을 중단하세요."
+      },
+      "tool_type": "safety_condition",
+      "check_signs": [
+        "플러그/콘센트가 헐거움",
+        "변색·그을림·과열 흔적",
+        "전선 피복 손상",
+        "정격용량을 초과해 사용 중"
+      ],
+      "adjustment_factors": [
+        "연결 기기 소비전력",
+        "사용환경의 먼지·습기",
+        "물리적 손상",
+        "사용빈도"
+      ],
+      "replacement_reason": "멀티탭은 기간 자체보다 과부하와 손상·열화 상태가 안전에 더 직접적으로 중요합니다.",
+      "source_ids": [
+        "gov_power_strip",
+        "yonhap_power_strip_cycle"
+      ],
+      "related_slugs": [
+        "vacuum-filter"
+      ],
+      "commerce": {
+        "strategy": "direct_generic",
+        "generic_cards_allowed": true,
+        "keyword": "안전 멀티탭",
+        "pre_purchase_guard": null
+      },
+      "beorim": {
+        "status": "not_available",
+        "url": null,
+        "cta": "교체한 기존 제품은 어떻게 버릴까요?"
+      },
+      "page_modules": [
+        "answer_card",
+        "tool",
+        "ad_top",
+        "check_signs",
+        "adjustment_factors",
+        "replacement_reason",
+        "sources",
+        "commerce",
+        "ad_bottom",
+        "beorim",
+        "related_items"
+      ],
+      "seo_validation": {
+        "title_chars": 29,
+        "description_chars": 63,
+        "title_target_max": 40,
+        "description_target_max": 100
+      }
+    },
+    {
+      "slug": "wiper-blade",
+      "name": "와이퍼",
+      "h1": "와이퍼 교체주기",
+      "title": "와이퍼 교체주기 | 바꿀 때 확인할 신호 - 교체뚝딱",
+      "meta_description": "와이퍼 교체주기는 기간보다 실제 닦임 상태가 중요합니다. 줄무늬·소음·떨림 등 교체 신호를 확인하세요.",
+      "primary_keyword": "와이퍼 교체주기",
+      "secondary_keywords": [
+        "와이퍼 교체시기",
+        "와이퍼 수명",
+        "와이퍼 언제 교체"
+      ],
+      "evidence_badge": "공식 상태 기준",
+      "answer_card": {
+        "headline": "몇 개월보다 닦임 상태를 확인하세요.",
+        "summary": "와이퍼는 기간 하나보다 실제 닦임 성능을 보는 편이 정확합니다. 선이 남거나 소음·떨림, 잔물, 블레이드 변형이 있다면 교체를 확인하세요."
+      },
+      "tool_type": "vehicle_condition",
+      "check_signs": [
+        "유리에 선이 남음",
+        "소음 또는 떨림",
+        "물이 고르게 닦이지 않음",
+        "블레이드가 변형됨"
+      ],
+      "adjustment_factors": [
+        "주차환경/자외선",
+        "사용빈도",
+        "겨울철 결빙",
+        "유리 오염"
+      ],
+      "replacement_reason": "와이퍼 성능은 고무 상태와 유리 오염 등 환경 영향을 크게 받아 실제 닦임 상태 확인이 중요합니다.",
+      "source_ids": [
+        "hyundai_wiper"
+      ],
+      "related_slugs": [
+        "cabin-air-filter"
+      ],
+      "commerce": {
+        "strategy": "vehicle_required",
+        "generic_cards_allowed": false,
+        "keyword": null,
+        "pre_purchase_guard": "제품 모델명·부품코드 또는 차종/연식을 먼저 확인하세요."
+      },
+      "beorim": {
+        "status": "not_available",
+        "url": null,
+        "cta": "교체한 기존 제품은 어떻게 버릴까요?"
+      },
+      "page_modules": [
+        "answer_card",
+        "tool",
+        "ad_top",
+        "check_signs",
+        "adjustment_factors",
+        "replacement_reason",
+        "sources",
+        "commerce",
+        "ad_bottom",
+        "beorim",
+        "related_items"
+      ],
+      "seo_validation": {
+        "title_chars": 29,
+        "description_chars": 57,
+        "title_target_max": 40,
+        "description_target_max": 100
+      }
+    },
+    {
+      "slug": "cabin-air-filter",
+      "name": "자동차 에어컨 필터",
+      "h1": "자동차 에어컨 필터 교체주기",
+      "title": "자동차 에어컨 필터 교체주기 | 차종별 확인법 - 교체뚝딱",
+      "meta_description": "자동차 에어컨 필터 교체주기는 차종·주행거리·환경에 따라 다릅니다. 매뉴얼 기준과 교체 신호를 확인하세요.",
+      "primary_keyword": "자동차 에어컨 필터 교체주기",
+      "secondary_keywords": [
+        "자동차 에어컨 필터 교체시기",
+        "자동차 에어컨 필터 수명",
+        "자동차 에어컨 필터 언제 교체"
+      ],
+      "evidence_badge": "차종별 확인 필요",
+      "answer_card": {
+        "headline": "차종 매뉴얼의 기간·주행거리 기준을 우선하세요.",
+        "summary": "자동차 에어컨 필터는 차종별 매뉴얼을 우선해야 합니다. 현대차 일부 매뉴얼은 15,000km 교체를 안내하며 먼지·오염이 심한 환경에서는 더 자주 점검하도록 합니다."
+      },
+      "tool_type": "vehicle_mileage",
+      "check_signs": [
+        "차종 매뉴얼의 교체거리/기간 도달",
+        "풍량 저하",
+        "필터 오염",
+        "먼지가 많은 환경에서 장기간 주행"
+      ],
+      "adjustment_factors": [
+        "차종",
+        "주행거리",
+        "도시/비포장/먼지 환경",
+        "운행 빈도"
+      ],
+      "replacement_reason": "차량과 주행환경에 따라 기준이 달라 generic 6개월 하나로 통일하는 것은 부정확합니다.",
+      "source_ids": [
+        "hyundai_cabin_filter"
+      ],
+      "related_slugs": [
+        "wiper-blade"
+      ],
+      "commerce": {
+        "strategy": "vehicle_required",
+        "generic_cards_allowed": false,
+        "keyword": null,
+        "pre_purchase_guard": "제품 모델명·부품코드 또는 차종/연식을 먼저 확인하세요."
+      },
+      "beorim": {
+        "status": "not_available",
+        "url": null,
+        "cta": "교체한 기존 제품은 어떻게 버릴까요?"
+      },
+      "page_modules": [
+        "answer_card",
+        "tool",
+        "ad_top",
+        "check_signs",
+        "adjustment_factors",
+        "replacement_reason",
+        "sources",
+        "commerce",
+        "ad_bottom",
+        "beorim",
+        "related_items"
+      ],
+      "seo_validation": {
+        "title_chars": 32,
+        "description_chars": 59,
+        "title_target_max": 40,
+        "description_target_max": 100
+      }
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "version": "v1.3",
+  "normalization": [
+    "trim",
+    "NFC",
+    "lowercase latin",
+    "collapse spaces"
+  ],
+  "cases": [
+    {
+      "q": "칫솔",
+      "expect": "toothbrush",
+      "state": "verified"
+    },
+    {
+      "q": "칫솔 교체주기",
+      "expect": "toothbrush",
+      "state": "verified"
+    },
+    {
+      "q": "면도날",
+      "expect": "razor-blade",
+      "state": "verified"
+    },
+    {
+      "q": "면도기 날",
+      "expect": "razor-blade",
+      "state": "verified"
+    },
+    {
+      "q": "샤워기 필터",
+      "expect": "shower-filter",
+      "state": "verified"
+    },
+    {
+      "q": "샤워필터",
+      "expect": "shower-filter",
+      "state": "verified"
+    },
+    {
+      "q": "수세미",
+      "expect": "kitchen-sponge",
+      "state": "verified"
+    },
+    {
+      "q": "주방 수세미",
+      "expect": "kitchen-sponge",
+      "state": "verified"
+    },
+    {
+      "q": "후라이팬",
+      "expect": "frying-pan",
+      "state": "verified"
+    },
+    {
+      "q": "프라이팬",
+      "expect": "frying-pan",
+      "state": "verified"
+    },
+    {
+      "q": "후라이펜",
+      "expect": "frying-pan",
+      "state": "verified"
+    },
+    {
+      "q": "도마",
+      "expect": "cutting-board",
+      "state": "verified"
+    },
+    {
+      "q": "정수기 필터",
+      "expect": "water-purifier-filter",
+      "state": "verified"
+    },
+    {
+      "q": "정수기필터",
+      "expect": "water-purifier-filter",
+      "state": "verified"
+    },
+    {
+      "q": "공기청정기 필터",
+      "expect": "air-purifier-filter",
+      "state": "verified"
+    },
+    {
+      "q": "공청기 필터",
+      "expect": "air-purifier-filter",
+      "state": "verified"
+    },
+    {
+      "q": "가습기 필터",
+      "expect": "humidifier-filter",
+      "state": "verified"
+    },
+    {
+      "q": "청소기 필터",
+      "expect": "vacuum-filter",
+      "state": "verified"
+    },
+    {
+      "q": "매트리스",
+      "expect": "mattress",
+      "state": "verified"
+    },
+    {
+      "q": "메트리스",
+      "expect": "mattress",
+      "state": "verified"
+    },
+    {
+      "q": "멀티탭",
+      "expect": "power-strip",
+      "state": "verified"
+    },
+    {
+      "q": "와이퍼",
+      "expect": "wiper-blade",
+      "state": "verified"
+    },
+    {
+      "q": "와이퍼 블레이드",
+      "expect": "wiper-blade",
+      "state": "verified"
+    },
+    {
+      "q": "자동차 에어컨 필터",
+      "expect": "cabin-air-filter",
+      "state": "verified"
+    },
+    {
+      "q": "캐빈필터",
+      "expect": "cabin-air-filter",
+      "state": "verified"
+    },
+    {
+      "q": "자동차 캐빈필터",
+      "expect": "cabin-air-filter",
+      "state": "verified"
+    },
+    {
+      "q": "에어컨 필터",
+      "expect": "air-conditioner-filter",
+      "state": "verified",
+      "also_suggest": [
+        "cabin-air-filter"
+      ]
+    },
+    {
+      "q": "에어컨필터",
+      "expect": "disambiguate",
+      "options": [
+        "air-conditioner-filter",
+        "cabin-air-filter"
+      ]
+    },
+    {
+      "q": "필터",
+      "expect": "results_list",
+      "min_results": 6
+    },
+    {
+      "q": "렌즈",
+      "expect": "contact-lens",
+      "state": "needs_research"
+    },
+    {
+      "q": "브레이크 패드",
+      "expect": "brake-pad",
+      "state": "needs_research"
+    },
+    {
+      "q": "골프공",
+      "expect": null,
+      "state": "missing"
+    },
+    {
+      "q": "",
+      "expect": null,
+      "state": "invalid"
+    },
+    {
+      "q": "   ",
+      "expect": null,
+      "state": "invalid"
+    },
+    {
+      "q": "<script>alert(1)</script>",
+      "expect": null,
+      "state": "invalid"
+    }
+  ]
+}

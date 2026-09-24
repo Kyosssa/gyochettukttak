@@ -1,0 +1,379 @@
+{
+  "version": "v1.2",
+  "sources": {
+    "ada_toothbrush": {
+      "name": "Toothbrushes",
+      "authority": "American Dental Association",
+      "type": "professional_association",
+      "url": "https://www.ada.org/resources/ada-library/oral-health-topics/toothbrushes",
+      "level": "A_DIRECT",
+      "checked_at": "2026-09-24",
+      "claims": [
+        {
+          "type": "cycle",
+          "text": "칫솔은 약 3~4개월마다 교체하고 칫솔모가 닳거나 벌어지면 더 일찍 교체",
+          "scope": "일반 수동·전동 칫솔모"
+        }
+      ]
+    },
+    "aad_razor": {
+      "name": "Razor bump remedies",
+      "authority": "American Academy of Dermatology",
+      "type": "professional_association",
+      "url": "https://www.aad.org/public/everyday-care/skin-care-basics/hair/razor-bump-remedies",
+      "level": "A_DIRECT",
+      "checked_at": "2026-09-24",
+      "claims": [
+        {
+          "type": "usage",
+          "text": "단일날 면도날은 대략 5~7회 면도 후 교체",
+          "scope": "single-blade / disposable razor"
+        }
+      ]
+    },
+    "mayo_sponge": {
+      "name": "Why the dirtiest thing in your kitchen might be the sponge",
+      "authority": "Mayo Clinic",
+      "type": "medical_expert",
+      "url": "https://newsnetwork.mayoclinic.org/discussion/mayo-clinic-minute-why-the-dirtiest-thing-in-your-kitchen-might-be-the-sponge/",
+      "level": "B_GENERAL",
+      "checked_at": "2026-09-24",
+      "claims": [
+        {
+          "type": "condition",
+          "text": "명확한 보편 수명은 제시하지 않으며, 냄새가 나면 버리는 것을 권고",
+          "scope": "주방 스펀지 일반"
+        }
+      ]
+    },
+    "mfds_pan_2025": {
+      "name": "식품용 조리기구 올바르게 사용해요!",
+      "authority": "식품의약품안전처 / 식품안전나라",
+      "type": "government",
+      "url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs109&menu_grp=MENU_NEW05&menu_no=2873&ntctxt_no=1108505",
+      "level": "A_DIRECT",
+      "checked_at": "2026-09-24",
+      "claims": [
+        {
+          "type": "condition",
+          "text": "코팅이 벗겨지거나 손상된 프라이팬은 새것으로 교체",
+          "scope": "코팅 프라이팬"
+        }
+      ]
+    },
+    "usda_cutting_board": {
+      "name": "Cutting Boards",
+      "authority": "USDA Food Safety and Inspection Service",
+      "type": "government",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/cutting-boards",
+      "level": "A_DIRECT",
+      "checked_at": "2026-09-24",
+      "claims": [
+        {
+          "type": "condition",
+          "text": "지나치게 마모되거나 세척하기 어려운 홈이 생긴 도마는 폐기",
+          "scope": "나무·플라스틱 도마"
+        }
+      ]
+    },
+    "samsung_water_filter": {
+      "name": "Samsung 정수기 FAQ",
+      "authority": "Samsung Electronics",
+      "type": "manufacturer",
+      "url": "https://www.samsung.com/sec/home-appliances/faq-water-purifier/",
+      "level": "A_DIRECT",
+      "checked_at": "2026-09-24",
+      "claims": [
+        {
+          "type": "model",
+          "text": "정수기 필터 교체 시점은 모델별 권장주기와 실제 출수량을 함께 사용",
+          "scope": "삼성 정수기"
+        },
+        {
+          "type": "usage",
+          "text": "일부 모델은 1,500L 사용량 또는 모델별 권장주기 조건으로 교체 알림",
+          "scope": "삼성 정수기"
+        }
+      ]
+    },
+    "samsung_aircon_filter": {
+      "name": "Samsung 에어컨 FAQ",
+      "authority": "Samsung Electronics",
+      "type": "manufacturer",
+      "url": "https://www.samsung.com/sec/home-appliances/faq-air-conditioners/",
+      "level": "A_DIRECT",
+      "checked_at": "2026-09-24",
+      "claims": [
+        {
+          "type": "model",
+          "text": "세척형/교체형 및 사용환경에 따라 관리·교체 시점이 다름",
+          "scope": "삼성 에어컨"
+        },
+        {
+          "type": "cycle",
+          "text": "교체형 필터는 3~6개월 권장, 정확한 기준은 모델 설명서 확인",
+          "scope": "삼성 에어컨 교체형 필터"
+        }
+      ]
+    },
+    "lg_aircon_filter": {
+      "name": "에어컨 필터 청소 및 교체 방법",
+      "authority": "LG Electronics",
+      "type": "manufacturer",
+      "url": "https://www.lge.co.kr/support/solutions-20152667046780",
+      "level": "A_DIRECT",
+      "checked_at": "2026-09-24",
+      "claims": [
+        {
+          "type": "model",
+          "text": "모델에 따라 적용 필터와 세척 가능 여부가 다르며 일부 필터는 주기적 교체 필요",
+          "scope": "LG 에어컨"
+        }
+      ]
+    },
+    "lg_air_purifier": {
+      "name": "공기청정기 필터는 어디서 구입하나요?",
+      "authority": "LG Electronics",
+      "type": "manufacturer",
+      "url": "https://www.lge.co.kr/support/solutions-20150135551274",
+      "level": "A_DIRECT",
+      "checked_at": "2026-09-24",
+      "claims": [
+        {
+          "type": "model",
+          "text": "공기청정기 필터는 제품별로 교체주기가 다름",
+          "scope": "LG 공기청정기"
+        },
+        {
+          "type": "cycle",
+          "text": "LG의 여러 집진/탈취 필터는 12개월, 일부 Mini 필터는 6개월 예시",
+          "scope": "해당 LG 제품군"
+        }
+      ]
+    },
+    "lg_humidifier": {
+      "name": "하이드로에센셜 필터 교체 및 청소방법",
+      "authority": "LG Electronics",
+      "type": "manufacturer",
+      "url": "https://www.lge.co.kr/support/solutions-20154871046245",
+      "level": "A_DIRECT",
+      "checked_at": "2026-09-24",
+      "claims": [
+        {
+          "type": "model",
+          "text": "정수필터 3~5개월, 청정가습필터 1년 등 필터 종류별 기준이 다름",
+          "scope": "LG 하이드로에센셜 해당 제품"
+        },
+        {
+          "type": "maintenance",
+          "text": "필터별 청소 가능 여부와 주기가 다름",
+          "scope": "LG 하이드로에센셜 해당 제품"
+        }
+      ]
+    },
+    "dyson_vacuum": {
+      "name": "Vacuum filter care",
+      "authority": "Dyson",
+      "type": "manufacturer",
+      "url": "https://www.dyson.com/support/vacuum-cleaners/cordless/filter-care",
+      "level": "A_DIRECT",
+      "checked_at": "2026-09-24",
+      "claims": [
+        {
+          "type": "maintenance",
+          "text": "다이슨 무선청소기 필터는 최소 월 1회 세척 권장",
+          "scope": "Dyson cordless vacuum filters"
+        },
+        {
+          "type": "model",
+          "text": "청소기 필터는 제품 구조와 관리방식에 따라 청소/교체 접근이 달라짐",
+          "scope": "Dyson example"
+        }
+      ]
+    },
+    "sleepfoundation_mattress": {
+      "name": "When Should You Replace Your Mattress?",
+      "authority": "Sleep Foundation",
+      "type": "expert_editorial",
+      "url": "https://www.sleepfoundation.org/mattress-information/when-should-you-replace-your-mattress",
+      "level": "B_GENERAL",
+      "checked_at": "2026-09-24",
+      "claims": [
+        {
+          "type": "cycle",
+          "text": "일반적 가이드로 약 6~8년을 제시하지만 일률적 기준은 아님",
+          "scope": "매트리스 일반"
+        },
+        {
+          "type": "condition",
+          "text": "처짐, 손상, 수면 불편 등 상태를 함께 확인",
+          "scope": "매트리스 일반"
+        }
+      ]
+    },
+    "gov_power_strip": {
+      "name": "멀티탭·콘센트·플러그 소비자 안전주의보",
+      "authority": "국가기술표준원·국립소방연구원·한국소비자원",
+      "type": "government_public_safety",
+      "url": "https://www.motir.go.kr/kor/article/ATCL8764a1224/155118958/view",
+      "level": "A_DIRECT",
+      "checked_at": "2026-09-24",
+      "claims": [
+        {
+          "type": "safety",
+          "text": "정격용량 초과, 문어발 사용 등 오사용은 과열·화재 위험과 관련",
+          "scope": "멀티탭·콘센트·플러그"
+        }
+      ]
+    },
+    "yonhap_power_strip_cycle": {
+      "name": "멀티탭 사용기한 최대 2년? 팩트체크",
+      "authority": "연합뉴스",
+      "type": "reputable_news_factcheck",
+      "url": "https://www.yna.co.kr/view/AKR20250807008000518",
+      "level": "B_GENERAL",
+      "checked_at": "2026-09-24",
+      "claims": [
+        {
+          "type": "cycle",
+          "text": "멀티탭 사용기한에 대한 명확한 법적 기준은 없으며 사용환경·상태를 함께 봐야 함",
+          "scope": "가정용 멀티탭"
+        }
+      ]
+    },
+    "hyundai_wiper": {
+      "name": "와이퍼 블레이드 관리 및 교체하기",
+      "authority": "Hyundai Motor",
+      "type": "manufacturer_manual",
+      "url": "https://ownersmanual.hyundai.com/full_webhelp/QZ/2026/ko_KR/id3f4ee691458.html",
+      "level": "A_DIRECT",
+      "checked_at": "2026-09-24",
+      "claims": [
+        {
+          "type": "condition",
+          "text": "선이 남음, 소음/떨림, 잔물, 변형·접촉불량 등은 교체 점검 신호",
+          "scope": "해당 현대차 와이퍼 관리 일반"
+        }
+      ]
+    },
+    "hyundai_cabin_filter": {
+      "name": "공조 장치용 에어필터",
+      "authority": "Hyundai Motor",
+      "type": "manufacturer_manual",
+      "url": "https://ownersmanual.hyundai.com/full_webhelp/ne1n/2025/ko_kr/id24275127be8.html",
+      "level": "A_DIRECT",
+      "checked_at": "2026-09-24",
+      "claims": [
+        {
+          "type": "mileage",
+          "text": "해당 차량 예시는 15,000km마다 교체, 먼지 많은 도로에서는 더 자주",
+          "scope": "해당 현대차 모델/매뉴얼"
+        }
+      ]
+    },
+    "bodyluv_shower_filter": {
+      "name": "퓨어썸 파라맥스 고객지원 답변",
+      "authority": "Bodyluv",
+      "type": "manufacturer_support_reply",
+      "url": "https://bodyluv.kr/article/%EC%83%81%ED%92%88%EB%A6%AC%EB%B7%B0/4/843746/",
+      "level": "B_GENERAL",
+      "checked_at": "2026-09-24",
+      "claims": [
+        {
+          "type": "model",
+          "text": "필터 종류에 따라 권장 주기가 크게 다르고 수질환경에 따라 더 빨라질 수 있음",
+          "scope": "Bodyluv 파라맥스 관련 필터"
+        }
+      ]
+    },
+    "philips_sonicare_head": {
+      "name": "필립스 소닉케어 칫솔모 교체 주기",
+      "authority": "Philips Sonicare",
+      "type": "manufacturer",
+      "url": "https://www.philips.co.kr/c-f/XC000006600/-",
+      "level": "A_DIRECT",
+      "checked_at": "2026-09-24",
+      "usage": "expansion",
+      "claims": [
+        {
+          "type": "cycle",
+          "text": "일반적으로 사용 3개월 또는 파란색 교체 표시가 마모되었을 때 교체",
+          "scope": "Philips Sonicare 칫솔모"
+        }
+      ]
+    },
+    "samsung_printer_supplies": {
+      "name": "토너/잉크 찾아보기",
+      "authority": "Samsung Electronics",
+      "type": "manufacturer",
+      "url": "https://www.samsung.com/sec/printers/printer-supplies/",
+      "level": "A_DIRECT",
+      "checked_at": "2026-09-24",
+      "usage": "expansion",
+      "claims": [
+        {
+          "type": "compatibility",
+          "text": "프린터 모델명으로 정품 토너/잉크를 찾는 공식 도구 제공",
+          "scope": "Samsung printer supplies"
+        }
+      ]
+    },
+    "samsung_robot_vacuum_consumables": {
+      "name": "Bespoke AI 로봇청소기 구독케어 소모품",
+      "authority": "Samsung Electronics",
+      "type": "manufacturer",
+      "url": "https://www.samsung.com/sec/ai-subs-living/VR70F00SGG98C-subscribe2-d2c/VR70F00SGG98C/",
+      "level": "A_DIRECT",
+      "checked_at": "2026-09-24",
+      "usage": "expansion",
+      "claims": [
+        {
+          "type": "consumables",
+          "text": "필터·롤러·물걸레·사이드 브러시·배터리·먼지봉투를 별도 소모품/관리 항목으로 운영",
+          "scope": "Samsung Bespoke AI robot vacuum example"
+        }
+      ]
+    },
+    "apple_iphone_battery_health": {
+      "name": "iPhone 배터리 및 성능",
+      "authority": "Apple",
+      "type": "manufacturer",
+      "url": "https://support.apple.com/ko-kr/106348",
+      "level": "A_DIRECT",
+      "checked_at": "2026-09-24",
+      "usage": "expansion",
+      "claims": [
+        {
+          "type": "condition",
+          "text": "배터리 성능 상태를 확인해 교체 필요성을 판단",
+          "scope": "iPhone 11 및 이후"
+        },
+        {
+          "type": "cycle",
+          "text": "iPhone 14 이전은 500회, iPhone 15 이후는 1000회 완전 충전 사이클 후 원래 용량 80% 유지 설계",
+          "scope": "Apple stated ideal conditions"
+        }
+      ]
+    },
+    "atomy_shower_filter": {
+      "name": "비타민 샤워기 헤드 필터 교체 방법",
+      "authority": "애터미 공식 채널",
+      "type": "manufacturer_official_content",
+      "url": "https://ch.atomy.com/kr/4213?categoryId=207",
+      "level": "A_DIRECT",
+      "checked_at": "2026-09-24",
+      "claims": [
+        {
+          "type": "cycle",
+          "text": "동일 샤워기에서도 세디먼트 필터는 3~4개월, 비타민 겔 필터는 1~2개월로 안내",
+          "scope": "애터미 비타민 샤워기 헤드 해당 필터"
+        },
+        {
+          "type": "model",
+          "text": "샤워기 필터는 필터 종류에 따라 교체주기가 달라질 수 있음",
+          "scope": "제조사 제품 예시"
+        }
+      ]
+    }
+  }
+}

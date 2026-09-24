@@ -1,0 +1,42 @@
+{
+  "version": "v1.8",
+  "launch": {
+    "search_aliases": true,
+    "search_disambiguation": true,
+    "answer_card": true,
+    "evidence_badge": true,
+    "mode_aware_tool": true,
+    "exact_and_approximate_date": true,
+    "my_home_localstorage": true,
+    "one_tap_replace": true,
+    "maintenance_action_when_supported": true,
+    "usage_and_mileage_quick_update": true,
+    "model_or_vehicle_memory_local_only": true,
+    "ics_calendar_export": true,
+    "related_items": true,
+    "verified_beorim_crosslink": true,
+    "adsense_placeholders": true,
+    "affiliate_shell_with_compatibility_guard": true,
+    "static_og": true
+  },
+  "post_launch": {
+    "quick_add_routine_packs": true,
+    "recently_viewed": true,
+    "web_share": true,
+    "missing_search_d1": true,
+    "source_health_github_action": true,
+    "first_model_specific_pages": true
+  },
+  "deferred": {
+    "push_notifications": false,
+    "accounts": false,
+    "family_sharing": false,
+    "photo_ai_diagnosis": false,
+    "community_reviews": false,
+    "full_history_statistics": false,
+    "automatic_annual_cost": false,
+    "r2_dependency": false,
+    "dynamic_og_worker": false,
+    "arbitrary_user_created_public_items": false
+  }
+}

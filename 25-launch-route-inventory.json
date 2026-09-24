@@ -1,0 +1,215 @@
+{
+  "version": "v1.9",
+  "canonical_origin": "https://gyochettukttak.com",
+  "routes": [
+    {
+      "path": "/",
+      "kind": "home",
+      "status": 200,
+      "index": "index",
+      "sitemap": true
+    },
+    {
+      "path": "/search/",
+      "kind": "search",
+      "status": 200,
+      "index": "noindex,follow",
+      "sitemap": false
+    },
+    {
+      "path": "/my-home/",
+      "kind": "personal_tool",
+      "status": 200,
+      "index": "noindex,follow",
+      "sitemap": false
+    },
+    {
+      "path": "/about/",
+      "kind": "trust",
+      "status": 200,
+      "index": "index",
+      "sitemap": true
+    },
+    {
+      "path": "/source-policy/",
+      "kind": "trust",
+      "status": 200,
+      "index": "index",
+      "sitemap": true
+    },
+    {
+      "path": "/privacy/",
+      "kind": "legal",
+      "status": 200,
+      "index": "noindex,follow",
+      "sitemap": false
+    },
+    {
+      "path": "/affiliate-disclosure/",
+      "kind": "legal",
+      "status": 200,
+      "index": "noindex,follow",
+      "sitemap": false
+    },
+    {
+      "path": "/item/toothbrush/",
+      "kind": "item",
+      "status": 200,
+      "index": "index",
+      "sitemap": true,
+      "source_item": "toothbrush"
+    },
+    {
+      "path": "/item/razor-blade/",
+      "kind": "item",
+      "status": 200,
+      "index": "index",
+      "sitemap": true,
+      "source_item": "razor-blade"
+    },
+    {
+      "path": "/item/shower-filter/",
+      "kind": "item",
+      "status": 200,
+      "index": "index",
+      "sitemap": true,
+      "source_item": "shower-filter"
+    },
+    {
+      "path": "/item/kitchen-sponge/",
+      "kind": "item",
+      "status": 200,
+      "index": "index",
+      "sitemap": true,
+      "source_item": "kitchen-sponge"
+    },
+    {
+      "path": "/item/frying-pan/",
+      "kind": "item",
+      "status": 200,
+      "index": "index",
+      "sitemap": true,
+      "source_item": "frying-pan"
+    },
+    {
+      "path": "/item/cutting-board/",
+      "kind": "item",
+      "status": 200,
+      "index": "index",
+      "sitemap": true,
+      "source_item": "cutting-board"
+    },
+    {
+      "path": "/item/water-purifier-filter/",
+      "kind": "item",
+      "status": 200,
+      "index": "index",
+      "sitemap": true,
+      "source_item": "water-purifier-filter"
+    },
+    {
+      "path": "/item/mattress/",
+      "kind": "item",
+      "status": 200,
+      "index": "index",
+      "sitemap": true,
+      "source_item": "mattress"
+    },
+    {
+      "path": "/item/air-conditioner-filter/",
+      "kind": "item",
+      "status": 200,
+      "index": "index",
+      "sitemap": true,
+      "source_item": "air-conditioner-filter"
+    },
+    {
+      "path": "/item/air-purifier-filter/",
+      "kind": "item",
+      "status": 200,
+      "index": "index",
+      "sitemap": true,
+      "source_item": "air-purifier-filter"
+    },
+    {
+      "path": "/item/humidifier-filter/",
+      "kind": "item",
+      "status": 200,
+      "index": "index",
+      "sitemap": true,
+      "source_item": "humidifier-filter"
+    },
+    {
+      "path": "/item/vacuum-filter/",
+      "kind": "item",
+      "status": 200,
+      "index": "index",
+      "sitemap": true,
+      "source_item": "vacuum-filter"
+    },
+    {
+      "path": "/item/power-strip/",
+      "kind": "item",
+      "status": 200,
+      "index": "index",
+      "sitemap": true,
+      "source_item": "power-strip"
+    },
+    {
+      "path": "/item/wiper-blade/",
+      "kind": "item",
+      "status": 200,
+      "index": "index",
+      "sitemap": true,
+      "source_item": "wiper-blade"
+    },
+    {
+      "path": "/item/cabin-air-filter/",
+      "kind": "item",
+      "status": 200,
+      "index": "index",
+      "sitemap": true,
+      "source_item": "cabin-air-filter"
+    },
+    {
+      "path": "/category/hygiene-bathroom/",
+      "kind": "category",
+      "status": 200,
+      "index": "index",
+      "sitemap": true,
+      "verified_item_count": 3
+    },
+    {
+      "path": "/category/kitchen-food/",
+      "kind": "category",
+      "status": 200,
+      "index": "index",
+      "sitemap": true,
+      "verified_item_count": 3
+    },
+    {
+      "path": "/category/air-water-filters/",
+      "kind": "category",
+      "status": 200,
+      "index": "index",
+      "sitemap": true,
+      "verified_item_count": 4
+    },
+    {
+      "path": "/404.html",
+      "kind": "error_document",
+      "status": "404 when used for unknown URL",
+      "index": "noindex",
+      "sitemap": false
+    }
+  ],
+  "expected_indexable_item_pages": 15,
+  "expected_indexable_category_pages": 3,
+  "expected_sitemap_url_count": 21,
+  "indexable_categories": [
+    "hygiene-bathroom",
+    "kitchen-food",
+    "air-water-filters"
+  ],
+  "rule": "미확인 category/needs_research item의 별도 SEO route를 자동 생성하지 않는다."
+}

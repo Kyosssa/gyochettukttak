@@ -1,0 +1,6 @@
+---
+import Base from '../../layouts/Base.astro'; import seed from '../../../02-items.seed.json'; import copy from '../../../26-site-copy.seed.json';
+const categories = ['hygiene-bathroom', 'kitchen-food', 'air-water-filters']; export function getStaticPaths() { return ['hygiene-bathroom', 'kitchen-food', 'air-water-filters'].map((slug) => ({ params: { slug } })); }
+const { slug } = Astro.params; const category = copy.categories[slug]; const items = seed.items.filter((item) => item.category_slug === slug && item.launch_candidate && item.index_state === 'indexable');
+---
+<Base title={category.title} description={category.description}><h1>{category.h1}</h1><p>{category.intro}</p><ul class="cards">{items.map((item) => <li><a href={`/item/${item.slug}/`}><strong>{item.name}</strong><span>{item.cycle_text}</span></a></li>)}</ul></Base>

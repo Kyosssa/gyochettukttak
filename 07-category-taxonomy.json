@@ -1,0 +1,110 @@
+{
+  "version": "v1.8",
+  "categories": [
+    {
+      "slug": "hygiene-bathroom",
+      "label": "위생·욕실",
+      "phase": "launch",
+      "index_gate": 3,
+      "description": "칫솔·면도·샤워·비데처럼 자주 쓰고 반복 교체하는 생활용품."
+    },
+    {
+      "slug": "kitchen-food",
+      "label": "주방·식생활",
+      "phase": "launch",
+      "index_gate": 3,
+      "description": "조리도구·패킹·주방 소모품처럼 상태 확인과 반복구매가 섞인 영역."
+    },
+    {
+      "slug": "air-water-filters",
+      "label": "공기·물·필터",
+      "phase": "launch",
+      "index_gate": 3,
+      "description": "공기청정기·정수기·에어컨·가습기처럼 모델별 필터 기준이 중요한 핵심 영역."
+    },
+    {
+      "slug": "cleaning-appliances",
+      "label": "청소·세탁가전",
+      "phase": "post_launch",
+      "index_gate": 3,
+      "description": "청소기·로봇청소기·물걸레청소기의 필터·브러시·먼지봉투·배터리."
+    },
+    {
+      "slug": "printing-office",
+      "label": "프린터·사무기기",
+      "phase": "post_launch",
+      "index_gate": 3,
+      "description": "토너·잉크·드럼·폐토너통 등 모델명과 부품번호가 중요한 영역."
+    },
+    {
+      "slug": "digital-battery",
+      "label": "디지털·배터리",
+      "phase": "post_launch",
+      "index_gate": 3,
+      "description": "스마트폰·노트북·태블릿 등 배터리 상태와 교체 판단."
+    },
+    {
+      "slug": "bedding-living",
+      "label": "침구·생활",
+      "phase": "launch",
+      "index_gate": 3,
+      "description": "매트리스·베개·수건처럼 기간과 상태를 함께 보는 생활용품."
+    },
+    {
+      "slug": "clothing-footwear",
+      "label": "의류·신발",
+      "phase": "later",
+      "index_gate": 3,
+      "description": "속옷·양말·운동화 등 고정기간보다 탄성·마모·기능 상태가 중요한 품목."
+    },
+    {
+      "slug": "beauty-personal",
+      "label": "뷰티·퍼스널케어",
+      "phase": "later",
+      "index_gate": 3,
+      "description": "화장품 사용기한·뷰티도구·렌즈 관련 관리품."
+    },
+    {
+      "slug": "baby-family",
+      "label": "육아",
+      "phase": "specialist",
+      "index_gate": 3,
+      "description": "젖병·유축기 부품 등 제조사 기준과 안전 검증이 중요한 영역."
+    },
+    {
+      "slug": "automotive",
+      "label": "자동차",
+      "phase": "launch",
+      "index_gate": 3,
+      "description": "차종·주행거리·정비조건이 중요한 반복 정비/소모품 영역."
+    },
+    {
+      "slug": "home-maintenance-safety",
+      "label": "집관리·안전",
+      "phase": "launch",
+      "index_gate": 3,
+      "description": "멀티탭·전구·소화기·경보기 등 상태점검과 공공 안전근거가 중요한 영역."
+    },
+    {
+      "slug": "pet",
+      "label": "반려동물",
+      "phase": "later",
+      "index_gate": 3,
+      "description": "급수기 필터·자동화장실 필터 등 반복 교체형 반려동물 관리품."
+    },
+    {
+      "slug": "home-cafe",
+      "label": "홈카페·소형가전",
+      "phase": "later",
+      "index_gate": 3,
+      "description": "커피머신 필터·가스켓·디스케일링 등 관리와 교체가 섞인 영역."
+    },
+    {
+      "slug": "sports-outdoor",
+      "label": "스포츠·아웃도어",
+      "phase": "specialist",
+      "index_gate": 3,
+      "description": "헬멧·자전거 소모품처럼 상태와 안전기준이 중요한 영역."
+    }
+  ]
+}

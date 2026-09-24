@@ -1,0 +1,2101 @@
+{
+  "version": "v1.8",
+  "existing_seed_count": 48,
+  "new_candidate_count": 111,
+  "future_total_pool": 159,
+  "priority_definition": {
+    "P1": "다음 30~40개 조사 우선군: 검색문장이 자연스럽고 반복구매/공식근거/수익화 중 2개 이상 강함",
+    "P2": "2차 확장군: 충분히 유망하지만 모델DB/안전검증/세부조사가 더 필요",
+    "P3": "장기 후보: 수요/근거/전환을 실제 데이터로 확인한 뒤 추가"
+  },
+  "candidates": [
+    {
+      "candidate_id": "cand-001",
+      "name": "전동칫솔모",
+      "slug": "electric-toothbrush-head",
+      "category_slug": "hygiene-bathroom",
+      "priority": "P1",
+      "primary_keyword": "전동칫솔모 교체주기",
+      "replacement_modes": [
+        "condition"
+      ],
+      "model_sensitive": false,
+      "safety_sensitivity": "low",
+      "commerce_fit": "A",
+      "sourceability": "A",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "core_next"
+    },
+    {
+      "candidate_id": "cand-002",
+      "name": "구강세정기 노즐",
+      "slug": "water-flosser-tip",
+      "category_slug": "hygiene-bathroom",
+      "priority": "P2",
+      "primary_keyword": "구강세정기 노즐 교체주기",
+      "replacement_modes": [
+        "condition"
+      ],
+      "model_sensitive": false,
+      "safety_sensitivity": "low",
+      "commerce_fit": "A",
+      "sourceability": "A",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "later"
+    },
+    {
+      "candidate_id": "cand-003",
+      "name": "전기면도기 헤드",
+      "slug": "electric-shaver-head",
+      "category_slug": "hygiene-bathroom",
+      "priority": "P1",
+      "primary_keyword": "전기면도기 헤드 교체주기",
+      "replacement_modes": [
+        "condition"
+      ],
+      "model_sensitive": false,
+      "safety_sensitivity": "low",
+      "commerce_fit": "A",
+      "sourceability": "A",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "core_next"
+    },
+    {
+      "candidate_id": "cand-004",
+      "name": "전기면도기 포일",
+      "slug": "electric-shaver-foil",
+      "category_slug": "hygiene-bathroom",
+      "priority": "P2",
+      "primary_keyword": "전기면도기 포일 교체주기",
+      "replacement_modes": [
+        "condition"
+      ],
+      "model_sensitive": false,
+      "safety_sensitivity": "low",
+      "commerce_fit": "A",
+      "sourceability": "A",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "later"
+    },
+    {
+      "candidate_id": "cand-005",
+      "name": "전기면도기 세정카트리지",
+      "slug": "shaver-cleaning-cartridge",
+      "category_slug": "hygiene-bathroom",
+      "priority": "P2",
+      "primary_keyword": "전기면도기 세정카트리지 교체주기",
+      "replacement_modes": [
+        "condition"
+      ],
+      "model_sensitive": false,
+      "safety_sensitivity": "low",
+      "commerce_fit": "A",
+      "sourceability": "A",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "later"
+    },
+    {
+      "candidate_id": "cand-006",
+      "name": "비데 필터",
+      "slug": "bidet-filter",
+      "category_slug": "hygiene-bathroom",
+      "priority": "P1",
+      "primary_keyword": "비데 필터 교체주기",
+      "replacement_modes": [
+        "model",
+        "condition"
+      ],
+      "model_sensitive": true,
+      "safety_sensitivity": "low",
+      "commerce_fit": "A",
+      "sourceability": "A",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "core_next"
+    },
+    {
+      "candidate_id": "cand-007",
+      "name": "비데 탈취필터",
+      "slug": "bidet-deodorizing-filter",
+      "category_slug": "hygiene-bathroom",
+      "priority": "P2",
+      "primary_keyword": "비데 탈취필터 교체주기",
+      "replacement_modes": [
+        "model",
+        "condition"
+      ],
+      "model_sensitive": true,
+      "safety_sensitivity": "low",
+      "commerce_fit": "A",
+      "sourceability": "A",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "later"
+    },
+    {
+      "candidate_id": "cand-008",
+      "name": "클렌징 브러시 헤드",
+      "slug": "cleansing-brush-head",
+      "category_slug": "hygiene-bathroom",
+      "priority": "P3",
+      "primary_keyword": "클렌징 브러시 헤드 교체주기",
+      "replacement_modes": [
+        "model",
+        "condition"
+      ],
+      "model_sensitive": true,
+      "safety_sensitivity": "low",
+      "commerce_fit": "A",
+      "sourceability": "A",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "later"
+    },
+    {
+      "candidate_id": "cand-009",
+      "name": "밥솥 고무패킹",
+      "slug": "rice-cooker-gasket",
+      "category_slug": "kitchen-food",
+      "priority": "P1",
+      "primary_keyword": "밥솥 고무패킹 교체주기",
+      "replacement_modes": [
+        "model",
+        "condition"
+      ],
+      "model_sensitive": true,
+      "safety_sensitivity": "low",
+      "commerce_fit": "A",
+      "sourceability": "A",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "core_next"
+    },
+    {
+      "candidate_id": "cand-010",
+      "name": "밥솥 내솥",
+      "slug": "rice-cooker-inner-pot",
+      "category_slug": "kitchen-food",
+      "priority": "P2",
+      "primary_keyword": "밥솥 내솥 교체시기",
+      "replacement_modes": [
+        "condition"
+      ],
+      "model_sensitive": false,
+      "safety_sensitivity": "low",
+      "commerce_fit": "A",
+      "sourceability": "A",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "later"
+    },
+    {
+      "candidate_id": "cand-011",
+      "name": "압력솥 고무패킹",
+      "slug": "pressure-cooker-gasket",
+      "category_slug": "kitchen-food",
+      "priority": "P2",
+      "primary_keyword": "압력솥 고무패킹 교체주기",
+      "replacement_modes": [
+        "model",
+        "condition"
+      ],
+      "model_sensitive": true,
+      "safety_sensitivity": "low",
+      "commerce_fit": "A",
+      "sourceability": "A",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "later"
+    },
+    {
+      "candidate_id": "cand-012",
+      "name": "레인지후드 필터",
+      "slug": "range-hood-filter",
+      "category_slug": "kitchen-food",
+      "priority": "P1",
+      "primary_keyword": "레인지후드 필터 교체주기",
+      "replacement_modes": [
+        "model",
+        "condition"
+      ],
+      "model_sensitive": true,
+      "safety_sensitivity": "low",
+      "commerce_fit": "A",
+      "sourceability": "A",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "core_next"
+    },
+    {
+      "candidate_id": "cand-013",
+      "name": "냉장고 정수필터",
+      "slug": "refrigerator-water-filter",
+      "category_slug": "kitchen-food",
+      "priority": "P1",
+      "primary_keyword": "냉장고 정수필터 교체주기",
+      "replacement_modes": [
+        "model",
+        "condition"
+      ],
+      "model_sensitive": true,
+      "safety_sensitivity": "low",
+      "commerce_fit": "A",
+      "sourceability": "A",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "core_next"
+    },
+    {
+      "candidate_id": "cand-014",
+      "name": "수도꼭지 필터",
+      "slug": "faucet-filter",
+      "category_slug": "kitchen-food",
+      "priority": "P1",
+      "primary_keyword": "수도꼭지 필터 교체주기",
+      "replacement_modes": [
+        "model",
+        "condition"
+      ],
+      "model_sensitive": true,
+      "safety_sensitivity": "low",
+      "commerce_fit": "A",
+      "sourceability": "A",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "core_next"
+    },
+    {
+      "candidate_id": "cand-015",
+      "name": "커피머신 정수필터",
+      "slug": "coffee-machine-water-filter",
+      "category_slug": "kitchen-food",
+      "priority": "P1",
+      "primary_keyword": "커피머신 정수필터 교체주기",
+      "replacement_modes": [
+        "model",
+        "condition"
+      ],
+      "model_sensitive": true,
+      "safety_sensitivity": "low",
+      "commerce_fit": "A",
+      "sourceability": "A",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "core_next"
+    },
+    {
+      "candidate_id": "cand-016",
+      "name": "커피머신 디스케일링",
+      "slug": "coffee-machine-descaling",
+      "category_slug": "kitchen-food",
+      "priority": "P2",
+      "primary_keyword": "커피머신 디스케일링 주기",
+      "replacement_modes": [
+        "maintenance",
+        "model"
+      ],
+      "model_sensitive": false,
+      "safety_sensitivity": "low",
+      "commerce_fit": "A",
+      "sourceability": "A",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "later"
+    },
+    {
+      "candidate_id": "cand-017",
+      "name": "음식물처리기 필터",
+      "slug": "food-waste-disposer-filter",
+      "category_slug": "kitchen-food",
+      "priority": "P1",
+      "primary_keyword": "음식물처리기 필터 교체주기",
+      "replacement_modes": [
+        "model",
+        "condition"
+      ],
+      "model_sensitive": true,
+      "safety_sensitivity": "low",
+      "commerce_fit": "A",
+      "sourceability": "A",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "core_next"
+    },
+    {
+      "candidate_id": "cand-018",
+      "name": "블렌더 패킹",
+      "slug": "blender-gasket",
+      "category_slug": "kitchen-food",
+      "priority": "P2",
+      "primary_keyword": "블렌더 패킹 교체주기",
+      "replacement_modes": [
+        "model",
+        "condition"
+      ],
+      "model_sensitive": true,
+      "safety_sensitivity": "low",
+      "commerce_fit": "A",
+      "sourceability": "A",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "later"
+    },
+    {
+      "candidate_id": "cand-019",
+      "name": "진공포장기 패킹",
+      "slug": "vacuum-sealer-gasket",
+      "category_slug": "kitchen-food",
+      "priority": "P3",
+      "primary_keyword": "진공포장기 패킹 교체주기",
+      "replacement_modes": [
+        "model",
+        "condition"
+      ],
+      "model_sensitive": true,
+      "safety_sensitivity": "low",
+      "commerce_fit": "A",
+      "sourceability": "A",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "later"
+    },
+    {
+      "candidate_id": "cand-020",
+      "name": "제빙기 정수필터",
+      "slug": "ice-maker-water-filter",
+      "category_slug": "kitchen-food",
+      "priority": "P2",
+      "primary_keyword": "제빙기 정수필터 교체주기",
+      "replacement_modes": [
+        "model",
+        "condition"
+      ],
+      "model_sensitive": true,
+      "safety_sensitivity": "low",
+      "commerce_fit": "A",
+      "sourceability": "A",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "later"
+    },
+    {
+      "candidate_id": "cand-021",
+      "name": "환기장치 필터",
+      "slug": "ventilation-filter",
+      "category_slug": "air-water-filters",
+      "priority": "P1",
+      "primary_keyword": "환기장치 필터 교체주기",
+      "replacement_modes": [
+        "model",
+        "condition"
+      ],
+      "model_sensitive": true,
+      "safety_sensitivity": "low",
+      "commerce_fit": "A",
+      "sourceability": "A",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "core_next"
+    },
+    {
+      "candidate_id": "cand-022",
+      "name": "전열교환기 필터",
+      "slug": "erv-filter",
+      "category_slug": "air-water-filters",
+      "priority": "P1",
+      "primary_keyword": "전열교환기 필터 교체주기",
+      "replacement_modes": [
+        "model",
+        "condition"
+      ],
+      "model_sensitive": true,
+      "safety_sensitivity": "low",
+      "commerce_fit": "A",
+      "sourceability": "A",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "core_next"
+    },
+    {
+      "candidate_id": "cand-023",
+      "name": "시스템에어컨 필터",
+      "slug": "system-aircon-filter",
+      "category_slug": "air-water-filters",
+      "priority": "P1",
+      "primary_keyword": "시스템에어컨 필터 교체주기",
+      "replacement_modes": [
+        "model",
+        "condition"
+      ],
+      "model_sensitive": true,
+      "safety_sensitivity": "low",
+      "commerce_fit": "A",
+      "sourceability": "A",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "core_next"
+    },
+    {
+      "candidate_id": "cand-024",
+      "name": "제습기 필터",
+      "slug": "dehumidifier-filter",
+      "category_slug": "air-water-filters",
+      "priority": "P2",
+      "primary_keyword": "제습기 필터 교체주기",
+      "replacement_modes": [
+        "model",
+        "condition"
+      ],
+      "model_sensitive": true,
+      "safety_sensitivity": "low",
+      "commerce_fit": "A",
+      "sourceability": "A",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "later"
+    },
+    {
+      "candidate_id": "cand-025",
+      "name": "에어드레서 필터",
+      "slug": "air-dresser-filter",
+      "category_slug": "air-water-filters",
+      "priority": "P2",
+      "primary_keyword": "에어드레서 필터 교체주기",
+      "replacement_modes": [
+        "model",
+        "condition"
+      ],
+      "model_sensitive": true,
+      "safety_sensitivity": "low",
+      "commerce_fit": "A",
+      "sourceability": "A",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "later"
+    },
+    {
+      "candidate_id": "cand-026",
+      "name": "의류관리기 탈취필터",
+      "slug": "clothing-care-deodorizing-filter",
+      "category_slug": "air-water-filters",
+      "priority": "P2",
+      "primary_keyword": "의류관리기 탈취필터 교체주기",
+      "replacement_modes": [
+        "model",
+        "condition"
+      ],
+      "model_sensitive": true,
+      "safety_sensitivity": "low",
+      "commerce_fit": "A",
+      "sourceability": "A",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "later"
+    },
+    {
+      "candidate_id": "cand-027",
+      "name": "로봇청소기 먼지봉투",
+      "slug": "robot-vacuum-dust-bag",
+      "category_slug": "cleaning-appliances",
+      "priority": "P1",
+      "primary_keyword": "로봇청소기 먼지봉투 교체주기",
+      "replacement_modes": [
+        "model",
+        "condition"
+      ],
+      "model_sensitive": true,
+      "safety_sensitivity": "low",
+      "commerce_fit": "A",
+      "sourceability": "A",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "core_next"
+    },
+    {
+      "candidate_id": "cand-028",
+      "name": "로봇청소기 필터",
+      "slug": "robot-vacuum-filter",
+      "category_slug": "cleaning-appliances",
+      "priority": "P1",
+      "primary_keyword": "로봇청소기 필터 교체주기",
+      "replacement_modes": [
+        "model",
+        "condition"
+      ],
+      "model_sensitive": true,
+      "safety_sensitivity": "low",
+      "commerce_fit": "A",
+      "sourceability": "A",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "core_next"
+    },
+    {
+      "candidate_id": "cand-029",
+      "name": "로봇청소기 메인브러시",
+      "slug": "robot-vacuum-main-brush",
+      "category_slug": "cleaning-appliances",
+      "priority": "P1",
+      "primary_keyword": "로봇청소기 메인브러시 교체주기",
+      "replacement_modes": [
+        "model",
+        "condition"
+      ],
+      "model_sensitive": true,
+      "safety_sensitivity": "low",
+      "commerce_fit": "A",
+      "sourceability": "A",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "core_next"
+    },
+    {
+      "candidate_id": "cand-030",
+      "name": "로봇청소기 사이드브러시",
+      "slug": "robot-vacuum-side-brush",
+      "category_slug": "cleaning-appliances",
+      "priority": "P1",
+      "primary_keyword": "로봇청소기 사이드브러시 교체주기",
+      "replacement_modes": [
+        "model",
+        "condition"
+      ],
+      "model_sensitive": true,
+      "safety_sensitivity": "low",
+      "commerce_fit": "A",
+      "sourceability": "A",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "core_next"
+    },
+    {
+      "candidate_id": "cand-031",
+      "name": "로봇청소기 물걸레",
+      "slug": "robot-vacuum-mop-pad",
+      "category_slug": "cleaning-appliances",
+      "priority": "P1",
+      "primary_keyword": "로봇청소기 물걸레 교체주기",
+      "replacement_modes": [
+        "model",
+        "condition"
+      ],
+      "model_sensitive": true,
+      "safety_sensitivity": "low",
+      "commerce_fit": "A",
+      "sourceability": "A",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "core_next"
+    },
+    {
+      "candidate_id": "cand-032",
+      "name": "로봇청소기 배터리",
+      "slug": "robot-vacuum-battery",
+      "category_slug": "cleaning-appliances",
+      "priority": "P2",
+      "primary_keyword": "로봇청소기 배터리 교체시기",
+      "replacement_modes": [
+        "condition",
+        "model"
+      ],
+      "model_sensitive": true,
+      "safety_sensitivity": "low",
+      "commerce_fit": "A",
+      "sourceability": "A",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "later"
+    },
+    {
+      "candidate_id": "cand-033",
+      "name": "무선청소기 배터리",
+      "slug": "cordless-vacuum-battery",
+      "category_slug": "cleaning-appliances",
+      "priority": "P1",
+      "primary_keyword": "무선청소기 배터리 교체시기",
+      "replacement_modes": [
+        "condition",
+        "model"
+      ],
+      "model_sensitive": true,
+      "safety_sensitivity": "low",
+      "commerce_fit": "A",
+      "sourceability": "A",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "core_next"
+    },
+    {
+      "candidate_id": "cand-034",
+      "name": "무선청소기 브러시롤러",
+      "slug": "cordless-vacuum-brush-roll",
+      "category_slug": "cleaning-appliances",
+      "priority": "P2",
+      "primary_keyword": "무선청소기 브러시롤러 교체주기",
+      "replacement_modes": [
+        "model",
+        "condition"
+      ],
+      "model_sensitive": true,
+      "safety_sensitivity": "low",
+      "commerce_fit": "A",
+      "sourceability": "A",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "later"
+    },
+    {
+      "candidate_id": "cand-035",
+      "name": "스팀청소기 패드",
+      "slug": "steam-mop-pad",
+      "category_slug": "cleaning-appliances",
+      "priority": "P2",
+      "primary_keyword": "스팀청소기 패드 교체주기",
+      "replacement_modes": [
+        "condition"
+      ],
+      "model_sensitive": false,
+      "safety_sensitivity": "low",
+      "commerce_fit": "A",
+      "sourceability": "A",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "later"
+    },
+    {
+      "candidate_id": "cand-036",
+      "name": "물걸레청소기 롤러",
+      "slug": "wet-floor-cleaner-roller",
+      "category_slug": "cleaning-appliances",
+      "priority": "P2",
+      "primary_keyword": "물걸레청소기 롤러 교체주기",
+      "replacement_modes": [
+        "model",
+        "condition"
+      ],
+      "model_sensitive": true,
+      "safety_sensitivity": "low",
+      "commerce_fit": "A",
+      "sourceability": "A",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "later"
+    },
+    {
+      "candidate_id": "cand-037",
+      "name": "물걸레청소기 필터",
+      "slug": "wet-floor-cleaner-filter",
+      "category_slug": "cleaning-appliances",
+      "priority": "P2",
+      "primary_keyword": "물걸레청소기 필터 교체주기",
+      "replacement_modes": [
+        "model",
+        "condition"
+      ],
+      "model_sensitive": true,
+      "safety_sensitivity": "low",
+      "commerce_fit": "A",
+      "sourceability": "A",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "later"
+    },
+    {
+      "candidate_id": "cand-038",
+      "name": "창문로봇청소기 패드",
+      "slug": "window-robot-pad",
+      "category_slug": "cleaning-appliances",
+      "priority": "P3",
+      "primary_keyword": "창문로봇청소기 패드 교체주기",
+      "replacement_modes": [
+        "condition"
+      ],
+      "model_sensitive": false,
+      "safety_sensitivity": "low",
+      "commerce_fit": "A",
+      "sourceability": "A",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "later"
+    },
+    {
+      "candidate_id": "cand-039",
+      "name": "프린터 토너",
+      "slug": "printer-toner",
+      "category_slug": "printing-office",
+      "priority": "P1",
+      "primary_keyword": "프린터 토너 교체시기",
+      "replacement_modes": [
+        "model",
+        "condition"
+      ],
+      "model_sensitive": true,
+      "safety_sensitivity": "low",
+      "commerce_fit": "A",
+      "sourceability": "A",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "core_next"
+    },
+    {
+      "candidate_id": "cand-040",
+      "name": "프린터 잉크",
+      "slug": "printer-ink",
+      "category_slug": "printing-office",
+      "priority": "P1",
+      "primary_keyword": "프린터 잉크 교체시기",
+      "replacement_modes": [
+        "model",
+        "condition"
+      ],
+      "model_sensitive": true,
+      "safety_sensitivity": "low",
+      "commerce_fit": "A",
+      "sourceability": "A",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "core_next"
+    },
+    {
+      "candidate_id": "cand-041",
+      "name": "프린터 드럼",
+      "slug": "printer-drum",
+      "category_slug": "printing-office",
+      "priority": "P1",
+      "primary_keyword": "프린터 드럼 교체주기",
+      "replacement_modes": [
+        "model",
+        "condition"
+      ],
+      "model_sensitive": true,
+      "safety_sensitivity": "low",
+      "commerce_fit": "A",
+      "sourceability": "A",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "core_next"
+    },
+    {
+      "candidate_id": "cand-042",
+      "name": "폐토너통",
+      "slug": "waste-toner-container",
+      "category_slug": "printing-office",
+      "priority": "P1",
+      "primary_keyword": "폐토너통 교체시기",
+      "replacement_modes": [
+        "model",
+        "condition"
+      ],
+      "model_sensitive": true,
+      "safety_sensitivity": "low",
+      "commerce_fit": "A",
+      "sourceability": "A",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "core_next"
+    },
+    {
+      "candidate_id": "cand-043",
+      "name": "프린터 유지보수박스",
+      "slug": "printer-maintenance-box",
+      "category_slug": "printing-office",
+      "priority": "P1",
+      "primary_keyword": "프린터 유지보수박스 교체주기",
+      "replacement_modes": [
+        "model",
+        "condition"
+      ],
+      "model_sensitive": true,
+      "safety_sensitivity": "low",
+      "commerce_fit": "A",
+      "sourceability": "A",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "core_next"
+    },
+    {
+      "candidate_id": "cand-044",
+      "name": "프린터 퓨저",
+      "slug": "printer-fuser",
+      "category_slug": "printing-office",
+      "priority": "P2",
+      "primary_keyword": "프린터 퓨저 교체주기",
+      "replacement_modes": [
+        "model",
+        "condition"
+      ],
+      "model_sensitive": true,
+      "safety_sensitivity": "low",
+      "commerce_fit": "A",
+      "sourceability": "A",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "later"
+    },
+    {
+      "candidate_id": "cand-045",
+      "name": "프린터 전사벨트",
+      "slug": "printer-transfer-belt",
+      "category_slug": "printing-office",
+      "priority": "P2",
+      "primary_keyword": "프린터 전사벨트 교체주기",
+      "replacement_modes": [
+        "model",
+        "condition"
+      ],
+      "model_sensitive": true,
+      "safety_sensitivity": "low",
+      "commerce_fit": "A",
+      "sourceability": "A",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "later"
+    },
+    {
+      "candidate_id": "cand-046",
+      "name": "프린터 헤드",
+      "slug": "printer-head",
+      "category_slug": "printing-office",
+      "priority": "P2",
+      "primary_keyword": "프린터 헤드 교체주기",
+      "replacement_modes": [
+        "model",
+        "condition"
+      ],
+      "model_sensitive": true,
+      "safety_sensitivity": "low",
+      "commerce_fit": "A",
+      "sourceability": "A",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "later"
+    },
+    {
+      "candidate_id": "cand-047",
+      "name": "스마트폰 배터리",
+      "slug": "smartphone-battery",
+      "category_slug": "digital-battery",
+      "priority": "P1",
+      "primary_keyword": "스마트폰 배터리 교체시기",
+      "replacement_modes": [
+        "condition",
+        "model"
+      ],
+      "model_sensitive": true,
+      "safety_sensitivity": "medium",
+      "commerce_fit": "B",
+      "sourceability": "A",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "core_next"
+    },
+    {
+      "candidate_id": "cand-048",
+      "name": "노트북 배터리",
+      "slug": "laptop-battery",
+      "category_slug": "digital-battery",
+      "priority": "P1",
+      "primary_keyword": "노트북 배터리 교체시기",
+      "replacement_modes": [
+        "condition",
+        "model"
+      ],
+      "model_sensitive": true,
+      "safety_sensitivity": "medium",
+      "commerce_fit": "B",
+      "sourceability": "A",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "core_next"
+    },
+    {
+      "candidate_id": "cand-049",
+      "name": "태블릿 배터리",
+      "slug": "tablet-battery",
+      "category_slug": "digital-battery",
+      "priority": "P1",
+      "primary_keyword": "태블릿 배터리 교체시기",
+      "replacement_modes": [
+        "condition",
+        "model"
+      ],
+      "model_sensitive": true,
+      "safety_sensitivity": "medium",
+      "commerce_fit": "B",
+      "sourceability": "A",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "core_next"
+    },
+    {
+      "candidate_id": "cand-050",
+      "name": "스마트워치 배터리",
+      "slug": "smartwatch-battery",
+      "category_slug": "digital-battery",
+      "priority": "P2",
+      "primary_keyword": "스마트워치 배터리 교체시기",
+      "replacement_modes": [
+        "condition",
+        "model"
+      ],
+      "model_sensitive": true,
+      "safety_sensitivity": "medium",
+      "commerce_fit": "B",
+      "sourceability": "A",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "later"
+    },
+    {
+      "candidate_id": "cand-051",
+      "name": "무선이어폰 배터리",
+      "slug": "wireless-earbuds-battery",
+      "category_slug": "digital-battery",
+      "priority": "P2",
+      "primary_keyword": "무선이어폰 배터리 교체시기",
+      "replacement_modes": [
+        "condition",
+        "model"
+      ],
+      "model_sensitive": true,
+      "safety_sensitivity": "medium",
+      "commerce_fit": "B",
+      "sourceability": "A",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "later"
+    },
+    {
+      "candidate_id": "cand-052",
+      "name": "보조배터리",
+      "slug": "power-bank",
+      "category_slug": "digital-battery",
+      "priority": "P2",
+      "primary_keyword": "보조배터리 교체시기",
+      "replacement_modes": [
+        "condition",
+        "model"
+      ],
+      "model_sensitive": true,
+      "safety_sensitivity": "medium",
+      "commerce_fit": "B",
+      "sourceability": "A",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "later"
+    },
+    {
+      "candidate_id": "cand-053",
+      "name": "스마트태그 배터리",
+      "slug": "smart-tag-battery",
+      "category_slug": "digital-battery",
+      "priority": "P2",
+      "primary_keyword": "스마트태그 배터리 교체시기",
+      "replacement_modes": [
+        "condition",
+        "model"
+      ],
+      "model_sensitive": true,
+      "safety_sensitivity": "medium",
+      "commerce_fit": "B",
+      "sourceability": "A",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "later"
+    },
+    {
+      "candidate_id": "cand-054",
+      "name": "카메라 배터리",
+      "slug": "camera-battery",
+      "category_slug": "digital-battery",
+      "priority": "P3",
+      "primary_keyword": "카메라 배터리 교체시기",
+      "replacement_modes": [
+        "condition",
+        "model"
+      ],
+      "model_sensitive": true,
+      "safety_sensitivity": "medium",
+      "commerce_fit": "B",
+      "sourceability": "A",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "later"
+    },
+    {
+      "candidate_id": "cand-055",
+      "name": "매트리스 토퍼",
+      "slug": "mattress-topper",
+      "category_slug": "bedding-living",
+      "priority": "P2",
+      "primary_keyword": "매트리스 토퍼 교체주기",
+      "replacement_modes": [
+        "condition"
+      ],
+      "model_sensitive": false,
+      "safety_sensitivity": "low",
+      "commerce_fit": "A",
+      "sourceability": "B",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "later"
+    },
+    {
+      "candidate_id": "cand-056",
+      "name": "매트리스 방수커버",
+      "slug": "mattress-protector",
+      "category_slug": "bedding-living",
+      "priority": "P2",
+      "primary_keyword": "매트리스 방수커버 교체주기",
+      "replacement_modes": [
+        "condition"
+      ],
+      "model_sensitive": false,
+      "safety_sensitivity": "low",
+      "commerce_fit": "A",
+      "sourceability": "B",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "later"
+    },
+    {
+      "candidate_id": "cand-057",
+      "name": "베개 보호커버",
+      "slug": "pillow-protector",
+      "category_slug": "bedding-living",
+      "priority": "P3",
+      "primary_keyword": "베개 보호커버 교체주기",
+      "replacement_modes": [
+        "condition"
+      ],
+      "model_sensitive": false,
+      "safety_sensitivity": "low",
+      "commerce_fit": "A",
+      "sourceability": "B",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "later"
+    },
+    {
+      "candidate_id": "cand-058",
+      "name": "욕실 매트",
+      "slug": "bath-mat",
+      "category_slug": "bedding-living",
+      "priority": "P3",
+      "primary_keyword": "욕실 매트 교체주기",
+      "replacement_modes": [
+        "condition"
+      ],
+      "model_sensitive": false,
+      "safety_sensitivity": "low",
+      "commerce_fit": "A",
+      "sourceability": "B",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "later"
+    },
+    {
+      "candidate_id": "cand-059",
+      "name": "실내화",
+      "slug": "indoor-slippers",
+      "category_slug": "bedding-living",
+      "priority": "P3",
+      "primary_keyword": "실내화 수명",
+      "replacement_modes": [
+        "condition"
+      ],
+      "model_sensitive": false,
+      "safety_sensitivity": "low",
+      "commerce_fit": "A",
+      "sourceability": "B",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "later"
+    },
+    {
+      "candidate_id": "cand-060",
+      "name": "신발 깔창",
+      "slug": "shoe-insole",
+      "category_slug": "bedding-living",
+      "priority": "P2",
+      "primary_keyword": "신발 깔창 교체주기",
+      "replacement_modes": [
+        "condition"
+      ],
+      "model_sensitive": false,
+      "safety_sensitivity": "low",
+      "commerce_fit": "A",
+      "sourceability": "B",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "later"
+    },
+    {
+      "candidate_id": "cand-061",
+      "name": "러그",
+      "slug": "rug",
+      "category_slug": "bedding-living",
+      "priority": "P3",
+      "primary_keyword": "러그 수명",
+      "replacement_modes": [
+        "condition"
+      ],
+      "model_sensitive": false,
+      "safety_sensitivity": "low",
+      "commerce_fit": "A",
+      "sourceability": "B",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "later"
+    },
+    {
+      "candidate_id": "cand-062",
+      "name": "렌즈 케이스",
+      "slug": "contact-lens-case",
+      "category_slug": "beauty-personal",
+      "priority": "P1",
+      "primary_keyword": "렌즈 케이스 교체주기",
+      "replacement_modes": [
+        "condition"
+      ],
+      "model_sensitive": false,
+      "safety_sensitivity": "low",
+      "commerce_fit": "A",
+      "sourceability": "B",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "core_next"
+    },
+    {
+      "candidate_id": "cand-063",
+      "name": "뷰러 고무패드",
+      "slug": "eyelash-curler-pad",
+      "category_slug": "beauty-personal",
+      "priority": "P2",
+      "primary_keyword": "뷰러 고무패드 교체주기",
+      "replacement_modes": [
+        "condition"
+      ],
+      "model_sensitive": false,
+      "safety_sensitivity": "low",
+      "commerce_fit": "A",
+      "sourceability": "B",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "later"
+    },
+    {
+      "candidate_id": "cand-064",
+      "name": "쿠션 퍼프",
+      "slug": "cushion-puff",
+      "category_slug": "beauty-personal",
+      "priority": "P2",
+      "primary_keyword": "쿠션 퍼프 교체주기",
+      "replacement_modes": [
+        "condition"
+      ],
+      "model_sensitive": false,
+      "safety_sensitivity": "low",
+      "commerce_fit": "A",
+      "sourceability": "B",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "later"
+    },
+    {
+      "candidate_id": "cand-065",
+      "name": "클렌징 디바이스 브러시",
+      "slug": "cleansing-device-brush",
+      "category_slug": "beauty-personal",
+      "priority": "P2",
+      "primary_keyword": "클렌징 디바이스 브러시 교체주기",
+      "replacement_modes": [
+        "model",
+        "condition"
+      ],
+      "model_sensitive": true,
+      "safety_sensitivity": "low",
+      "commerce_fit": "A",
+      "sourceability": "B",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "later"
+    },
+    {
+      "candidate_id": "cand-066",
+      "name": "제모기 헤드",
+      "slug": "epilator-head",
+      "category_slug": "beauty-personal",
+      "priority": "P3",
+      "primary_keyword": "제모기 헤드 교체주기",
+      "replacement_modes": [
+        "condition"
+      ],
+      "model_sensitive": false,
+      "safety_sensitivity": "low",
+      "commerce_fit": "A",
+      "sourceability": "B",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "later"
+    },
+    {
+      "candidate_id": "cand-067",
+      "name": "헤어브러시",
+      "slug": "hairbrush",
+      "category_slug": "beauty-personal",
+      "priority": "P3",
+      "primary_keyword": "헤어브러시 수명",
+      "replacement_modes": [
+        "model",
+        "condition"
+      ],
+      "model_sensitive": true,
+      "safety_sensitivity": "low",
+      "commerce_fit": "A",
+      "sourceability": "B",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "later"
+    },
+    {
+      "candidate_id": "cand-068",
+      "name": "공갈젖꼭지",
+      "slug": "pacifier",
+      "category_slug": "baby-family",
+      "priority": "P2",
+      "primary_keyword": "공갈젖꼭지 교체주기",
+      "replacement_modes": [
+        "manufacturer",
+        "condition"
+      ],
+      "model_sensitive": false,
+      "safety_sensitivity": "high",
+      "commerce_fit": "A",
+      "sourceability": "B",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "specialist"
+    },
+    {
+      "candidate_id": "cand-069",
+      "name": "유축기 밸브",
+      "slug": "breast-pump-valve",
+      "category_slug": "baby-family",
+      "priority": "P2",
+      "primary_keyword": "유축기 밸브 교체주기",
+      "replacement_modes": [
+        "model",
+        "condition"
+      ],
+      "model_sensitive": true,
+      "safety_sensitivity": "high",
+      "commerce_fit": "A",
+      "sourceability": "B",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "specialist"
+    },
+    {
+      "candidate_id": "cand-070",
+      "name": "유축기 멤브레인",
+      "slug": "breast-pump-membrane",
+      "category_slug": "baby-family",
+      "priority": "P2",
+      "primary_keyword": "유축기 멤브레인 교체주기",
+      "replacement_modes": [
+        "model",
+        "condition"
+      ],
+      "model_sensitive": true,
+      "safety_sensitivity": "high",
+      "commerce_fit": "A",
+      "sourceability": "B",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "specialist"
+    },
+    {
+      "candidate_id": "cand-071",
+      "name": "젖병 세척솔",
+      "slug": "bottle-brush",
+      "category_slug": "baby-family",
+      "priority": "P3",
+      "primary_keyword": "젖병 세척솔 교체주기",
+      "replacement_modes": [
+        "manufacturer",
+        "condition"
+      ],
+      "model_sensitive": false,
+      "safety_sensitivity": "medium",
+      "commerce_fit": "A",
+      "sourceability": "B",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "later"
+    },
+    {
+      "candidate_id": "cand-072",
+      "name": "빨대컵 빨대",
+      "slug": "sippy-cup-straw",
+      "category_slug": "baby-family",
+      "priority": "P3",
+      "primary_keyword": "빨대컵 빨대 교체주기",
+      "replacement_modes": [
+        "manufacturer",
+        "condition"
+      ],
+      "model_sensitive": false,
+      "safety_sensitivity": "medium",
+      "commerce_fit": "A",
+      "sourceability": "B",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "later"
+    },
+    {
+      "candidate_id": "cand-073",
+      "name": "젖병소독기 필터",
+      "slug": "bottle-sterilizer-filter",
+      "category_slug": "baby-family",
+      "priority": "P2",
+      "primary_keyword": "젖병소독기 필터 교체주기",
+      "replacement_modes": [
+        "model",
+        "condition"
+      ],
+      "model_sensitive": true,
+      "safety_sensitivity": "medium",
+      "commerce_fit": "A",
+      "sourceability": "B",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "later"
+    },
+    {
+      "candidate_id": "cand-074",
+      "name": "카시트",
+      "slug": "child-car-seat",
+      "category_slug": "baby-family",
+      "priority": "P2",
+      "primary_keyword": "카시트 수명",
+      "replacement_modes": [
+        "manufacturer",
+        "condition"
+      ],
+      "model_sensitive": false,
+      "safety_sensitivity": "high",
+      "commerce_fit": "A",
+      "sourceability": "B",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "specialist"
+    },
+    {
+      "candidate_id": "cand-075",
+      "name": "엔진 에어필터",
+      "slug": "engine-air-filter",
+      "category_slug": "automotive",
+      "priority": "P1",
+      "primary_keyword": "엔진 에어필터 교체주기",
+      "replacement_modes": [
+        "model",
+        "condition"
+      ],
+      "model_sensitive": true,
+      "safety_sensitivity": "medium",
+      "commerce_fit": "A",
+      "sourceability": "A",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "core_next"
+    },
+    {
+      "candidate_id": "cand-076",
+      "name": "자동차 배터리",
+      "slug": "car-battery",
+      "category_slug": "automotive",
+      "priority": "P2",
+      "primary_keyword": "자동차 배터리 교체시기",
+      "replacement_modes": [
+        "condition",
+        "model"
+      ],
+      "model_sensitive": true,
+      "safety_sensitivity": "high",
+      "commerce_fit": "A",
+      "sourceability": "A",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "specialist"
+    },
+    {
+      "candidate_id": "cand-077",
+      "name": "브레이크액",
+      "slug": "brake-fluid",
+      "category_slug": "automotive",
+      "priority": "P2",
+      "primary_keyword": "브레이크액 교체주기",
+      "replacement_modes": [
+        "model",
+        "mileage",
+        "condition"
+      ],
+      "model_sensitive": false,
+      "safety_sensitivity": "high",
+      "commerce_fit": "A",
+      "sourceability": "A",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "specialist"
+    },
+    {
+      "candidate_id": "cand-078",
+      "name": "냉각수",
+      "slug": "engine-coolant",
+      "category_slug": "automotive",
+      "priority": "P2",
+      "primary_keyword": "냉각수 교체주기",
+      "replacement_modes": [
+        "model",
+        "mileage",
+        "condition"
+      ],
+      "model_sensitive": false,
+      "safety_sensitivity": "high",
+      "commerce_fit": "A",
+      "sourceability": "A",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "specialist"
+    },
+    {
+      "candidate_id": "cand-079",
+      "name": "미션오일",
+      "slug": "transmission-fluid",
+      "category_slug": "automotive",
+      "priority": "P2",
+      "primary_keyword": "미션오일 교체주기",
+      "replacement_modes": [
+        "model",
+        "mileage",
+        "condition"
+      ],
+      "model_sensitive": false,
+      "safety_sensitivity": "high",
+      "commerce_fit": "A",
+      "sourceability": "A",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "specialist"
+    },
+    {
+      "candidate_id": "cand-080",
+      "name": "점화플러그",
+      "slug": "spark-plug",
+      "category_slug": "automotive",
+      "priority": "P2",
+      "primary_keyword": "점화플러그 교체주기",
+      "replacement_modes": [
+        "model",
+        "mileage",
+        "condition"
+      ],
+      "model_sensitive": false,
+      "safety_sensitivity": "high",
+      "commerce_fit": "A",
+      "sourceability": "A",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "specialist"
+    },
+    {
+      "candidate_id": "cand-081",
+      "name": "연료필터",
+      "slug": "fuel-filter",
+      "category_slug": "automotive",
+      "priority": "P2",
+      "primary_keyword": "연료필터 교체주기",
+      "replacement_modes": [
+        "model",
+        "condition"
+      ],
+      "model_sensitive": true,
+      "safety_sensitivity": "high",
+      "commerce_fit": "A",
+      "sourceability": "A",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "specialist"
+    },
+    {
+      "candidate_id": "cand-082",
+      "name": "타이밍벨트",
+      "slug": "timing-belt",
+      "category_slug": "automotive",
+      "priority": "P2",
+      "primary_keyword": "타이밍벨트 교체주기",
+      "replacement_modes": [
+        "model",
+        "mileage",
+        "condition"
+      ],
+      "model_sensitive": false,
+      "safety_sensitivity": "high",
+      "commerce_fit": "A",
+      "sourceability": "A",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "specialist"
+    },
+    {
+      "candidate_id": "cand-083",
+      "name": "구동벨트",
+      "slug": "drive-belt",
+      "category_slug": "automotive",
+      "priority": "P2",
+      "primary_keyword": "구동벨트 교체주기",
+      "replacement_modes": [
+        "model",
+        "mileage",
+        "condition"
+      ],
+      "model_sensitive": false,
+      "safety_sensitivity": "high",
+      "commerce_fit": "A",
+      "sourceability": "A",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "specialist"
+    },
+    {
+      "candidate_id": "cand-084",
+      "name": "디퍼렌셜 오일",
+      "slug": "differential-fluid",
+      "category_slug": "automotive",
+      "priority": "P2",
+      "primary_keyword": "디퍼렌셜 오일 교체주기",
+      "replacement_modes": [
+        "model",
+        "mileage",
+        "condition"
+      ],
+      "model_sensitive": false,
+      "safety_sensitivity": "high",
+      "commerce_fit": "A",
+      "sourceability": "A",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "specialist"
+    },
+    {
+      "candidate_id": "cand-085",
+      "name": "스마트키 배터리",
+      "slug": "car-key-battery",
+      "category_slug": "automotive",
+      "priority": "P1",
+      "primary_keyword": "스마트키 배터리 교체시기",
+      "replacement_modes": [
+        "condition",
+        "model"
+      ],
+      "model_sensitive": true,
+      "safety_sensitivity": "medium",
+      "commerce_fit": "A",
+      "sourceability": "A",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "core_next"
+    },
+    {
+      "candidate_id": "cand-086",
+      "name": "전조등 전구",
+      "slug": "headlight-bulb",
+      "category_slug": "automotive",
+      "priority": "P2",
+      "primary_keyword": "전조등 전구 교체시기",
+      "replacement_modes": [
+        "model",
+        "mileage",
+        "condition"
+      ],
+      "model_sensitive": true,
+      "safety_sensitivity": "medium",
+      "commerce_fit": "A",
+      "sourceability": "A",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "later"
+    },
+    {
+      "candidate_id": "cand-087",
+      "name": "소화기",
+      "slug": "fire-extinguisher",
+      "category_slug": "home-maintenance-safety",
+      "priority": "P2",
+      "primary_keyword": "소화기 교체시기",
+      "replacement_modes": [
+        "condition",
+        "safety"
+      ],
+      "model_sensitive": false,
+      "safety_sensitivity": "high",
+      "commerce_fit": "B",
+      "sourceability": "A",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "specialist"
+    },
+    {
+      "candidate_id": "cand-088",
+      "name": "화재경보기 배터리",
+      "slug": "smoke-alarm-battery",
+      "category_slug": "home-maintenance-safety",
+      "priority": "P2",
+      "primary_keyword": "화재경보기 배터리 교체시기",
+      "replacement_modes": [
+        "condition",
+        "model"
+      ],
+      "model_sensitive": true,
+      "safety_sensitivity": "high",
+      "commerce_fit": "B",
+      "sourceability": "A",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "specialist"
+    },
+    {
+      "candidate_id": "cand-089",
+      "name": "화재경보기",
+      "slug": "smoke-alarm",
+      "category_slug": "home-maintenance-safety",
+      "priority": "P2",
+      "primary_keyword": "화재경보기 교체시기",
+      "replacement_modes": [
+        "condition",
+        "safety"
+      ],
+      "model_sensitive": false,
+      "safety_sensitivity": "high",
+      "commerce_fit": "B",
+      "sourceability": "A",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "specialist"
+    },
+    {
+      "candidate_id": "cand-090",
+      "name": "가스누설경보기",
+      "slug": "gas-leak-alarm",
+      "category_slug": "home-maintenance-safety",
+      "priority": "P2",
+      "primary_keyword": "가스누설경보기 교체주기",
+      "replacement_modes": [
+        "condition",
+        "safety"
+      ],
+      "model_sensitive": false,
+      "safety_sensitivity": "high",
+      "commerce_fit": "B",
+      "sourceability": "A",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "specialist"
+    },
+    {
+      "candidate_id": "cand-091",
+      "name": "연장선",
+      "slug": "extension-cord",
+      "category_slug": "home-maintenance-safety",
+      "priority": "P2",
+      "primary_keyword": "연장선 교체주기",
+      "replacement_modes": [
+        "condition",
+        "safety"
+      ],
+      "model_sensitive": false,
+      "safety_sensitivity": "high",
+      "commerce_fit": "B",
+      "sourceability": "A",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "later"
+    },
+    {
+      "candidate_id": "cand-092",
+      "name": "서지보호기",
+      "slug": "surge-protector",
+      "category_slug": "home-maintenance-safety",
+      "priority": "P2",
+      "primary_keyword": "서지보호기 교체주기",
+      "replacement_modes": [
+        "condition",
+        "safety"
+      ],
+      "model_sensitive": false,
+      "safety_sensitivity": "high",
+      "commerce_fit": "B",
+      "sourceability": "A",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "later"
+    },
+    {
+      "candidate_id": "cand-093",
+      "name": "비상손전등 배터리",
+      "slug": "emergency-flashlight-battery",
+      "category_slug": "home-maintenance-safety",
+      "priority": "P3",
+      "primary_keyword": "비상손전등 배터리 교체시기",
+      "replacement_modes": [
+        "condition",
+        "model"
+      ],
+      "model_sensitive": true,
+      "safety_sensitivity": "medium",
+      "commerce_fit": "B",
+      "sourceability": "A",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "later"
+    },
+    {
+      "candidate_id": "cand-094",
+      "name": "반려동물 급수기 필터",
+      "slug": "pet-water-fountain-filter",
+      "category_slug": "pet",
+      "priority": "P2",
+      "primary_keyword": "반려동물 급수기 필터 교체주기",
+      "replacement_modes": [
+        "model",
+        "condition"
+      ],
+      "model_sensitive": true,
+      "safety_sensitivity": "low",
+      "commerce_fit": "A",
+      "sourceability": "B",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "later"
+    },
+    {
+      "candidate_id": "cand-095",
+      "name": "자동화장실 탈취필터",
+      "slug": "automatic-litter-box-filter",
+      "category_slug": "pet",
+      "priority": "P2",
+      "primary_keyword": "자동화장실 탈취필터 교체주기",
+      "replacement_modes": [
+        "model",
+        "condition"
+      ],
+      "model_sensitive": true,
+      "safety_sensitivity": "low",
+      "commerce_fit": "A",
+      "sourceability": "B",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "later"
+    },
+    {
+      "candidate_id": "cand-096",
+      "name": "반려동물 칫솔",
+      "slug": "pet-toothbrush",
+      "category_slug": "pet",
+      "priority": "P2",
+      "primary_keyword": "반려동물 칫솔 교체주기",
+      "replacement_modes": [
+        "condition"
+      ],
+      "model_sensitive": false,
+      "safety_sensitivity": "low",
+      "commerce_fit": "A",
+      "sourceability": "B",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "later"
+    },
+    {
+      "candidate_id": "cand-097",
+      "name": "고양이 스크래처",
+      "slug": "cat-scratcher",
+      "category_slug": "pet",
+      "priority": "P3",
+      "primary_keyword": "고양이 스크래처 수명",
+      "replacement_modes": [
+        "condition"
+      ],
+      "model_sensitive": false,
+      "safety_sensitivity": "low",
+      "commerce_fit": "A",
+      "sourceability": "B",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "later"
+    },
+    {
+      "candidate_id": "cand-098",
+      "name": "반려동물 침대",
+      "slug": "pet-bed",
+      "category_slug": "pet",
+      "priority": "P3",
+      "primary_keyword": "반려동물 침대 수명",
+      "replacement_modes": [
+        "condition"
+      ],
+      "model_sensitive": false,
+      "safety_sensitivity": "low",
+      "commerce_fit": "A",
+      "sourceability": "B",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "later"
+    },
+    {
+      "candidate_id": "cand-099",
+      "name": "반려동물 목줄",
+      "slug": "pet-collar",
+      "category_slug": "pet",
+      "priority": "P3",
+      "primary_keyword": "반려동물 목줄 수명",
+      "replacement_modes": [
+        "condition"
+      ],
+      "model_sensitive": false,
+      "safety_sensitivity": "low",
+      "commerce_fit": "A",
+      "sourceability": "B",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "later"
+    },
+    {
+      "candidate_id": "cand-100",
+      "name": "반려동물 리드줄",
+      "slug": "pet-leash",
+      "category_slug": "pet",
+      "priority": "P3",
+      "primary_keyword": "반려동물 리드줄 수명",
+      "replacement_modes": [
+        "condition"
+      ],
+      "model_sensitive": false,
+      "safety_sensitivity": "low",
+      "commerce_fit": "A",
+      "sourceability": "B",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "later"
+    },
+    {
+      "candidate_id": "cand-101",
+      "name": "커피 그라인더 버",
+      "slug": "coffee-grinder-burr",
+      "category_slug": "home-cafe",
+      "priority": "P2",
+      "primary_keyword": "커피 그라인더 버 교체주기",
+      "replacement_modes": [
+        "condition"
+      ],
+      "model_sensitive": false,
+      "safety_sensitivity": "low",
+      "commerce_fit": "A",
+      "sourceability": "A",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "later"
+    },
+    {
+      "candidate_id": "cand-102",
+      "name": "에스프레소 머신 가스켓",
+      "slug": "espresso-machine-gasket",
+      "category_slug": "home-cafe",
+      "priority": "P1",
+      "primary_keyword": "에스프레소 머신 가스켓 교체주기",
+      "replacement_modes": [
+        "model",
+        "condition"
+      ],
+      "model_sensitive": true,
+      "safety_sensitivity": "low",
+      "commerce_fit": "A",
+      "sourceability": "A",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "core_next"
+    },
+    {
+      "candidate_id": "cand-103",
+      "name": "우유 튜브",
+      "slug": "milk-tube",
+      "category_slug": "home-cafe",
+      "priority": "P2",
+      "primary_keyword": "우유 튜브 교체주기",
+      "replacement_modes": [
+        "model",
+        "condition"
+      ],
+      "model_sensitive": true,
+      "safety_sensitivity": "low",
+      "commerce_fit": "A",
+      "sourceability": "A",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "later"
+    },
+    {
+      "candidate_id": "cand-104",
+      "name": "우유거품기 거품날",
+      "slug": "milk-frother-whisk",
+      "category_slug": "home-cafe",
+      "priority": "P3",
+      "primary_keyword": "우유거품기 거품날 교체주기",
+      "replacement_modes": [
+        "condition"
+      ],
+      "model_sensitive": false,
+      "safety_sensitivity": "low",
+      "commerce_fit": "A",
+      "sourceability": "A",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "later"
+    },
+    {
+      "candidate_id": "cand-105",
+      "name": "캡슐커피머신 디스케일링 키트",
+      "slug": "capsule-machine-descaling-kit",
+      "category_slug": "home-cafe",
+      "priority": "P2",
+      "primary_keyword": "캡슐커피머신 디스케일링 주기",
+      "replacement_modes": [
+        "maintenance",
+        "model"
+      ],
+      "model_sensitive": false,
+      "safety_sensitivity": "low",
+      "commerce_fit": "A",
+      "sourceability": "A",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "later"
+    },
+    {
+      "candidate_id": "cand-106",
+      "name": "자전거 헬멧",
+      "slug": "bicycle-helmet",
+      "category_slug": "sports-outdoor",
+      "priority": "P2",
+      "primary_keyword": "자전거 헬멧 수명",
+      "replacement_modes": [
+        "condition"
+      ],
+      "model_sensitive": false,
+      "safety_sensitivity": "high",
+      "commerce_fit": "B",
+      "sourceability": "B",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "specialist"
+    },
+    {
+      "candidate_id": "cand-107",
+      "name": "오토바이 헬멧",
+      "slug": "motorcycle-helmet",
+      "category_slug": "sports-outdoor",
+      "priority": "P2",
+      "primary_keyword": "오토바이 헬멧 수명",
+      "replacement_modes": [
+        "condition"
+      ],
+      "model_sensitive": false,
+      "safety_sensitivity": "high",
+      "commerce_fit": "B",
+      "sourceability": "B",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "specialist"
+    },
+    {
+      "candidate_id": "cand-108",
+      "name": "자전거 타이어",
+      "slug": "bicycle-tire",
+      "category_slug": "sports-outdoor",
+      "priority": "P2",
+      "primary_keyword": "자전거 타이어 교체주기",
+      "replacement_modes": [
+        "condition"
+      ],
+      "model_sensitive": true,
+      "safety_sensitivity": "medium",
+      "commerce_fit": "B",
+      "sourceability": "B",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "later"
+    },
+    {
+      "candidate_id": "cand-109",
+      "name": "자전거 브레이크패드",
+      "slug": "bicycle-brake-pad",
+      "category_slug": "sports-outdoor",
+      "priority": "P2",
+      "primary_keyword": "자전거 브레이크패드 교체주기",
+      "replacement_modes": [
+        "condition"
+      ],
+      "model_sensitive": true,
+      "safety_sensitivity": "high",
+      "commerce_fit": "B",
+      "sourceability": "B",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "specialist"
+    },
+    {
+      "candidate_id": "cand-110",
+      "name": "수경",
+      "slug": "swim-goggles",
+      "category_slug": "sports-outdoor",
+      "priority": "P3",
+      "primary_keyword": "수경 교체주기",
+      "replacement_modes": [
+        "condition"
+      ],
+      "model_sensitive": false,
+      "safety_sensitivity": "medium",
+      "commerce_fit": "B",
+      "sourceability": "B",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "later"
+    },
+    {
+      "candidate_id": "cand-111",
+      "name": "러닝화 깔창",
+      "slug": "running-shoe-insole",
+      "category_slug": "sports-outdoor",
+      "priority": "P3",
+      "primary_keyword": "러닝화 깔창 교체주기",
+      "replacement_modes": [
+        "condition"
+      ],
+      "model_sensitive": false,
+      "safety_sensitivity": "medium",
+      "commerce_fit": "B",
+      "sourceability": "B",
+      "verification_status": "needs_research",
+      "notes": [],
+      "research_tier": "later"
+    }
+  ],
+  "category_taxonomy_version": "v1.8",
+  "core_next_count": 30,
+  "specialist_count": 20
+}

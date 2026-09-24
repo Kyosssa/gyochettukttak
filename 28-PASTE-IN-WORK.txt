@@ -1,0 +1,14 @@
+이 ZIP은 교체뚝딱(gyochettukttak.com)의 최종 v1.9 기획팩이야.
+
+먼저 구현하지 말고 ZIP 전체를 읽은 뒤 `00-README-FIRST.md`와 `20-work-codex-bootstrap.md`, `27-implementation-contract.md`를 우선 확인해줘.
+
+중요:
+- 이전 대화나 다른 AI의 starter/CSV보다 이 ZIP을 source of truth로 사용해.
+- Phase 0 데이터/출처/route/fixture 검증부터 시작해.
+- launch scope 밖의 기능은 구현하지 마.
+- needs_research 항목의 교체주기를 추정하지 마.
+- commit/push/production deploy/DNS 변경은 아직 하지 마.
+- 외부 자격증명이나 정책이 필요한 부분은 mock/placeholder로 안전하게 구현하고 보류사항으로 보고해.
+
+Phase 0 검증 결과를 먼저 간단히 보여준 뒤 구현을 진행하고,
+완료 시 `18-qa-release-spec.md`와 `19-e2e-acceptance.json` 기준으로 self-review까지 해줘.

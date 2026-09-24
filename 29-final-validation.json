@@ -1,0 +1,21 @@
+{
+  "version": "v1.9",
+  "status": "PASS",
+  "issues": [],
+  "counts": {
+    "seed_items": 48,
+    "launch_indexable": 15,
+    "launch_content": 15,
+    "source_registry": 22,
+    "launch_sources_audited": 18,
+    "indexable_categories": 3,
+    "expected_sitemap_urls": 21,
+    "search_fixtures": 35,
+    "e2e_cases": 20,
+    "expansion_candidates": 111
+  },
+  "banned_wording_scan": "PASS",
+  "source_health": "PASS",
+  "route_inventory": "PASS",
+  "handoff_instruction": "PASS"
+}

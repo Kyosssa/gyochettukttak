@@ -1,0 +1,135 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "교체뚝딱 item v1.8",
+  "type": "object",
+  "required": [
+    "id",
+    "slug",
+    "name",
+    "category_slug",
+    "replacement_modes",
+    "verification_status",
+    "evidence",
+    "seo",
+    "affiliate",
+    "care_actions",
+    "index_state"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^item-[0-9]{3}$"
+    },
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "category_slug": {
+      "type": "string",
+      "enum": [
+        "air-water-filters",
+        "automotive",
+        "baby-family",
+        "beauty-personal",
+        "bedding-living",
+        "cleaning-appliances",
+        "clothing-footwear",
+        "digital-battery",
+        "home-cafe",
+        "home-maintenance-safety",
+        "hygiene-bathroom",
+        "kitchen-food",
+        "pet",
+        "printing-office",
+        "sports-outdoor"
+      ]
+    },
+    "replacement_modes": {
+      "type": "array",
+      "minItems": 1
+    },
+    "care_actions": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "inspect",
+          "maintain",
+          "replace",
+          "usage_update",
+          "mileage_update",
+          "model_memory",
+          "vehicle_memory"
+        ]
+      }
+    },
+    "verification_status": {
+      "enum": [
+        "needs_research",
+        "verified",
+        "review_due",
+        "retired"
+      ]
+    },
+    "index_state": {
+      "enum": [
+        "indexable",
+        "hold",
+        "retired"
+      ]
+    },
+    "sources": {
+      "type": "array"
+    },
+    "answer_summary": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "replacement_reason": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "evidence": {
+      "type": "object"
+    },
+    "affiliate": {
+      "type": "object"
+    },
+    "seo": {
+      "type": "object"
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "index_state": {
+            "const": "indexable"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "verification_status": {
+            "const": "verified"
+          },
+          "sources": {
+            "minItems": 1
+          }
+        },
+        "required": [
+          "answer_summary",
+          "replacement_reason"
+        ]
+      }
+    }
+  ],
+  "additionalProperties": true
+}

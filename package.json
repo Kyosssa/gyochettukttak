@@ -1,0 +1,14 @@
+{
+  "name": "gyochettukttak",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "test:data": "node scripts/validate-data.mjs",
+    "test:search": "node scripts/test-search.mjs",
+    "test:e2e": "node scripts/test-static.mjs"
+  },
+  "devDependencies": { "astro": "^5.0.0" }
+}

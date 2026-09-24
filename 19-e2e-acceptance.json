@@ -1,0 +1,176 @@
+{
+  "version": "v1.6",
+  "cases": [
+    {
+      "id": "organic-toothbrush-exact-date",
+      "entry": "/item/toothbrush/",
+      "assert": [
+        "H1/AnswerCard visible before ad",
+        "evidence badge visible",
+        "exact date input can produce range/check status",
+        "My Home save works",
+        "one-tap replace resets to today"
+      ]
+    },
+    {
+      "id": "toothbrush-approx-date",
+      "entry": "/item/toothbrush/",
+      "action": "choose approximate last replacement",
+      "assert": [
+        "no exact D-N label",
+        "range/status copy shown"
+      ]
+    },
+    {
+      "id": "frying-pan-condition",
+      "entry": "/item/frying-pan/",
+      "assert": [
+        "no forced countdown",
+        "condition checklist",
+        "verified beorim CTA"
+      ]
+    },
+    {
+      "id": "cutting-board-condition",
+      "entry": "/item/cutting-board/",
+      "assert": [
+        "condition-first answer",
+        "verified beorim CTA"
+      ]
+    },
+    {
+      "id": "air-purifier-model",
+      "entry": "/item/air-purifier-filter/",
+      "assert": [
+        "model required notice",
+        "generic TOP3 absent",
+        "official source visible"
+      ]
+    },
+    {
+      "id": "vacuum-maintenance",
+      "entry": "/item/vacuum-filter/",
+      "assert": [
+        "clean-vs-replace distinction",
+        "generic cycle absent"
+      ]
+    },
+    {
+      "id": "power-strip-safety",
+      "entry": "/item/power-strip/",
+      "assert": [
+        "no legal fixed lifespan claim",
+        "damage/overload checklist",
+        "safety source visible"
+      ]
+    },
+    {
+      "id": "wiper-vehicle",
+      "entry": "/item/wiper-blade/",
+      "assert": [
+        "condition signs",
+        "generic product recommendation blocked until vehicle fit"
+      ]
+    },
+    {
+      "id": "cabin-filter-vehicle",
+      "entry": "/item/cabin-air-filter/",
+      "assert": [
+        "vehicle/manual first",
+        "mileage tool available only with explicit user input",
+        "generic product cards blocked"
+      ]
+    },
+    {
+      "id": "search-aircon-ambiguous",
+      "entry": "/search/?q=에어컨필터",
+      "assert": [
+        "home AC filter option",
+        "car cabin filter option",
+        "no silent wrong redirect"
+      ]
+    },
+    {
+      "id": "search-filter-generic",
+      "entry": "/search/?q=필터",
+      "assert": [
+        "multiple filter results",
+        "no single auto redirect"
+      ]
+    },
+    {
+      "id": "known-unverified",
+      "entry": "/search/?q=렌즈",
+      "assert": [
+        "known item state",
+        "verification in progress copy",
+        "no invented cycle",
+        "not treated as missing"
+      ]
+    },
+    {
+      "id": "missing",
+      "entry": "/search/?q=골프공",
+      "assert": [
+        "no result copy",
+        "no fabricated related cycle"
+      ]
+    },
+    {
+      "id": "myhome-noindex",
+      "entry": "/my-home/",
+      "assert": [
+        "noindex,follow",
+        "localStorage only",
+        "delete all button"
+      ]
+    },
+    {
+      "id": "beorim-exact-only",
+      "entry": "/item/toothbrush/",
+      "assert": [
+        "link target https://beorimttukttak.com/item/toothbrush/"
+      ]
+    },
+    {
+      "id": "beorim-filter-not-guessed",
+      "entry": "/item/air-purifier-filter/",
+      "assert": [
+        "no link to air-purifier body disposal page"
+      ]
+    },
+    {
+      "id": "404",
+      "entry": "/item/not-real/",
+      "assert": [
+        "HTTP 404",
+        "search CTA visible",
+        "noindex"
+      ]
+    },
+    {
+      "id": "preview",
+      "entry": "pages.dev preview",
+      "assert": [
+        "X-Robots-Tag noindex"
+      ]
+    },
+    {
+      "id": "sitemap",
+      "entry": "/sitemap.xml",
+      "assert": [
+        "verified item URLs",
+        "no my-home",
+        "no search",
+        "no needs_research"
+      ]
+    },
+    {
+      "id": "function-route",
+      "entry": "/item/toothbrush/",
+      "assert": [
+        "static response does not invoke Coupang Function"
+      ]
+    }
+  ]
+}

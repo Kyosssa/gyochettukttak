@@ -1,0 +1,30 @@
+{
+  "version": "v1.8.1",
+  "status": "PASS",
+  "issues": [],
+  "counts": {
+    "seed": 48,
+    "indexable_launch": 15,
+    "categories": 15,
+    "expansion_candidates": 111,
+    "core_next": 30,
+    "specialist": 20,
+    "source_registry": 21,
+    "search_fixtures": 35,
+    "e2e_cases": 20
+  },
+  "indexable_category_counts": {
+    "hygiene-bathroom": 3,
+    "kitchen-food": 3,
+    "air-water-filters": 4,
+    "bedding-living": 1,
+    "cleaning-appliances": 1,
+    "home-maintenance-safety": 1,
+    "automotive": 2
+  },
+  "indexable_category_pages_now": [
+    "hygiene-bathroom",
+    "kitchen-food",
+    "air-water-filters"
+  ]
+}
