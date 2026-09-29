@@ -11,30 +11,45 @@
     : { id: 1034259, trackingCode: 'AF4293553', template: 'carousel', width: '728', height: '90', tsource: '' };
 
   const remove = (banner) => banner.remove();
-  const revealWhenReady = (banner, slot) => {
-    const reveal = () => {
-      if (slot.querySelector('iframe')) {
-        banner.hidden = false;
-        observer.disconnect();
-        clearTimeout(timeout);
-      }
-    };
-    const observer = new MutationObserver(reveal);
-    observer.observe(slot, { childList: true, subtree: true });
-    const timeout = window.setTimeout(() => {
-      observer.disconnect();
-      if (!slot.querySelector('iframe')) remove(banner);
-    }, 4000);
-    reveal();
-  };
+  const isCarouselFrame = (frame) => frame instanceof HTMLIFrameElement && (
+    frame.id.startsWith(String(config.id)) ||
+    /(^|\.)ads-partners\.coupang\.com/i.test(frame.src)
+  );
 
   const render = () => banners.forEach((banner) => {
     const slot = banner.querySelector('[data-coupang-slot]');
     if (!slot || !window.PartnersCoupang?.G) return remove(banner);
-    revealWhenReady(banner, slot);
+    let placed = false;
+    const place = (frame) => {
+      if (!isCarouselFrame(frame)) return;
+      if (placed) return frame.remove();
+      placed = true;
+      frame.width = config.width;
+      frame.height = config.height;
+      frame.title = '쿠팡 파트너스 광고';
+      slot.replaceChildren(frame);
+      banner.hidden = false;
+      observer.disconnect();
+      clearTimeout(timeout);
+    };
+    const scan = (root = document) => root.querySelectorAll?.('iframe').forEach(place);
+    // Coupang's loader can append the iframe at the end of body. Observe from before its constructor runs,
+    // then move only this banner's iframe into the page-owned slot inside main.
+    const observer = new MutationObserver((records) => {
+      for (const record of records) for (const node of record.addedNodes) {
+        if (node.nodeType === Node.ELEMENT_NODE) {
+          if (node.matches?.('iframe')) place(node);
+          scan(node);
+        }
+      }
+    });
+    observer.observe(document.body, { childList: true, subtree: true });
+    const timeout = window.setTimeout(() => {
+      observer.disconnect();
+      if (!placed) remove(banner);
+    }, 4000);
+    scan();
 
-    // The Coupang constructor uses the script node currently in the document as its insertion point.
-    // Keeping this executable node inside the slot anchors the generated iframe in the intended container.
     const runner = document.createElement('script');
     runner.text = `try { new window.PartnersCoupang.G(${JSON.stringify(config)}); } catch (_) { document.currentScript.closest('[data-coupang-carousel]').remove(); }`;
     slot.append(runner);
