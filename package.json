@@ -10,7 +10,8 @@
     "test:search": "node scripts/test-search.mjs",
     "test:e2e": "node scripts/test-static.mjs",
     "test:today": "node scripts/test-today.mjs",
-    "test:release": "node scripts/test-release.mjs"
+    "test:release": "node scripts/test-release.mjs",
+    "test:coupang": "node scripts/test-coupang.mjs"
   },
   "devDependencies": { "astro": "^5.0.0" }
 }

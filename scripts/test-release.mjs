@@ -9,7 +9,8 @@ const sitemap = read('dist/sitemap.xml');
 const urls = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1]);
 const launch = seed.items.filter((item) => item.launch_candidate && item.index_state === 'indexable');
 const noindexPaths = ['/search/', '/my-home/', '/privacy/', '/affiliate-disclosure/'];
-const forbidden = /광고 준비 중|상품 안내 준비 중|준비 예정|data-coupang|PartnersCoupang|ads-partners\.coupang\.com|coupang-carousel|disabled(?:=|\s|>)/i;
+const forbidden = /광고 준비 중|상품 안내 준비 중|준비 예정|disabled(?:=|\s|>)/i;
+const coupang = /data-coupang|PartnersCoupang|ads-partners\.coupang\.com|coupang-carousel/i;
 
 const htmlFile = (pathname) => pathname === '/' ? 'dist/index.html' : `dist${pathname}index.html`;
 const text = (html) => html
@@ -56,7 +57,8 @@ for (const url of urls) {
   const jsonLdText = html.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/i)?.[1];
   assert.ok(jsonLdText, `JSON-LD exists: ${pathname}`);
   assert.doesNotThrow(() => JSON.parse(jsonLdText), `JSON-LD parses: ${pathname}`);
-  assert.equal(forbidden.test(html), false, `no unfinished or Coupang UI: ${pathname}`);
+  assert.equal(forbidden.test(html), false, `no unfinished UI: ${pathname}`);
+  assert.equal(coupang.test(html), pathname.startsWith('/item/'), `Coupang only on item pages: ${pathname}`);
   assert.equal(titles.has(pageTitle), false, `unique title: ${pageTitle}`);
   assert.equal(descriptions.has(description), false, `unique description: ${pathname}`);
   assert.equal(headings.has(pageH1), false, `unique H1: ${pageH1}`);
@@ -85,7 +87,9 @@ assert.equal(headers.includes('https://gyochettukttak.com/*'), false, 'official 
 const htmlFiles = fs.readdirSync('dist', { recursive: true }).filter((file) => file.endsWith('.html'));
 for (const relative of htmlFiles) {
   const html = read(path.join('dist', relative));
-  assert.equal(forbidden.test(html), false, `no unfinished or Coupang UI: ${relative}`);
+  assert.equal(forbidden.test(html), false, `no unfinished UI: ${relative}`);
+  const itemPage = relative.startsWith('item\\') || relative.startsWith('item/');
+  assert.equal(coupang.test(html), itemPage, `Coupang only on item pages: ${relative}`);
   const renderedMarkup = html.replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, '');
   for (const match of renderedMarkup.matchAll(/href="(\/[^"]*)"/g)) {
     const pathname = new URL(match[1], origin).pathname;
