@@ -15,7 +15,7 @@ export function loadAnalytics({ windowObject = window, documentObject = document
   windowObject.__gyochettukttakGaLoaded = true;
   windowObject[`ga-disable-${ANALYTICS_ID}`] = false;
   windowObject.dataLayer = windowObject.dataLayer || [];
-  const gtag = (...args) => windowObject.dataLayer.push(args);
+  function gtag() { windowObject.dataLayer.push(arguments); }
   windowObject.gtag = gtag;
   gtag('consent', 'default', {
     analytics_storage: 'denied',

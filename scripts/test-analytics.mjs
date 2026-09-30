@@ -30,14 +30,15 @@ assert.equal(loadAnalytics({ ...allowed, locationObject: official }), true);
 assert.equal(loadAnalytics({ ...allowed, locationObject: official }), false, 'duplicate initialization blocked');
 assert.equal(allowed.scripts.length, 1, 'GA loader once');
 assert.equal(allowed.scripts[0].src, `https://www.googletagmanager.com/gtag/js?id=${ANALYTICS_ID}`);
-const pageViews = allowed.windowObject.dataLayer.filter((entry) => entry[0] === 'event' && entry[1] === 'page_view');
+const commands = allowed.windowObject.dataLayer.map((entry) => Array.from(entry));
+const pageViews = commands.filter((entry) => entry[0] === 'event' && entry[1] === 'page_view');
 assert.equal(pageViews.length, 1, 'page_view once');
 assert.equal(pageViews[0][2].page_location, 'https://gyochettukttak.com/search/');
 assert.equal(pageViews[0][2].page_location.includes('?'), false, 'no query string');
 assert.deepEqual(Object.keys(pageViews[0][2]).sort(), ['page_location', 'page_path', 'page_title']);
-assert.equal(JSON.stringify(allowed.windowObject.dataLayer).includes('칫솔'), false, 'no search input');
+assert.equal(JSON.stringify(commands).includes('칫솔'), false, 'no search input');
 for (const forbidden of ['lastReplacedAt', 'usage', 'mileage', 'model', 'vehicle', 'gyochettukttak:home', 'gyochettukttak:today', 'user_id', 'email', 'file_name']) {
-  assert.equal(JSON.stringify(allowed.windowObject.dataLayer).includes(forbidden), false, `no private payload: ${forbidden}`);
+  assert.equal(JSON.stringify(commands).includes(forbidden), false, `no private payload: ${forbidden}`);
 }
 
 for (const locationObject of [
