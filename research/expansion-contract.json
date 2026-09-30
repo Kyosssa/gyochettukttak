@@ -1,0 +1,45 @@
+{
+  "baseline_commit": "cadd2a2c34dc4929615a5cb4142110e6c0431f0c",
+  "baseline_verified": 15,
+  "baseline_sitemap": 21,
+  "baseline_registry": 22,
+  "baseline_audited_sources": 18,
+  "baseline_slugs": [
+    "toothbrush",
+    "razor-blade",
+    "shower-filter",
+    "kitchen-sponge",
+    "frying-pan",
+    "cutting-board",
+    "water-purifier-filter",
+    "mattress",
+    "air-conditioner-filter",
+    "air-purifier-filter",
+    "humidifier-filter",
+    "vacuum-filter",
+    "power-strip",
+    "wiper-blade",
+    "cabin-air-filter"
+  ],
+  "added_slugs": [
+    "interdental-brush",
+    "toothpaste",
+    "mascara",
+    "contact-lens-solution",
+    "sunscreen",
+    "baby-bottle-nipple",
+    "tire",
+    "engine-oil",
+    "gas-stove-ignition-battery",
+    "refrigerator-deodorizer"
+  ],
+  "expected": {
+    "seed": 48,
+    "verified": 25,
+    "needs_research": 23,
+    "registry": 32,
+    "sitemap": 31,
+    "categories": 3
+  },
+  "rule": "2026-09-30 사용자 승인 로컬 품목 확장. v1.9 역사적 보고는 보존. 기존 광고 대상 15개·런타임·외부 설정 불변."
+}

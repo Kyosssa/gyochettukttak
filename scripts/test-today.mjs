@@ -121,7 +121,7 @@ for (const file of htmlFiles) {
   assert.equal((html.match(/id="today-visitors"/g) ?? []).length, 1, `TODAY footer count: ${file}`);
   assert.equal((html.match(/src="\/today\.js"/g) ?? []).length, 1, `TODAY script count: ${file}`);
 }
-assert.equal((read('dist/sitemap.xml').match(/<loc>/g) ?? []).length, 21);
+assert.equal((read('dist/sitemap.xml').match(/<loc>/g) ?? []).length, 31);
 const headerRules = read('public/_headers');
 assert.ok(headerRules.includes('https://gyochettukttak.pages.dev/*'));
 assert.ok(headerRules.includes('https://:version.gyochettukttak.pages.dev/*'));

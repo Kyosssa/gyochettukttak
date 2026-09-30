@@ -12,7 +12,8 @@
     "test:today": "node scripts/test-today.mjs",
     "test:release": "node scripts/test-release.mjs",
     "test:coupang": "node scripts/test-coupang.mjs",
-    "test:analytics": "node scripts/test-analytics.mjs"
+    "test:analytics": "node scripts/test-analytics.mjs",
+    "test:expansion": "node scripts/test-expansion.mjs"
   },
   "devDependencies": { "astro": "^5.0.0" }
 }

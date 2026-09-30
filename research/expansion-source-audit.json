@@ -1,0 +1,88 @@
+{
+  "checked_at": "2026-09-30",
+  "scope": "두 staging batch 각 5개, 본문 접근과 claim/scope 검토 완료",
+  "source_count": 10,
+  "blocking_failures": [],
+  "sources": [
+    {
+      "source_id": "tepe_interdental",
+      "url": "https://www.tepeusa.com/blogs/news/using-and-replacing-interdental-brushes",
+      "authority": "TePe Oral Health Care",
+      "health_status": "body_verified",
+      "claim_check": "TePe Original 치간칫솔의 사용·마모 안내. 모든 브랜드의 고정 사용일수 근거는 아님.",
+      "checked_at": "2026-09-30"
+    },
+    {
+      "source_id": "colgate_toothpaste_expiry",
+      "url": "https://www.colgate.com/content/cp-sites-aem/oral-care/oral-care-center/en_ph/home/oral-health/nutrition-and-oral-health/does-toothpaste-expire.html",
+      "authority": "Colgate",
+      "health_status": "body_verified",
+      "claim_check": "Colgate 필리핀 공식 치약 사용기한 안내. 타 브랜드·개봉 후 공통 기간으로 확대하지 않음.",
+      "checked_at": "2026-09-30"
+    },
+    {
+      "source_id": "fda_eye_cosmetics",
+      "url": "https://www.fda.gov/cosmetics/resources-consumers-cosmetics/cosmetics-safety-qa-eye-cosmetic-safety",
+      "authority": "미국 FDA",
+      "health_status": "body_verified",
+      "claim_check": "미국 FDA 눈 화장품 안전 안내. 구매 후 3개월 권고를 국내 모든 제품의 개봉 후 기한으로 일반화하지 않음.",
+      "checked_at": "2026-09-30"
+    },
+    {
+      "source_id": "fda_lens_solution",
+      "url": "https://www.fda.gov/medical-devices/contact-lenses/contact-lens-solutions-and-products",
+      "authority": "미국 FDA",
+      "health_status": "body_verified",
+      "claim_check": "렌즈 관리용액의 표시 사용기한·폐기일과 케이스 잔여액 관리. 렌즈 자체나 케이스 교체주기와 구분.",
+      "checked_at": "2026-09-30"
+    },
+    {
+      "source_id": "fda_sunscreen_expiry",
+      "url": "https://www.fda.gov/drugs/understanding-over-counter-medicines/sunscreen-how-help-protect-your-skin-sun",
+      "authority": "미국 FDA",
+      "health_status": "body_verified",
+      "claim_check": "미국 FDA 자외선차단제 만료·보관 안내. 미국 무기한 표시 제품 기준을 국내 모든 제품에 적용하지 않음.",
+      "checked_at": "2026-09-30"
+    },
+    {
+      "source_id": "philips_classic_teat",
+      "url": "https://www.documents.philips.com/assets/20201021/d863f2bab1f64a39bcaeac5b011b170d.pdf",
+      "authority": "Philips Avent",
+      "health_status": "body_verified",
+      "claim_check": "Philips Avent Classic/Classic+ 젖꼭지 설명서. 다른 제품군의 공통 3개월 주기나 월령별 유량 판단 근거가 아님.",
+      "checked_at": "2026-09-30"
+    },
+    {
+      "source_id": "michelin_tire_replacement",
+      "url": "https://www.michelinman.com/auto/auto-tips-and-advice/tire-buying-guide/when-do-i-need-new-tires",
+      "authority": "Michelin",
+      "health_status": "body_verified",
+      "claim_check": "Michelin 미국 승용차 타이어 점검·교체 권고. 국내 법적 마모한계나 모든 브랜드의 보증 수명이 아님.",
+      "checked_at": "2026-09-30"
+    },
+    {
+      "source_id": "hyundai_lx2_oil_schedule",
+      "url": "https://ownersmanual.hyundai.com/full_webhelp/LX2/2025/en_US/id316950c25a6.html",
+      "authority": "Hyundai Motor",
+      "health_status": "body_verified",
+      "claim_check": "2025 LX2 미국판 일반조건 정비표. 다른 엔진·연식·국가·가혹조건의 공통 교체 간격 아님.",
+      "checked_at": "2026-09-30"
+    },
+    {
+      "source_id": "rinnai_ignition_battery",
+      "url": "https://old25.rinnai.co.kr/mobile/service/faq_view.asp?boardnum=93",
+      "authority": "린나이",
+      "health_status": "body_verified",
+      "claim_check": "린나이 건전지식 가스레인지 점화 문제 안내. 220V·압전 방식은 제외.",
+      "checked_at": "2026-09-30"
+    },
+    {
+      "source_id": "lg_refrigerator_hygiene_filter",
+      "url": "https://www.lge.co.kr/support/solutions-1436154240088",
+      "authority": "LG전자",
+      "health_status": "body_verified",
+      "claim_check": "LG 냉장고 내장 안심제균/안심제균+ 필터. UV 반영구형과 시판 별도 탈취제를 구분.",
+      "checked_at": "2026-09-30"
+    }
+  ]
+}

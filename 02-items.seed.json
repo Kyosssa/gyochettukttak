@@ -1,9 +1,10 @@
 {
   "project": "교체뚝딱",
   "version": "seed-v1.9",
+  "expansion_contract": "research/expansion-contract.json",
   "date": "2026-09-24",
   "item_count": 48,
-  "launch_candidate_count": 15,
+  "launch_candidate_count": 25,
   "principles": {
     "primary_acquisition": "Google/Naver organic search",
     "primary_keyword_pattern": "[품목] 교체주기",
@@ -127,13 +128,15 @@
       "id": "item-002",
       "slug": "interdental-brush",
       "name": "치간칫솔",
-      "aliases": [],
+      "aliases": [
+        "치간 칫솔"
+      ],
       "category": "위생",
       "replacement_modes": [
         "usage",
         "condition"
       ],
-      "launch_candidate": false,
+      "launch_candidate": true,
       "seo_priority": "B",
       "affiliate_priority": "B",
       "search_intent": "informational_commercial",
@@ -147,17 +150,23 @@
         "brand_model_expansion": false
       },
       "cycle": null,
-      "check_signs": [],
-      "replacement_reason": null,
+      "check_signs": [
+        "칫솔모가 닳거나 주저앉음"
+      ],
+      "replacement_reason": "이 안내는 TePe Original 제품의 상태 기준입니다. 모가 주저앉은 상태를 단순히 사용일수만으로 판단하지 않습니다.",
       "calculator": {
         "enabled": false,
         "type": "dynamic_by_mode"
       },
       "model_specific": false,
       "safety_sensitive": false,
-      "verification_status": "needs_research",
-      "source_level": null,
-      "sources": [],
+      "verification_status": "verified",
+      "source_level": "A_DIRECT",
+      "sources": [
+        {
+          "source_id": "tepe_interdental"
+        }
+      ],
       "affiliate": {
         "enabled": true,
         "keyword": null,
@@ -170,10 +179,10 @@
         "mapping_status": "needs_mapping"
       },
       "notes": [],
-      "answer_type": "usage_first",
+      "answer_type": "condition_first",
       "my_home": {
         "enabled": true,
-        "mode": "usage_counter",
+        "mode": "condition_check",
         "one_tap_replace": true
       },
       "quick_date_input": {
@@ -181,13 +190,18 @@
         "allow_approximate": true
       },
       "evidence": {
-        "status": "needs_research",
-        "level": null,
-        "public_badge": "확인 중",
-        "claim_scope": null,
-        "source_count": 0
+        "status": "verified",
+        "level": "A_DIRECT",
+        "public_badge": "공식 직접 근거 · 적용 범위 확인",
+        "claim_scope": "TePe Original 치간칫솔의 사용·마모 안내. 모든 브랜드의 고정 사용일수 근거는 아님.",
+        "source_ids": [
+          "tepe_interdental"
+        ]
       },
-      "adjustment_factors": [],
+      "adjustment_factors": [
+        "치아 사이에 맞는 크기",
+        "사용 뒤 물로 헹구고 말리는 관리"
+      ],
       "purchase_guard": {
         "model_check_required": false,
         "part_code_check_required": false,
@@ -198,8 +212,12 @@
         "inspect",
         "replace"
       ],
-      "index_state": "hold",
-      "ui_category_label": "위생·욕실"
+      "index_state": "indexable",
+      "ui_category_label": "위생·욕실",
+      "cycle_text": "날짜보다 치간칫솔모의 마모를 확인하세요.",
+      "answer_summary": "TePe는 칫솔모가 닳고 주저앉으면 교체하도록 안내합니다. 며칠마다라는 공통 주기는 정하지 않고, 사용하는 제품의 모 상태와 설명서를 함께 확인하세요.",
+      "verified_at": "2026-09-30",
+      "next_review_at": "2026-11-29"
     },
     {
       "id": "item-003",
@@ -678,7 +696,7 @@
       "replacement_modes": [
         "label"
       ],
-      "launch_candidate": false,
+      "launch_candidate": true,
       "seo_priority": "C",
       "affiliate_priority": "C",
       "search_intent": "informational_commercial",
@@ -692,17 +710,24 @@
         "brand_model_expansion": false
       },
       "cycle": null,
-      "check_signs": [],
-      "replacement_reason": null,
+      "check_signs": [
+        "제품에 표시된 사용기한이 지남",
+        "고온 보관 후 내용물이 분리되거나 묽어짐"
+      ],
+      "replacement_reason": "사용기한과 보관 상태를 함께 확인하는 품목입니다. 구입일이나 교체 기록만으로 제품의 표시 기한을 대신 계산하지 않습니다.",
       "calculator": {
         "enabled": false,
         "type": "dynamic_by_mode"
       },
       "model_specific": false,
       "safety_sensitive": false,
-      "verification_status": "needs_research",
-      "source_level": null,
-      "sources": [],
+      "verification_status": "verified",
+      "source_level": "A_DIRECT",
+      "sources": [
+        {
+          "source_id": "colgate_toothpaste_expiry"
+        }
+      ],
       "affiliate": {
         "enabled": false,
         "keyword": null,
@@ -718,7 +743,7 @@
       "answer_type": "label_required",
       "my_home": {
         "enabled": true,
-        "mode": "countdown",
+        "mode": "condition_check",
         "one_tap_replace": true
       },
       "quick_date_input": {
@@ -726,13 +751,18 @@
         "allow_approximate": true
       },
       "evidence": {
-        "status": "needs_research",
-        "level": null,
-        "public_badge": "확인 중",
-        "claim_scope": null,
-        "source_count": 0
+        "status": "verified",
+        "level": "A_DIRECT",
+        "public_badge": "공식 직접 근거 · 적용 범위 확인",
+        "claim_scope": "Colgate 필리핀 공식 치약 사용기한 안내. 타 브랜드·개봉 후 공통 기간으로 확대하지 않음.",
+        "source_ids": [
+          "colgate_toothpaste_expiry"
+        ]
       },
-      "adjustment_factors": [],
+      "adjustment_factors": [
+        "제품별 표시 기한",
+        "뚜껑을 닫고 서늘하게 보관했는지"
+      ],
       "purchase_guard": {
         "model_check_required": false,
         "part_code_check_required": false,
@@ -743,8 +773,12 @@
         "inspect",
         "replace"
       ],
-      "index_state": "hold",
-      "ui_category_label": "위생·욕실"
+      "index_state": "indexable",
+      "ui_category_label": "위생·욕실",
+      "cycle_text": "치약은 튜브·포장에 표시된 사용기한부터 확인하세요.",
+      "answer_summary": "치약을 언제 바꿀지는 제품에 표시된 기한을 먼저 확인합니다. Colgate의 제품별 기한 예시는 모든 치약의 개봉 후 교체주기가 아닙니다.",
+      "verified_at": "2026-09-30",
+      "next_review_at": "2026-11-29"
     },
     {
       "id": "item-009",
@@ -1203,12 +1237,16 @@
       "id": "item-014",
       "slug": "gas-stove-ignition-battery",
       "name": "가스레인지 점화건전지",
-      "aliases": [],
+      "aliases": [
+        "가스레인지 건전지",
+        "가스렌지 건전지"
+      ],
       "category": "주방",
       "replacement_modes": [
+        "model",
         "condition"
       ],
-      "launch_candidate": false,
+      "launch_candidate": true,
       "seo_priority": "A",
       "affiliate_priority": "B",
       "search_intent": "informational_commercial",
@@ -1222,17 +1260,23 @@
         "brand_model_expansion": false
       },
       "cycle": null,
-      "check_signs": [],
-      "replacement_reason": null,
+      "check_signs": [
+        "건전지식 제품에서 일부 화구의 점화가 안 됨"
+      ],
+      "replacement_reason": "점화 불량은 건전지만의 문제가 아닙니다. 린나이는 청소 후 조립 오류나 남은 습기도 원인으로 안내하며 확인 후 해결되지 않으면 엔지니어 점검을 권합니다.",
       "calculator": {
         "enabled": false,
         "type": "dynamic_by_mode"
       },
-      "model_specific": false,
+      "model_specific": true,
       "safety_sensitive": false,
-      "verification_status": "needs_research",
-      "source_level": null,
-      "sources": [],
+      "verification_status": "verified",
+      "source_level": "A_DIRECT",
+      "sources": [
+        {
+          "source_id": "rinnai_ignition_battery"
+        }
+      ],
       "affiliate": {
         "enabled": true,
         "keyword": null,
@@ -1247,10 +1291,10 @@
       "notes": [
         "경쟁/검색의도 검토 후 v1 첫 런칭에서 제외, Seed에는 유지"
       ],
-      "answer_type": "condition_first",
+      "answer_type": "model_required",
       "my_home": {
         "enabled": true,
-        "mode": "condition_only",
+        "mode": "model_required",
         "one_tap_replace": true
       },
       "quick_date_input": {
@@ -1258,25 +1302,36 @@
         "allow_approximate": true
       },
       "evidence": {
-        "status": "needs_research",
-        "level": null,
-        "public_badge": "확인 중",
-        "claim_scope": null,
-        "source_count": 0
+        "status": "verified",
+        "level": "A_DIRECT",
+        "public_badge": "공식 직접 근거 · 적용 범위 확인",
+        "claim_scope": "린나이 건전지식 가스레인지 점화 문제 안내. 220V·압전 방식은 제외.",
+        "source_ids": [
+          "rinnai_ignition_battery"
+        ]
       },
-      "adjustment_factors": [],
+      "adjustment_factors": [
+        "건전지식·220V·압전 방식 구분",
+        "모델별 건전지 크기·개수",
+        "버너 조립 상태와 점화플러그 습기"
+      ],
       "purchase_guard": {
-        "model_check_required": false,
+        "model_check_required": true,
         "part_code_check_required": false,
         "show_price_as_live": false
       },
       "category_slug": "kitchen-food",
       "care_actions": [
         "inspect",
-        "replace"
+        "replace",
+        "model_memory"
       ],
-      "index_state": "hold",
-      "ui_category_label": "주방·식생활"
+      "index_state": "indexable",
+      "ui_category_label": "주방·식생활",
+      "cycle_text": "건전지식인지 확인하고 점화 상태로 판단하세요.",
+      "answer_summary": "린나이는 건전지 잔량이 부족하면 일부 화구부터 점화가 안 될 수 있다고 안내합니다. 모델에 맞는 건전지 종류·크기·개수를 확인하고, 고정 개월 수로 교체를 강요하지 않습니다.",
+      "verified_at": "2026-09-30",
+      "next_review_at": "2026-10-30"
     },
     {
       "id": "item-015",
@@ -2452,13 +2507,15 @@
       "id": "item-029",
       "slug": "refrigerator-deodorizer",
       "name": "냉장고 탈취제",
-      "aliases": [],
+      "aliases": [
+        "냉장고 탈취 필터"
+      ],
       "category": "가전",
       "replacement_modes": [
         "model",
         "calendar"
       ],
-      "launch_candidate": false,
+      "launch_candidate": true,
       "seo_priority": "A",
       "affiliate_priority": "A",
       "search_intent": "informational_commercial",
@@ -2472,17 +2529,23 @@
         "brand_model_expansion": true
       },
       "cycle": null,
-      "check_signs": [],
-      "replacement_reason": null,
+      "check_signs": [
+        "교체형 제품의 표시창에 교체 알림이 켜짐"
+      ],
+      "replacement_reason": "교체 가능한 내장 필터와 반영구형, 별도로 넣는 탈취제는 같은 품목이 아닙니다. 알림을 초기화하는 것만으로 필터를 교체했다고 기록하지 않습니다.",
       "calculator": {
-        "enabled": true,
+        "enabled": false,
         "type": "dynamic_by_mode"
       },
       "model_specific": true,
       "safety_sensitive": false,
-      "verification_status": "needs_research",
-      "source_level": null,
-      "sources": [],
+      "verification_status": "verified",
+      "source_level": "A_DIRECT",
+      "sources": [
+        {
+          "source_id": "lg_refrigerator_hygiene_filter"
+        }
+      ],
       "affiliate": {
         "enabled": true,
         "keyword": null,
@@ -2504,17 +2567,23 @@
         "one_tap_replace": true
       },
       "quick_date_input": {
-        "enabled": true,
+        "enabled": false,
         "allow_approximate": true
       },
       "evidence": {
-        "status": "needs_research",
-        "level": null,
-        "public_badge": "확인 중",
-        "claim_scope": null,
-        "source_count": 0
+        "status": "verified",
+        "level": "A_DIRECT",
+        "public_badge": "공식 직접 근거 · 적용 범위 확인",
+        "claim_scope": "LG 냉장고 내장 안심제균/안심제균+ 필터. UV 반영구형과 시판 별도 탈취제를 구분.",
+        "source_ids": [
+          "lg_refrigerator_hygiene_filter"
+        ]
       },
-      "adjustment_factors": [],
+      "adjustment_factors": [
+        "교체형·UV 반영구형 구분",
+        "냉장고 모델과 맞는 부품",
+        "별도 시판 탈취제의 표시 안내"
+      ],
       "purchase_guard": {
         "model_check_required": true,
         "part_code_check_required": true,
@@ -2523,10 +2592,15 @@
       "category_slug": "kitchen-food",
       "care_actions": [
         "inspect",
-        "replace"
+        "replace",
+        "model_memory"
       ],
-      "index_state": "hold",
-      "ui_category_label": "주방·식생활"
+      "index_state": "indexable",
+      "ui_category_label": "주방·식생활",
+      "cycle_text": "교체형 필터인지 반영구형인지 먼저 확인하세요.",
+      "answer_summary": "LG는 교체형 안심제균 필터에 모델별 차이가 있는 보통 연 1회 안내를 제공하지만 UV 안심제균+는 반영구형으로 교체가 필요 없다고 설명합니다. 시판 냉장고 탈취제에는 이 기간을 적용하지 않습니다.",
+      "verified_at": "2026-09-30",
+      "next_review_at": "2026-10-30"
     },
     {
       "id": "item-030",
@@ -2920,7 +2994,7 @@
       "replacement_modes": [
         "label"
       ],
-      "launch_candidate": false,
+      "launch_candidate": true,
       "seo_priority": "B",
       "affiliate_priority": "A",
       "search_intent": "informational_commercial",
@@ -2934,17 +3008,25 @@
         "brand_model_expansion": false
       },
       "cycle": null,
-      "check_signs": [],
-      "replacement_reason": null,
+      "check_signs": [
+        "마스카라가 말라버림",
+        "표시된 기한이 지남",
+        "눈 감염 당시 사용하던 제품"
+      ],
+      "replacement_reason": "마른 마스카라에 물이나 침을 넣어 다시 사용하지 않습니다. 자극이 생기면 사용을 중단하고 지속되면 의료진에게 상담하세요.",
       "calculator": {
         "enabled": false,
         "type": "dynamic_by_mode"
       },
       "model_specific": false,
       "safety_sensitive": false,
-      "verification_status": "needs_research",
-      "source_level": null,
-      "sources": [],
+      "verification_status": "verified",
+      "source_level": "A_DIRECT",
+      "sources": [
+        {
+          "source_id": "fda_eye_cosmetics"
+        }
+      ],
       "affiliate": {
         "enabled": true,
         "keyword": null,
@@ -2960,7 +3042,7 @@
       "answer_type": "label_required",
       "my_home": {
         "enabled": true,
-        "mode": "countdown",
+        "mode": "condition_check",
         "one_tap_replace": true
       },
       "quick_date_input": {
@@ -2968,13 +3050,18 @@
         "allow_approximate": true
       },
       "evidence": {
-        "status": "needs_research",
-        "level": null,
-        "public_badge": "확인 중",
-        "claim_scope": null,
-        "source_count": 0
+        "status": "verified",
+        "level": "A_DIRECT",
+        "public_badge": "공식 직접 근거 · 적용 범위 확인",
+        "claim_scope": "미국 FDA 눈 화장품 안전 안내. 구매 후 3개월 권고를 국내 모든 제품의 개봉 후 기한으로 일반화하지 않음.",
+        "source_ids": [
+          "fda_eye_cosmetics"
+        ]
       },
-      "adjustment_factors": [],
+      "adjustment_factors": [
+        "구매 시점과 제품 표시",
+        "오염·고온 보관 여부"
+      ],
       "purchase_guard": {
         "model_check_required": false,
         "part_code_check_required": false,
@@ -2985,8 +3072,12 @@
         "inspect",
         "replace"
       ],
-      "index_state": "hold",
-      "ui_category_label": "뷰티·퍼스널케어"
+      "index_state": "indexable",
+      "ui_category_label": "뷰티·퍼스널케어",
+      "cycle_text": "표시 기한과 건조 상태를 함께 확인하세요.",
+      "answer_summary": "FDA는 마스카라를 구매 후 3개월에 버리도록 권고하며, 마른 제품도 폐기하도록 안내합니다. 이 권고는 개봉 후 3개월이라는 뜻이 아니며 국내 제품의 표시 기한도 확인해야 합니다.",
+      "verified_at": "2026-09-30",
+      "next_review_at": "2026-11-29"
     },
     {
       "id": "item-035",
@@ -3223,12 +3314,14 @@
       "id": "item-038",
       "slug": "contact-lens-solution",
       "name": "렌즈 세척액",
-      "aliases": [],
+      "aliases": [
+        "콘택트렌즈 세척액"
+      ],
       "category": "뷰티",
       "replacement_modes": [
         "label"
       ],
-      "launch_candidate": false,
+      "launch_candidate": true,
       "seo_priority": "C",
       "affiliate_priority": "C",
       "search_intent": "informational_commercial",
@@ -3242,17 +3335,24 @@
         "brand_model_expansion": false
       },
       "cycle": null,
-      "check_signs": [],
-      "replacement_reason": null,
+      "check_signs": [
+        "병에 표시된 만료일 또는 폐기일이 지남",
+        "케이스에 이전 사용의 용액이 남아 있음"
+      ],
+      "replacement_reason": "케이스의 잔여액에 새 용액을 덧붓거나 재사용하지 않습니다. 용액을 작은 여행용 병에 옮겨 담지 말라는 FDA 안내도 확인하세요.",
       "calculator": {
         "enabled": false,
         "type": "dynamic_by_mode"
       },
       "model_specific": false,
       "safety_sensitive": true,
-      "verification_status": "needs_research",
-      "source_level": null,
-      "sources": [],
+      "verification_status": "verified",
+      "source_level": "A_DIRECT",
+      "sources": [
+        {
+          "source_id": "fda_lens_solution"
+        }
+      ],
       "affiliate": {
         "enabled": false,
         "keyword": null,
@@ -3268,7 +3368,7 @@
       "answer_type": "label_required",
       "my_home": {
         "enabled": true,
-        "mode": "countdown",
+        "mode": "condition_check",
         "one_tap_replace": true
       },
       "quick_date_input": {
@@ -3276,15 +3376,20 @@
         "allow_approximate": true
       },
       "evidence": {
-        "status": "needs_research",
-        "level": null,
-        "public_badge": "확인 중",
-        "claim_scope": null,
-        "source_count": 0
+        "status": "verified",
+        "level": "A_DIRECT",
+        "public_badge": "공식 직접 근거 · 적용 범위 확인",
+        "claim_scope": "렌즈 관리용액의 표시 사용기한·폐기일과 케이스 잔여액 관리. 렌즈 자체나 케이스 교체주기와 구분.",
+        "source_ids": [
+          "fda_lens_solution"
+        ]
       },
-      "adjustment_factors": [],
+      "adjustment_factors": [
+        "렌즈와 용액의 사용설명서",
+        "안과 전문가가 안내한 관리 방법"
+      ],
       "purchase_guard": {
-        "model_check_required": false,
+        "model_check_required": true,
         "part_code_check_required": false,
         "show_price_as_live": false
       },
@@ -3293,8 +3398,12 @@
         "inspect",
         "replace"
       ],
-      "index_state": "hold",
-      "ui_category_label": "뷰티·퍼스널케어"
+      "index_state": "indexable",
+      "ui_category_label": "뷰티·퍼스널케어",
+      "cycle_text": "병의 사용기한·폐기일과 매회 잔여액 교체를 구분하세요.",
+      "answer_summary": "FDA는 표시된 만료일이나 폐기일을 넘긴 렌즈 용액을 쓰지 말고 케이스에 남은 용액은 사용 후 모두 버리도록 안내합니다. 개봉 후 며칠이라는 공통 숫자는 만들지 않습니다.",
+      "verified_at": "2026-09-30",
+      "next_review_at": "2026-11-29"
     },
     {
       "id": "item-039",
@@ -3377,12 +3486,15 @@
       "id": "item-040",
       "slug": "sunscreen",
       "name": "선크림",
-      "aliases": [],
+      "aliases": [
+        "자외선차단제",
+        "선블록"
+      ],
       "category": "뷰티",
       "replacement_modes": [
         "label"
       ],
-      "launch_candidate": false,
+      "launch_candidate": true,
       "seo_priority": "B",
       "affiliate_priority": "A",
       "search_intent": "informational_commercial",
@@ -3396,17 +3508,24 @@
         "brand_model_expansion": false
       },
       "cycle": null,
-      "check_signs": [],
-      "replacement_reason": null,
+      "check_signs": [
+        "제품에 표시된 사용기한이 지남",
+        "얼마나 오래된 제품인지 알 수 없음"
+      ],
+      "replacement_reason": "FDA의 기한 없는 미국 제품 구매 후 3년 안내는 모든 선크림의 개봉 후 3년 보증이 아닙니다. 다시 바르는 간격과 용기를 교체할 시점도 서로 다릅니다.",
       "calculator": {
         "enabled": false,
         "type": "dynamic_by_mode"
       },
       "model_specific": false,
       "safety_sensitive": false,
-      "verification_status": "needs_research",
-      "source_level": null,
-      "sources": [],
+      "verification_status": "verified",
+      "source_level": "A_DIRECT",
+      "sources": [
+        {
+          "source_id": "fda_sunscreen_expiry"
+        }
+      ],
       "affiliate": {
         "enabled": true,
         "keyword": null,
@@ -3422,7 +3541,7 @@
       "answer_type": "label_required",
       "my_home": {
         "enabled": true,
-        "mode": "countdown",
+        "mode": "condition_check",
         "one_tap_replace": true
       },
       "quick_date_input": {
@@ -3430,13 +3549,18 @@
         "allow_approximate": true
       },
       "evidence": {
-        "status": "needs_research",
-        "level": null,
-        "public_badge": "확인 중",
-        "claim_scope": null,
-        "source_count": 0
+        "status": "verified",
+        "level": "A_DIRECT",
+        "public_badge": "공식 직접 근거 · 적용 범위 확인",
+        "claim_scope": "미국 FDA 자외선차단제 만료·보관 안내. 미국 무기한 표시 제품 기준을 국내 모든 제품에 적용하지 않음.",
+        "source_ids": [
+          "fda_sunscreen_expiry"
+        ]
       },
-      "adjustment_factors": [],
+      "adjustment_factors": [
+        "국가·제품별 라벨",
+        "직사광선·과도한 열에 노출된 보관"
+      ],
       "purchase_guard": {
         "model_check_required": false,
         "part_code_check_required": false,
@@ -3447,8 +3571,12 @@
         "inspect",
         "replace"
       ],
-      "index_state": "hold",
-      "ui_category_label": "뷰티·퍼스널케어"
+      "index_state": "indexable",
+      "ui_category_label": "뷰티·퍼스널케어",
+      "cycle_text": "선크림은 표시 사용기한과 보관 상태를 확인하세요.",
+      "answer_summary": "FDA는 만료된 자외선차단제를 사용하지 않도록 안내합니다. 국내 제품은 해당 라벨을 우선 확인하고, 미국의 무기한 표시 제품 권고를 국내 선크림의 공통 개봉 후 수명으로 계산하지 않습니다.",
+      "verified_at": "2026-09-30",
+      "next_review_at": "2026-11-29"
     },
     {
       "id": "item-041",
@@ -3532,13 +3660,15 @@
       "id": "item-042",
       "slug": "baby-bottle-nipple",
       "name": "아기 젖꼭지",
-      "aliases": [],
+      "aliases": [
+        "젖병 젖꼭지"
+      ],
       "category": "육아",
       "replacement_modes": [
         "manufacturer",
         "condition"
       ],
-      "launch_candidate": false,
+      "launch_candidate": true,
       "seo_priority": "C",
       "affiliate_priority": "A",
       "search_intent": "informational_commercial",
@@ -3552,17 +3682,23 @@
         "brand_model_expansion": false
       },
       "cycle": null,
-      "check_signs": [],
-      "replacement_reason": null,
+      "check_signs": [
+        "손상 또는 약해짐이 처음 보임"
+      ],
+      "replacement_reason": "월령에 맞춘 유량 선택은 손상으로 인한 교체와 다른 판단입니다. 해당 설명서는 Classic+ 젖꼭지를 Classic/Classic+ 병에만 사용하도록 안내합니다.",
       "calculator": {
         "enabled": false,
         "type": "dynamic_by_mode"
       },
       "model_specific": true,
       "safety_sensitive": true,
-      "verification_status": "needs_research",
-      "source_level": null,
-      "sources": [],
+      "verification_status": "verified",
+      "source_level": "A_DIRECT",
+      "sources": [
+        {
+          "source_id": "philips_classic_teat"
+        }
+      ],
       "affiliate": {
         "enabled": true,
         "keyword": null,
@@ -3577,22 +3713,27 @@
       "notes": [],
       "answer_type": "model_required",
       "my_home": {
-        "enabled": false,
+        "enabled": true,
         "mode": "model_required",
         "one_tap_replace": true
       },
       "quick_date_input": {
-        "enabled": true,
+        "enabled": false,
         "allow_approximate": true
       },
       "evidence": {
-        "status": "needs_research",
-        "level": null,
-        "public_badge": "확인 중",
-        "claim_scope": null,
-        "source_count": 0
+        "status": "verified",
+        "level": "A_DIRECT",
+        "public_badge": "공식 직접 근거 · 적용 범위 확인",
+        "claim_scope": "Philips Avent Classic/Classic+ 젖꼭지 설명서. 다른 제품군의 공통 3개월 주기나 월령별 유량 판단 근거가 아님.",
+        "source_ids": [
+          "philips_classic_teat"
+        ]
       },
-      "adjustment_factors": [],
+      "adjustment_factors": [
+        "젖병·링과 젖꼭지의 제품군 호환",
+        "직사광선·열·권장시간을 넘긴 소독액 노출"
+      ],
       "purchase_guard": {
         "model_check_required": true,
         "part_code_check_required": true,
@@ -3601,10 +3742,15 @@
       "category_slug": "baby-family",
       "care_actions": [
         "inspect",
-        "replace"
+        "replace",
+        "model_memory"
       ],
-      "index_state": "hold",
-      "ui_category_label": "육아"
+      "index_state": "indexable",
+      "ui_category_label": "육아",
+      "cycle_text": "사용 전 손상 확인과 해당 제품 설명서를 우선하세요.",
+      "answer_summary": "Philips Avent Classic/Classic+ 설명서는 매 사용 전 젖꼭지를 살펴 손상·약해짐이 처음 보이면 버리도록 안내합니다. 위생상 3개월 교체 권고는 이 제품군의 예시이며 모든 젖꼭지에 일반화하지 않습니다.",
+      "verified_at": "2026-09-30",
+      "next_review_at": "2026-10-30"
     },
     {
       "id": "item-043",
@@ -3899,14 +4045,16 @@
       "id": "item-046",
       "slug": "engine-oil",
       "name": "엔진오일",
-      "aliases": [],
+      "aliases": [
+        "엔진 오일"
+      ],
       "category": "자동차",
       "replacement_modes": [
         "model",
         "mileage",
         "calendar"
       ],
-      "launch_candidate": false,
+      "launch_candidate": true,
       "seo_priority": "A",
       "affiliate_priority": "A",
       "search_intent": "informational_commercial",
@@ -3920,17 +4068,23 @@
         "brand_model_expansion": true
       },
       "cycle": null,
-      "check_signs": [],
-      "replacement_reason": null,
+      "check_signs": [
+        "내 차량 정비표의 교체 기간 또는 주행거리에 먼저 도달함"
+      ],
+      "replacement_reason": "해당 설명서는 엔진오일 양을 정기적으로 확인하도록 안내하며 권장 오일을 사용하지 않으면 가혹조건 기준의 교체가 필요하다고 명시합니다. 양 확인과 오일 교체는 같은 작업이 아닙니다.",
       "calculator": {
-        "enabled": true,
+        "enabled": false,
         "type": "dynamic_by_mode"
       },
       "model_specific": true,
       "safety_sensitive": true,
-      "verification_status": "needs_research",
-      "source_level": null,
-      "sources": [],
+      "verification_status": "verified",
+      "source_level": "A_DIRECT",
+      "sources": [
+        {
+          "source_id": "hyundai_lx2_oil_schedule"
+        }
+      ],
       "affiliate": {
         "enabled": true,
         "keyword": null,
@@ -3943,24 +4097,30 @@
         "mapping_status": "needs_mapping"
       },
       "notes": [],
-      "answer_type": "model_required",
+      "answer_type": "vehicle_required",
       "my_home": {
         "enabled": true,
-        "mode": "model_required",
+        "mode": "vehicle_required",
         "one_tap_replace": true
       },
       "quick_date_input": {
-        "enabled": true,
+        "enabled": false,
         "allow_approximate": true
       },
       "evidence": {
-        "status": "needs_research",
-        "level": null,
-        "public_badge": "확인 중",
-        "claim_scope": null,
-        "source_count": 0
+        "status": "verified",
+        "level": "A_DIRECT",
+        "public_badge": "공식 직접 근거 · 적용 범위 확인",
+        "claim_scope": "2025 LX2 미국판 일반조건 정비표. 다른 엔진·연식·국가·가혹조건의 공통 교체 간격 아님.",
+        "source_ids": [
+          "hyundai_lx2_oil_schedule"
+        ]
       },
-      "adjustment_factors": [],
+      "adjustment_factors": [
+        "차종·연식·엔진·판매 국가",
+        "일반조건과 가혹조건",
+        "제조사가 권장한 오일 사용 여부"
+      ],
       "purchase_guard": {
         "model_check_required": true,
         "part_code_check_required": true,
@@ -3969,23 +4129,31 @@
       "category_slug": "automotive",
       "care_actions": [
         "inspect",
-        "replace"
+        "replace",
+        "vehicle_memory",
+        "mileage_update"
       ],
-      "index_state": "hold",
-      "ui_category_label": "자동차"
+      "index_state": "indexable",
+      "ui_category_label": "자동차",
+      "cycle_text": "내 차의 기간·주행거리 정비표를 함께 확인하세요.",
+      "answer_summary": "현대자동차의 해당 정비표는 개월 수와 주행거리 중 먼저 도달한 조건으로 엔진오일 교체를 안내합니다. 차종·연식·엔진과 일반/가혹조건을 확인해야 하며 모든 차에 같은 숫자를 적용하지 않습니다.",
+      "verified_at": "2026-09-30",
+      "next_review_at": "2026-11-29"
     },
     {
       "id": "item-047",
       "slug": "tire",
       "name": "타이어",
-      "aliases": [],
+      "aliases": [
+        "자동차 타이어"
+      ],
       "category": "자동차",
       "replacement_modes": [
         "condition",
         "age",
         "manufacturer"
       ],
-      "launch_candidate": false,
+      "launch_candidate": true,
       "seo_priority": "A",
       "affiliate_priority": "A",
       "search_intent": "informational_commercial",
@@ -3999,17 +4167,25 @@
         "brand_model_expansion": false
       },
       "cycle": null,
-      "check_signs": [],
-      "replacement_reason": null,
+      "check_signs": [
+        "트레드가 마모 표시 수준에 도달함",
+        "옆면의 절상·균열·부풀음",
+        "지속적인 진동이나 조향 변화"
+      ],
+      "replacement_reason": "Michelin의 사용 5년 이후 연 1회 전문가 점검, 제조 후 10년 예방적 교체 권고는 해당 제조사 기준입니다. 10년까지 안전하다는 보증으로 해석하거나 보편적 주행거리로 환산하지 않습니다.",
       "calculator": {
         "enabled": false,
         "type": "dynamic_by_mode"
       },
       "model_specific": true,
       "safety_sensitive": true,
-      "verification_status": "needs_research",
-      "source_level": null,
-      "sources": [],
+      "verification_status": "verified",
+      "source_level": "A_DIRECT",
+      "sources": [
+        {
+          "source_id": "michelin_tire_replacement"
+        }
+      ],
       "affiliate": {
         "enabled": true,
         "keyword": null,
@@ -4022,24 +4198,30 @@
         "mapping_status": "needs_mapping"
       },
       "notes": [],
-      "answer_type": "model_required",
+      "answer_type": "vehicle_required",
       "my_home": {
         "enabled": true,
-        "mode": "model_required",
+        "mode": "vehicle_required",
         "one_tap_replace": true
       },
       "quick_date_input": {
-        "enabled": true,
+        "enabled": false,
         "allow_approximate": true
       },
       "evidence": {
-        "status": "needs_research",
-        "level": null,
-        "public_badge": "확인 중",
-        "claim_scope": null,
-        "source_count": 0
+        "status": "verified",
+        "level": "A_DIRECT",
+        "public_badge": "공식 직접 근거 · 적용 범위 확인",
+        "claim_scope": "Michelin 미국 승용차 타이어 점검·교체 권고. 국내 법적 마모한계나 모든 브랜드의 보증 수명이 아님.",
+        "source_ids": [
+          "michelin_tire_replacement"
+        ]
       },
-      "adjustment_factors": [],
+      "adjustment_factors": [
+        "제조일과 사용 시작일",
+        "차량 제조사 기준·규격",
+        "운전·도로·기후·관리 조건"
+      ],
       "purchase_guard": {
         "model_check_required": true,
         "part_code_check_required": true,
@@ -4048,10 +4230,16 @@
       "category_slug": "automotive",
       "care_actions": [
         "inspect",
-        "replace"
+        "replace",
+        "vehicle_memory",
+        "mileage_update"
       ],
-      "index_state": "hold",
-      "ui_category_label": "자동차"
+      "index_state": "indexable",
+      "ui_category_label": "자동차",
+      "cycle_text": "마모·손상·제조일과 차량 기준을 함께 확인하세요.",
+      "answer_summary": "Michelin은 주행거리 하나로 수명을 정하지 않고 마모 표시, 옆면 손상, 진동과 제조일을 함께 확인하도록 안내합니다. 차종·규격과 제조사 기준을 확인하기 전 일반 타이어를 추천하지 않습니다.",
+      "verified_at": "2026-09-30",
+      "next_review_at": "2026-11-29"
     },
     {
       "id": "item-048",
@@ -4134,6 +4322,7 @@
     }
   ],
   "competitive_review": {
+    "scope": "v1.9 최초 Launch 선정의 역사적 기록. 현재 승격은 expansion_contract 참조",
     "completed": true,
     "launch_changes": {
       "promoted": [
@@ -4156,8 +4345,8 @@
       "B_GENERAL": "신뢰 가능한 전문 자료의 일반 가이드. 특정 모델 보증이 아님"
     }
   },
-  "verified_count": 15,
-  "launch_verified_count": 15,
+  "verified_count": 25,
+  "launch_verified_count": 25,
   "search_ambiguities": {
     "에어컨필터": {
       "reason": "띄어쓰기 없는 검색은 가정용 에어컨 필터와 자동차 캐빈필터 의도가 모두 가능",

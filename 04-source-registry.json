@@ -374,6 +374,166 @@
           "scope": "제조사 제품 예시"
         }
       ]
+    },
+    "tepe_interdental": {
+      "name": "TePe Original 치간칫솔 사용과 교체",
+      "authority": "TePe Oral Health Care",
+      "type": "manufacturer",
+      "url": "https://www.tepeusa.com/blogs/news/using-and-replacing-interdental-brushes",
+      "level": "A_DIRECT",
+      "checked_at": "2026-09-30",
+      "usage": "expansion",
+      "claims": [
+        {
+          "type": "condition",
+          "text": "TePe는 칫솔모가 닳고 주저앉으면 교체하도록 안내합니다. 며칠마다라는 공통 주기는 정하지 않고, 사용하는 제품의 모 상태와 설명서를 함께 확인하세요.",
+          "scope": "TePe Original 치간칫솔의 사용·마모 안내. 모든 브랜드의 고정 사용일수 근거는 아님."
+        }
+      ]
+    },
+    "colgate_toothpaste_expiry": {
+      "name": "Does Toothpaste Expire?",
+      "authority": "Colgate",
+      "type": "manufacturer",
+      "url": "https://www.colgate.com/content/cp-sites-aem/oral-care/oral-care-center/en_ph/home/oral-health/nutrition-and-oral-health/does-toothpaste-expire.html",
+      "level": "A_DIRECT",
+      "checked_at": "2026-09-30",
+      "usage": "expansion",
+      "claims": [
+        {
+          "type": "label",
+          "text": "치약을 언제 바꿀지는 제품에 표시된 기한을 먼저 확인합니다. Colgate의 제품별 기한 예시는 모든 치약의 개봉 후 교체주기가 아닙니다.",
+          "scope": "Colgate 필리핀 공식 치약 사용기한 안내. 타 브랜드·개봉 후 공통 기간으로 확대하지 않음."
+        }
+      ]
+    },
+    "fda_eye_cosmetics": {
+      "name": "Cosmetics Safety Q&A: Eye Cosmetic Safety",
+      "authority": "미국 FDA",
+      "type": "government",
+      "url": "https://www.fda.gov/cosmetics/resources-consumers-cosmetics/cosmetics-safety-qa-eye-cosmetic-safety",
+      "level": "A_DIRECT",
+      "checked_at": "2026-09-30",
+      "usage": "expansion",
+      "claims": [
+        {
+          "type": "label",
+          "text": "FDA는 마스카라를 구매 후 3개월에 버리도록 권고하며, 마른 제품도 폐기하도록 안내합니다. 이 권고는 개봉 후 3개월이라는 뜻이 아니며 국내 제품의 표시 기한도 확인해야 합니다.",
+          "scope": "미국 FDA 눈 화장품 안전 안내. 구매 후 3개월 권고를 국내 모든 제품의 개봉 후 기한으로 일반화하지 않음."
+        }
+      ]
+    },
+    "fda_lens_solution": {
+      "name": "Contact Lens Solutions and Products",
+      "authority": "미국 FDA",
+      "type": "government",
+      "url": "https://www.fda.gov/medical-devices/contact-lenses/contact-lens-solutions-and-products",
+      "level": "A_DIRECT",
+      "checked_at": "2026-09-30",
+      "usage": "expansion",
+      "claims": [
+        {
+          "type": "label",
+          "text": "FDA는 표시된 만료일이나 폐기일을 넘긴 렌즈 용액을 쓰지 말고 케이스에 남은 용액은 사용 후 모두 버리도록 안내합니다. 개봉 후 며칠이라는 공통 숫자는 만들지 않습니다.",
+          "scope": "렌즈 관리용액의 표시 사용기한·폐기일과 케이스 잔여액 관리. 렌즈 자체나 케이스 교체주기와 구분."
+        }
+      ]
+    },
+    "fda_sunscreen_expiry": {
+      "name": "Sunscreen: How to Help Protect Your Skin from the Sun",
+      "authority": "미국 FDA",
+      "type": "government",
+      "url": "https://www.fda.gov/drugs/understanding-over-counter-medicines/sunscreen-how-help-protect-your-skin-sun",
+      "level": "A_DIRECT",
+      "checked_at": "2026-09-30",
+      "usage": "expansion",
+      "claims": [
+        {
+          "type": "label",
+          "text": "FDA는 만료된 자외선차단제를 사용하지 않도록 안내합니다. 국내 제품은 해당 라벨을 우선 확인하고, 미국의 무기한 표시 제품 권고를 국내 선크림의 공통 개봉 후 수명으로 계산하지 않습니다.",
+          "scope": "미국 FDA 자외선차단제 만료·보관 안내. 미국 무기한 표시 제품 기준을 국내 모든 제품에 적용하지 않음."
+        }
+      ]
+    },
+    "philips_classic_teat": {
+      "name": "Avent Classic/Classic+ 사용설명서 · 젖꼭지",
+      "authority": "Philips Avent",
+      "type": "manufacturer",
+      "url": "https://www.documents.philips.com/assets/20201021/d863f2bab1f64a39bcaeac5b011b170d.pdf",
+      "level": "A_DIRECT",
+      "checked_at": "2026-09-30",
+      "usage": "expansion",
+      "claims": [
+        {
+          "type": "model_condition",
+          "text": "Philips Avent Classic/Classic+ 설명서는 매 사용 전 젖꼭지를 살펴 손상·약해짐이 처음 보이면 버리도록 안내합니다. 위생상 3개월 교체 권고는 이 제품군의 예시이며 모든 젖꼭지에 일반화하지 않습니다.",
+          "scope": "Philips Avent Classic/Classic+ 젖꼭지 설명서. 다른 제품군의 공통 3개월 주기나 월령별 유량 판단 근거가 아님."
+        }
+      ]
+    },
+    "michelin_tire_replacement": {
+      "name": "When to Replace Tires",
+      "authority": "Michelin",
+      "type": "manufacturer",
+      "url": "https://www.michelinman.com/auto/auto-tips-and-advice/tire-buying-guide/when-do-i-need-new-tires",
+      "level": "A_DIRECT",
+      "checked_at": "2026-09-30",
+      "usage": "expansion",
+      "claims": [
+        {
+          "type": "vehicle_condition",
+          "text": "Michelin은 주행거리 하나로 수명을 정하지 않고 마모 표시, 옆면 손상, 진동과 제조일을 함께 확인하도록 안내합니다. 차종·규격과 제조사 기준을 확인하기 전 일반 타이어를 추천하지 않습니다.",
+          "scope": "Michelin 미국 승용차 타이어 점검·교체 권고. 국내 법적 마모한계나 모든 브랜드의 보증 수명이 아님."
+        }
+      ]
+    },
+    "hyundai_lx2_oil_schedule": {
+      "name": "2025 LX2 미국판 Normal Maintenance Schedule",
+      "authority": "Hyundai Motor",
+      "type": "manufacturer",
+      "url": "https://ownersmanual.hyundai.com/full_webhelp/LX2/2025/en_US/id316950c25a6.html",
+      "level": "A_DIRECT",
+      "checked_at": "2026-09-30",
+      "usage": "expansion",
+      "claims": [
+        {
+          "type": "vehicle_condition",
+          "text": "현대자동차의 해당 정비표는 개월 수와 주행거리 중 먼저 도달한 조건으로 엔진오일 교체를 안내합니다. 차종·연식·엔진과 일반/가혹조건을 확인해야 하며 모든 차에 같은 숫자를 적용하지 않습니다.",
+          "scope": "2025 LX2 미국판 일반조건 정비표. 다른 엔진·연식·국가·가혹조건의 공통 교체 간격 아님."
+        }
+      ]
+    },
+    "rinnai_ignition_battery": {
+      "name": "일부 화구에서 점화가 안돼요",
+      "authority": "린나이",
+      "type": "manufacturer",
+      "url": "https://old25.rinnai.co.kr/mobile/service/faq_view.asp?boardnum=93",
+      "level": "A_DIRECT",
+      "checked_at": "2026-09-30",
+      "usage": "expansion",
+      "claims": [
+        {
+          "type": "model_condition",
+          "text": "린나이는 건전지 잔량이 부족하면 일부 화구부터 점화가 안 될 수 있다고 안내합니다. 모델에 맞는 건전지 종류·크기·개수를 확인하고, 고정 개월 수로 교체를 강요하지 않습니다.",
+          "scope": "린나이 건전지식 가스레인지 점화 문제 안내. 220V·압전 방식은 제외."
+        }
+      ]
+    },
+    "lg_refrigerator_hygiene_filter": {
+      "name": "LG 냉장고 안심제균필터 교체 방법",
+      "authority": "LG전자",
+      "type": "manufacturer",
+      "url": "https://www.lge.co.kr/support/solutions-1436154240088",
+      "level": "A_DIRECT",
+      "checked_at": "2026-09-30",
+      "usage": "expansion",
+      "claims": [
+        {
+          "type": "model_condition",
+          "text": "LG는 교체형 안심제균 필터에 모델별 차이가 있는 보통 연 1회 안내를 제공하지만 UV 안심제균+는 반영구형으로 교체가 필요 없다고 설명합니다. 시판 냉장고 탈취제에는 이 기간을 적용하지 않습니다.",
+          "scope": "LG 냉장고 내장 안심제균/안심제균+ 필터. UV 반영구형과 시판 별도 탈취제를 구분."
+        }
+      ]
     }
   }
 }

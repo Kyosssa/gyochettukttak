@@ -3,6 +3,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import seed from '../02-items.seed.json' with { type: 'json' };
 
+import contract from '../research/expansion-contract.json' with { type: 'json' };
 const origin = 'https://gyochettukttak.com';
 const read = (file) => fs.readFileSync(file, 'utf8');
 const sitemap = read('dist/sitemap.xml');
@@ -26,10 +27,10 @@ const h1 = (html) => html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/i)?.[1].replace(/<[^>
 const canonical = (html) => html.match(/<link[^>]+rel="canonical"[^>]+href="([^"]+)"/i)?.[1];
 const toPath = (url) => new URL(url).pathname;
 
-assert.equal(urls.length, 21, 'sitemap must contain 21 URLs');
-assert.equal(new Set(urls).size, 21, 'sitemap URLs must be unique');
+assert.equal(urls.length, 31, 'sitemap must contain 31 URLs');
+assert.equal(new Set(urls).size, 31, 'sitemap URLs must be unique');
 assert.ok(urls.every((url) => url.startsWith(`${origin}/`)), 'sitemap must use official origin');
-assert.equal(launch.length, 15, 'verified launch item count');
+assert.equal(launch.length, 25, 'verified launch item count');
 
 const titles = new Set();
 const descriptions = new Set();
@@ -58,7 +59,7 @@ for (const url of urls) {
   assert.ok(jsonLdText, `JSON-LD exists: ${pathname}`);
   assert.doesNotThrow(() => JSON.parse(jsonLdText), `JSON-LD parses: ${pathname}`);
   assert.equal(forbidden.test(html), false, `no unfinished UI: ${pathname}`);
-  assert.equal(coupang.test(html), pathname.startsWith('/item/'), `Coupang only on item pages: ${pathname}`);
+  assert.equal(coupang.test(html), contract.baseline_slugs.some(slug => pathname === `/item/${slug}/`), `Coupang only on item pages: ${pathname}`);
   assert.equal(titles.has(pageTitle), false, `unique title: ${pageTitle}`);
   assert.equal(descriptions.has(description), false, `unique description: ${pathname}`);
   assert.equal(headings.has(pageH1), false, `unique H1: ${pageH1}`);
@@ -88,7 +89,7 @@ const htmlFiles = fs.readdirSync('dist', { recursive: true }).filter((file) => f
 for (const relative of htmlFiles) {
   const html = read(path.join('dist', relative));
   assert.equal(forbidden.test(html), false, `no unfinished UI: ${relative}`);
-  const itemPage = relative.startsWith('item\\') || relative.startsWith('item/');
+  const itemPage = contract.baseline_slugs.some(slug => relative.replaceAll('\\', '/') === `item/${slug}/index.html`);
   assert.equal(coupang.test(html), itemPage, `Coupang only on item pages: ${relative}`);
   const renderedMarkup = html.replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, '');
   for (const match of renderedMarkup.matchAll(/href="(\/[^"]*)"/g)) {
