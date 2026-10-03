@@ -166,7 +166,7 @@
     {
       "q": "브레이크 패드",
       "expect": "brake-pad",
-      "state": "needs_research"
+      "state": "verified"
     },
     {
       "q": "골프공",
@@ -187,6 +187,181 @@
       "q": "<script>alert(1)</script>",
       "expect": null,
       "state": "invalid"
+    },
+    {
+      "q": "전기면도기 헤드",
+      "expect": "electric-shaver-head",
+      "state": "verified"
+    },
+    {
+      "q": "전기면도기 날",
+      "expect": "electric-shaver-head",
+      "state": "verified"
+    },
+    {
+      "q": "전기면도기 면도망",
+      "expect": "electric-shaver-head",
+      "state": "verified"
+    },
+    {
+      "q": "렌즈 케이스",
+      "expect": "contact-lens-case",
+      "state": "verified"
+    },
+    {
+      "q": "콘택트렌즈 케이스",
+      "expect": "contact-lens-case",
+      "state": "verified"
+    },
+    {
+      "q": "렌즈 보관통",
+      "expect": "contact-lens-case",
+      "state": "verified"
+    },
+    {
+      "q": "공갈젖꼭지",
+      "expect": "pacifier",
+      "state": "verified"
+    },
+    {
+      "q": "쪽쪽이",
+      "expect": "pacifier",
+      "state": "verified"
+    },
+    {
+      "q": "노리개 젖꼭지",
+      "expect": "pacifier",
+      "state": "verified"
+    },
+    {
+      "q": "냉장고 급수 필터",
+      "expect": "refrigerator-water-filter",
+      "state": "verified"
+    },
+    {
+      "q": "냉장고 정수 필터",
+      "expect": "refrigerator-water-filter",
+      "state": "verified"
+    },
+    {
+      "q": "냉장고 워터필터",
+      "expect": "refrigerator-water-filter",
+      "state": "verified"
+    },
+    {
+      "q": "로봇청소기 메인 브러시",
+      "expect": "robot-vacuum-brush",
+      "state": "verified"
+    },
+    {
+      "q": "로봇청소기 롤러",
+      "expect": "robot-vacuum-brush",
+      "state": "verified"
+    },
+    {
+      "q": "로봇청소기 메인브러시",
+      "expect": "robot-vacuum-brush",
+      "state": "verified"
+    },
+    {
+      "q": "로봇청소기 물걸레 패드",
+      "expect": "robot-mop-pad",
+      "state": "verified"
+    },
+    {
+      "q": "로봇청소기 걸레",
+      "expect": "robot-mop-pad",
+      "state": "verified"
+    },
+    {
+      "q": "로봇 물걸레 패드",
+      "expect": "robot-mop-pad",
+      "state": "verified"
+    },
+    {
+      "q": "엔진 에어필터",
+      "expect": "engine-air-filter",
+      "state": "verified"
+    },
+    {
+      "q": "엔진 흡기 필터",
+      "expect": "engine-air-filter",
+      "state": "verified"
+    },
+    {
+      "q": "자동차 에어클리너",
+      "expect": "engine-air-filter",
+      "state": "verified"
+    },
+    {
+      "q": "점화플러그",
+      "expect": "spark-plug",
+      "state": "verified"
+    },
+    {
+      "q": "자동차 점화플러그",
+      "expect": "spark-plug",
+      "state": "verified"
+    },
+    {
+      "q": "스파크 플러그",
+      "expect": "spark-plug",
+      "state": "verified"
+    },
+    {
+      "q": "엔진 냉각수",
+      "expect": "engine-coolant",
+      "state": "verified"
+    },
+    {
+      "q": "자동차 냉각수",
+      "expect": "engine-coolant",
+      "state": "verified"
+    },
+    {
+      "q": "부동액",
+      "expect": "engine-coolant",
+      "state": "verified"
+    },
+    {
+      "q": "텀블러 고무패킹",
+      "expect": "tumbler-gasket",
+      "state": "verified"
+    },
+    {
+      "q": "텀블러 패킹",
+      "expect": "tumbler-gasket",
+      "state": "verified"
+    },
+    {
+      "q": "물병 실리콘 패킹",
+      "expect": "tumbler-gasket",
+      "state": "verified"
+    },
+    {
+      "q": "아기 젖병",
+      "expect": "baby-bottle",
+      "state": "verified"
+    },
+    {
+      "q": "젖병",
+      "expect": "baby-bottle",
+      "state": "verified"
+    },
+    {
+      "q": "수유 젖병",
+      "expect": "baby-bottle",
+      "state": "verified"
+    },
+    {
+      "q": "자동차 브레이크 패드",
+      "expect": "brake-pad",
+      "state": "verified"
+    },
+    {
+      "q": "브레이크패드",
+      "expect": "brake-pad",
+      "state": "verified"
     }
   ]
 }

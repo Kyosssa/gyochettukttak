@@ -1,0 +1,16 @@
+---
+import Base from '../../layouts/Base.astro';
+import data from '../../../research/practical-guides-2026-10-03.json';
+import content from '../../../05-launch-content.seed.json';
+import registry from '../../../04-source-registry.json';
+export function getStaticPaths(){return data.guides.map(guide=>({params:{slug:guide.slug}}));}
+const guide=data.guides.find(x=>x.slug===Astro.params.slug);
+---
+<Base title={`${guide.title} - 교체뚝딱`} description={guide.description}>
+  <nav class="crumb" aria-label="breadcrumb"><a href="/">홈</a> / 실용 가이드</nav>
+  <article><p class="badge">확인 순서 가이드</p><h1 style="word-break:keep-all;overflow-wrap:normal;text-wrap:balance">{guide.title}</h1><p>{guide.intro}</p>
+    {guide.sections.map(section=><section><h2>{section.heading}</h2><p>{section.text}</p></section>)}
+    <section><h2>내 품목에서 확인하기</h2><ul class="cards">{guide.items.map(slug=>{const item=content.items.find(x=>x.slug===slug);return <li><a href={`/item/${slug}/`}><strong>{item.name}</strong><span>{item.answer_card.headline}</span></a></li>;})}</ul></section>
+    <section><h2>공식 근거와 적용 범위</h2><ul>{guide.source_ids.map(id=>{const source=registry.sources[id];return <li><a href={source.url} rel="noopener noreferrer">{source.authority} — {source.name}</a><p>{source.claims?.[0]?.scope || '세부 적용 대상은 원문과 연결된 상세에서 확인하세요.'}</p></li>;})}</ul></section>
+  </article>
+</Base>

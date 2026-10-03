@@ -5,15 +5,27 @@ import vm from 'node:vm';
 const read=p=>fs.readFileSync(p,'utf8'),j=p=>JSON.parse(read(p));
 const contract=j('research/expansion-contract.json'),seed=j('02-items.seed.json'),content=j('05-launch-content.seed.json'),registry=j('04-source-registry.json');
 const old=p=>JSON.parse(execFileSync('git',['show',`${contract.baseline_commit}:${p}`],{encoding:'utf8'}));
-for(const file of ['02-items.seed.json','05-launch-content.seed.json'])for(const slug of contract.baseline_slugs){assert.deepEqual(j(file).items.find(x=>x.slug===slug),old(file).items.find(x=>x.slug===slug),'unchanged original '+slug);}
-for(const [id,source] of Object.entries(old('04-source-registry.json').sources))assert.deepEqual(registry.sources[id],source,'unchanged original source '+id);
-for(const file of ['public/ads.txt','public/_headers','public/app.js','public/today.js','public/today-visitors.mjs','public/analytics-consent.js','public/analytics-consent.mjs','public/coupang-carousel.js','public/coupang-carousel.css','src/components/CoupangCarousel.astro','src/layouts/Base.astro','src/pages/privacy.astro','wrangler.jsonc','06-search-fixtures.json','19-e2e-acceptance.json'])assert.equal(read(file).replaceAll('\r\n','\n'),execFileSync('git',['show',`${contract.baseline_commit}:${file}`],{encoding:'utf8'}).replaceAll('\r\n','\n'),'protected file unchanged '+file);
-const map=read('dist/sitemap.xml');assert.equal((map.match(/<loc>/g)||[]).length,31);
-assert.equal(seed.verified_count,25);assert.equal(seed.launch_verified_count,25);assert.equal(seed.launch_candidate_count,25);
-assert.equal(fs.readdirSync('dist/item').length,25);assert.equal(fs.readdirSync('dist/category').length,3);
+const second=contract.second_expansion;
+const baseline=p=>JSON.parse(execFileSync('git',['show',`${second.baseline_commit}:${p}`],{encoding:'utf8'}));
+// Only the explicitly reviewed content/alias/source additions may differ. Calculation,
+// commerce, care actions and prior claims remain identical on all original 25 items.
+for(const file of ['02-items.seed.json','05-launch-content.seed.json'])for(const before of baseline(file).items.filter(x=>file.startsWith('05')||x.verification_status==='verified')){
+ const after=structuredClone(j(file).items.find(x=>x.slug===before.slug)),expected=structuredClone(before);
+ if(second.enriched_slugs.includes(before.slug)){
+  const fields=file.startsWith('02')?['aliases','sources','evidence']:['guidance_sections','related_slugs','source_ids','guide_slugs','tool_note'];
+  for(const field of fields){delete after[field];delete expected[field];}
+ }
+ assert.deepEqual(after,expected,'unchanged non-content fields '+before.slug);
+}
+for(const [id,source] of Object.entries(baseline('04-source-registry.json').sources))assert.deepEqual(registry.sources[id],source,'unchanged original source '+id);
+for(const file of ['public/ads.txt','public/_headers','public/app.js','public/today.js','public/today-visitors.mjs','public/analytics-consent.js','public/analytics-consent.mjs','public/coupang-carousel.js','public/coupang-carousel.css','src/components/CoupangCarousel.astro','src/layouts/Base.astro','src/pages/privacy.astro','wrangler.jsonc','19-e2e-acceptance.json'])assert.equal(read(file).replaceAll('\r\n','\n'),execFileSync('git',['show',`${second.baseline_commit}:${file}`],{encoding:'utf8'}).replaceAll('\r\n','\n'),'protected file unchanged '+file);
+for(const before of baseline('06-search-fixtures.json').cases){const after=j('06-search-fixtures.json').cases.find(x=>x.q===before.q);assert.deepEqual(after,second.added_slugs.includes(before.expect)?{...before,state:'verified'}:before,'existing fixture preserved except approved promotion '+before.q);}
+const map=read('dist/sitemap.xml');assert.equal((map.match(/<loc>/g)||[]).length,contract.expected.sitemap);
+assert.equal(seed.verified_count,contract.expected.verified);assert.equal(seed.launch_verified_count,contract.expected.verified);assert.equal(seed.launch_candidate_count,contract.expected.verified);
+assert.equal(fs.readdirSync('dist/item').length,contract.expected.verified);assert.equal(fs.readdirSync('dist/category').length,3);
 for(const slug of contract.added_slugs){
  const item=seed.items.find(x=>x.slug===slug),page=content.items.find(x=>x.slug===slug),html=read(`dist/item/${slug}/index.html`);
- assert.equal(item.cycle,null);assert.equal(page.commerce.generic_cards_allowed,false);assert.notEqual(page.tool_type,'calendar_condition');assert.ok(page.scope_note);assert.equal(page.guidance_sections.length,2);assert.match(html,/data-evidence-scope/);assert.equal(html.includes('data-exact-date'),false);assert.equal(html.includes('data-coupang'),false);
+ assert.equal(item.cycle,null);assert.equal(page.commerce.generic_cards_allowed,false);assert.notEqual(page.tool_type,'calendar_condition');assert.ok(page.scope_note);assert.ok(page.guidance_sections.length>=2);assert.match(html,/data-evidence-scope/);assert.equal(html.includes('data-exact-date'),false);assert.equal(html.includes('data-coupang'),false);
  assert.equal(page.seo_validation.title_chars,page.title.length);assert.equal(page.seo_validation.description_chars,page.meta_description.length);assert.ok(page.meta_description.length<=100);
  assert.ok(map.includes(`https://gyochettukttak.com/item/${slug}/`));assert.match(read('dist/index.html'),new RegExp(`/item/${slug}/`));assert.match(read('dist/search/index.html'),new RegExp(slug));
  assert.ok(page.source_ids.every(id=>registry.sources[id].level==='A_DIRECT'));assert.equal(new Set(page.related_slugs).size,page.related_slugs.length);assert.ok(!page.related_slugs.includes(slug));
@@ -37,4 +49,4 @@ for(const slug of contract.added_slugs){
  assert.equal((ics.match(/DTSTART:/g)||[]).length,1);
  assert.equal(/DUE:|RRULE:|DTEND:/.test(ics),false,'no calculated future schedule '+slug);
 }
-console.log('PASS expansion: 10 new pages; original 15/source data and protected runtimes unchanged; 23 held; 31 sitemap; 3 categories');
+console.log('PASS expansion:',contract.added_slugs.length,'expanded pages; original 25 critical fields/source data and protected runtimes unchanged;',contract.expected);

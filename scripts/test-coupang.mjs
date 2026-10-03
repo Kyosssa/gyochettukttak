@@ -7,7 +7,7 @@ const read = (path) => fs.readFileSync(path, 'utf8');
 const count = (text, matcher) => (text.match(matcher) ?? []).length;
 const launch = seed.items.filter((item) => item.launch_candidate && item.index_state === 'indexable');
 const targets = launch.filter(item => contract.baseline_slugs.includes(item.slug)).map((item) => `dist/item/${item.slug}/index.html`);
-const excluded = ['dist/index.html', ...['hygiene-bathroom', 'kitchen-food', 'air-water-filters'].map((slug) => `dist/category/${slug}/index.html`), 'dist/search/index.html', 'dist/my-home/index.html', 'dist/about/index.html', 'dist/source-policy/index.html', 'dist/privacy/index.html', 'dist/affiliate-disclosure/index.html', 'dist/404.html', ...contract.added_slugs.map(slug => `dist/item/${slug}/index.html`)];
+const excluded = ['dist/index.html', ...['hygiene-bathroom', 'kitchen-food', 'air-water-filters'].map((slug) => `dist/category/${slug}/index.html`), 'dist/search/index.html', 'dist/my-home/index.html', 'dist/about/index.html', 'dist/source-policy/index.html', 'dist/privacy/index.html', 'dist/affiliate-disclosure/index.html', 'dist/404.html', ...contract.added_slugs.map(slug => `dist/item/${slug}/index.html`), ...contract.second_expansion.guide_slugs.map(slug=>`dist/guide/${slug}/index.html`)];
 
 assert.equal(targets.length, 15, 'verified item pages only');
 for (const path of targets) {

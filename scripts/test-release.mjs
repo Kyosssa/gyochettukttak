@@ -27,10 +27,10 @@ const h1 = (html) => html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/i)?.[1].replace(/<[^>
 const canonical = (html) => html.match(/<link[^>]+rel="canonical"[^>]+href="([^"]+)"/i)?.[1];
 const toPath = (url) => new URL(url).pathname;
 
-assert.equal(urls.length, 31, 'sitemap must contain 31 URLs');
-assert.equal(new Set(urls).size, 31, 'sitemap URLs must be unique');
+assert.equal(urls.length, contract.expected.sitemap, 'sitemap count');
+assert.equal(new Set(urls).size, contract.expected.sitemap, 'sitemap URLs must be unique');
 assert.ok(urls.every((url) => url.startsWith(`${origin}/`)), 'sitemap must use official origin');
-assert.equal(launch.length, 25, 'verified launch item count');
+assert.equal(launch.length, contract.expected.verified, 'verified launch item count');
 
 const titles = new Set();
 const descriptions = new Set();

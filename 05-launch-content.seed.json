@@ -29,7 +29,8 @@
       ],
       "replacement_reason": "칫솔모가 마모될수록 세정 성능이 떨어질 수 있어 기간과 칫솔모 상태를 함께 확인합니다.",
       "source_ids": [
-        "ada_toothbrush"
+        "ada_toothbrush",
+        "oralb_sg_head_care"
       ],
       "related_slugs": [
         "razor-blade",
@@ -64,7 +65,20 @@
         "description_chars": 62,
         "title_target_max": 40,
         "description_target_max": 100
-      }
+      },
+      "guidance_sections": [
+        {
+          "heading": "전동칫솔모의 호환 범위",
+          "text": "Oral-B 싱가포르 FAQ의 3개월 또는 마모 시 교체 안내는 해당 칫솔모 안내입니다. iO용과 다른 전동칫솔모의 호환 범위가 다르므로 손잡이 모델을 확인하세요. 전동칫솔 전체를 같은 시기에 교체한다는 뜻은 아닙니다."
+        },
+        {
+          "heading": "사용 뒤 세척과 보관",
+          "text": "ADA는 칫솔을 사용 뒤 헹구고 세워 자연 건조하도록 안내합니다. Oral-B는 헤드를 분리해 헤드와 손잡이를 헹구고 말리도록 합니다. 세척한 날은 새 칫솔모를 장착한 날과 구분하세요."
+        }
+      ],
+      "guide_slugs": [
+        "read-maintenance-manual"
+      ]
     },
     {
       "slug": "razor-blade",
@@ -100,7 +114,8 @@
       ],
       "related_slugs": [
         "toothbrush",
-        "shower-filter"
+        "shower-filter",
+        "electric-shaver-head"
       ],
       "commerce": {
         "strategy": "direct_generic",
@@ -131,7 +146,16 @@
         "description_chars": 63,
         "title_target_max": 40,
         "description_target_max": 100
-      }
+      },
+      "guidance_sections": [
+        {
+          "heading": "일회용 날과 전기면도기 구분",
+          "text": "AAD의 5~7회 안내는 단일 날 면도기에 관한 안내입니다. 전기면도기의 날·망은 제조사 지침을 확인해야 하며 면도 횟수를 전기면도기 헤드 수명으로 변환하지 않습니다."
+        }
+      ],
+      "guide_slugs": [
+        "read-maintenance-manual"
+      ]
     },
     {
       "slug": "shower-filter",
@@ -334,7 +358,16 @@
         "description_chars": 54,
         "title_target_max": 40,
         "description_target_max": 100
-      }
+      },
+      "guidance_sections": [
+        {
+          "heading": "코팅 관리와 교체는 다른 작업",
+          "text": "식품의약품안전처 안내는 코팅이 손상된 팬의 교체와 부드러운 조리도구·스펀지 사용을 구분합니다. 빈 팬을 가열하지 않는 관리가 손상된 코팅을 복구한다는 뜻은 아닙니다."
+        }
+      ],
+      "guide_slugs": [
+        "read-maintenance-manual"
+      ]
     },
     {
       "slug": "cutting-board",
@@ -604,7 +637,16 @@
         "description_chars": 58,
         "title_target_max": 40,
         "description_target_max": 100
-      }
+      },
+      "guidance_sections": [
+        {
+          "heading": "물 세척 가능한 필터만 세척",
+          "text": "LG 벽걸이 에어컨 안내는 극세 필터와 탈취·TVF 등 추가 필터를 구분합니다. 물 세척이 가능한 극세 필터의 관리법을 추가 필터에 적용하지 말고 제품 설명서의 필터명을 확인하세요."
+        }
+      ],
+      "guide_slugs": [
+        "filter-care-or-replace"
+      ]
     },
     {
       "slug": "air-purifier-filter",
@@ -672,7 +714,16 @@
         "description_chars": 59,
         "title_target_max": 40,
         "description_target_max": 100
-      }
+      },
+      "guidance_sections": [
+        {
+          "heading": "모델 라벨과 필터 구조부터 확인",
+          "text": "LG는 제품 뒷면·하단의 모델명 확인을 안내합니다. 몽블랑·퓨리케어 미니·360 제품의 필터 구성과 관리법이 다르므로 한 모델의 세척 가능 여부나 교체 예시를 다른 모델에 적용하지 않습니다."
+        }
+      ],
+      "guide_slugs": [
+        "filter-care-or-replace"
+      ]
     },
     {
       "slug": "humidifier-filter",
@@ -740,7 +791,16 @@
         "description_chars": 56,
         "title_target_max": 40,
         "description_target_max": 100
-      }
+      },
+      "guidance_sections": [
+        {
+          "heading": "물을 머금는 필터와 공기 필터 구분",
+          "text": "LG 하이드로에센셜 안내의 수분 필터는 세척 관리 대상이지만 공기·가습 필터는 물 세척하지 않습니다. 같은 가습기 안에서도 부품별 지침이 다르며 세척일을 교체일로 바꾸지 않습니다."
+        }
+      ],
+      "guide_slugs": [
+        "filter-care-or-replace"
+      ]
     },
     {
       "slug": "vacuum-filter",
@@ -773,11 +833,14 @@
       ],
       "replacement_reason": "세척 가능한 필터를 일정 기간마다 무조건 교체하는 식의 안내는 모델에 따라 맞지 않을 수 있습니다.",
       "source_ids": [
-        "dyson_vacuum"
+        "dyson_vacuum",
+        "irobot_combo_mop"
       ],
       "related_slugs": [
         "air-purifier-filter",
-        "air-conditioner-filter"
+        "air-conditioner-filter",
+        "robot-vacuum-brush",
+        "robot-mop-pad"
       ],
       "commerce": {
         "strategy": "model_required",
@@ -808,7 +871,20 @@
         "description_chars": 57,
         "title_target_max": 40,
         "description_target_max": 100
-      }
+      },
+      "guidance_sections": [
+        {
+          "heading": "로봇청소기 필터는 별도 모델 분기",
+          "text": "Roomba Combo i5/i5+·j5/j5+ 안내는 필터 청소와 교체를 구분하고 물 세척을 금지합니다. 이 모델의 교체 예시를 Dyson 또는 다른 로봇청소기 필터에 적용하지 않습니다."
+        },
+        {
+          "heading": "세척 가능한 Dyson 필터의 건조",
+          "text": "Dyson의 해당 무선청소기 필터 관리는 찬물 세척 뒤 최소 24시간 완전히 건조하도록 안내합니다. 세제를 쓰지 않으며 세척 가능한 필터인지 확인한 경우에만 이 방법을 따르세요."
+        }
+      ],
+      "guide_slugs": [
+        "filter-care-or-replace"
+      ]
     },
     {
       "slug": "power-strip",
@@ -1156,7 +1232,11 @@
         "description_chars": 83,
         "title_target_max": 40,
         "description_target_max": 100
-      }
+      },
+      "tool_note": "튜브·포장의 표시 사용기한을 직접 확인하세요. 현재 도구는 그 기한을 입력받거나 개봉 후 기간으로 변환하지 않습니다. 캘린더에는 실제 교체 기록만 담습니다.",
+      "guide_slugs": [
+        "cosmetic-expiry-label"
+      ]
     },
     {
       "slug": "mascara",
@@ -1228,7 +1308,11 @@
         "description_chars": 86,
         "title_target_max": 40,
         "description_target_max": 100
-      }
+      },
+      "tool_note": "제품 표시와 건조 상태를 우선 확인하세요. 현재 도구는 구매일·개봉일로 FDA의 제품군 예시를 일괄 계산하지 않으며, 실제 교체 기록만 저장합니다.",
+      "guide_slugs": [
+        "cosmetic-expiry-label"
+      ]
     },
     {
       "slug": "contact-lens-solution",
@@ -1297,7 +1381,11 @@
         "description_chars": 85,
         "title_target_max": 40,
         "description_target_max": 100
-      }
+      },
+      "tool_note": "병에 표시된 사용기한·개봉 후 폐기 안내와 매회 잔여액 처리는 따로 확인하세요. 현재 도구는 개봉 후 기간과 표시기한을 합쳐 자동 계산하지 않습니다.",
+      "guide_slugs": [
+        "cosmetic-expiry-label"
+      ]
     },
     {
       "slug": "sunscreen",
@@ -1368,7 +1456,11 @@
         "description_chars": 87,
         "title_target_max": 40,
         "description_target_max": 100
-      }
+      },
+      "tool_note": "국내 제품 라벨의 사용기한·보관 안내가 우선입니다. 현재 도구는 해외의 미표시 제품 예시로 기한을 생성하거나 날짜만으로 보호 효과를 보장하지 않습니다.",
+      "guide_slugs": [
+        "cosmetic-expiry-label"
+      ]
     },
     {
       "slug": "baby-bottle-nipple",
@@ -1545,7 +1637,9 @@
       ],
       "related_slugs": [
         "tire",
-        "cabin-air-filter"
+        "cabin-air-filter",
+        "engine-air-filter",
+        "spark-plug"
       ],
       "commerce": {
         "strategy": "vehicle_required",
@@ -1576,6 +1670,10 @@
         {
           "heading": "오일 양 점검과 교체",
           "text": "오일 양을 확인하거나 보충한 시점을 교체 완료로 기록하지 않습니다. 내 관리에는 실제 교체일과 직접 입력한 주행거리만 기록하고, 차량별 오일 규격을 확인하기 전 일반 상품을 추천하지 않습니다."
+        },
+        {
+          "heading": "오일 필터 작업도 정비 명세서에서 확인",
+          "text": "기존 근거인 현대 LX2 2025 미국판 정비표는 엔진오일과 오일 필터를 같은 정비 항목으로 표시합니다. 실제 차량의 정비표와 명세서에서 각각 작업했는지 확인하며 흡기·공조 필터의 기준을 가져오지 않습니다."
         }
       ],
       "seo_validation": {
@@ -1583,7 +1681,10 @@
         "description_chars": 81,
         "title_target_max": 40,
         "description_target_max": 100
-      }
+      },
+      "guide_slugs": [
+        "read-maintenance-manual"
+      ]
     },
     {
       "slug": "gas-stove-ignition-battery",
@@ -1719,6 +1820,907 @@
       "seo_validation": {
         "title_chars": 27,
         "description_chars": 74,
+        "title_target_max": 40,
+        "description_target_max": 100
+      }
+    },
+    {
+      "slug": "electric-shaver-head",
+      "name": "전기면도기 헤드",
+      "h1": "전기면도기 헤드 교체주기",
+      "title": "전기면도기 헤드 교체주기 | 확인 기준 - 교체뚝딱",
+      "meta_description": "헤드 손상과 내 면도기의 교체 안내를 확인하세요. Philips S3608·SH30, 영문 설명서",
+      "primary_keyword": "전기면도기 헤드 교체주기",
+      "secondary_keywords": [
+        "전기면도기 헤드 교체시기",
+        "전기면도기 날",
+        "전기면도기 면도망"
+      ],
+      "evidence_badge": "공식 직접 근거 · 적용 범위 확인",
+      "answer_card": {
+        "headline": "헤드 손상과 내 면도기의 교체 안내를 확인하세요.",
+        "summary": "Philips S3608 설명서는 헤드를 2년마다 교체하고 손상된 헤드는 즉시 바꾸도록 안내합니다. 이 기간은 SH30을 사용하는 해당 기기의 예시이지 모든 전기면도기 날·망의 수명이 아닙니다."
+      },
+      "tool_type": "model_condition",
+      "check_signs": [
+        "헤드 또는 면도망 손상",
+        "해당 설명서의 교체 안내에 도달"
+      ],
+      "adjustment_factors": [
+        "손잡이 모델과 헤드 코드",
+        "세척 가능 구조와 날·망의 짝"
+      ],
+      "replacement_reason": "세척과 새 헤드 장착은 서로 다른 작업입니다.",
+      "source_ids": [
+        "philips_s3608_heads"
+      ],
+      "related_slugs": [
+        "razor-blade"
+      ],
+      "commerce": {
+        "strategy": "model_required",
+        "generic_cards_allowed": false,
+        "keyword": null,
+        "pre_purchase_guard": "Philips S3608·SH30, 영문 설명서"
+      },
+      "beorim": {
+        "status": "unverified",
+        "url": null,
+        "cta": null
+      },
+      "page_modules": [
+        "answer_card",
+        "tool",
+        "check_signs",
+        "adjustment_factors",
+        "replacement_reason",
+        "sources",
+        "related_items"
+      ],
+      "scope_note": "Philips S3608·SH30, 영문 설명서",
+      "guidance_sections": [
+        {
+          "heading": "세척 먼저, 손상은 별도 판단",
+          "text": "S3608은 매 면도 후 세척을 안내합니다. 이 모델은 물 세척이 가능하지만 다른 전기면도기에 이를 적용하지 마세요. 세척한 날을 새 헤드 장착일로 기록하지 않습니다."
+        },
+        {
+          "heading": "날과 보호망의 짝 유지",
+          "text": "해당 설명서는 커터와 보호망을 한 세트씩 청소하며 서로 섞지 않도록 합니다. 내 제품의 분리 순서와 교체 부품번호를 확인하고, 본체 고장을 헤드 교체로 해결한다고 단정하지 마세요."
+        }
+      ],
+      "tool_note": "이 도구는 실제 교체·관리 기록만 저장합니다. 출처의 제품 예시를 공통 기한으로 계산하지 않으며 캘린더 파일에는 직접 기록한 교체일만 들어갑니다.",
+      "guide_slugs": [
+        "read-maintenance-manual"
+      ],
+      "seo_validation": {
+        "title_chars": 28,
+        "description_chars": 54,
+        "title_target_max": 40,
+        "description_target_max": 100
+      }
+    },
+    {
+      "slug": "contact-lens-case",
+      "name": "렌즈 케이스",
+      "h1": "렌즈 케이스 교체주기",
+      "title": "렌즈 케이스 교체주기 | 확인 기준 - 교체뚝딱",
+      "meta_description": "렌즈 케이스의 교체와 매회 세척을 따로 관리하세요. 미국 콘택트렌즈 보관 케이스 관리 안내, 개별 렌즈 처방과 구분",
+      "primary_keyword": "렌즈 케이스 교체주기",
+      "secondary_keywords": [
+        "렌즈 케이스 교체시기",
+        "콘택트렌즈 케이스",
+        "렌즈 보관통"
+      ],
+      "evidence_badge": "공식 직접 근거 · 적용 범위 확인",
+      "answer_card": {
+        "headline": "렌즈 케이스의 교체와 매회 세척을 따로 관리하세요.",
+        "summary": "CDC는 렌즈 케이스를 적어도 3개월마다 교체하고 사용 뒤 용액으로 세척하도록 안내합니다. 렌즈 자체의 처방 주기나 용액 병의 사용기한과 같은 기준이 아닙니다."
+      },
+      "tool_type": "condition",
+      "check_signs": [
+        "케이스 교체 권고 시점",
+        "안과 전문가 또는 케이스 지침의 교체 안내"
+      ],
+      "adjustment_factors": [
+        "케이스·용액 제조사 지침",
+        "매회 잔여액 처리와 건조"
+      ],
+      "replacement_reason": "케이스·렌즈·관리용액은 서로 다른 교체 대상을 갖습니다.",
+      "source_ids": [
+        "cdc_lens_case"
+      ],
+      "related_slugs": [
+        "contact-lens-solution"
+      ],
+      "commerce": {
+        "strategy": "condition",
+        "generic_cards_allowed": false,
+        "keyword": null,
+        "pre_purchase_guard": "미국 콘택트렌즈 보관 케이스 관리 안내, 개별 렌즈 처방과 구분"
+      },
+      "beorim": {
+        "status": "unverified",
+        "url": null,
+        "cta": null
+      },
+      "page_modules": [
+        "answer_card",
+        "tool",
+        "check_signs",
+        "adjustment_factors",
+        "replacement_reason",
+        "sources",
+        "related_items"
+      ],
+      "scope_note": "미국 콘택트렌즈 보관 케이스 관리 안내, 개별 렌즈 처방과 구분",
+      "guidance_sections": [
+        {
+          "heading": "수돗물 대신 안내된 용액",
+          "text": "CDC는 케이스를 용액으로 문질러 헹군 다음 뚜껑을 열고 뒤집어 보관하도록 안내합니다. 케이스 안의 잔여액에 새 용액을 보충해 섞지 마세요."
+        },
+        {
+          "heading": "렌즈 종류는 별도 확인",
+          "text": "케이스를 바꿨다고 렌즈 착용 가능 기간이 늘어나지는 않습니다. 렌즈 처방과 관리용액의 설명서를 따르고 불편함이 있으면 렌즈를 빼고 안과 전문가에게 문의하세요."
+        }
+      ],
+      "tool_note": "이 도구는 실제 교체·관리 기록만 저장합니다. 출처의 제품 예시를 공통 기한으로 계산하지 않으며 캘린더 파일에는 직접 기록한 교체일만 들어갑니다.",
+      "guide_slugs": [
+        "read-maintenance-manual"
+      ],
+      "seo_validation": {
+        "title_chars": 26,
+        "description_chars": 64,
+        "title_target_max": 40,
+        "description_target_max": 100
+      }
+    },
+    {
+      "slug": "pacifier",
+      "name": "공갈젖꼭지",
+      "h1": "공갈젖꼭지 교체주기",
+      "title": "공갈젖꼭지 교체주기 | 확인 기준 - 교체뚝딱",
+      "meta_description": "쪽쪽이는 제품의 사용 후 교체 안내를 확인하세요. 영국 ultra soft SCF093/02 제품 안내",
+      "primary_keyword": "공갈젖꼭지 교체주기",
+      "secondary_keywords": [
+        "공갈젖꼭지 교체시기",
+        "쪽쪽이",
+        "노리개 젖꼭지"
+      ],
+      "evidence_badge": "공식 직접 근거 · 적용 범위 확인",
+      "answer_card": {
+        "headline": "쪽쪽이는 제품의 사용 후 교체 안내를 확인하세요.",
+        "summary": "Philips Avent ultra soft SCF093/02 안내는 위생상 사용 4주 후 교체를 권고합니다. 수유용 젖꼭지의 3개월 예시와 다르며 다른 재질·모델의 쪽쪽이에 같은 기간을 계산하지 않습니다."
+      },
+      "tool_type": "model_condition",
+      "check_signs": [
+        "내 제품 안내의 교체 조건에 도달"
+      ],
+      "adjustment_factors": [
+        "공갈용·수유용 구분",
+        "제품군과 제조사 사용설명서"
+      ],
+      "replacement_reason": "공갈용과 수유용 젖꼭지를 구분해야 적용 제품의 교체 안내를 읽을 수 있습니다.",
+      "source_ids": [
+        "philips_ultrasoft_pacifier"
+      ],
+      "related_slugs": [
+        "baby-bottle-nipple",
+        "baby-bottle"
+      ],
+      "commerce": {
+        "strategy": "model_required",
+        "generic_cards_allowed": false,
+        "keyword": null,
+        "pre_purchase_guard": "영국 ultra soft SCF093/02 제품 안내"
+      },
+      "beorim": {
+        "status": "unverified",
+        "url": null,
+        "cta": null
+      },
+      "page_modules": [
+        "answer_card",
+        "tool",
+        "check_signs",
+        "adjustment_factors",
+        "replacement_reason",
+        "sources",
+        "related_items"
+      ],
+      "scope_note": "영국 ultra soft SCF093/02 제품 안내",
+      "guidance_sections": [
+        {
+          "heading": "사용 시작과 구매일 구분",
+          "text": "출처의 4주는 사용한 기간 기준입니다. 구매일이나 선물 받은 날로 일괄 계산하지 않고, 제품 포장과 설명서에서 적용 조건을 먼저 읽으세요."
+        },
+        {
+          "heading": "세척이 교체 권고를 취소하지 않습니다",
+          "text": "소독 방법은 실제 제품 지침에서 확인하세요. 이 사이트는 소독 여부로 사용기간을 연장하거나 월령만으로 제품을 추천하지 않습니다."
+        }
+      ],
+      "tool_note": "이 도구는 실제 교체·관리 기록만 저장합니다. 출처의 제품 예시를 공통 기한으로 계산하지 않으며 캘린더 파일에는 직접 기록한 교체일만 들어갑니다.",
+      "guide_slugs": [
+        "read-maintenance-manual"
+      ],
+      "seo_validation": {
+        "title_chars": 25,
+        "description_chars": 57,
+        "title_target_max": 40,
+        "description_target_max": 100
+      }
+    },
+    {
+      "slug": "refrigerator-water-filter",
+      "name": "냉장고 급수 필터",
+      "h1": "냉장고 급수 필터 교체주기",
+      "title": "냉장고 급수 필터 교체주기 | 확인 기준 - 교체뚝딱",
+      "meta_description": "급수 카트리지 코드와 모델별 교체 안내를 확인하세요. 캐나다 삼성 냉장고 HAF-CIN/HAF-QIN/HAFCU1 등 해당 모델",
+      "primary_keyword": "냉장고 급수 필터 교체주기",
+      "secondary_keywords": [
+        "냉장고 급수 필터 교체시기",
+        "냉장고 정수 필터",
+        "냉장고 워터필터"
+      ],
+      "evidence_badge": "공식 직접 근거 · 적용 범위 확인",
+      "answer_card": {
+        "headline": "급수 카트리지 코드와 모델별 교체 안내를 확인하세요.",
+        "summary": "Samsung Canada는 해당 냉장고 급수 필터에 약 6개월 안내를 제공합니다. 알림은 타이머이며 수질·출수량에 따라 달라집니다. 냉장고 탈취 필터나 모든 국내 냉장고에 같은 주기를 적용하지 않습니다."
+      },
+      "tool_type": "model_condition",
+      "check_signs": [
+        "해당 모델의 교체 알림",
+        "급수량 저하로 제조사 점검이 필요한 경우"
+      ],
+      "adjustment_factors": [
+        "냉장고 모델과 HAF-CIN/HAF-QIN/HAFCU1 등 코드",
+        "수질과 디스펜서 사용량"
+      ],
+      "replacement_reason": "알림 초기화와 실제 급수 카트리지 교체를 구분하기 위해 기록합니다.",
+      "source_ids": [
+        "samsung_ca_fridge_water"
+      ],
+      "related_slugs": [
+        "water-purifier-filter",
+        "refrigerator-deodorizer"
+      ],
+      "commerce": {
+        "strategy": "model_required",
+        "generic_cards_allowed": false,
+        "keyword": null,
+        "pre_purchase_guard": "캐나다 삼성 냉장고 HAF-CIN/HAF-QIN/HAFCU1 등 해당 모델"
+      },
+      "beorim": {
+        "status": "unverified",
+        "url": null,
+        "cta": null
+      },
+      "page_modules": [
+        "answer_card",
+        "tool",
+        "check_signs",
+        "adjustment_factors",
+        "replacement_reason",
+        "sources",
+        "related_items"
+      ],
+      "scope_note": "캐나다 삼성 냉장고 HAF-CIN/HAF-QIN/HAFCU1 등 해당 모델",
+      "guidance_sections": [
+        {
+          "heading": "알림 초기화는 교체가 아닙니다",
+          "text": "삼성 안내의 램프는 경과 시간에 따른 표시입니다. 알림을 끄는 동작과 카트리지 교체를 구분하고 실제 새 필터를 장착한 때만 교체했다고 기록하세요."
+        },
+        {
+          "heading": "설치 위치와 규격 확인",
+          "text": "냉장고 안쪽 모델 라벨과 기존 필터의 코드를 함께 확인하세요. 설치 위치·잠금 방식·교체 뒤 출수 절차는 모델 설명서를 따르며, 세척으로 기한을 연장한다고 안내하지 않습니다."
+        }
+      ],
+      "tool_note": "이 도구는 실제 교체·관리 기록만 저장합니다. 출처의 제품 예시를 공통 기한으로 계산하지 않으며 캘린더 파일에는 직접 기록한 교체일만 들어갑니다.",
+      "guide_slugs": [
+        "filter-care-or-replace"
+      ],
+      "seo_validation": {
+        "title_chars": 29,
+        "description_chars": 71,
+        "title_target_max": 40,
+        "description_target_max": 100
+      }
+    },
+    {
+      "slug": "robot-vacuum-brush",
+      "name": "로봇청소기 메인 브러시",
+      "h1": "로봇청소기 메인 브러시 교체주기",
+      "title": "로봇청소기 메인 브러시 교체주기 | 확인 기준 - 교체뚝딱",
+      "meta_description": "감긴 이물 청소와 롤러 교체를 구분하세요. Roomba 메인 브러시, 시리즈별 분리·장착 구조",
+      "primary_keyword": "로봇청소기 메인 브러시 교체주기",
+      "secondary_keywords": [
+        "로봇청소기 메인 브러시 교체시기",
+        "로봇청소기 롤러",
+        "로봇청소기 메인브러시"
+      ],
+      "evidence_badge": "공식 직접 근거 · 적용 범위 확인",
+      "answer_card": {
+        "headline": "감긴 이물 청소와 롤러 교체를 구분하세요.",
+        "summary": "iRobot은 Roomba 메인 브러시를 주 1회 청소하고 6~12개월 또는 필요 시 교체하도록 안내합니다. 반려동물이 있으면 청소 빈도 안내가 달라집니다. 다른 로봇의 브러시에 같은 기간을 적용하지 않습니다."
+      },
+      "tool_type": "model_condition",
+      "check_signs": [
+        "해당 모델의 교체 안내",
+        "청소 후에도 부품 점검·교체가 필요한 상태"
+      ],
+      "adjustment_factors": [
+        "Roomba 시리즈별 축과 브러시 구조",
+        "반려동물 털과 이물 축적"
+      ],
+      "replacement_reason": "롤러의 이물 제거와 새 부품 장착을 구분해 관리합니다.",
+      "source_ids": [
+        "irobot_main_brush"
+      ],
+      "related_slugs": [
+        "vacuum-filter",
+        "robot-mop-pad"
+      ],
+      "commerce": {
+        "strategy": "model_required",
+        "generic_cards_allowed": false,
+        "keyword": null,
+        "pre_purchase_guard": "Roomba 메인 브러시, 시리즈별 분리·장착 구조"
+      },
+      "beorim": {
+        "status": "unverified",
+        "url": null,
+        "cta": null
+      },
+      "page_modules": [
+        "answer_card",
+        "tool",
+        "check_signs",
+        "adjustment_factors",
+        "replacement_reason",
+        "sources",
+        "related_items"
+      ],
+      "scope_note": "Roomba 메인 브러시, 시리즈별 분리·장착 구조",
+      "guidance_sections": [
+        {
+          "heading": "롤러 끝과 캡도 확인",
+          "text": "Roomba 안내는 브러시 양 끝과 캡 안쪽, 축 아래에 감긴 털을 제거하도록 합니다. 회전부의 이물을 제거한 작업은 관리로 기록하며 새 롤러 장착과 구분하세요."
+        },
+        {
+          "heading": "좌우·앞뒤 부품 맞추기",
+          "text": "장착 때 브러시 축의 모양과 모듈의 모양을 맞추라는 안내가 있습니다. 시리즈별 분리 방법이 다르므로 메인 롤러와 사이드 브러시를 같은 부품으로 구매하지 마세요."
+        }
+      ],
+      "tool_note": "이 도구는 실제 교체·관리 기록만 저장합니다. 출처의 제품 예시를 공통 기한으로 계산하지 않으며 캘린더 파일에는 직접 기록한 교체일만 들어갑니다.",
+      "guide_slugs": [
+        "filter-care-or-replace"
+      ],
+      "seo_validation": {
+        "title_chars": 32,
+        "description_chars": 52,
+        "title_target_max": 40,
+        "description_target_max": 100
+      }
+    },
+    {
+      "slug": "robot-mop-pad",
+      "name": "로봇청소기 물걸레 패드",
+      "h1": "로봇청소기 물걸레 패드 교체주기",
+      "title": "로봇청소기 물걸레 패드 교체주기 | 확인 기준 - 교체뚝딱",
+      "meta_description": "세탁 가능 패드인지 확인하고 세탁 횟수를 기록하세요. Roomba Combo i5/i5+·j5/j5+, 다른 로봇에는 일반화하지 않음",
+      "primary_keyword": "로봇청소기 물걸레 패드 교체주기",
+      "secondary_keywords": [
+        "로봇청소기 물걸레 패드 교체시기",
+        "로봇청소기 걸레",
+        "로봇 물걸레 패드"
+      ],
+      "evidence_badge": "공식 직접 근거 · 적용 범위 확인",
+      "answer_card": {
+        "headline": "세탁 가능 패드인지 확인하고 세탁 횟수를 기록하세요.",
+        "summary": "Roomba Combo i5/i5+·j5/j5+ 안내는 물걸레 작업 뒤 세척, 30회 세탁 뒤 패드 교체를 구분합니다. 청소 운행 횟수와 세탁 횟수는 같지 않고 일회용·다른 모델 패드에는 적용되지 않습니다."
+      },
+      "tool_type": "model_usage",
+      "check_signs": [
+        "해당 모델의 세탁 횟수 기준에 도달"
+      ],
+      "adjustment_factors": [
+        "패드가 맞는 Combo 모델",
+        "실제로 세탁한 횟수"
+      ],
+      "replacement_reason": "누적 세탁 횟수 기준은 청소 운행 횟수나 경과 날짜와 다릅니다.",
+      "source_ids": [
+        "irobot_combo_mop"
+      ],
+      "related_slugs": [
+        "robot-vacuum-brush",
+        "vacuum-filter"
+      ],
+      "commerce": {
+        "strategy": "model_required",
+        "generic_cards_allowed": false,
+        "keyword": null,
+        "pre_purchase_guard": "Roomba Combo i5/i5+·j5/j5+, 다른 로봇에는 일반화하지 않음"
+      },
+      "beorim": {
+        "status": "unverified",
+        "url": null,
+        "cta": null
+      },
+      "page_modules": [
+        "answer_card",
+        "tool",
+        "check_signs",
+        "adjustment_factors",
+        "replacement_reason",
+        "sources",
+        "related_items"
+      ],
+      "scope_note": "Roomba Combo i5/i5+·j5/j5+, 다른 로봇에는 일반화하지 않음",
+      "guidance_sections": [
+        {
+          "heading": "세탁 후 자연 건조",
+          "text": "해당 패드는 작업 뒤 헹구고 필요에 따라 손세탁·기계세탁한 뒤 자연 건조하도록 안내합니다. 표백·다림질·회전식 건조 금지는 해당 제품 지침이며 다른 패드의 세탁 조건은 라벨을 읽으세요."
+        },
+        {
+          "heading": "관리 버튼은 횟수를 자동 증가시키지 않습니다",
+          "text": "세탁했다는 관리 시점과 누적 횟수는 별도 기록입니다. 실제 확인한 세탁 횟수만 입력하고, 앱의 청소 횟수로 세탁 횟수를 추정하지 않습니다. 30회를 미래 날짜로 변환하지 않습니다."
+        }
+      ],
+      "tool_note": "이 도구는 실제 교체·관리 기록만 저장합니다. 출처의 제품 예시를 공통 기한으로 계산하지 않으며 캘린더 파일에는 직접 기록한 교체일만 들어갑니다.",
+      "usage_label": "누적 세탁 횟수 (직접 확인한 값)",
+      "guide_slugs": [
+        "filter-care-or-replace"
+      ],
+      "seo_validation": {
+        "title_chars": 32,
+        "description_chars": 74,
+        "title_target_max": 40,
+        "description_target_max": 100
+      }
+    },
+    {
+      "slug": "engine-air-filter",
+      "name": "엔진 에어필터",
+      "h1": "엔진 에어필터 교체주기",
+      "title": "엔진 에어필터 교체주기 | 확인 기준 - 교체뚝딱",
+      "meta_description": "흡기 필터 오염과 내 차량 설명서를 확인하세요. 2026 LX3HEV 미국판 엔진 흡기 필터",
+      "primary_keyword": "엔진 에어필터 교체주기",
+      "secondary_keywords": [
+        "엔진 에어필터 교체시기",
+        "엔진 흡기 필터",
+        "자동차 에어클리너"
+      ],
+      "evidence_badge": "공식 직접 근거 · 적용 범위 확인",
+      "answer_card": {
+        "headline": "흡기 필터 오염과 내 차량 설명서를 확인하세요.",
+        "summary": "현대 2026 LX3HEV 미국판은 엔진 에어필터가 오염되면 교체하고 물로 씻지 않도록 합니다. 실내 공조 필터와 다르며 먼지·모래가 많은 운행 조건에서는 더 자주 확인해야 합니다."
+      },
+      "tool_type": "vehicle_condition",
+      "check_signs": [
+        "점검 결과 오염되어 교체가 필요함"
+      ],
+      "adjustment_factors": [
+        "차종·엔진·판매 국가",
+        "먼지·모래 운행 조건"
+      ],
+      "replacement_reason": "엔진 흡기 필터는 실내 공조 필터와 다른 부품입니다.",
+      "source_ids": [
+        "hyundai_lx3hev_air_cleaner"
+      ],
+      "related_slugs": [
+        "engine-oil",
+        "cabin-air-filter"
+      ],
+      "commerce": {
+        "strategy": "vehicle_required",
+        "generic_cards_allowed": false,
+        "keyword": null,
+        "pre_purchase_guard": "2026 LX3HEV 미국판 엔진 흡기 필터"
+      },
+      "beorim": {
+        "status": "unverified",
+        "url": null,
+        "cta": null
+      },
+      "page_modules": [
+        "answer_card",
+        "tool",
+        "check_signs",
+        "adjustment_factors",
+        "replacement_reason",
+        "sources",
+        "related_items"
+      ],
+      "scope_note": "2026 LX3HEV 미국판 엔진 흡기 필터",
+      "guidance_sections": [
+        {
+          "heading": "실내 공조 필터와 구분",
+          "text": "에어클리너는 엔진 흡기로 들어가는 공기의 필터입니다. 에어컨 필터의 교체 거리나 세척 방법을 가져오지 마세요. 해당 설명서는 물 세척을 금지합니다."
+        },
+        {
+          "heading": "정비소에서 확인할 정보",
+          "text": "차종·연식·엔진과 사용 중인 필터 부품번호를 준비하세요. 먼지가 흡기로 들어가지 않게 하고 필터를 뺀 채 운행하지 말라는 안내가 있으므로 실제 교체는 차량 지침에 따라 정비소에 요청하세요."
+        }
+      ],
+      "tool_note": "이 도구는 실제 교체·관리 기록만 저장합니다. 출처의 제품 예시를 공통 기한으로 계산하지 않으며 캘린더 파일에는 직접 기록한 교체일만 들어갑니다.",
+      "guide_slugs": [
+        "read-maintenance-manual"
+      ],
+      "seo_validation": {
+        "title_chars": 27,
+        "description_chars": 51,
+        "title_target_max": 40,
+        "description_target_max": 100
+      }
+    },
+    {
+      "slug": "spark-plug",
+      "name": "점화플러그",
+      "h1": "점화플러그 교체주기",
+      "title": "점화플러그 교체주기 | 확인 기준 - 교체뚝딱",
+      "meta_description": "내 엔진 정비표의 점화플러그 교체 항목을 확인하세요. 2026 LX3HEV 미국판 일반조건 정비표",
+      "primary_keyword": "점화플러그 교체주기",
+      "secondary_keywords": [
+        "점화플러그 교체시기",
+        "자동차 점화플러그",
+        "스파크 플러그"
+      ],
+      "evidence_badge": "공식 직접 근거 · 적용 범위 확인",
+      "answer_card": {
+        "headline": "내 엔진 정비표의 점화플러그 교체 항목을 확인하세요.",
+        "summary": "현대 2026 LX3HEV 미국판 일반조건 정비표에는 점화플러그 교체 주행거리 항목이 있습니다. 엔진·국가·가혹조건이 다르면 기준이 달라질 수 있어 국내 모든 차량의 공통 거리로 계산하지 않습니다."
+      },
+      "tool_type": "vehicle_condition",
+      "check_signs": [
+        "내 엔진 정비표의 교체 조건에 도달"
+      ],
+      "adjustment_factors": [
+        "차종·연식·엔진 형식",
+        "일반조건과 가혹조건의 정비표"
+      ],
+      "replacement_reason": "내 엔진 정비표와 실제 정비 기록을 맞춰 교환 여부를 확인합니다.",
+      "source_ids": [
+        "hyundai_lx3hev_schedule"
+      ],
+      "related_slugs": [
+        "engine-oil",
+        "engine-air-filter"
+      ],
+      "commerce": {
+        "strategy": "vehicle_required",
+        "generic_cards_allowed": false,
+        "keyword": null,
+        "pre_purchase_guard": "2026 LX3HEV 미국판 일반조건 정비표"
+      },
+      "beorim": {
+        "status": "unverified",
+        "url": null,
+        "cta": null
+      },
+      "page_modules": [
+        "answer_card",
+        "tool",
+        "check_signs",
+        "adjustment_factors",
+        "replacement_reason",
+        "sources",
+        "related_items"
+      ],
+      "scope_note": "2026 LX3HEV 미국판 일반조건 정비표",
+      "guidance_sections": [
+        {
+          "heading": "점검 표시와 교체 표시",
+          "text": "설명서의 I는 점검 뒤 필요한 조치를 뜻하고 R은 교체를 뜻합니다. 다른 부품의 점검 칸이나 엔진오일 교체 거리를 점화플러그 교체 기준으로 읽지 마세요."
+        },
+        {
+          "heading": "정비 기록을 대조하는 방법",
+          "text": "정비 명세서에서 실제 점화플러그 교환 여부를 확인한 뒤 날짜와 주행거리를 기록하세요. 증상 하나로 플러그 고장을 진단하거나 점화 코일을 같은 부품으로 추천하지 않습니다."
+        }
+      ],
+      "tool_note": "이 도구는 실제 교체·관리 기록만 저장합니다. 출처의 제품 예시를 공통 기한으로 계산하지 않으며 캘린더 파일에는 직접 기록한 교체일만 들어갑니다.",
+      "guide_slugs": [
+        "read-maintenance-manual"
+      ],
+      "seo_validation": {
+        "title_chars": 25,
+        "description_chars": 54,
+        "title_target_max": 40,
+        "description_target_max": 100
+      }
+    },
+    {
+      "slug": "engine-coolant",
+      "name": "엔진 냉각수",
+      "h1": "엔진 냉각수 교체주기",
+      "title": "엔진 냉각수 교체주기 | 확인 기준 - 교체뚝딱",
+      "meta_description": "냉각수 보충·누수 점검과 전체 교환을 구분하세요. 2026 LX3 미국판 엔진 냉각수, 인버터 회로와 구분",
+      "primary_keyword": "엔진 냉각수 교체주기",
+      "secondary_keywords": [
+        "엔진 냉각수 교체시기",
+        "자동차 냉각수",
+        "부동액"
+      ],
+      "evidence_badge": "공식 직접 근거 · 적용 범위 확인",
+      "answer_card": {
+        "headline": "냉각수 보충·누수 점검과 전체 교환을 구분하세요.",
+        "summary": "현대 2026 LX3 미국판은 냉각된 엔진에서 저장통 MIN/MAX를 확인하고 잦은 보충이 필요하면 정비 점검을 받도록 합니다. 전체 교환 시점은 실제 차량 정비표를 따르며 공통 연수는 계산하지 않습니다."
+      },
+      "tool_type": "vehicle_condition",
+      "check_signs": [
+        "냉각 상태에서 수위가 낮음",
+        "반복해서 보충이 필요함"
+      ],
+      "adjustment_factors": [
+        "차량별 냉각수 규격",
+        "엔진 회로와 인버터 회로 구분"
+      ],
+      "replacement_reason": "수위 점검·보충과 전체 냉각수 교환을 별도로 기록합니다.",
+      "source_ids": [
+        "hyundai_lx3_coolant"
+      ],
+      "related_slugs": [
+        "engine-oil"
+      ],
+      "commerce": {
+        "strategy": "vehicle_required",
+        "generic_cards_allowed": false,
+        "keyword": null,
+        "pre_purchase_guard": "2026 LX3 미국판 엔진 냉각수, 인버터 회로와 구분"
+      },
+      "beorim": {
+        "status": "unverified",
+        "url": null,
+        "cta": null
+      },
+      "page_modules": [
+        "answer_card",
+        "tool",
+        "check_signs",
+        "adjustment_factors",
+        "replacement_reason",
+        "sources",
+        "related_items"
+      ],
+      "scope_note": "2026 LX3 미국판 엔진 냉각수, 인버터 회로와 구분",
+      "guidance_sections": [
+        {
+          "heading": "뜨거운 엔진의 캡을 열지 마세요",
+          "text": "설명서는 엔진과 라디에이터가 뜨거울 때 캡을 열지 않도록 경고합니다. 직접 분해 절차 대신 냉각 후 표시를 확인하고 누수나 반복 보충은 정비소에 문의하세요."
+        },
+        {
+          "heading": "보충은 교환 완료가 아닙니다",
+          "text": "소량 보충하거나 수위를 확인한 작업은 관리 시점으로 기록합니다. 실제 전체 교환을 한 경우만 교체일을 바꾸며 부동액을 워셔액 통에 넣지 말라는 제조사 경고도 확인하세요."
+        }
+      ],
+      "tool_note": "이 도구는 실제 교체·관리 기록만 저장합니다. 출처의 제품 예시를 공통 기한으로 계산하지 않으며 캘린더 파일에는 직접 기록한 교체일만 들어갑니다.",
+      "guide_slugs": [
+        "read-maintenance-manual"
+      ],
+      "seo_validation": {
+        "title_chars": 26,
+        "description_chars": 59,
+        "title_target_max": 40,
+        "description_target_max": 100
+      }
+    },
+    {
+      "slug": "tumbler-gasket",
+      "name": "텀블러 고무패킹",
+      "h1": "텀블러 고무패킹 교체주기",
+      "title": "텀블러 고무패킹 교체주기 | 확인 기준 - 교체뚝딱",
+      "meta_description": "뚜껑 패킹을 분리해 확인하고 필요하면 교체하세요. 미국 Thermos 스테인리스 보틀 뚜껑의 분리 가능한 패킹",
+      "primary_keyword": "텀블러 고무패킹 교체주기",
+      "secondary_keywords": [
+        "텀블러 고무패킹 교체시기",
+        "텀블러 패킹",
+        "물병 실리콘 패킹"
+      ],
+      "evidence_badge": "공식 직접 근거 · 적용 범위 확인",
+      "answer_card": {
+        "headline": "뚜껑 패킹을 분리해 확인하고 필요하면 교체하세요.",
+        "summary": "Thermos는 스테인리스 보틀의 냄새가 세척 후에도 남으면 뚜껑 패킹을 별도로 청소하거나 교체하도록 안내합니다. 병 전체의 변색과 패킹 문제를 구분하며 공통 개월 수는 제시하지 않습니다."
+      },
+      "tool_type": "model_condition",
+      "check_signs": [
+        "안내된 세척 후에도 패킹에서 냄새가 남음"
+      ],
+      "adjustment_factors": [
+        "분리 가능한 패킹 구조",
+        "뚜껑 모델과 맞는 교체 부품"
+      ],
+      "replacement_reason": "뚜껑 패킹 문제를 병 전체의 수명과 분리해 확인합니다.",
+      "source_ids": [
+        "thermos_gasket_care"
+      ],
+      "related_slugs": [],
+      "commerce": {
+        "strategy": "model_required",
+        "generic_cards_allowed": false,
+        "keyword": null,
+        "pre_purchase_guard": "미국 Thermos 스테인리스 보틀 뚜껑의 분리 가능한 패킹"
+      },
+      "beorim": {
+        "status": "unverified",
+        "url": null,
+        "cta": null
+      },
+      "page_modules": [
+        "answer_card",
+        "tool",
+        "check_signs",
+        "adjustment_factors",
+        "replacement_reason",
+        "sources",
+        "related_items"
+      ],
+      "scope_note": "미국 Thermos 스테인리스 보틀 뚜껑의 분리 가능한 패킹",
+      "guidance_sections": [
+        {
+          "heading": "착색만으로 전체 병을 버리지는 않습니다",
+          "text": "출처는 커피·차 착색과 뚜껑 패킹에서 나는 냄새를 구분합니다. 분리·세척 가능한 패킹인지 먼저 확인하고, 세척 후 충분히 말린 뒤 조립하세요."
+        },
+        {
+          "heading": "규격이 같은지 확인",
+          "text": "교체형 패킹이라도 뚜껑 모델에 맞는 부품을 확인해야 합니다. 모든 텀블러가 같은 식기세척기·세제 조건을 갖는 것은 아니므로 Thermos 보틀의 관리 방법을 다른 재질에 복사하지 마세요."
+        }
+      ],
+      "tool_note": "이 도구는 실제 교체·관리 기록만 저장합니다. 출처의 제품 예시를 공통 기한으로 계산하지 않으며 캘린더 파일에는 직접 기록한 교체일만 들어갑니다.",
+      "guide_slugs": [
+        "read-maintenance-manual"
+      ],
+      "seo_validation": {
+        "title_chars": 28,
+        "description_chars": 61,
+        "title_target_max": 40,
+        "description_target_max": 100
+      }
+    },
+    {
+      "slug": "baby-bottle",
+      "name": "아기 젖병",
+      "h1": "아기 젖병 교체주기",
+      "title": "아기 젖병 교체주기 | 확인 기준 - 교체뚝딱",
+      "meta_description": "젖병은 균열·변형과 부품별 손상을 확인하세요. Avent Anti-colic 젖병·해당 구성 부품, 영문 설명서 5~7쪽",
+      "primary_keyword": "아기 젖병 교체주기",
+      "secondary_keywords": [
+        "아기 젖병 교체시기",
+        "젖병",
+        "수유 젖병"
+      ],
+      "evidence_badge": "공식 직접 근거 · 적용 범위 확인",
+      "answer_card": {
+        "headline": "젖병은 균열·변형과 부품별 손상을 확인하세요.",
+        "summary": "Philips Avent Anti-colic 설명서는 매 사용 전 부품을 점검하고 손상·약해짐이 처음 보이면 버리도록 합니다. 플라스틱에 균열이 생기면 교체하며 젖꼭지의 3개월 안내를 병 전체 수명으로 적용하지 않습니다."
+      },
+      "tool_type": "model_condition",
+      "check_signs": [
+        "플라스틱 구성품에 균열",
+        "부품의 손상 또는 약해짐"
+      ],
+      "adjustment_factors": [
+        "젖병 재질과 제품군",
+        "세척·소독 지침과 호환 부품"
+      ],
+      "replacement_reason": "젖병 몸체와 젖꼭지의 손상·교체 기록을 구분합니다.",
+      "source_ids": [
+        "philips_anticolic_bottle"
+      ],
+      "related_slugs": [
+        "baby-bottle-nipple",
+        "pacifier"
+      ],
+      "commerce": {
+        "strategy": "model_required",
+        "generic_cards_allowed": false,
+        "keyword": null,
+        "pre_purchase_guard": "Avent Anti-colic 젖병·해당 구성 부품, 영문 설명서 5~7쪽"
+      },
+      "beorim": {
+        "status": "unverified",
+        "url": null,
+        "cta": null
+      },
+      "page_modules": [
+        "answer_card",
+        "tool",
+        "check_signs",
+        "adjustment_factors",
+        "replacement_reason",
+        "sources",
+        "related_items"
+      ],
+      "scope_note": "Avent Anti-colic 젖병·해당 구성 부품, 영문 설명서 5~7쪽",
+      "guidance_sections": [
+        {
+          "heading": "소독 횟수로 수명을 계산하지 않습니다",
+          "text": "해당 설명서는 고온과 소독으로 플라스틱 특성이나 결합이 달라질 수 있음을 안내합니다. 세척 시 손상을 살피되 임의의 소독 횟수를 폐기 기준으로 만들지 않습니다."
+        },
+        {
+          "heading": "부품별로 기록하세요",
+          "text": "젖병 몸체 교체와 수유용 젖꼭지 교체는 같은 작업이 아닙니다. 설명서에 맞게 분리·세척하고 실제 바꾼 부품을 확인하세요. 이 페이지의 교체 기록은 젖병 기록이며 젖꼭지는 별도 상세에서 관리합니다."
+        }
+      ],
+      "tool_note": "이 도구는 실제 교체·관리 기록만 저장합니다. 출처의 제품 예시를 공통 기한으로 계산하지 않으며 캘린더 파일에는 직접 기록한 교체일만 들어갑니다.",
+      "guide_slugs": [
+        "read-maintenance-manual"
+      ],
+      "seo_validation": {
+        "title_chars": 25,
+        "description_chars": 67,
+        "title_target_max": 40,
+        "description_target_max": 100
+      }
+    },
+    {
+      "slug": "brake-pad",
+      "name": "브레이크 패드",
+      "h1": "브레이크 패드 교체주기",
+      "title": "브레이크 패드 교체주기 | 확인 기준 - 교체뚝딱",
+      "meta_description": "마모 경고와 정비 점검으로 교체를 판단하세요. 2025 NE1a 미국판 마모 경고 장치가 있는 브레이크 패드",
+      "primary_keyword": "브레이크 패드 교체주기",
+      "secondary_keywords": [
+        "브레이크 패드 교체시기",
+        "자동차 브레이크 패드",
+        "브레이크패드"
+      ],
+      "evidence_badge": "공식 직접 근거 · 적용 범위 확인",
+      "answer_card": {
+        "headline": "마모 경고와 정비 점검으로 교체를 판단하세요.",
+        "summary": "현대 2025 NE1a 미국판은 패드가 마모돼 교체가 필요할 때 높은 경고음이 날 수 있다고 안내합니다. 소리 하나로 고장을 확정하거나 모든 차의 교체 주행거리를 만들지 않습니다."
+      },
+      "tool_type": "vehicle_condition",
+      "check_signs": [
+        "해당 마모 경고 장치의 높은 경고음",
+        "정비 점검에서 교체가 필요하다고 확인됨"
+      ],
+      "adjustment_factors": [
+        "차량의 마모 경고 장치",
+        "앞축·뒤축과 부품 규격"
+      ],
+      "replacement_reason": "마모 경고와 정비 확인을 우선하며 주행거리만으로 안전 여부를 판단하지 않습니다.",
+      "source_ids": [
+        "hyundai_ne1a_brake_wear"
+      ],
+      "related_slugs": [
+        "tire"
+      ],
+      "commerce": {
+        "strategy": "vehicle_required",
+        "generic_cards_allowed": false,
+        "keyword": null,
+        "pre_purchase_guard": "2025 NE1a 미국판 마모 경고 장치가 있는 브레이크 패드"
+      },
+      "beorim": {
+        "status": "unverified",
+        "url": null,
+        "cta": null
+      },
+      "page_modules": [
+        "answer_card",
+        "tool",
+        "check_signs",
+        "adjustment_factors",
+        "replacement_reason",
+        "sources",
+        "related_items"
+      ],
+      "scope_note": "2025 NE1a 미국판 마모 경고 장치가 있는 브레이크 패드",
+      "guidance_sections": [
+        {
+          "heading": "경고음은 확인이 필요한 신호",
+          "text": "출처는 마모된 패드로 계속 주행하지 말라고 안내합니다. 실제 차량의 경고와 정비 점검을 우선하며, 이 도구는 소리·거리만으로 안전 여부를 판정하지 않습니다."
+        },
+        {
+          "heading": "축 단위 교체와 기록",
+          "text": "해당 설명서는 앞축 또는 뒤축 세트로 바꾸도록 안내합니다. 패드와 디스크를 같은 부품으로 취급하지 말고 정비 명세서에서 작업한 축과 부품을 확인한 뒤 실제 교체일·주행거리를 기록하세요."
+        }
+      ],
+      "tool_note": "이 도구는 실제 교체·관리 기록만 저장합니다. 출처의 제품 예시를 공통 기한으로 계산하지 않으며 캘린더 파일에는 직접 기록한 교체일만 들어갑니다.",
+      "guide_slugs": [
+        "read-maintenance-manual"
+      ],
+      "seo_validation": {
+        "title_chars": 27,
+        "description_chars": 60,
         "title_target_max": 40,
         "description_target_max": 100
       }

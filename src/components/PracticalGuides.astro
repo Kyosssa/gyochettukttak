@@ -1,0 +1,6 @@
+---
+import data from '../../research/practical-guides-2026-10-03.json';
+const {slugs}=Astro.props;
+const guides=slugs?data.guides.filter(x=>slugs.includes(x.slug)):data.guides;
+---
+<section><h2>교체·관리 확인 가이드</h2><ul class="cards">{guides.map(guide=><li><a href={`/guide/${guide.slug}/`}><strong>{guide.title}</strong><span>{guide.description}</span></a></li>)}</ul></section>

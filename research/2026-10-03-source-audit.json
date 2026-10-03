@@ -1,0 +1,117 @@
+{
+  "checked_at": "2026-10-03",
+  "sources": [
+    {
+      "source_id": "philips_s3608_heads",
+      "url": "https://www.documents.philips.com/assets/20230913/2bcf6c0f0cb94bc5955cb07c007abdee.pdf",
+      "authority": "Philips",
+      "health_status": "body_verified",
+      "claim_check": "Philips S3608·SH30, 영문 설명서",
+      "checked_at": "2026-10-03"
+    },
+    {
+      "source_id": "cdc_lens_case",
+      "url": "https://www.cdc.gov/contact-lenses/prevention/",
+      "authority": "미국 CDC",
+      "health_status": "body_verified",
+      "claim_check": "미국 콘택트렌즈 보관 케이스 관리 안내, 개별 렌즈 처방과 구분",
+      "checked_at": "2026-10-03"
+    },
+    {
+      "source_id": "philips_ultrasoft_pacifier",
+      "url": "https://www.philips.co.uk/c-p/SCF093_02/soother-ultra-soft",
+      "authority": "Philips Avent",
+      "health_status": "body_verified",
+      "claim_check": "영국 ultra soft SCF093/02 제품 안내",
+      "checked_at": "2026-10-03"
+    },
+    {
+      "source_id": "samsung_ca_fridge_water",
+      "url": "https://www.samsung.com/ca/support/home-appliances/replace-the-water-filter-in-your-samsung-refrigerator/",
+      "authority": "Samsung Canada",
+      "health_status": "body_verified",
+      "claim_check": "캐나다 삼성 냉장고 HAF-CIN/HAF-QIN/HAFCU1 등 해당 모델",
+      "checked_at": "2026-10-03"
+    },
+    {
+      "source_id": "irobot_main_brush",
+      "url": "https://support.irobot.co.uk/articles/en_GB/Knowledge/2451",
+      "authority": "iRobot",
+      "health_status": "body_verified",
+      "claim_check": "Roomba 메인 브러시, 시리즈별 분리·장착 구조",
+      "checked_at": "2026-10-03"
+    },
+    {
+      "source_id": "irobot_combo_mop",
+      "url": "https://support.irobot.co.uk/articles/en_US/Knowledge/54001",
+      "authority": "iRobot",
+      "health_status": "body_verified",
+      "claim_check": "Roomba Combo i5/i5+·j5/j5+, 다른 로봇에는 일반화하지 않음",
+      "checked_at": "2026-10-03"
+    },
+    {
+      "source_id": "hyundai_lx3hev_air_cleaner",
+      "url": "https://ownersmanual.hyundai.com/full_webhelp/LX3HEV/2026/en_US/topic_kxz_byd_qcc.html",
+      "authority": "Hyundai Motor",
+      "health_status": "body_verified",
+      "claim_check": "2026 LX3HEV 미국판 엔진 흡기 필터",
+      "checked_at": "2026-10-03"
+    },
+    {
+      "source_id": "hyundai_lx3hev_schedule",
+      "url": "https://ownersmanual.hyundai.com/full_webhelp/LX3HEV/2026/en_US/idf65ecf8f9d3.html",
+      "authority": "Hyundai Motor",
+      "health_status": "body_verified",
+      "claim_check": "2026 LX3HEV 미국판 일반조건 정비표",
+      "checked_at": "2026-10-03"
+    },
+    {
+      "source_id": "hyundai_lx3_coolant",
+      "url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/topic_wtn_bvd_qcc.html",
+      "authority": "Hyundai Motor",
+      "health_status": "body_verified",
+      "claim_check": "2026 LX3 미국판 엔진 냉각수, 인버터 회로와 구분",
+      "checked_at": "2026-10-03"
+    },
+    {
+      "source_id": "hyundai_ne1a_brake_wear",
+      "url": "https://ownersmanual.hyundai.com/full_webhelp/NE1a/2025/en_US/idb4da7abbeff.html",
+      "authority": "Hyundai Motor",
+      "health_status": "body_verified",
+      "claim_check": "2025 NE1a 미국판 마모 경고 장치가 있는 브레이크 패드",
+      "checked_at": "2026-10-03"
+    },
+    {
+      "source_id": "thermos_gasket_care",
+      "url": "https://thermos.com/blogs/news/how-to-clean-a-stainless-steel-water-bottle-and-keep-it-performing-like-new",
+      "authority": "Thermos",
+      "health_status": "body_verified",
+      "claim_check": "미국 Thermos 스테인리스 보틀 뚜껑의 분리 가능한 패킹",
+      "checked_at": "2026-10-03"
+    },
+    {
+      "source_id": "philips_anticolic_bottle",
+      "url": "https://www.documents.philips.com/assets/20201021/b01137b437e948ca91a1ac5b01739712.pdf",
+      "authority": "Philips Avent",
+      "health_status": "body_verified",
+      "claim_check": "Avent Anti-colic 젖병·해당 구성 부품, 영문 설명서 5~7쪽",
+      "checked_at": "2026-10-03"
+    },
+    {
+      "source_id": "oralb_sg_head_care",
+      "url": "https://www.oralb.com.sg/en-sg/faq",
+      "authority": "Oral-B Singapore",
+      "health_status": "body_verified",
+      "claim_check": "Oral-B 전동칫솔모, iO와 기존 손잡이 호환 분리",
+      "checked_at": "2026-10-03"
+    },
+    {
+      "source_id": "fda_cosmetic_shelf_life",
+      "url": "https://www.fda.gov/cosmetics/cosmetics-labeling/shelf-life-and-expiration-dating-cosmetics",
+      "authority": "미국 FDA",
+      "health_status": "body_verified",
+      "claim_check": "미국 화장품 표시 제도·보관 일반 안내, 국내 라벨 우선",
+      "checked_at": "2026-10-03"
+    }
+  ]
+}

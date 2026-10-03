@@ -534,6 +534,295 @@
           "scope": "LG 냉장고 내장 안심제균/안심제균+ 필터. UV 반영구형과 시판 별도 탈취제를 구분."
         }
       ]
+    },
+    "philips_s3608_heads": {
+      "name": "S3608 User Manual — Cleaning and Replacement",
+      "authority": "Philips",
+      "type": "manufacturer",
+      "url": "https://www.documents.philips.com/assets/20230913/2bcf6c0f0cb94bc5955cb07c007abdee.pdf",
+      "level": "A_DIRECT",
+      "checked_at": "2026-10-03",
+      "usage": "second_expansion",
+      "claims": [
+        {
+          "type": "scoped_guidance",
+          "text": "손상된 헤드는 즉시 교체하고 해당 모델의 헤드 교체 권고는 2년이다.",
+          "scope": "Philips S3608·SH30, 영문 설명서"
+        },
+        {
+          "type": "scoped_guidance",
+          "text": "매 면도 후 세척하며 커터와 보호망의 짝을 섞지 않는다.",
+          "scope": "Philips S3608·SH30, 영문 설명서"
+        }
+      ]
+    },
+    "cdc_lens_case": {
+      "name": "Preventing Eye Infections When Wearing Contacts",
+      "authority": "미국 CDC",
+      "type": "public_agency",
+      "url": "https://www.cdc.gov/contact-lenses/prevention/",
+      "level": "A_DIRECT",
+      "checked_at": "2026-10-03",
+      "usage": "second_expansion",
+      "claims": [
+        {
+          "type": "scoped_guidance",
+          "text": "케이스는 적어도 3개월마다 교체한다.",
+          "scope": "미국 콘택트렌즈 보관 케이스 관리 안내, 개별 렌즈 처방과 구분"
+        },
+        {
+          "type": "scoped_guidance",
+          "text": "용액으로 문질러 헹구고 사용 후 뚜껑을 열어 뒤집어 보관하며 새 용액과 잔여액을 섞지 않는다.",
+          "scope": "미국 콘택트렌즈 보관 케이스 관리 안내, 개별 렌즈 처방과 구분"
+        }
+      ]
+    },
+    "philips_ultrasoft_pacifier": {
+      "name": "Avent ultra soft SCF093/02 — Disclaimers",
+      "authority": "Philips Avent",
+      "type": "manufacturer",
+      "url": "https://www.philips.co.uk/c-p/SCF093_02/soother-ultra-soft",
+      "level": "A_DIRECT",
+      "checked_at": "2026-10-03",
+      "usage": "second_expansion",
+      "claims": [
+        {
+          "type": "scoped_guidance",
+          "text": "위생상 사용 4주 후 공갈젖꼭지 교체를 안내한다. 수유용 젖꼭지와 다른 제품이다.",
+          "scope": "영국 ultra soft SCF093/02 제품 안내"
+        }
+      ]
+    },
+    "samsung_ca_fridge_water": {
+      "name": "Guide to replacing the water filter in your Samsung refrigerator",
+      "authority": "Samsung Canada",
+      "type": "manufacturer",
+      "url": "https://www.samsung.com/ca/support/home-appliances/replace-the-water-filter-in-your-samsung-refrigerator/",
+      "level": "A_DIRECT",
+      "checked_at": "2026-10-03",
+      "usage": "second_expansion",
+      "claims": [
+        {
+          "type": "scoped_guidance",
+          "text": "약 6개월의 필터 알림은 타이머이며 수질·출수 사용량에 따라 시점이 달라진다.",
+          "scope": "캐나다 삼성 냉장고 HAF-CIN/HAF-QIN/HAFCU1 등 해당 모델"
+        },
+        {
+          "type": "scoped_guidance",
+          "text": "냉장고 모델과 설치된 카트리지 코드를 확인하고 실제 교체 후 알림을 초기화한다.",
+          "scope": "캐나다 삼성 냉장고 HAF-CIN/HAF-QIN/HAFCU1 등 해당 모델"
+        }
+      ]
+    },
+    "irobot_main_brush": {
+      "name": "Main Brush Care: All Roomba Models",
+      "authority": "iRobot",
+      "type": "manufacturer",
+      "url": "https://support.irobot.co.uk/articles/en_GB/Knowledge/2451",
+      "level": "A_DIRECT",
+      "checked_at": "2026-10-03",
+      "usage": "second_expansion",
+      "claims": [
+        {
+          "type": "scoped_guidance",
+          "text": "주 1회, 반려동물이 있으면 주 2회 청소하며 6~12개월 또는 필요 시 교체를 권고한다.",
+          "scope": "Roomba 메인 브러시, 시리즈별 분리·장착 구조"
+        },
+        {
+          "type": "scoped_guidance",
+          "text": "브러시 끝과 캡·축에 감긴 이물을 제거하고 축 모양을 맞춰 장착한다.",
+          "scope": "Roomba 메인 브러시, 시리즈별 분리·장착 구조"
+        }
+      ]
+    },
+    "irobot_combo_mop": {
+      "name": "Mopping Complete Guide: Roomba Combo i Series and Combo j5/j5+",
+      "authority": "iRobot",
+      "type": "manufacturer",
+      "url": "https://support.irobot.co.uk/articles/en_US/Knowledge/54001",
+      "level": "A_DIRECT",
+      "checked_at": "2026-10-03",
+      "usage": "second_expansion",
+      "claims": [
+        {
+          "type": "scoped_guidance",
+          "text": "물걸레 패드는 매 작업 후 청소, 30회 세탁 후 교체를 안내한다.",
+          "scope": "Roomba Combo i5/i5+·j5/j5+, 다른 로봇에는 일반화하지 않음"
+        },
+        {
+          "type": "scoped_guidance",
+          "text": "패드는 자연 건조하며 표백·다림질·회전식 건조를 하지 않는다. 이 모델 필터는 세척 금지이고 청소와 교체가 구분된다.",
+          "scope": "Roomba Combo i5/i5+·j5/j5+, 다른 로봇에는 일반화하지 않음"
+        }
+      ]
+    },
+    "hyundai_lx3hev_air_cleaner": {
+      "name": "Air Cleaner — Filter replacement",
+      "authority": "Hyundai Motor",
+      "type": "manufacturer",
+      "url": "https://ownersmanual.hyundai.com/full_webhelp/LX3HEV/2026/en_US/topic_kxz_byd_qcc.html",
+      "level": "A_DIRECT",
+      "checked_at": "2026-10-03",
+      "usage": "second_expansion",
+      "claims": [
+        {
+          "type": "scoped_guidance",
+          "text": "오염되면 교체하며 물로 씻거나 헹구지 않는다.",
+          "scope": "2026 LX3HEV 미국판 엔진 흡기 필터"
+        },
+        {
+          "type": "scoped_guidance",
+          "text": "먼지·모래가 많은 운행은 더 자주 교체하고 실제 차량 부품 규격을 확인한다.",
+          "scope": "2026 LX3HEV 미국판 엔진 흡기 필터"
+        }
+      ]
+    },
+    "hyundai_lx3hev_schedule": {
+      "name": "Normal Maintenance Schedule — Spark plugs",
+      "authority": "Hyundai Motor",
+      "type": "manufacturer",
+      "url": "https://ownersmanual.hyundai.com/full_webhelp/LX3HEV/2026/en_US/idf65ecf8f9d3.html",
+      "level": "A_DIRECT",
+      "checked_at": "2026-10-03",
+      "usage": "second_expansion",
+      "claims": [
+        {
+          "type": "scoped_guidance",
+          "text": "점화플러그 교체는 해당 정비표의 주행거리 항목에 지정되어 있다.",
+          "scope": "2026 LX3HEV 미국판 일반조건 정비표"
+        },
+        {
+          "type": "scoped_guidance",
+          "text": "I는 점검 후 필요 조치, R은 교체이며 다른 차종·엔진·가혹조건에 수치를 복사하지 않는다.",
+          "scope": "2026 LX3HEV 미국판 일반조건 정비표"
+        }
+      ]
+    },
+    "hyundai_lx3_coolant": {
+      "name": "Engine Coolant — Checking and changing coolant",
+      "authority": "Hyundai Motor",
+      "type": "manufacturer",
+      "url": "https://ownersmanual.hyundai.com/full_webhelp/LX3/2026/en_US/topic_wtn_bvd_qcc.html",
+      "level": "A_DIRECT",
+      "checked_at": "2026-10-03",
+      "usage": "second_expansion",
+      "claims": [
+        {
+          "type": "scoped_guidance",
+          "text": "냉각된 엔진에서 저장통 MIN/MAX를 확인하고 잦은 보충은 정비 점검을 받는다.",
+          "scope": "2026 LX3 미국판 엔진 냉각수, 인버터 회로와 구분"
+        },
+        {
+          "type": "scoped_guidance",
+          "text": "뜨거운 엔진·라디에이터의 캡을 열지 않으며 교환은 실제 정비표에 따라 정비소에 요청한다.",
+          "scope": "2026 LX3 미국판 엔진 냉각수, 인버터 회로와 구분"
+        }
+      ]
+    },
+    "hyundai_ne1a_brake_wear": {
+      "name": "Disc Brakes Wear Indicator",
+      "authority": "Hyundai Motor",
+      "type": "manufacturer",
+      "url": "https://ownersmanual.hyundai.com/full_webhelp/NE1a/2025/en_US/idb4da7abbeff.html",
+      "level": "A_DIRECT",
+      "checked_at": "2026-10-03",
+      "usage": "second_expansion",
+      "claims": [
+        {
+          "type": "scoped_guidance",
+          "text": "패드가 마모돼 교체가 필요하면 앞·뒤 브레이크에서 높은 경고음이 날 수 있다.",
+          "scope": "2025 NE1a 미국판 마모 경고 장치가 있는 브레이크 패드"
+        },
+        {
+          "type": "scoped_guidance",
+          "text": "마모된 패드로 계속 주행하지 않으며 앞축 또는 뒤축 세트 단위로 교체한다.",
+          "scope": "2025 NE1a 미국판 마모 경고 장치가 있는 브레이크 패드"
+        }
+      ]
+    },
+    "thermos_gasket_care": {
+      "name": "How to Clean a Stainless Steel Water Bottle — And Keep It Performing Like New",
+      "authority": "Thermos",
+      "type": "manufacturer",
+      "url": "https://thermos.com/blogs/news/how-to-clean-a-stainless-steel-water-bottle-and-keep-it-performing-like-new",
+      "level": "A_DIRECT",
+      "checked_at": "2026-10-03",
+      "usage": "second_expansion",
+      "claims": [
+        {
+          "type": "scoped_guidance",
+          "text": "세척 후에도 냄새가 남으면 뚜껑 패킹을 분리해 청소하거나 교체하는 방법을 안내한다.",
+          "scope": "미국 Thermos 스테인리스 보틀 뚜껑의 분리 가능한 패킹"
+        },
+        {
+          "type": "scoped_guidance",
+          "text": "패킹은 교체 부품이며 완전히 말린 뒤 조립한다. 커피 착색과 교체 판단은 구분한다.",
+          "scope": "미국 Thermos 스테인리스 보틀 뚜껑의 분리 가능한 패킹"
+        }
+      ]
+    },
+    "philips_anticolic_bottle": {
+      "name": "Philips Avent Anti-colic baby bottle — English safety and maintenance",
+      "authority": "Philips Avent",
+      "type": "manufacturer",
+      "url": "https://www.documents.philips.com/assets/20201021/b01137b437e948ca91a1ac5b01739712.pdf",
+      "level": "A_DIRECT",
+      "checked_at": "2026-10-03",
+      "usage": "second_expansion",
+      "claims": [
+        {
+          "type": "scoped_guidance",
+          "text": "매 사용 전 점검하고 손상·약해짐이 처음 보이면 해당 부품을 버린다.",
+          "scope": "Avent Anti-colic 젖병·해당 구성 부품, 영문 설명서 5~7쪽"
+        },
+        {
+          "type": "scoped_guidance",
+          "text": "플라스틱에 균열이 생기면 즉시 교체한다. 젖꼭지 3개월 안내를 병 전체의 수명으로 해석하지 않는다.",
+          "scope": "Avent Anti-colic 젖병·해당 구성 부품, 영문 설명서 5~7쪽"
+        }
+      ]
+    },
+    "oralb_sg_head_care": {
+      "name": "FAQ — Which replacement head fits my Oral B toothbrush?",
+      "authority": "Oral-B Singapore",
+      "type": "manufacturer",
+      "url": "https://www.oralb.com.sg/en-sg/faq",
+      "level": "A_DIRECT",
+      "checked_at": "2026-10-03",
+      "usage": "second_expansion",
+      "claims": [
+        {
+          "type": "scoped_guidance",
+          "text": "3개월 또는 모가 마모될 때 교체하며 iO와 기존 헤드 호환을 구분한다.",
+          "scope": "Oral-B 전동칫솔모, iO와 기존 손잡이 호환 분리"
+        },
+        {
+          "type": "scoped_guidance",
+          "text": "매 사용 후 헤드와 손잡이를 분리해 헹구고 말린다.",
+          "scope": "Oral-B 전동칫솔모, iO와 기존 손잡이 호환 분리"
+        }
+      ]
+    },
+    "fda_cosmetic_shelf_life": {
+      "name": "Shelf Life and Expiration Dating of Cosmetics",
+      "authority": "미국 FDA",
+      "type": "public_agency",
+      "url": "https://www.fda.gov/cosmetics/cosmetics-labeling/shelf-life-and-expiration-dating-cosmetics",
+      "level": "A_DIRECT",
+      "checked_at": "2026-10-03",
+      "usage": "second_expansion",
+      "claims": [
+        {
+          "type": "scoped_guidance",
+          "text": "제형·사용법·보관에 따라 사용기간이 달라지고 제조사가 기한을 판단한다.",
+          "scope": "미국 화장품 표시 제도·보관 일반 안내, 국내 라벨 우선"
+        },
+        {
+          "type": "scoped_guidance",
+          "text": "미국 화장품과 의약품의 표시 제도가 다르며 고온·오염·내용물 변화가 고려 요인이다.",
+          "scope": "미국 화장품 표시 제도·보관 일반 안내, 국내 라벨 우선"
+        }
+      ]
     }
   }
 }

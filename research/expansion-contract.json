@@ -31,15 +31,63 @@
     "tire",
     "engine-oil",
     "gas-stove-ignition-battery",
-    "refrigerator-deodorizer"
+    "refrigerator-deodorizer",
+    "electric-shaver-head",
+    "contact-lens-case",
+    "pacifier",
+    "refrigerator-water-filter",
+    "robot-vacuum-brush",
+    "robot-mop-pad",
+    "engine-air-filter",
+    "spark-plug",
+    "engine-coolant",
+    "tumbler-gasket",
+    "baby-bottle",
+    "brake-pad"
   ],
   "expected": {
-    "seed": 48,
-    "verified": 25,
-    "needs_research": 23,
-    "registry": 32,
-    "sitemap": 31,
+    "seed": 57,
+    "verified": 37,
+    "needs_research": 20,
+    "registry": 46,
+    "sitemap": 46,
     "categories": 3
   },
-  "rule": "2026-09-30 사용자 승인 로컬 품목 확장. v1.9 역사적 보고는 보존. 기존 광고 대상 15개·런타임·외부 설정 불변."
+  "rule": "2026-09-30 사용자 승인 로컬 품목 확장. v1.9 역사적 보고는 보존. 기존 광고 대상 15개·런타임·외부 설정 불변.",
+  "second_expansion": {
+    "baseline_commit": "364d89ddd5d6fc2980db91c4af3263d74c7a8893",
+    "added_slugs": [
+      "electric-shaver-head",
+      "contact-lens-case",
+      "pacifier",
+      "refrigerator-water-filter",
+      "robot-vacuum-brush",
+      "robot-mop-pad",
+      "engine-air-filter",
+      "spark-plug",
+      "engine-coolant",
+      "tumbler-gasket",
+      "baby-bottle",
+      "brake-pad"
+    ],
+    "enriched_slugs": [
+      "toothbrush",
+      "razor-blade",
+      "frying-pan",
+      "air-conditioner-filter",
+      "air-purifier-filter",
+      "humidifier-filter",
+      "vacuum-filter",
+      "engine-oil",
+      "toothpaste",
+      "mascara",
+      "sunscreen",
+      "contact-lens-solution"
+    ],
+    "guide_slugs": [
+      "filter-care-or-replace",
+      "cosmetic-expiry-label",
+      "read-maintenance-manual"
+    ]
+  }
 }

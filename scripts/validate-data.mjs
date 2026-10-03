@@ -1,10 +1,10 @@
 import fs from 'node:fs';import assert from 'node:assert/strict';
 const j=f=>JSON.parse(fs.readFileSync(f));const seed=j('02-items.seed.json'),registry=j('04-source-registry.json').sources,content=j('05-launch-content.seed.json'),contract=j('research/expansion-contract.json');
-const launch=seed.items.filter(x=>x.launch_candidate&&x.index_state==='indexable'),ids=[...new Set(launch.flatMap(x=>x.sources.map(s=>s.source_id)))],audits=[...j('24-source-health-audit.json').sources,...j('research/expansion-source-audit.json').sources];
+const launch=seed.items.filter(x=>x.launch_candidate&&x.index_state==='indexable'),ids=[...new Set(launch.flatMap(x=>x.sources.map(s=>s.source_id)))],audits=[...j('24-source-health-audit.json').sources,...j('research/expansion-source-audit.json').sources,...j('research/2026-10-03-source-audit.json').sources];
 assert.equal(seed.items.length,contract.expected.seed);assert.equal(launch.length,contract.expected.verified);assert.equal(seed.items.filter(x=>x.verification_status==='needs_research').length,contract.expected.needs_research);assert.equal(Object.keys(registry).length,contract.expected.registry);assert.equal(content.items.length,contract.expected.verified);assert.ok(ids.every(id=>audits.some(x=>x.source_id===id)));
-for(const key of ['id','name','slug'])assert.equal(new Set(seed.items.map(x=>x[key])).size,48,'duplicate '+key);
+for(const key of ['id','name','slug'])assert.equal(new Set(seed.items.map(x=>x[key])).size,contract.expected.seed,'duplicate '+key);
 const categories=j('07-category-taxonomy.json').categories.map(x=>x.slug);
 for(const item of seed.items){assert.ok(categories.includes(item.category_slug));if(item.index_state==='indexable'){assert.equal(item.verification_status,'verified');assert.ok(item.sources.length);for(const s of item.sources)assert.ok(registry[s.source_id]);const page=content.items.find(x=>x.slug===item.slug);assert.ok(page);assert.deepEqual(page.source_ids,item.sources.map(x=>x.source_id));if(['model_required','vehicle_required'].includes(page.commerce.strategy)||contract.added_slugs.includes(item.slug))assert.equal(page.commerce.generic_cards_allowed,false);assert.ok(item.answer_summary&&item.replacement_reason);}}
 for(const page of content.items){assert.equal(new Set(page.related_slugs).size,page.related_slugs.length);assert.ok(!page.related_slugs.includes(page.slug));assert.ok(page.related_slugs.every(s=>launch.some(x=>x.slug===s)));}
 assert.equal(content.items.find(x=>x.slug==='shower-filter').source_ids.join(','),'atomy_shower_filter,bodyluv_shower_filter');
-console.log('PASS data: 48 seed, 25 verified, 23 needs_research, 32 registry, 28 source use/audit');
+console.log('PASS data:',contract.expected,'used/audited sources',ids.length);
