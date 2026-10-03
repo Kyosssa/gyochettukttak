@@ -14,7 +14,8 @@
     "test:coupang": "node scripts/test-coupang.mjs",
     "test:analytics": "node scripts/test-analytics.mjs",
     "test:expansion": "node scripts/test-expansion.mjs",
-    "test:content-expansion": "node scripts/test-content-expansion-2026-10-03.mjs"
+    "test:content-expansion": "node scripts/test-content-expansion-2026-10-03.mjs",
+    "test:subkeywords": "node scripts/test-subkeyword-content.mjs"
   },
   "devDependencies": { "astro": "^5.0.0" }
 }

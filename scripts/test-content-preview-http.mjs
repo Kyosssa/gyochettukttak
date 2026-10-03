@@ -1,6 +1,6 @@
 import fs from 'node:fs';
 import assert from 'node:assert/strict';
-const origin='http://127.0.0.1:4322';
+const origin=process.env.CONTENT_QA_ORIGIN||'http://127.0.0.1:4322';
 const urls=[...fs.readFileSync('dist/sitemap.xml','utf8').matchAll(/<loc>([^<]+)<\/loc>/g)].map(x=>x[1]);
 for(const url of urls){const response=await fetch(origin+new URL(url).pathname),html=await response.text();assert.equal(response.status,200,url);assert.equal(/name="robots"[^>]*noindex/.test(html),false,url);assert.ok(html.includes(`href="${url}"`),url);}
 for(const route of ['/search/','/my-home/','/privacy/','/affiliate-disclosure/']){const response=await fetch(origin+route);assert.equal(response.status,200);assert.match(await response.text(),/noindex,follow/);}

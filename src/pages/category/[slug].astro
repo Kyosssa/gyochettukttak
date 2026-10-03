@@ -1,6 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro'; import PracticalGuides from '../../components/PracticalGuides.astro'; import seed from '../../../02-items.seed.json'; import copy from '../../../26-site-copy.seed.json';
 const categories = ['hygiene-bathroom', 'kitchen-food', 'air-water-filters']; export function getStaticPaths() { return ['hygiene-bathroom', 'kitchen-food', 'air-water-filters'].map((slug) => ({ params: { slug } })); }
+import {guides} from '../../data/guides';
 const { slug } = Astro.params; const category = copy.categories[slug]; const items = seed.items.filter((item) => item.category_slug === slug && item.launch_candidate && item.index_state === 'indexable');
 const guidance = {
   'hygiene-bathroom': '사용 횟수나 기간만 보지 않고 제품 종류와 눈에 보이는 마모 상태를 함께 확인합니다. 각 품목 카드를 열어 교체 신호와 근거 출처를 확인하세요.',
@@ -8,4 +9,4 @@ const guidance = {
   'air-water-filters': '필터는 같은 용도라도 제품 모델과 필터 종류에 따라 기준이 달라질 수 있습니다. 상세페이지에서 모델 확인 안내와 관리·교체의 차이를 먼저 확인하세요.'
 }[slug];
 ---
-<Base title={category.title} description={category.description}><h1>{category.h1}</h1><p>{category.intro}</p><ul class="cards">{items.map((item) => <li><a href={`/item/${item.slug}/`}><strong>{item.name}</strong><span>{item.cycle_text}</span></a></li>)}</ul><section><h2>이 카테고리의 확인 방법</h2><p>{guidance}</p><p>각 상세페이지에는 핵심 답변과 조정 요인, 공식·보조 근거의 성격이 함께 표시됩니다.</p></section><PracticalGuides slugs={[slug==='air-water-filters'?'filter-care-or-replace':'read-maintenance-manual']} /></Base>
+<Base title={category.title} description={category.description}><h1>{category.h1}</h1><p>{category.intro}</p><ul class="cards">{items.map((item) => <li><a href={`/item/${item.slug}/`}><strong>{item.name}</strong><span>{item.cycle_text}</span></a></li>)}</ul><section><h2>이 카테고리의 확인 방법</h2><p>{guidance}</p><p>각 상세페이지에는 핵심 답변과 조정 요인, 공식·보조 근거의 성격이 함께 표시됩니다.</p></section><PracticalGuides slugs={[...new Set([slug==='air-water-filters'?'filter-care-or-replace':'read-maintenance-manual',...guides.filter(g=>g.items.some(s=>items.some(i=>i.slug===s))).map(g=>g.slug)])]} /></Base>

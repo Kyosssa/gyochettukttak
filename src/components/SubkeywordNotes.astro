@@ -1,0 +1,5 @@
+---
+import {enhancements, auditedSources} from '../data/guides';
+const notes=enhancements.filter(x=>x.slug===Astro.props.slug);
+---
+{notes.map(note=><section><h2>{note.heading}</h2><p>{note.text}</p>{note.audit_source_ids.map(id=><p class="helper"><a href={auditedSources[id].url} rel="noopener noreferrer">근거: {auditedSources[id].authority} — {auditedSources[id].name}</a><br/>{auditedSources[id].scope} · 확인 {auditedSources[id].checked_at}</p>)}</section>)}
