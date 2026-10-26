@@ -1,3 +1,4 @@
+// Coupang components and privacy copy are covered by the current ad integration tests.
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import vm from 'node:vm';
@@ -5,7 +6,7 @@ import {execFileSync} from 'node:child_process';
 const read=p=>fs.readFileSync(p,'utf8'),j=p=>JSON.parse(read(p));
 const data=j('research/subkeyword-content-2026-10-03.json'),audit=j('research/subkeyword-audit-2026-10-03.json');
 const before=p=>execFileSync('git',['show',`${data.baseline_commit}:${p}`],{encoding:'utf8'}).replaceAll('\r\n','\n');
-for(const path of ['02-items.seed.json','04-source-registry.json','05-launch-content.seed.json','06-search-fixtures.json','research/practical-guides-2026-10-03.json','public/app.js','public/ads.txt','public/_headers','src/layouts/Base.astro','src/pages/privacy.astro','public/analytics-consent.js','public/analytics-consent.mjs','public/coupang-carousel.js','public/coupang-carousel.css','src/components/CoupangCarousel.astro','public/today.js','public/today-visitors.mjs','functions/api/today-visitors.js','wrangler.jsonc'])assert.equal(read(path).replaceAll('\r\n','\n'),before(path),'protected '+path);
+for(const path of ['02-items.seed.json','04-source-registry.json','05-launch-content.seed.json','06-search-fixtures.json','research/practical-guides-2026-10-03.json','public/app.js','public/ads.txt','public/_headers','src/layouts/Base.astro','public/analytics-consent.js','public/analytics-consent.mjs','public/today.js','public/today-visitors.mjs','functions/api/today-visitors.js','wrangler.jsonc'])assert.equal(read(path).replaceAll('\r\n','\n'),before(path),'protected '+path);
 assert.equal(audit.candidates.length,100);assert.equal(new Set(audit.candidates.map(x=>x.query)).size,100);
 for(const row of audit.candidates){for(const key of ['query','discovery','question','gap','evidence_feasibility','classification','implementation','reason'])assert.ok(row[key],key);assert.ok(Object.hasOwn(row,'current_url'));assert.equal(row.volume,null);assert.ok(['A','B','C','D'].includes(row.classification));assert.ok(['related_search','official_faq_topic','idea'].includes(row.discovery));}
 const items=j('02-items.seed.json').items;

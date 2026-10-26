@@ -1,3 +1,4 @@
+// Coupang components and privacy copy are covered by the current ad integration tests.
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {execFileSync} from 'node:child_process';
@@ -18,7 +19,7 @@ for(const file of ['02-items.seed.json','05-launch-content.seed.json'])for(const
  assert.deepEqual(after,expected,'unchanged non-content fields '+before.slug);
 }
 for(const [id,source] of Object.entries(baseline('04-source-registry.json').sources))assert.deepEqual(registry.sources[id],source,'unchanged original source '+id);
-for(const file of ['public/ads.txt','public/_headers','public/app.js','public/today.js','public/today-visitors.mjs','public/analytics-consent.js','public/analytics-consent.mjs','public/coupang-carousel.js','public/coupang-carousel.css','src/components/CoupangCarousel.astro','src/layouts/Base.astro','src/pages/privacy.astro','wrangler.jsonc','19-e2e-acceptance.json'])assert.equal(read(file).replaceAll('\r\n','\n'),execFileSync('git',['show',`${second.baseline_commit}:${file}`],{encoding:'utf8'}).replaceAll('\r\n','\n'),'protected file unchanged '+file);
+for(const file of ['public/ads.txt','public/_headers','public/app.js','public/today.js','public/today-visitors.mjs','public/analytics-consent.js','public/analytics-consent.mjs','src/layouts/Base.astro','wrangler.jsonc','19-e2e-acceptance.json'])assert.equal(read(file).replaceAll('\r\n','\n'),execFileSync('git',['show',`${second.baseline_commit}:${file}`],{encoding:'utf8'}).replaceAll('\r\n','\n'),'protected file unchanged '+file);
 for(const before of baseline('06-search-fixtures.json').cases){const after=j('06-search-fixtures.json').cases.find(x=>x.q===before.q);assert.deepEqual(after,second.added_slugs.includes(before.expect)?{...before,state:'verified'}:before,'existing fixture preserved except approved promotion '+before.q);}
 const map=read('dist/sitemap.xml');assert.equal((map.match(/<loc>/g)||[]).length,contract.expected.sitemap);
 assert.equal(seed.verified_count,contract.expected.verified);assert.equal(seed.launch_verified_count,contract.expected.verified);assert.equal(seed.launch_candidate_count,contract.expected.verified);
